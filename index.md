@@ -2,7 +2,7 @@
 layout: home
 title: "平野 知之 / Tomoyuki Hirano – Chemical Engineering, Particle Technology"
 description: "広島大学大学院先進理工系科学研究科化学工学プログラムに所属する平野知之の個人ホームページです。主に火炎を用いた機能性微粒子合成について研究をしています。"
-permalink: /markdown-preview/
+permalink: /
 nav: home
 ---
 
