@@ -1,0 +1,10 @@
+title: "平野 知之 / Tomoyuki Hirano"
+description: "Chemical Engineering, Particle Technology"
+url: "https://tomoyukihirano.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - SHA256SUMS.txt
+  - .github
