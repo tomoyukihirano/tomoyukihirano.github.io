@@ -13,6 +13,8 @@ nav: home
 
 </div>
 
+<p class="wp-block-paragraph"></p>
+
 <div class="wp-block-image">
 <figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="629" src="{{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-1024x629.png' | relative_url }}" alt="研究で用いる火炎の写真" class="wp-image-1886" style="width:469px;height:auto" srcset="{{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-1024x629.png' | relative_url }} 1024w, {{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-300x184.png' | relative_url }} 300w, {{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-618x380.png' | relative_url }} 618w, {{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-768x472.png' | relative_url }} 768w, {{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-1536x944.png' | relative_url }} 1536w, {{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8-840x516.png' | relative_url }} 840w, {{ '/wp-content/uploads/2025/03/%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-1@600x-8.png' | relative_url }} 1712w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 </div>
