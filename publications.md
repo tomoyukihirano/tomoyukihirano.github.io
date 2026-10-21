@@ -116,3 +116,4 @@ page_id: 35
 1. <strong><span style="text-decoration: underline;">平野 知之</span></strong>*, APT2021 シンポジウム印象記, <strong>粉体工学会誌</strong>, 59, 37, 2022.
 1. <strong><span style="text-decoration: underline;">平野 知之</span></strong>*, 10th International Aerosol Conference (IAC2018) 参加報告, <strong>粉体工学会誌</strong>, 56, 22–23, 2019.
 {: reversed="reversed" .wp-block-list }
+---
