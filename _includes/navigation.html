@@ -1,0 +1,11 @@
+<div class="menu-general-container">
+<ul id="{{ include.id }}" class="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home{% if page.nav == 'home' %} current-menu-item page_item current_page_item{% endif %}"><a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.nav == 'about' %} current-menu-item current_page_item{% endif %}"><a href="{{ '/about/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.nav == 'publications' %} current-menu-item current_page_item{% endif %}"><a href="{{ '/publications/' | relative_url }}"{% if page.nav == 'publications' %} aria-current="page"{% endif %}>Publications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.nav == 'presentations' %} current-menu-item current_page_item{% endif %}"><a href="{{ '/presentations/' | relative_url }}"{% if page.nav == 'presentations' %} aria-current="page"{% endif %}>Presentations</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.nav == 'grants' %} current-menu-item current_page_item{% endif %}"><a href="{{ '/supports-grants/' | relative_url }}"{% if page.nav == 'grants' %} aria-current="page"{% endif %}>Grants</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.nav == 'award' %} current-menu-item current_page_item{% endif %}"><a href="{{ '/award/' | relative_url }}"{% if page.nav == 'award' %} aria-current="page"{% endif %}>Award</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.nav == 'research' %} current-menu-item current_page_item{% endif %}"><a href="{{ '/information/' | relative_url }}"{% if page.nav == 'research' %} aria-current="page"{% endif %}>Research</a></li>
+</ul>
+</div>
