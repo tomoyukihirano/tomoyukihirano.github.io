@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - migration/markdown-phase1
+      - migration/markdown-pages
 
 permissions:
   contents: read
