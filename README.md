@@ -26,6 +26,18 @@ python3 -m http.server 8000
 
 ブラウザーで `http://localhost:8000/` を開きます。
 
+## 検索エンジン向け設定
+
+主な公開先は https://tomoyukihirano.github.io/ です。
+各HTMLのcanonicalは，この公開先にある対応ページの絶対URLを指定しています。
+公開先を変更するときはcanonicalとサイトマップのURLも更新してください。
+
+- sitemap.xml は内容ページとブログ一覧を掲載します。著者別・カテゴリー別の一覧は省いていますが，クロールを禁止しているわけではありません。
+- ページを追加・移動・削除したときはsitemap.xmlも更新してください。
+- robots.txt はクロールを許可し，サイトマップの場所を案内します。
+- トップとAboutのdescriptionには，既存本文の紹介文をそのまま使用しています。
+- Search Consoleへ登録するプロパティは https://tomoyukihirano.github.io/ （URLプレフィックス）です。所有権確認用のタグやファイルを追加した場合は，確認後も保持してください。
+
 ## 保存について
 
 この一式には公開ページの表示に必要なローカルファイルを含めています。
