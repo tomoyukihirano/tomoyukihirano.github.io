@@ -18,4 +18,4 @@ page_id: 81
 1. 平野 知之，中国地区化学工学懇話会 学生奨励賞・河村祐治記念賞，2020年
 1. 平野 知之，優秀賞，第20回化学工学会学生発表会（東広島大会），東広島，2018年3月3日，受賞題目：「火炎噴霧熱分解法によるセシウムをドープした酸化タングステンナノ粒子の合成」
 {: reversed="reversed" .wp-block-list }
-						<p class="wp-block-paragraph"></p>
+<p class="wp-block-paragraph"></p>
