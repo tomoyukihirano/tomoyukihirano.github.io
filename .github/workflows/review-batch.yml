@@ -1,0 +1,53 @@
+name: Validate reviewed metadata batch
+
+on:
+  push:
+    branches:
+      - data/review-batch-20261022
+    paths:
+      - _maintenance/review_batch.py
+      - .github/workflows/review-batch.yml
+
+permissions:
+  contents: write
+  pages: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependencies
+        run: python -m pip install PyYAML==6.0.2 beautifulsoup4==4.13.4
+      - name: Build baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_baseline
+      - name: Apply confirmed batch to working files
+        run: python _maintenance/review_batch.py apply
+      - name: Build corrected site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Validate exact data and HTML changes
+        run: python _maintenance/review_batch.py verify
+      - name: Store validated tree without updating any branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python _maintenance/review_batch.py upload
+      - name: Upload review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-metadata-batch
+          retention-days: 7
+          path: |
+            _batch_audit/report.json
+            _batch_audit/tree.json
+            _batch_audit/before.zip
+            _batch_audit/after.zip
+            _batch_audit/preview.zip
