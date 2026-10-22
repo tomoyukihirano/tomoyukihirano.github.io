@@ -1,0 +1,199 @@
+schema_version: 1
+year: 2025
+source: presentations.md
+records:
+- id: pres-0090
+  type: presentation
+  year: 2025
+  source_order: 1
+  raw_citation_html: "平野 知之，荻 崇: 無容器法としての火炎プロセスによる酸化物ガラス材料の合成，第66回ガラスおよびフォトニクス材料討論会 (2025/12/2-3, 長岡)"
+  citation_text: "平野 知之，荻 崇: 無容器法としての火炎プロセスによる酸化物ガラス材料の合成，第66回ガラスおよびフォトニクス材料討論会 (2025/12/2-3, 長岡)"
+  authors_raw: ["平野 知之","荻 崇"]
+  presenter_raw: "平野 知之"
+  title_raw: "無容器法としての火炎プロセスによる酸化物ガラス材料の合成"
+  details_raw: "第66回ガラスおよびフォトニクス材料討論会 (2025/12/2-3, 長岡)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0089
+  type: presentation
+  year: 2025
+  source_order: 2
+  raw_citation_html: "上村 綾乃, Nur Syakirah Nabilah Saipul Bahri, 平野 知之, 荻 崇, 渡邊真衣, 松本恒平, 森田祐子, 大西敏之: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と性能評価, 化学工学会吹田大会2025発表会 (2025/11/11-12, 大阪) (Award)"
+  citation_text: "上村 綾乃, Nur Syakirah Nabilah Saipul Bahri, 平野 知之, 荻 崇, 渡邊真衣, 松本恒平, 森田祐子, 大西敏之: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と性能評価, 化学工学会吹田大会2025発表会 (2025/11/11-12, 大阪) (Award)"
+  authors_raw: ["上村 綾乃","Nur Syakirah Nabilah Saipul Bahri","平野 知之","荻 崇","渡邊真衣","松本恒平","森田祐子","大西敏之"]
+  presenter_raw: "上村 綾乃"
+  title_raw: "セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と性能評価"
+  details_raw: "化学工学会吹田大会2025発表会 (2025/11/11-12, 大阪) (Award)"
+  classification:
+    invited: false
+    award: true
+  quality:
+    parsing_status: partial
+- id: pres-0088
+  type: presentation
+  year: 2025
+  source_order: 3
+  raw_citation_html: "岡田 祐陽, 平野 知之, 荻 崇: CuO/CeO2-ZrO2ナノ粒子の火炎噴霧合成と触媒性能評価, 化学工学会吹田大会2025発表会(2025/11/11-12, 大阪)"
+  citation_text: "岡田 祐陽, 平野 知之, 荻 崇: CuO/CeO2-ZrO2ナノ粒子の火炎噴霧合成と触媒性能評価, 化学工学会吹田大会2025発表会(2025/11/11-12, 大阪)"
+  authors_raw: ["岡田 祐陽","平野 知之","荻 崇"]
+  presenter_raw: "岡田 祐陽"
+  title_raw: "CuO/CeO2-ZrO2ナノ粒子の火炎噴霧合成と触媒性能評価"
+  details_raw: "化学工学会吹田大会2025発表会(2025/11/11-12, 大阪)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0087
+  type: presentation
+  year: 2025
+  source_order: 4
+  raw_citation_html: "平野 知之, 荻 崇: 火炎法を用いた多孔質酸化物粒子の合成と電極触媒性能評価, 化学工学会吹田大会2025発表会(2025/11/11-12, 大阪)"
+  citation_text: "平野 知之, 荻 崇: 火炎法を用いた多孔質酸化物粒子の合成と電極触媒性能評価, 化学工学会吹田大会2025発表会(2025/11/11-12, 大阪)"
+  authors_raw: ["平野 知之","荻 崇"]
+  presenter_raw: "平野 知之"
+  title_raw: "火炎法を用いた多孔質酸化物粒子の合成と電極触媒性能評価"
+  details_raw: "化学工学会吹田大会2025発表会(2025/11/11-12, 大阪)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0086
+  type: presentation
+  year: 2025
+  source_order: 5
+  raw_citation_html: "上村 綾乃，Nur Syakirah Nabilah Saipul Bahri，渡邊真衣，松本恒平，森田祐子，大西敏之，平野 知之，荻 崇: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と磁気分離回収評価、粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  citation_text: "上村 綾乃，Nur Syakirah Nabilah Saipul Bahri，渡邊真衣，松本恒平，森田祐子，大西敏之，平野 知之，荻 崇: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と磁気分離回収評価、粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  authors_raw: ["上村 綾乃","Nur Syakirah Nabilah Saipul Bahri","渡邊真衣","松本恒平","森田祐子","大西敏之","平野 知之","荻 崇"]
+  presenter_raw: "上村 綾乃"
+  title_raw: "セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と磁気分離回収評価、粉体工学会2025年度秋季研究発表会（2025/10/14-15"
+  details_raw: "大阪)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0085
+  type: presentation
+  year: 2025
+  source_order: 6
+  raw_citation_html: "今岡 生太，平野 知之，CAO LE ANH KIET，荻 崇、岩崎 秀治，岡本 真人， 服部 勇作: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性, 粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  citation_text: "今岡 生太，平野 知之，CAO LE ANH KIET，荻 崇、岩崎 秀治，岡本 真人， 服部 勇作: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性, 粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  authors_raw: ["今岡 生太","平野 知之","CAO LE ANH KIET","荻 崇、岩崎 秀治","岡本 真人","服部 勇作"]
+  presenter_raw: "今岡 生太"
+  title_raw: "リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性"
+  details_raw: "粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0084
+  type: presentation
+  year: 2025
+  source_order: 7
+  raw_citation_html: "安藤愛，平野知之，田辺栄司，荻崇: ポーラス微粒子のデジタルモデル化と内部構造の定量解析， 粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  citation_text: "安藤愛，平野知之，田辺栄司，荻崇: ポーラス微粒子のデジタルモデル化と内部構造の定量解析， 粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  authors_raw: ["安藤愛","平野知之","田辺栄司","荻崇"]
+  presenter_raw: "安藤愛"
+  title_raw: "ポーラス微粒子のデジタルモデル化と内部構造の定量解析"
+  details_raw: "粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0083
+  type: presentation
+  year: 2025
+  source_order: 8
+  raw_citation_html: "近藤 航右, Cao Le Anh Kiet, 平野 知之, 荻 崇: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  citation_text: "近藤 航右, Cao Le Anh Kiet, 平野 知之, 荻 崇: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  authors_raw: ["近藤 航右","Cao Le Anh Kiet","平野 知之","荻 崇"]
+  presenter_raw: "近藤 航右"
+  title_raw: "三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価"
+  details_raw: "化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0082
+  type: presentation
+  year: 2025
+  source_order: 9
+  raw_citation_html: "岡田 祐陽, 平野知之, 荻 崇: 火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  citation_text: "岡田 祐陽, 平野知之, 荻 崇: 火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  authors_raw: ["岡田 祐陽","平野知之","荻 崇"]
+  presenter_raw: "岡田 祐陽"
+  title_raw: "火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価"
+  details_raw: "化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0081
+  type: presentation
+  year: 2025
+  source_order: 10
+  raw_citation_html: "平野 知之, Ho Thi Thang Nguyen, 荻 崇: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  citation_text: "平野 知之, Ho Thi Thang Nguyen, 荻 崇: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  authors_raw: ["平野 知之","Ho Thi Thang Nguyen","荻 崇"]
+  presenter_raw: "平野 知之"
+  title_raw: "微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計"
+  details_raw: "化学工学会第56回秋季大会（2025/9/16-18, 東京)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0080
+  type: presentation
+  year: 2025
+  source_order: 11
+  raw_citation_html: "蓮野 隆太, 平野 知之, Ratnasari Delyana, 林 徹太郎, 荻 崇: 多成分系酸化物ナノ粒子の合成に向けた三流体ノズル式火炎噴霧熱分解法の開発, 化学工学会第56回秋季大会（2025/9/16-18, 東京) (Invited)"
+  citation_text: "蓮野 隆太, 平野 知之, Ratnasari Delyana, 林 徹太郎, 荻 崇: 多成分系酸化物ナノ粒子の合成に向けた三流体ノズル式火炎噴霧熱分解法の開発, 化学工学会第56回秋季大会（2025/9/16-18, 東京) (Invited)"
+  authors_raw: ["蓮野 隆太","平野 知之","Ratnasari Delyana","林 徹太郎","荻 崇"]
+  presenter_raw: "蓮野 隆太"
+  title_raw: "多成分系酸化物ナノ粒子の合成に向けた三流体ノズル式火炎噴霧熱分解法の開発"
+  details_raw: "化学工学会第56回秋季大会（2025/9/16-18, 東京) (Invited)"
+  classification:
+    invited: true
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0079
+  type: presentation
+  year: 2025
+  source_order: 12
+  raw_citation_html: "平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計, 粉体粉末冶金協会2025年度春季大会 (2025/5/28-30, 京都)"
+  citation_text: "平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計, 粉体粉末冶金協会2025年度春季大会 (2025/5/28-30, 京都)"
+  authors_raw: ["平野 知之","高野 葵","片岡 幹裕","荻 崇"]
+  presenter_raw: "平野 知之"
+  title_raw: "火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計"
+  details_raw: "粉体粉末冶金協会2025年度春季大会 (2025/5/28-30, 京都)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
+- id: pres-0078
+  type: presentation
+  year: 2025
+  source_order: 13
+  raw_citation_html: "近藤 航右, 平野 知之, 荻 崇: 触媒ナノ粒子の気中構造化における結着剤の影響評価, 2025年度 粉体工学会 春季研究発表会 (2025/5/21-22, 仙台)"
+  citation_text: "近藤 航右, 平野 知之, 荻 崇: 触媒ナノ粒子の気中構造化における結着剤の影響評価, 2025年度 粉体工学会 春季研究発表会 (2025/5/21-22, 仙台)"
+  authors_raw: ["近藤 航右","平野 知之","荻 崇"]
+  presenter_raw: "近藤 航右"
+  title_raw: "触媒ナノ粒子の気中構造化における結着剤の影響評価"
+  details_raw: "2025年度 粉体工学会 春季研究発表会 (2025/5/21-22, 仙台)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: partial
