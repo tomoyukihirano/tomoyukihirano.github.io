@@ -12,7 +12,7 @@ records:
 - {id: azzania-fibriani, name: Azzania Fibriani, first_name: Azzania, last_name: Fibriani}
 - {id: daiki-tomonaga, name: Daiki Tomonaga, first_name: Daiki, last_name: Tomonaga}
 - {id: daisuke-shimokuri, name: Daisuke Shimokuri, first_name: Daisuke, last_name: Shimokuri}
-- {id: delyana-ratnasari, name: Delyana Ratnasari, first_name: Delyana, last_name: Ratnasari}
+- {"id": "delyana-ratnasari", "name": "Delyana Ratnasari", "first_name": "Delyana", "last_name": "Ratnasari", "aliases": ["Ratnasari Delyana"], "identity_confirmed_on": "2026-10-22"}
 - {id: diva-addini-maghribi-muyassiroh, name: Diva Addini Maghribi Muyassiroh, first_name: Diva Addini Maghribi, last_name: Muyassiroh}
 - {id: duhaul-biqal-kautsar, name: Duhaul Biqal Kautsar, first_name: Duhaul Biqal, last_name: Kautsar}
 - {id: ea-cahya-septia-mahen, name: Ea Cahya Septia Mahen, first_name: Ea Cahya Septia, last_name: Mahen}
@@ -39,7 +39,7 @@ records:
 - {id: keita-yoshitake, name: Keita Yoshitake, first_name: Keita, last_name: Yoshitake}
 - {id: kenshi-kitawaki, name: Kenshi Kitawaki, first_name: Kenshi, last_name: Kitawaki}
 - {id: khoa-anh-le-cao, name: Khoa Anh Le Cao, first_name: Khoa Anh Le, last_name: Cao}
-- {id: kiet-le-anh-cao, name: Kiet Le Anh Cao, first_name: Kiet Le Anh, last_name: Cao}
+- {"id": "kiet-le-anh-cao", "name": "Kiet Le Anh Cao", "first_name": "Kiet Le Anh", "last_name": "Cao", "aliases": ["CAO LE ANH KIET", "Cao Le Anh Kiet"], "identity_confirmed_on": "2026-10-22"}
 - {id: kikuo-okuyama, name: Kikuo Okuyama, first_name: Kikuo, last_name: Okuyama}
 - {id: kodai-fusatani, name: Kodai Fusatani, first_name: Kodai, last_name: Fusatani}
 - {id: kohei-kume, name: Kohei Kume, first_name: Kohei, last_name: Kume}

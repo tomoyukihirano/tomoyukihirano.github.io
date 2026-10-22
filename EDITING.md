@@ -128,3 +128,11 @@ _includes/navigation.html
 
 JekyllはMarkdown原稿とレイアウトを組み合わせて，公開用HTMLを自動生成する静的サイトジェネレーターです。
 このリポジトリでは，GitHub Pages上でJekyllが自動実行されます。
+
+
+## コミットメッセージの方針
+
+コミットメッセージの件名・本文には人物名を含めません。
+例：`Normalize approved author aliases and presentation labels`。
+対象者の氏名や別名はデータ本体で管理し，コミットの説明には記載しません。
+既存のコミット履歴は，明示的な指示がない限り書き換えません。
