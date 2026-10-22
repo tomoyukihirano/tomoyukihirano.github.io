@@ -1,0 +1,277 @@
+schema_version: 2
+year: 2026
+records:
+- id: pub-0078
+  paper_id: P078
+  hp_no: 78
+  type: journal_article
+  peer_reviewed: true
+  title: Flame Processing of AlN Fillers into Spherical Particles for Thermally Conductive Composites
+  journal: Chemical Engineering Journal
+  year: 2026
+  status: in_press
+  authors: [tomoyuki-hirano, kodai-fusatani, eishi-tanabe, kazuto-harada, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
+  corresponding_authors: [tomoyuki-hirano]
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: true}
+- id: pub-0077
+  paper_id: P077
+  hp_no: 77
+  type: journal_article
+  peer_reviewed: true
+  title: Effect of Binders on the Spray Drying Granulation of Catalyst Nanoparticles
+  journal: Journal of the Society of Powder Technology, Japan
+  year: 2026
+  status: in_press
+  authors: [kosuke-kondo, tomoyuki-hirano, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: true, english_journal: false, sci_or_equivalent: false, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [F]}
+- id: pub-0076
+  paper_id: P076
+  hp_no: 76
+  type: journal_article
+  peer_reviewed: true
+  title: Spray drying-assisted co-activation of lignin-derived porous carbon using potassium hydroxide and potassium carbonate for enhanced supercapacitor performance
+  journal: Journal of Power Sources
+  year: 2026
+  volume: '692'
+  pages_or_article_number: '240993'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/pii/S037877532601743X
+  authors: [khoa-anh-le-cao, kiet-le-anh-cao, oktaviardi-bityasmawan-abdillah, eka-lutfi-septiani, tomoyuki-hirano, nhan-trung-nguyen, masaru-kubo, takashi-ogi]
+  corresponding_authors: [kiet-le-anh-cao, takashi-ogi]
+  dates: {submitted: '2026-01-04', accepted: '2026-07-14', published_online: '2026-07-23', accepted_fiscal_year: 2026}
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [L], top10_percent: false}
+- id: pub-0075
+  paper_id: P075
+  hp_no: 75
+  type: journal_article
+  peer_reviewed: true
+  title: 'Tuning Nanostructure of Flame-made Palladium deposited on Cerium Oxide: Unveiling Palladium Loading–Activity Relationships in Suzuki–Miyaura Cross-Coupling'
+  journal: Chemistry of Materials
+  year: 2026
+  volume: '38'
+  issue: '13'
+  pages_or_article_number: 6988–7000
+  status: published
+  article_url: https://pubs.acs.org/cmatex/article/38/13/6988/5208077/Tuning-Nanostructure-of-Flame-Made-Palladium
+  authors: [tung-van-pham, tomoyuki-hirano, shintaro-kamio, eishi-tanabe, eka-lutfi-septiani, kiet-le-anh-cao, takehiro-yamagishi, masato-uchida, takashi-ogi]
+  corresponding_authors: [tomoyuki-hirano, shintaro-kamio]
+  dates: {submitted: '2026-05-06', accepted: '2026-06-08', published_online: '2026-06-16', accepted_fiscal_year: 2026}
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [K,N,P,R,T], top10_percent: false}
+- id: pub-0074
+  paper_id: P074
+  hp_no: 74
+  type: journal_article
+  peer_reviewed: true
+  title: Mechanically Robust NTO/RuO2 Catalyst Supports with Tunable Macropores Enabling Improved PEFC Performance
+  journal: Powder Technology
+  year: 2026
+  volume: '481'
+  pages_or_article_number: '122697'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0032591026005863
+  authors: [thi-tanh-nguyen-ho, tomoyuki-hirano, aoi-takano, syu-miyasaka, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
+  corresponding_authors: [tomoyuki-hirano, takashi-ogi]
+  dates: {submitted: '2025-11-28', accepted: '2026-05-18', published_online: '2026-05-19', accepted_fiscal_year: 2026}
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [K,N,P,R,T], top10_percent: false}
+- id: pub-0073
+  paper_id: P073
+  hp_no: 73
+  type: journal_article
+  peer_reviewed: true
+  title: Nanostructured Porous Three-Way Catalyst Particles via Two-Fluid Nozzle Spray Drying with Binder-Controlled Structure for Exhaust Gas Purification System
+  journal: ACS Applied Nano Materials
+  year: 2026
+  volume: '9'
+  issue: '21'
+  pages_or_article_number: 9603-9614
+  status: published
+  article_url: https://pubs.acs.org/aanmf6/article-abstract/9/21/9603/5107267/Nanostructured-Porous-Three-Way-Catalyst-Particles?redirectedFrom=fulltext
+  authors: [kosuke-kondo, kiet-le-anh-cao, eka-lutfi-septiani, tomoyuki-hirano, takashi-ogi]
+  corresponding_authors: [kiet-le-anh-cao, takashi-ogi]
+  dates: {submitted: '2026-02-03', accepted: '2026-05-08', published_online: '2026-05-15', accepted_fiscal_year: 2026}
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [L], top10_percent: false}
+- id: pub-0072
+  paper_id: P072
+  hp_no: 72
+  type: journal_article
+  peer_reviewed: true
+  title: Digital Modeling of the Internal Structure of Macroporous Particle Architectures Using Experimentally Derived Parameters for Quantitative Structural Analysis
+  journal: Langmuir
+  year: 2026
+  volume: '42'
+  issue: '21'
+  pages_or_article_number: 14907-14917
+  status: published
+  article_url: https://pubs.acs.org/langd5/article-abstract/42/21/14907/5108652/Digital-Modeling-of-the-Internal-Structure-of?redirectedFrom=fulltext
+  authors: [ai-ando, eishi-tanabe, tomoyuki-hirano, asep-bayu-dani-nandiyanto, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2026-02-12', accepted: '2026-05-09', published_online: '2026-05-18', accepted_fiscal_year: 2026}
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [L], top10_percent: false}
+- id: pub-0071
+  paper_id: P071
+  hp_no: 71
+  type: journal_article
+  peer_reviewed: true
+  title: Template-assisted spray-dried macroporous pectin as a natural matrix for enhanced menthol retention and sustained release
+  journal: Advanced Powder Technology
+  year: 2026
+  volume: '37'
+  issue: '5'
+  pages_or_article_number: '105238'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883126000749
+  authors: [ridha-nurul-chamida, kiet-le-anh-cao, hirofumi-seo, le-thi-nguyet-hang, eka-lutfi-septiani, oktaviardi-bityasmawan-abdillah, tomoyuki-hirano, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2025-12-29', accepted: '2026-03-20', published_online: '2026-04-01', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
+- id: pub-0070
+  paper_id: P070
+  hp_no: 70
+  type: journal_article
+  peer_reviewed: true
+  title: Hollow Ni–intercalated ZIF-67 Integrated with PVDF-Derived Carbon Sheets for High-Performance Supercapacitor Electrodes
+  journal: Energy & Fuels
+  year: 2026
+  volume: '40'
+  issue: '11'
+  pages_or_article_number: 5820-5833
+  status: published
+  article_url: https://pubs.acs.org/enfuem/article-abstract/40/11/5820/5072100/Hollow-Ni-Intercalated-ZIF-67-Integrated-with-PVDF?redirectedFrom=fulltext
+  authors: [oktaviardi-bityasmawan-abdillah, kiet-le-anh-cao, khoa-anh-le-cao, eka-lutfi-septiani, tomoyuki-hirano, ferry-iskandar, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2025-11-25', accepted: '2026-02-25', published_online: '2026-03-06', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
+- id: pub-0069
+  paper_id: P069
+  hp_no: 69
+  type: journal_article
+  peer_reviewed: true
+  title: 'Engineered Ag/ZnO/g-C3N4 Ternary Nanocomposites: Optimizing Silver Loading for Superior Sunlight-Driven Dye Photodegradation'
+  journal: Nanotechnology for Environmental Engineering
+  year: 2026
+  volume: '11'
+  pages_or_article_number: '38'
+  status: published
+  article_url: https://link.springer.com/article/10.1007/s41204-026-00527-y
+  authors: [arika-nur-indrayani, lailatul-qomariyah, tomoyuki-hirano, saidah-altway, eva, oktavia-ningrum, nicky-rahmana-putra, hendrix-abdul-ajiz, rizka-ayu-yuniar]
+  corresponding_authors: [lailatul-qomariyah]
+  dates: {submitted: '2025-12-15', accepted: '2026-02-23', published_online: '2026-03-17', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
+- id: pub-0068
+  paper_id: P068
+  hp_no: 68
+  type: journal_article
+  peer_reviewed: true
+  title: Effect of Cellulose Nanofiber Length on Magnetic Separation Performance and Biotin–Streptavidin Conjugation Efficiency of CNF/Fe3O4 Composite Particles Prepared via Spray Synthesis
+  journal: Biomacromolecules
+  year: 2026
+  volume: '27'
+  issue: '4'
+  pages_or_article_number: 2655-2667
+  status: published
+  article_url: https://pubs.acs.org/bomaf6/article/27/4/2655/5137810/Effect-of-Cellulose-Nanofiber-Length-on-Magnetic
+  authors: [nur-syakirah-nabilah-saipul-bahri, ayano-kamimura, mai-watanabe, kohei-matsumoto, yuko-morita, toshiyuki-onishi, eka-lutfi-septiani, kiet-le-anh-cao, tomoyuki-hirano, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2025-11-17', accepted: '2026-02-19', published_online: '2026-03-03', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: false}
+- id: pub-0067
+  paper_id: P067
+  hp_no: 67
+  type: journal_article
+  peer_reviewed: true
+  title: Synthesis of Al Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis
+  journal: Journal of Nanoparticle Research
+  year: 2026
+  volume: '28'
+  pages_or_article_number: '70'
+  status: published
+  article_url: https://link.springer.com/article/10.1007/s11051-026-06588-z
+  authors: [ryuta-hasuno, kiet-le-anh-cao, delyana-ratnasari, oktaviardi-bityasmawan-abdillah, eka-lutfi-septiani, tomoyuki-hirano, tetsutaro-hayashi, takashi-ogi]
+  corresponding_authors: [kiet-le-anh-cao, takashi-ogi]
+  dates: {submitted: '2025-12-05', accepted: '2026-02-16', published_online: '2026-03-03', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: false}
+- id: pub-0066
+  paper_id: P066
+  hp_no: 66
+  type: journal_article
+  peer_reviewed: true
+  title: Sustainable Porous Carbon Derived from Lignin for High-Performance CO2 Capture
+  journal: Chemistry – An Asian Journal
+  year: 2026
+  volume: '21'
+  issue: '4'
+  pages_or_article_number: e00988
+  status: published; Invited
+  article_url: https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202500988?af=R
+  authors: [kiet-le-anh-cao, oktaviardi-bityasmawan-abdillah, tomoyuki-hirano, eka-lutfi-septiani, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2025-10-17', accepted: '2026-02-10', published_online: '2026-02-23', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
+- id: pub-0065
+  paper_id: P065
+  hp_no: 65
+  type: journal_article
+  peer_reviewed: true
+  title: Enhancing Passive Radiative Cooling Performance on Solar Panels via Multiple Scattering Effects in Aggregated Silica particles/Polydimethylsiloxane films
+  journal: ACS Photonics
+  year: 2026
+  volume: '13'
+  issue: '4'
+  pages_or_article_number: 1108-1121
+  status: published
+  article_url: https://pubs.acs.org/apchd5/article/13/4/1108/5091201/Enhancing-Passive-Radiative-Cooling-Performance-on
+  authors: [hang-thi-nguyet-le, eka-lutfi-septiani, tomoyuki-hirano, kiet-le-anh-cao, takashi-ogi]
+  corresponding_authors: [eka-lutfi-septiani, takashi-ogi]
+  dates: {submitted: '2025-10-31', accepted: '2026-01-22', published_online: '2026-01-29', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
+- id: pub-0064
+  paper_id: P064
+  hp_no: 64
+  type: journal_article
+  peer_reviewed: true
+  title: Synthesis of Silica-Coated Iron (Fe@SiOx) Particles with High Stability and Fast Magnetic Responsiveness
+  journal: ACS Applied Engineering Materials
+  year: 2026
+  volume: '4'
+  issue: '2'
+  pages_or_article_number: 696-706
+  status: published
+  article_url: https://pubs.acs.org/aaemdr/article-abstract/4/2/696/5082171/Synthesis-of-Silica-Coated-Iron-Fe-SiOx-Particles?redirectedFrom=fulltext
+  authors: [eka-lutfi-septiani, nobuhiro-okuda, tomoyuki-hirano, kiet-le-anh-cao, hang-thi-nguyet-le, hiroyuki-matsumoto, takashi-ogi]
+  corresponding_authors: [eka-lutfi-septiani, takashi-ogi]
+  dates: {submitted: '2025-11-05', accepted: '2026-01-03', published_online: '2026-01-15', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: false}
+- id: pub-0063
+  paper_id: P063
+  hp_no: 63
+  type: journal_article
+  peer_reviewed: true
+  title: Preservation of Menthol Flavor in Various Spray-Dried Polysaccharide Matrices and Their Interactions
+  journal: ACS Food Science & Technology
+  year: 2026
+  volume: '6'
+  issue: '2'
+  pages_or_article_number: 240-252
+  status: published
+  article_url: https://pubs.acs.org/afsthl/article-abstract/6/2/240/5082791/Preservation-of-Menthol-Flavor-in-Various-Spray?redirectedFrom=fulltext
+  authors: [ridha-nurul-chamida, eka-lutfi-septiani, tue-tri-nguyen, hirofumi-seo, kiet-le-anh-cao, oktaviardi-bityasmawan-abdillah, tomoyuki-hirano, takashi-ogi]
+  corresponding_authors: [eka-lutfi-septiani, takashi-ogi]
+  dates: {submitted: '2025-06-10', accepted: '2025-12-31', published_online: '2026-01-09', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
+- id: pub-0062
+  paper_id: P062
+  hp_no: 62
+  type: journal_article
+  peer_reviewed: true
+  title: Multiporous Structure Formation in Three-Way Catalyst Particles for Enhanced Catalytic Performance
+  journal: Journal of Materials Chemistry A
+  year: 2026
+  volume: '14'
+  pages_or_article_number: 1110-1122
+  status: published
+  article_url: https://pubs.rsc.org/en/content/articlelanding/2025/ta/d5ta04974a
+  authors: [duhaul-biqal-kautsar, phong-hoai-le, kosuke-kondo, kiet-le-anh-cao, eka-lutfi-septiani, tomoyuki-hirano, takashi-ogi]
+  corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2025-06-19', accepted: '2025-11-06', published_online: '2025-11-11', accepted_fiscal_year: 2025}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
