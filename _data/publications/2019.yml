@@ -1,0 +1,86 @@
+schema_version: 2
+year: 2019
+records:
+- id: pub-0004
+  paper_id: P004
+  hp_no: 4
+  type: journal_article
+  peer_reviewed: true
+  title: Tubular Flame Combustion for Nanoparticle Production
+  journal: Industrial & Engineering Chemistry Research
+  year: 2019
+  volume: '58'
+  issue: '17'
+  pages_or_article_number: 7193-7199
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.iecr.9b00620
+  authors:
+  - tomoyuki-hirano
+  - jun-kikkawa
+  - febrigia-ghana-rinaldi
+  - kenshi-kitawaki
+  - daisuke-shimokuri
+  - eishi-tanabe
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2019-01-31'
+    accepted: '2019-04-15'
+    published_online: '2019-04-23'
+    accepted_fiscal_year: 2019
+    timeline_note: 'Received: January 31, 2019
+
+      Revision Received: April 09, 2019
+
+      Accepted: April 15, 2019
+
+      Published Online: April 23, 2019
+
+      Published in Issue: May 01, 2019'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - S
+    top10_percent: false
+- id: pub-0003
+  paper_id: P003
+  hp_no: 3
+  type: journal_article
+  peer_reviewed: true
+  title: Direct Synthesis of Highly Crystalline Single-phase Hexagonal Tungsten Oxide Nanorods by Spray Pyrolysis
+  journal: Advanced Powder Technology
+  year: 2019
+  volume: '30'
+  issue: '1'
+  pages_or_article_number: 6-12
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883118306290
+  authors:
+  - shuhei-nakakura
+  - aditya-farhan-arif
+  - febrigia-ghana-rinaldi
+  - tomoyuki-hirano
+  - eishi-tanabe
+  - ratna-balgis
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2018-06-26'
+    accepted: '2018-09-30'
+    published_online: '2018-10-19'
+    accepted_fiscal_year: 2018
+    timeline_note: Received 26 June 2018, Revised 26 September 2018, Accepted 30 September 2018, Available online 19 October 2018, Version of Record 10 January 2019.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
