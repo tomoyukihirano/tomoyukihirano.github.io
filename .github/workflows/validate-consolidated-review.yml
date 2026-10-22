@@ -1,0 +1,51 @@
+name: Validate consolidated review batch
+on:
+  push:
+    branches:
+      - data/consolidated-review-20261022
+    paths:
+      - _maintenance/apply_review.py
+      - _maintenance/review_config.json
+      - .github/workflows/validate-consolidated-review.yml
+permissions:
+  contents: write
+  pages: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependency
+        run: python -m pip install PyYAML==6.0.2
+      - name: Build current site baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_baseline
+      - name: Apply the approved review batch
+        run: python _maintenance/apply_review.py apply
+      - name: Build reviewed site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify data and exact page changes
+        run: python _maintenance/apply_review.py verify
+      - name: Store the verified production tree without publishing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python _maintenance/apply_review.py upload
+      - name: Save review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: consolidated-review-validation
+          retention-days: 7
+          path: |
+            _review_audit/report.json
+            _review_audit/tree.json
+            _review_audit/before.zip
+            _review_audit/after.zip
+            _review_audit/preview.zip
