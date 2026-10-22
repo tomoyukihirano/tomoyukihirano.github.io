@@ -5,7 +5,7 @@ on:
     branches:
       - data/presentation-publication-grants-20261022
     paths:
-      - _maintenance/review_update_payload.b64
+      - _maintenance/payload.c*
       - .github/workflows/apply-achievement-review.yml
 
 permissions:
@@ -27,11 +27,17 @@ jobs:
       - name: Install YAML parser
         run: python -m pip install PyYAML==6.0.2
 
-      - name: Apply staged update
+      - name: Verify and apply staged update
         run: |
-          base64 --decode _maintenance/review_update_payload.b64 > /tmp/review-update.tgz
+          cat _maintenance/payload.c?? > /tmp/review-update.b64
+          test "$(wc -c < /tmp/review-update.b64)" = "46072"
+          echo "4aef4516924ab8d39fefdc68e315869764f746336ee106e23ff2a05c334d6b6f  /tmp/review-update.b64" | sha256sum --check --strict
+          base64 --decode /tmp/review-update.b64 > /tmp/review-update.tgz
+          echo "1edfe490df0f2932ec5ce6c227ad85b410b65e31c4e5de350d0076f5af3c8e9d  /tmp/review-update.tgz" | sha256sum --check --strict
           tar -xzf /tmp/review-update.tgz
           rm -f _maintenance/review_update_payload.b64
+          rm -f _maintenance/review_update_payload.part*
+          rm -f _maintenance/payload.c??
           rm -f .github/workflows/apply-achievement-review.yml
           rm -f .github/workflows/export-review-worktree.yml
 
@@ -39,7 +45,6 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import re
           import yaml
 
           root = Path('.')
