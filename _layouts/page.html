@@ -46,6 +46,9 @@ gtag("config", "G-95VKJGQGDT");
 <link rel="stylesheet" href="{{ '/assets/css/exported/wp-custom-css-31214e4a9659.css' | relative_url }}" id="wp-custom-css">
 {% if page.core_supports %}<link rel="stylesheet" href="{{ '/assets/css/exported/core-block-supports-inline-css-df911208e1ed.css' | relative_url }}" id="core-block-supports-inline-css">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+{% if page.url == '/publications/' %}
+<link rel="stylesheet" href="{{ '/assets/publication-filters.css' | relative_url }}">
+{% endif %}
 </head>
 
 <body class="wp-singular page-template-default page page-id-{{ page.page_id }} wp-theme-businesspress wp-child-theme-businesspress-child hide-date hide-author hide-comments-number no-sidebar has-avatars">
@@ -115,5 +118,8 @@ gtag("config", "G-95VKJGQGDT");
 </div>
 
 <script src="{{ '/assets/site.js' | relative_url }}" defer></script>
+{% if page.url == '/publications/' %}
+<script src="{{ '/assets/publication-filters.js' | relative_url }}" defer></script>
+{% endif %}
 </body>
 </html>
