@@ -1,0 +1,291 @@
+schema_version: 2
+year: 2022
+records:
+- id: pub-0018
+  paper_id: P018
+  hp_no: 18
+  type: journal_article
+  peer_reviewed: true
+  title: One-step aerosol synthesis of SiO2 coated FeNi particles by using swirler connector-assisted spray pyrolysis
+  journal: Industrial & Engineering Chemistry Research
+  year: 2022
+  volume: '61'
+  issue: '49'
+  pages_or_article_number: 17885-17893
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.iecr.2c02837
+  authors:
+  - eka-lutfi-septiani
+  - shunki-yamashita
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - yasushi-enokido
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2022-08-08'
+    accepted: '2022-11-15'
+    published_online: '2022-11-30'
+    accepted_fiscal_year: 2022
+    timeline_note: 'Received: August 08, 2022
+
+      Revision Received: November 13, 2022
+
+      Accepted: November 15, 2022
+
+      Published Online: November 30, 2022
+
+      Published in Issue: December 14, 2022'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0017
+  paper_id: P017
+  hp_no: 17
+  type: journal_article
+  peer_reviewed: true
+  title: Tuning of water resistance and protein adsorption capacity of porous cellulose nanofiber particles prepared by spray drying with cross-linking reaction
+  journal: Journal of Colloid and Interface Science
+  year: 2022
+  volume: '630'
+  pages_or_article_number: 134-143
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0021979722018422
+  authors:
+  - tue-tri-nguyen
+  - youhei-toyoda
+  - nur-syakirah-nabilah-saipul-bahri
+  - annie-m-rahmatika
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - katsuo-takahashi
+  - yohsuke-goi
+  - yuko-morita
+  - mai-watanabe
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2022-08-08'
+    accepted: '2022-10-16'
+    published_online: '2022-10-19'
+    accepted_fiscal_year: 2022
+    timeline_note: Received 8 August 2022, Revised 26 September 2022, Accepted 16 October 2022, Available online 19 October 2022, Version of Record 27 October 2022.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0016
+  paper_id: P016
+  hp_no: 16
+  type: journal_article
+  peer_reviewed: true
+  title: Multiple ZnO Core Nanoparticles Embedded in TiO2 Nanoparticles as Agents for Acid Resistance and UV Protection
+  journal: ACS Applied Nano Materials
+  year: 2022
+  volume: '5'
+  issue: '10'
+  pages_or_article_number: 15449–15456
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsanm.2c03489
+  authors:
+  - tomoyuki-hirano
+  - shogo-kaseda
+  - kiet-le-anh-cao
+  - ferry-inskandar
+  - eishi-tanabe
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2022-08-08'
+    accepted: '2022-09-30'
+    published_online: '2022-10-11'
+    accepted_fiscal_year: 2022
+    timeline_note: 'Received: August 08, 2022
+
+      Revision Received: September 29, 2022
+
+      Accepted: September 30, 2022
+
+      Published Online: October 11, 2022
+
+      Published in Issue: October 28, 2022'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - S
+    top10_percent: false
+- id: pub-0014
+  paper_id: P014
+  hp_no: 14
+  type: journal_article
+  peer_reviewed: true
+  title: Effects of Solvent Polarity on Nanostructure Formation of Spray-Dried TEMPO-Oxidized Cellulose Nanofiber Particles
+  journal: ACS Applied Polymer Materials
+  year: 2022
+  volume: '4'
+  issue: '9'
+  pages_or_article_number: 6700–6709
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsapm.2c01063
+  authors:
+  - annie-mufyda-rahmatika
+  - youhei-toyoda
+  - tue-tri-nguyen
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - takeo-kitamura
+  - yohsuke-goi
+  - yuko-morita
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2022-06-21'
+    accepted: '2022-08-04'
+    published_online: '2022-08-17'
+    accepted_fiscal_year: 2022
+    timeline_note: 'Received: June 21, 2022
+
+      Revision Received: August 04, 2022
+
+      Accepted: August 04, 2022
+
+      Published Online: August 17, 2022
+
+      Published in Issue: September 09, 2022'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0013
+  paper_id: P013
+  hp_no: 13
+  type: journal_article
+  peer_reviewed: true
+  title: DC bias characteristic enhancement of the powder core by using densified submicron sized FeNi particles through spray pyrolysis
+  journal: Journal of Materials Chemistry C
+  year: 2022
+  volume: '10'
+  issue: '21'
+  pages_or_article_number: 8288-8295
+  status: published
+  article_url: https://pubs.rsc.org/en/content/articlelanding/2022/tc/d1tc05917c
+  authors:
+  - eka-lutfi-septiani
+  - jun-kikkawa
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - yasushi-enokido
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2021-12-10'
+    accepted: '2022-05-05'
+    published_online: '2022-05-06'
+    accepted_fiscal_year: 2022
+    timeline_note: 'Received: 10 December 2021
+
+      Accepted: 05 May 2022
+
+      First published: 06 May 2022'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0012
+  paper_id: P012
+  hp_no: 12
+  type: journal_article
+  peer_reviewed: true
+  title: Synthesis of Macroporous Three-way Catalysts via Template-assisted Spray Process for Enhancing Mass Transfer in Gas Adsorption
+  journal: Advanced Powder Technology
+  year: 2022
+  volume: '33'
+  issue: '6'
+  pages_or_article_number: '103581'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883122001595
+  authors:
+  - phong-hoai-le
+  - yasuhiko-kitamoto
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - eishi-tanabe
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2022-02-15'
+    accepted: '2022-04-14'
+    published_online: '2022-05-10'
+    accepted_fiscal_year: 2022
+    timeline_note: Received 15 February 2022, Revised 6 April 2022, Accepted 14 April 2022, Available online 10 May 2022, Version of Record 10 May 2022.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: true
+- id: pub-0011
+  paper_id: P011
+  hp_no: 11
+  type: journal_article
+  peer_reviewed: true
+  title: In-situ flame deposition of Pt catalysts on Nb-doped SnO2 nanoparticles
+  journal: Journal of Alloys and Compounds
+  year: 2022
+  volume: '898'
+  issue: '25'
+  pages_or_article_number: '162749'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0925838821041591
+  authors:
+  - tomoyuki-hirano
+  - takama-tsuboi
+  - eishi-tanabe
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2021-06-01'
+    accepted: '2021-11-10'
+    published_online: '2021-11-13'
+    accepted_fiscal_year: 2021
+    timeline_note: Received 1 June 2021, Revised 2 November 2021, Accepted 10 November 2021, Available online 13 November 2021, Version of Record 7 January 2022.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - S
+    top10_percent: false
