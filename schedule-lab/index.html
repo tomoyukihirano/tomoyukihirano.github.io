@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研究室の予定 | Lab Schedule</title>
+
+<link rel="stylesheet" href="../assets/css/exported/page-style-44d3c63cdc60.css">
+</head>
+
+<body>
+
+<!-- 言語切替 -->
+<div class="language-switch">
+  <button type="button" id="btn-ja" class="language-button active" onclick="changeLanguage('ja')">
+    日本語
+  </button>
+
+  <button type="button" id="btn-en" class="language-button" onclick="changeLanguage('en')">
+    English
+  </button>
+</div>
+
+<!-- タイトル -->
+<h1 id="schedule-title">研究室の予定</h1>
+
+<!-- 平野の予定へのリンク -->
+<nav class="page-navigation">
+  <a id="page-link" href="../schedule-hirano/">
+    平野の予定はこちら →
+  </a>
+</nav>
+
+<!-- ログイン案内 -->
+<div class="login-area">
+
+  <p id="instructions"></p>
+
+  <a id="login-button" href="https://accounts.google.com/Logout" target="_blank" rel="noopener noreferrer">
+
+    <span id="button-main" class="button-main">
+      カレンダーが表示されない場合に押すボタン
+    </span>
+
+    <span id="button-sub" class="button-sub">
+      （研究室用Googleアカウントを選択してください）
+    </span>
+
+  </a>
+
+</div>
+
+<!-- Googleカレンダー -->
+<iframe id="lab-calendar" title="Lab Schedule Calendar" scrolling="no">
+</iframe>
+
+<script>
+/* 研究室の4つのカレンダーID */
+const calendarIds = [
+  "b2dpZ3IyMDE3QGdtYWlsLmNvbQ",
+  "MzEyNzJkMWZiYWZkNzYzNTRiNzNhNTNiMDY1MDAyNjFkNDkzYjllNDYzMWViNDVlMjBhMzJkYTYyNzQwMTUwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+  "YzRjZGViYWE3YTVhMmExM2UwYWFjZmU4MTlkMTQyMTA5N2NkNWUwMzAwNzBjMmZmODg3NzU0ZmRkM2MyMTZkZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+  "NzRhNzA3ODhlMmNjNTgxOTJjMTAyMTA5OWExNTVkYjI5ZjNkZmE5ZmRjM2JlY2U1MmY0Mzg3MWJjYTNiZmFkZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+];
+
+/* 元の色設定 */
+const calendarColors = [
+  "#33B679",
+  "#D81B60",
+  "#4285F4",
+  "#F6BF26"
+];
+
+/* 研究室用Googleアカウント一覧 */
+const accountListUrl =
+  "https://docs.google.com/spreadsheets/d/15xj0TtdqvoXoDc4-6LDu1VM2hJwkifzje9Wrv6jYNB8/edit?usp=sharing";
+
+function changeLanguage(lang) {
+
+  document.documentElement.lang = lang;
+
+  const title =
+    document.getElementById("schedule-title");
+
+  const pageLink =
+    document.getElementById("page-link");
+
+  const instructions =
+    document.getElementById("instructions");
+
+  const buttonMain =
+    document.getElementById("button-main");
+
+  const buttonSub =
+    document.getElementById("button-sub");
+
+  const calendar =
+    document.getElementById("lab-calendar");
+
+  if (lang === "ja") {
+
+    title.textContent = "研究室の予定";
+    pageLink.textContent = "平野の予定はこちら →";
+
+    instructions.innerHTML = `
+      カレンダーが表示されない場合，下のボタンを押してから，<br>
+      <a href="${accountListUrl}"
+         target="_blank"
+         rel="noopener noreferrer">研究室用Googleアカウント</a>で最初にログインして，<br>
+      このページに戻って再読み込みしてください。
+    `;
+
+    buttonMain.textContent =
+      "カレンダーが表示されない場合に押すボタン";
+
+    buttonSub.textContent =
+      "（研究室用Googleアカウントを選択してください）";
+
+  } else {
+
+    title.textContent = "Lab Schedule";
+    pageLink.textContent = "View Hirano's Schedule →";
+
+    instructions.innerHTML = `
+      If the calendar is not displayed,
+      click the button below.<br>
+      Sign in first with your
+      <a href="${accountListUrl}"
+         target="_blank"
+         rel="noopener noreferrer">lab Google account</a>,<br>
+      then return to this page and refresh it.
+    `;
+
+    buttonMain.textContent =
+      "Click here if the calendar is not displayed";
+
+    buttonSub.textContent =
+      "(Select your lab Google account)";
+  }
+
+  /* ページ移動時も言語を維持 */
+  pageLink.href =
+    "../schedule-hirano/?lang=" + lang;
+
+  /* Googleカレンダー表示 */
+  const url = new URL(
+    "https://calendar.google.com/calendar/embed"
+  );
+
+  url.searchParams.set("height", "600");
+  url.searchParams.set("wkst", "2");
+  url.searchParams.set("bgcolor", "#ffffff");
+  url.searchParams.set("ctz", "Asia/Tokyo");
+  url.searchParams.set("hl", lang);
+
+  calendarIds.forEach(id => {
+    url.searchParams.append("src", id);
+  });
+
+  calendarColors.forEach(color => {
+    url.searchParams.append("color", color);
+  });
+
+  if (calendar.src !== url.href) {
+    calendar.src = url.href;
+  }
+
+  document.getElementById("btn-ja")
+    .classList.toggle("active", lang === "ja");
+
+  document.getElementById("btn-en")
+    .classList.toggle("active", lang === "en");
+}
+
+/* 初期言語 */
+const initialLang =
+  new URLSearchParams(location.search).get("lang") === "en"
+    ? "en" : "ja";
+
+changeLanguage(initialLang);
+</script>
+
+</body>
+</html>
