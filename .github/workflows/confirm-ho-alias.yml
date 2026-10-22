@@ -1,0 +1,53 @@
+name: Confirm approved Ho author alias
+on:
+  push:
+    branches: [data/confirmed-ho-name-20261022]
+    paths:
+      - _maintenance/confirm_ho_alias.py
+      - .github/workflows/confirm-ho-alias.yml
+permissions:
+  contents: write
+  pages: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install YAML parser
+        run: python -m pip install PyYAML==6.0.2
+      - name: Build unchanged baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_baseline
+      - name: Apply only confirmed author alias
+        run: python _maintenance/confirm_ho_alias.py
+      - name: Build corrected page
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify exact page difference
+        run: python _maintenance/confirm_ho_alias.py --verify-html
+      - name: Commit data to isolated review branch only
+        run: |
+          test "$GITHUB_REF_NAME" = 'data/confirmed-ho-name-20261022'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- _data/people.yml _data/presentations/2025.yml
+          git commit -m 'Apply owner-confirmed Ho name alias and presentation author identity'
+          git push origin HEAD:refs/heads/data/confirmed-ho-name-20261022
+      - name: Save validation evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: confirmed-ho-alias-audit
+          path: |
+            _maintenance/ho-alias-validation.json
+            _data/people.yml
+            _data/presentations/2025.yml
+            _site/presentations/index.html
+          include-hidden-files: true
+          retention-days: 7
