@@ -23,6 +23,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 1
   display:
     authors:
@@ -65,18 +67,24 @@ records:
   details_raw: 化学工学会吹田大会2025発表会 (2025/11/11-12, 大阪) (Award)
   classification:
     invited: false
-    award: true
+    award: null
+    award_reporting: excluded_by_owner
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
+    award_review_status: excluded_by_owner
+    award_reviewed_on: '2026-10-22'
   display_order: 2
   display:
     authors:
     - name: 上村 綾乃
       highlight: false
+      person_id: ayano-kamimura
     - name: Nur Syakirah Nabilah Saipul Bahri
       highlight: false
     - name: 平野 知之
@@ -90,8 +98,10 @@ records:
       person_id: kohei-matsumoto
     - name: 森田 祐子
       highlight: false
-    - name: 大西敏之
+      person_id: yuko-morita
+    - name: 大西 敏之
       highlight: false
+      person_id: toshiyuki-onishi
     presenter_position: 1
     presenter_evidence: owner_confirmed_first_author
     title_html: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と性能評価
@@ -104,8 +114,7 @@ records:
       kind: range
       source_text: 2025/11/11-12
       precision: conference_dates_as_recorded
-    annotations:
-    - 受賞
+    annotations: []
 - id: pres-0088
   type: presentation
   year: 2025
@@ -128,11 +137,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 3
   display:
     authors:
     - name: 岡田 祐陽
       highlight: false
+      person_id: yuhi-okada
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -171,6 +183,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 4
   display:
     authors:
@@ -220,11 +234,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 5
   display:
     authors:
     - name: 上村 綾乃
       highlight: false
+      person_id: ayano-kamimura
     - name: Nur Syakirah Nabilah Saipul Bahri
       highlight: false
     - name: 渡邊 真衣
@@ -234,8 +251,10 @@ records:
       person_id: kohei-matsumoto
     - name: 森田 祐子
       highlight: false
-    - name: 大西敏之
+      person_id: yuko-morita
+    - name: 大西 敏之
       highlight: false
+      person_id: toshiyuki-onishi
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -280,6 +299,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 6
   display:
     authors:
@@ -295,10 +316,13 @@ records:
       highlight: false
     - name: 岩崎 秀治
       highlight: false
+      person_id: hideharu-iwasaki
     - name: 岡本 真人
       highlight: false
+      person_id: makoto-okamoto
     - name: 服部 勇作
       highlight: false
+      person_id: yusaku-hattori
     presenter_position: 1
     presenter_evidence: owner_confirmed_first_author
     title_html: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性
@@ -335,11 +359,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 7
   display:
     authors:
     - name: 安藤 愛
       highlight: false
+      person_id: ai-ando
     - name: 平野 知之
       highlight: true
     - name: 田辺 栄司
@@ -383,12 +410,15 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 8
   display:
     authors:
     - name: 近藤 航右
       highlight: false
-    - name: "Kiet Le Anh Cao"
+      person_id: kosuke-kondo
+    - name: Kiet Le Anh Cao
       person_id: kiet-le-anh-cao
       highlight: false
     - name: 平野 知之
@@ -430,11 +460,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 9
   display:
     authors:
     - name: 岡田 祐陽
       highlight: false
+      person_id: yuhi-okada
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -476,6 +509,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 10
   display:
     authors:
@@ -525,18 +560,22 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 11
   display:
     authors:
     - name: 蓮野 隆太
       highlight: false
+      person_id: ryuta-hasuno
     - name: 平野 知之
       highlight: true
-    - name: "Delyana Ratnasari"
+    - name: Delyana Ratnasari
       person_id: delyana-ratnasari
       highlight: false
     - name: 林 徹太郎
       highlight: false
+      person_id: tetsutaro-hayashi
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -578,6 +617,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 12
   display:
     authors:
@@ -585,8 +626,10 @@ records:
       highlight: true
     - name: 高野 葵
       highlight: false
+      person_id: aoi-takano
     - name: 片岡 幹裕
       highlight: false
+      person_id: mikihiro-kataoka
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -624,11 +667,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 13
   display:
     authors:
     - name: 近藤 航右
       highlight: false
+      person_id: kosuke-kondo
     - name: 平野 知之
       highlight: true
     - name: 荻 崇

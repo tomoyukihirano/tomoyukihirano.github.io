@@ -18,6 +18,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 83
   display:
     authors:
@@ -25,6 +27,7 @@ records:
       highlight: true
     - name: 中倉 修平
       highlight: false
+      person_id: shuhei-nakakura
     - name: Febrigia Ghana Rinaldi
       highlight: false
       person_id: febrigia-ghana-rinaldi
@@ -62,6 +65,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 84
   display:
     authors:
@@ -104,6 +109,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 85
   display:
     authors:
@@ -146,6 +153,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 86
   display:
     authors:
@@ -153,6 +162,7 @@ records:
       highlight: true
     - name: 中倉 修平
       highlight: false
+      person_id: shuhei-nakakura
     - name: Febrigia Ghana Rinaldi
       highlight: false
       person_id: febrigia-ghana-rinaldi
@@ -187,6 +197,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 87
   display:
     authors:
@@ -227,6 +239,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 88
   display:
     authors:
@@ -234,6 +248,7 @@ records:
       highlight: true
     - name: Shuhei Nakakura
       highlight: false
+      person_id: shuhei-nakakura
     - name: Febrigia Ghana Rinaldi
       highlight: false
       person_id: febrigia-ghana-rinaldi
@@ -273,11 +288,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 89
   display:
     authors:
     - name: Shuhei Nakakura
       highlight: false
+      person_id: shuhei-nakakura
     - name: Febrigia Ghana Rinaldi
       highlight: false
       person_id: febrigia-ghana-rinaldi
@@ -317,11 +335,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 90
   display:
     authors:
     - name: 中倉 修平
       highlight: false
+      person_id: shuhei-nakakura
     - name: Febrigia Ghana Rinaldi
       highlight: false
       person_id: febrigia-ghana-rinaldi
@@ -360,6 +381,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 91
   display:
     authors:
@@ -367,6 +390,7 @@ records:
       highlight: true
     - name: 中倉 修平
       highlight: false
+      person_id: shuhei-nakakura
     - name: Febrigia Ghana Rinaldi
       highlight: false
       person_id: febrigia-ghana-rinaldi

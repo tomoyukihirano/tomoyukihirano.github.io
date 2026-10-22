@@ -17,11 +17,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 41
   display:
     authors:
     - name: 加世田 将伍
       highlight: false
+      person_id: shogo-kaseda
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -54,17 +57,22 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 42
   display:
     authors:
     - name: 坪井 隆真
       highlight: false
+      person_id: takama-tsuboi
     - name: 平野 知之
       highlight: true
     - name: 高野 葵
       highlight: false
+      person_id: aoi-takano
     - name: 片岡 幹裕
       highlight: false
+      person_id: mikihiro-kataoka
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -95,19 +103,25 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 43
   display:
     authors:
     - name: 鳴井 遼介
       highlight: false
+      person_id: ryosuke-narui
     - name: 平野 知之
       highlight: true
     - name: 堤 裕司
       highlight: false
+      person_id: hiroshi-tsutsumi
     - name: 岸 美保
       highlight: false
+      person_id: miho-kishi
     - name: 吉川 裕亮
       highlight: false
+      person_id: yusuke-yoshikawa
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -138,6 +152,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 44
   display:
     authors:
@@ -145,10 +161,13 @@ records:
       highlight: true
     - name: 鳴井 遼介
       highlight: false
+      person_id: ryosuke-narui
     - name: 門脇 範人
       highlight: false
+      person_id: norito-kadowaki
     - name: 一宮 聖
       highlight: false
+      person_id: akira-ichimiya
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -182,6 +201,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 45
   display:
     authors:
@@ -189,6 +210,7 @@ records:
       highlight: true
     - name: Shogo Kaseda
       highlight: false
+      person_id: shogo-kaseda
     - name: Kiet Le Anh Cao
       highlight: false
     - name: Takashi Ogi
@@ -223,11 +245,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 46
   display:
     authors:
     - name: 山下 俊輝
       highlight: false
+      person_id: shunki-yamashita
     - name: Eka Lutfi Septiani
       highlight: false
       person_id: eka-lutfi-septiani
@@ -235,10 +260,13 @@ records:
       highlight: true
     - name: 奥田 修弘
       highlight: false
+      person_id: nobuhiro-okuda
     - name: 松元 裕之
       highlight: false
+      person_id: hiroyuki-matsumoto
     - name: 榎戸 靖
       highlight: false
+      person_id: yasushi-enokido
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -270,11 +298,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 47
   display:
     authors:
     - name: 北本 泰彦
       highlight: false
+      person_id: yasuhiko-kitamoto
     - name: Phong Hoai Le
       highlight: false
     - name: Kiet Le Anh Cao
@@ -314,6 +345,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 48
   display:
     authors:
@@ -357,6 +390,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 49
   display:
     authors:
@@ -370,10 +405,13 @@ records:
       highlight: true
     - name: 高橋 克夫
       highlight: false
+      person_id: katsuo-takahashi
     - name: 後居 洋介
       highlight: false
+      person_id: yohsuke-goi
     - name: 森田 祐子
       highlight: false
+      person_id: yuko-morita
     - name: 渡邊 真衣
       highlight: false
     - name: 荻 崇
@@ -411,6 +449,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 50
   display:
     authors:
@@ -423,10 +463,13 @@ records:
       highlight: true
     - name: Nobuhiro Okuda
       highlight: false
+      person_id: nobuhiro-okuda
     - name: Hiroyuki Matsumoto
       highlight: false
+      person_id: hiroyuki-matsumoto
     - name: Yasushi Enokido
       highlight: false
+      person_id: yasushi-enokido
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1
@@ -442,6 +485,11 @@ records:
       source_text: August 9–12, 2022
       precision: conference_dates_as_recorded
     annotations: []
+  participation:
+    presentation_date: '2022-08-10'
+    mode: online
+    confirmed_on: '2026-10-22'
+    source: owner_confirmation
 - id: pres-0041
   type: presentation
   year: 2022
@@ -462,6 +510,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 51
   display:
     authors:
@@ -487,6 +537,11 @@ records:
       source_text: August 9–12, 2022
       precision: conference_dates_as_recorded
     annotations: []
+  participation:
+    presentation_date: '2022-08-10'
+    mode: online
+    confirmed_on: '2026-10-22'
+    source: owner_confirmation
 - id: pres-0040
   type: presentation
   year: 2022
@@ -503,11 +558,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 52
   display:
     authors:
     - name: 北本 泰彦
       highlight: false
+      person_id: yasuhiko-kitamoto
     - name: Phong Hoai Le
       highlight: false
     - name: Kiet Le Anh Cao
@@ -547,6 +605,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 53
   display:
     authors:
@@ -559,10 +619,13 @@ records:
       highlight: true
     - name: Nobuhiro Okuda
       highlight: false
+      person_id: nobuhiro-okuda
     - name: Hiroyuki Matsumoto
       highlight: false
+      person_id: hiroyuki-matsumoto
     - name: Yasushi Enokido
       highlight: false
+      person_id: yasushi-enokido
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1
@@ -587,13 +650,18 @@ records:
   citation_text: ○平野 知之，水谷 和揮，加藤 貴久，荻 崇，微粒子の球状化に向けた管状火炎システムの開発，化学工学会第87年会，神戸，2022年3月16–18日 【優秀学生賞 受賞】
   classification:
     invited: false
-    award: true
+    award: null
+    award_reporting: excluded_by_owner
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
+    award_review_status: excluded_by_owner
+    award_reviewed_on: '2026-10-22'
   display_order: 54
   display:
     authors:
@@ -601,8 +669,10 @@ records:
       highlight: true
     - name: 水谷 和揮
       highlight: false
+      person_id: kazuki-mizutani
     - name: 加藤 貴久
       highlight: false
+      person_id: takahisa-katou
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -617,8 +687,7 @@ records:
       kind: range
       source_text: 2022年3月16–18日
       precision: conference_dates_as_recorded
-    annotations:
-    - 優秀学生賞 受賞
+    annotations: []
 - id: pres-0037
   type: presentation
   year: 2022
@@ -634,11 +703,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 55
   display:
     authors:
     - name: 坪井 隆真
       highlight: false
+      person_id: takama-tsuboi
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -671,11 +743,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 56
   display:
     authors:
     - name: 加世田 将伍
       highlight: false
+      person_id: shogo-kaseda
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -711,6 +786,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 57
   display:
     authors:
@@ -720,6 +797,7 @@ records:
       highlight: false
     - name: Yasuhiko Kitamoto
       highlight: false
+      person_id: yasuhiko-kitamoto
     - name: Tomoyuki Hirano
       highlight: true
     - name: Takashi Ogi
@@ -757,6 +835,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 58
   display:
     authors:
@@ -769,10 +849,13 @@ records:
       highlight: true
     - name: Nobuhiro Okuda
       highlight: false
+      person_id: nobuhiro-okuda
     - name: Hiroyuki Matsumoto
       highlight: false
+      person_id: hiroyuki-matsumoto
     - name: Yasushi Enokido
       highlight: false
+      person_id: yasushi-enokido
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1

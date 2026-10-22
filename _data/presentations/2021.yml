@@ -20,6 +20,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 59
   display:
     authors:
@@ -55,11 +57,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 60
   display:
     authors:
     - name: 坪井 隆真
       highlight: false
+      person_id: takama-tsuboi
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -92,11 +97,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 61
   display:
     authors:
     - name: 加世田 将伍
       highlight: false
+      person_id: shogo-kaseda
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -131,6 +139,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 62
   display:
     authors:
@@ -138,6 +148,7 @@ records:
       highlight: true
     - name: 下栗 大右
       highlight: false
+      person_id: daisuke-shimokuri
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -175,11 +186,14 @@ records:
       previous_year: 2020
       previous_start: '2020-08-26'
       previous_end: '2020-08-27'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 63
   display:
     authors:
     - name: 坪井 隆真
       highlight: false
+      person_id: takama-tsuboi
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -226,6 +240,8 @@ records:
       previous_year: 2020
       previous_start: '2020-08-26'
       previous_end: '2020-08-27'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 64
   display:
     authors:
@@ -269,11 +285,14 @@ records:
       previous_year: 2020
       previous_start: '2020-08-26'
       previous_end: '2020-08-27'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 65
   display:
     authors:
     - name: 加世田 将伍
       highlight: false
+      person_id: shogo-kaseda
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -312,6 +331,8 @@ records:
       previous_year: 2020
       previous_start: '2020-08-26'
       previous_end: '2020-08-27'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 66
   display:
     authors:
@@ -345,11 +366,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 67
   display:
     authors:
     - name: 坪井 隆真
       highlight: false
+      person_id: takama-tsuboi
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -382,11 +406,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 68
   display:
     authors:
     - name: 加世田 将伍
       highlight: false
+      person_id: shogo-kaseda
     - name: 平野 知之
       highlight: true
     - name: 荻 崇

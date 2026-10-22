@@ -21,7 +21,7 @@ Important classification fields:
 - `sci_or_equivalent`: SCI/equivalent classification.
 - `hirano_corresponding`: Tomoyuki Hirano is a corresponding author.
 - `hirano_first_author`: Tomoyuki Hirano is first author.
-- `top10_percent`: Top-10% journal flag from the source workbook.
+- `top10_percent`: Article citation Top-10% flag from the source workbook; any assessed field qualifies. This is not a journal-rank flag.
 - `legacy_list_codes`: old A–T style list categories retained only for traceability.
 
 ## Public/private boundary
@@ -101,3 +101,15 @@ The recorded conference dates are corrected; original citation text and date sou
 `quality.date_correction` preserves the previous structured dates and confirmation.
 `quality.invited_status` and `invited_confirmed_on` distinguish confirmed invitation classifications
 from legacy boolean values with no explicit confirmation.
+
+## Consolidated review and reporting policy
+
+Confirmed review items 25–72 are applied as one data batch.
+`reporting_policy.yml` records conference classification, website date conventions,
+retired record IDs, ignored award metadata, citation-metric definitions and output-time scope selection.
+A null award value with `award_reporting: excluded_by_owner` means excluded metadata, not proof of no award.
+The retired record is removed from the active list; its ID must not be reused.
+`journals.metrics_context.checked_month` is an investigation month, not a JCR edition or metric year.
+The actual metric year and subject categories remain unknown. No indicator values were refreshed.
+Private relationship records are never loaded by the public site build.
+The output rules do not constitute an implemented Excel/Word export tool.

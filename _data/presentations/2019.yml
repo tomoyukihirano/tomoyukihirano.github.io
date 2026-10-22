@@ -21,11 +21,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 78
   display:
     authors:
     - name: Jun Kikkawa
       highlight: false
+      person_id: jun-kikkawa
     - name: Tomoyuki Hirano
       highlight: true
     - name: Takashi Ogi
@@ -59,6 +62,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 79
   display:
     authors:
@@ -66,6 +71,7 @@ records:
       highlight: true
     - name: 吉川 潤
       highlight: false
+      person_id: jun-kikkawa
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -103,6 +109,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 80
   display:
     authors:
@@ -152,6 +160,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 81
   display:
     authors:
@@ -159,6 +169,7 @@ records:
       highlight: true
     - name: Shuhei Nakakura
       highlight: false
+      person_id: shuhei-nakakura
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1
@@ -191,11 +202,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 82
   display:
     authors:
     - name: 吉川 潤
       highlight: false
+      person_id: jun-kikkawa
     - name: 平野 知之
       highlight: true
     - name: 荻 崇

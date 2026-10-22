@@ -1,0 +1,56 @@
+schema_version: 1
+confirmed_on: '2026-10-22'
+review_batch:
+  questions_from: 25
+  questions_through: 72
+presentation:
+  classification_basis: nature_of_event_not_host_country
+  conference_scope_options:
+  - domestic
+  - international
+  separate_event_types:
+  - seminar
+  - exhibition_lecture
+  separate_event_types_filter: all_presentations_only
+  website_date_basis: conference_period
+  individual_presentation_date_field: participation.presentation_date
+  presenter_marker: false
+  proceedings_only_reporting: include_as_presentation_without_special_label
+  invitation_confirmation_applies_to: existing_records_at_review_date_only
+  new_record_invitation_default: null
+  reserved_retired_ids:
+  - pres-0063
+  ignored_award_record_ids:
+  - pres-0038
+  - pres-0067
+  - pres-0089
+  - pres-0061
+  ignored_award_means: excluded_from_reporting_not_confirmed_absence_of_award
+  excluded_import_candidates:
+  - source: lab_website
+    source_record_number: 359
+    status: deferred_by_owner
+publication_metrics:
+  top10_percent:
+    stored_field: classification.top10_percent
+    level: article
+    basis: citation_percentile
+    threshold_percent: 10
+    aggregation: any_assessed_field
+    assessment_date: null
+    assessment_year: null
+    assessment_fields: null
+    note: 論文被引用数に基づくTop10%です。雑誌順位ではありません。既存判定値は変更しません。
+  journal_metrics_context: journals.metrics_context
+internal_report:
+  scope_selection: select_at_export
+  default_scope: null
+  presentation_scopes:
+  - student_is_presenter
+  - student_is_any_author
+  publication_scopes:
+  - student_is_first_author
+  - student_is_any_author
+  private_relationship_data_required: true
+  private_records_in_public_build: false
+  note: 出力時に条件を選択します。この設定は自動出力プログラムの実装完了を意味しません。

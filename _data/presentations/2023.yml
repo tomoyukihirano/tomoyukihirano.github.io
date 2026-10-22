@@ -2,43 +2,6 @@ schema_version: 2
 year: 2023
 source: Legacy presentations.md import; original citations preserved
 records:
-- id: pres-0063
-  type: presentation
-  year: 2023
-  source_order: 28
-  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Advances in the Fabrication
-    of Nanostructured Materials for Potential Applications, Scientific Seminar, Ho Chi Minh, Vietnam, December 5, 2023. <strong><mark
-    style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【Invited】</mark></strong>'
-  citation_text: Tomoyuki Hirano, Advances in the Fabrication of Nanostructured Materials for Potential Applications, Scientific
-    Seminar, Ho Chi Minh, Vietnam, December 5, 2023. 【Invited】
-  classification:
-    invited: true
-    award: false
-  quality:
-    parsing_status: raw_only
-    display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed_by_owner
-    display_names_not_identity_verified: true
-    presenter_confirmed_on: '2026-10-22'
-  display_order: 29
-  display:
-    authors:
-    - name: Tomoyuki Hirano
-      highlight: true
-    presenter_position: 1
-    presenter_evidence: owner_confirmed_first_author
-    title_html: Advances in the Fabrication of Nanostructured Materials for Potential Applications
-    conference: Scientific Seminar
-    location: Ho Chi Minh，Vietnam
-    dates:
-      text: 2023年12月5日
-      start: '2023-12-05'
-      end: '2023-12-05'
-      kind: single
-      source_text: December 5, 2023
-      precision: conference_dates_as_recorded
-    annotations:
-    - 招待講演
 - id: pres-0062
   type: presentation
   year: 2023
@@ -55,6 +18,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 30
   display:
     authors:
@@ -71,6 +36,7 @@ records:
       highlight: false
     - name: 森田 祐子
       highlight: false
+      person_id: yuko-morita
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -95,18 +61,24 @@ records:
   citation_text: 山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，平野 知之，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
-    award: false
+    award: null
+    award_reporting: excluded_by_owner
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
+    award_review_status: excluded_by_owner
+    award_reviewed_on: '2026-10-22'
   display_order: 31
   display:
     authors:
     - name: 山下 俊輝
       highlight: false
+      person_id: shunki-yamashita
     - name: Phong Hoai Le
       highlight: false
     - name: Kiet Le Anh Cao
@@ -143,17 +115,22 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 32
   display:
     authors:
     - name: 房谷 航大
       highlight: false
+      person_id: kodai-fusatani
     - name: 平野 知之
       highlight: true
     - name: 水谷 和揮
       highlight: false
+      person_id: kazuki-mizutani
     - name: 加藤 貴久
       highlight: false
+      person_id: takahisa-katou
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -185,21 +162,27 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 33
   display:
     authors:
     - name: 鳴井 遼介
       highlight: false
+      person_id: ryosuke-narui
     - name: 平野 知之
       highlight: true
     - name: Ho Thi Thanh Nguyen
       highlight: false
     - name: 堤 裕司
       highlight: false
+      person_id: hiroshi-tsutsumi
     - name: 岸 美保
       highlight: false
+      person_id: miho-kishi
     - name: 吉川 裕亮
       highlight: false
+      person_id: yusuke-yoshikawa
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -231,11 +214,14 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 34
   display:
     authors:
     - name: 山下 俊輝
       highlight: false
+      person_id: shunki-yamashita
     - name: Phong Hoai Le
       highlight: false
     - name: Kiet Le Anh Cao
@@ -273,21 +259,27 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 35
   display:
     authors:
     - name: 鳴井 遼介
       highlight: false
+      person_id: ryosuke-narui
     - name: 平野 知之
       highlight: true
     - name: Ho Thi Thanh Nguyen
       highlight: false
     - name: 堤 裕司
       highlight: false
+      person_id: hiroshi-tsutsumi
     - name: 岸 美保
       highlight: false
+      person_id: miho-kishi
     - name: 吉川 裕亮
       highlight: false
+      person_id: yusuke-yoshikawa
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -318,6 +310,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 36
   display:
     authors:
@@ -354,21 +348,27 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 37
   display:
     authors:
     - name: 鳴井 遼介
       highlight: false
+      person_id: ryosuke-narui
     - name: 平野 知之
       highlight: true
     - name: Ho Thi Thanh Nguyen
       highlight: false
     - name: 堤 裕司
       highlight: false
+      person_id: hiroshi-tsutsumi
     - name: 岸 美保
       highlight: false
+      person_id: miho-kishi
     - name: 吉川 裕亮
       highlight: false
+      person_id: yusuke-yoshikawa
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -402,6 +402,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 38
   display:
     authors:
@@ -411,6 +413,7 @@ records:
       highlight: false
     - name: Yasuhiko Kitamoto
       highlight: false
+      person_id: yasuhiko-kitamoto
     - name: Tomoyuki Hirano
       highlight: true
     - name: Takashi Ogi
@@ -445,6 +448,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 39
   display:
     authors:
@@ -480,6 +485,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invitation_status: confirmed_by_owner
+    invitation_confirmed_on: '2026-10-22'
   display_order: 40
   display:
     authors:
@@ -487,12 +494,16 @@ records:
       highlight: true
     - name: 鳴井 遼介
       highlight: false
+      person_id: ryosuke-narui
     - name: 堤 裕司
       highlight: false
+      person_id: hiroshi-tsutsumi
     - name: 岸 美保
       highlight: false
+      person_id: miho-kishi
     - name: 吉川 裕亮
       highlight: false
+      person_id: yusuke-yoshikawa
     - name: 荻 崇
       highlight: false
     presenter_position: 1
