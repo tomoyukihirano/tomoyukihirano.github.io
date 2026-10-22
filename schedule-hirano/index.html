@@ -59,10 +59,6 @@
 const calendarId =
   "OTJjNDFmNTg1NWMyYzJlMzExMWI0YTkzNDM5NDU4NTM2YjVkY2FkYTliYjk0OWY0NTBjNGFlZmU4YTg5MWM0Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t";
 
-/* 研究室用Googleアカウント一覧 */
-const accountListUrl =
-  "https://docs.google.com/spreadsheets/d/15xj0TtdqvoXoDc4-6LDu1VM2hJwkifzje9Wrv6jYNB8/edit?usp=sharing";
-
 function changeLanguage(lang) {
 
   document.documentElement.lang = lang;
@@ -92,9 +88,7 @@ function changeLanguage(lang) {
 
     instructions.innerHTML = `
       カレンダーが表示されない場合，下のボタンを押してから，<br>
-      <a href="${accountListUrl}"
-         target="_blank"
-         rel="noopener noreferrer">研究室用Googleアカウント</a>で最初にログインして，<br>
+      研究室用Googleアカウントで最初にログインして，<br>
       このページに戻って再読み込みしてください。
     `;
 
@@ -116,9 +110,7 @@ function changeLanguage(lang) {
       If the calendar is not displayed,
       click the button below.<br>
       Sign in first with your
-      <a href="${accountListUrl}"
-         target="_blank"
-         rel="noopener noreferrer">lab Google account</a>,<br>
+      lab Google account,<br>
       then return to this page and refresh it.
     `;
 
