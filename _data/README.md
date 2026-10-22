@@ -44,7 +44,7 @@ When source values conflict, do not silently overwrite them; record and review t
 
 ## Presentation records
 
-Presentation records preserve `raw_citation_html` and `citation_text` as the source of truth. Automatically extracted fields such as `authors_raw`, `presenter_raw`, and `title_raw` are convenience fields and are marked as partial parsing. One 2024 source line appears to contain two concatenated presentations; it is intentionally preserved as one record with `quality.needs_review: true` until manually confirmed.
+Presentation records preserve `raw_citation_html` and `citation_text` as the source of truth. Automatically extracted fields such as `authors_raw`, `presenter_raw`, and `title_raw` are convenience fields and are marked as partial parsing. The owner-confirmed 2024 combined record has been split into pres-0072 and pres-0091; the original is retained in source_before_split.
 
 ## Confirmed author identity corrections
 
@@ -58,3 +58,22 @@ Original website citations and all presentation `*_raw` / `citation_text` fields
 Presentation `author_id_links` use 1-based positions and only exact, confirmed name matches.
 Missing links mean unresolved, not absence of the person from the work.
 Unconfirmed spelling variants must not be merged automatically.
+
+## Presentation display format (2026-10-22)
+
+The presentation page is generated from `_data/presentations/YYYY.yml` through
+`_includes/presentation-list.html`. Do not maintain a second citation list in `presentations.md`.
+
+The display order is authors, title, conference, location, date, separated by `，`.
+Dates use `YYYY年M月D日－D日` (or both months when needed). English titles and author
+names are not translated. Chemical subscripts/superscripts from source HTML are preserved.
+Tomoyuki Hirano's name is bold and underlined; `〇` identifies an evidenced presenter.
+`display.presenter_position` is 1-based or null. Never infer it solely from author order.
+The older auto-parsed `presenter_raw` is NOT confirmed evidence.
+`display.dates` describes recorded conference dates, not a verified individual talk date.
+Original citation fields remain immutable except for the owner-approved split of pres-0072.
+That original combined record is preserved in `source_before_split`; the new second record
+is pres-0091. Existing IDs are never renumbered. `display_order` controls view ordering.
+The `display` fields are the structured citation used by the template. `title_html` permits
+only sub/sup markup; all other display text is HTML-escaped by the template.
+Unconfirmed name variants, conference editions and presenter identities require review.
