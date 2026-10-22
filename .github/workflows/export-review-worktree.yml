@@ -1,0 +1,25 @@
+name: Export review worktree
+
+on:
+  push:
+    branches:
+      - data/presentation-publication-grants-20261022
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Package review files
+        run: |
+          zip -qr review-worktree.zip . -x '.git/*' 'review-worktree.zip'
+      - name: Upload review worktree
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-worktree
+          path: review-worktree.zip
+          retention-days: 7
