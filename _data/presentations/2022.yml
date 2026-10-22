@@ -228,8 +228,9 @@ records:
     authors:
     - name: 山下 俊輝
       highlight: false
-    - name: Septiani Eka Lutfi
+    - name: Eka Lutfi Septiani
       highlight: false
+      person_id: eka-lutfi-septiani
     - name: 平野 知之
       highlight: true
     - name: 奥田 修弘
@@ -415,6 +416,7 @@ records:
     authors:
     - name: Eka Lutfi Septiani
       highlight: false
+      person_id: eka-lutfi-septiani
     - name: Kiet Le Anh Cao
       highlight: false
     - name: Tomoyuki Hirano
@@ -550,6 +552,7 @@ records:
     authors:
     - name: Eka Lutfi Septiani
       highlight: false
+      person_id: eka-lutfi-septiani
     - name: Kiet Le Anh Cao
       highlight: false
     - name: Tomoyuki Hirano
@@ -759,6 +762,7 @@ records:
     authors:
     - name: Eka Lutfi Septiani
       highlight: false
+      person_id: eka-lutfi-septiani
     - name: Kiet Le Anh Cao
       highlight: false
     - name: Tomoyuki Hirano

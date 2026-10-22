@@ -66,6 +66,7 @@ records:
       highlight: true
     - name: 松本 恒平
       highlight: false
+      person_id: kohei-matsumoto
     - name: 渡邊 真衣
       highlight: false
     - name: 森田 祐子

@@ -16,11 +16,11 @@ records:
 - {id: diva-addini-maghribi-muyassiroh, name: Diva Addini Maghribi Muyassiroh, first_name: Diva Addini Maghribi, last_name: Muyassiroh}
 - {id: duhaul-biqal-kautsar, name: Duhaul Biqal Kautsar, first_name: Duhaul Biqal, last_name: Kautsar}
 - {id: ea-cahya-septia-mahen, name: Ea Cahya Septia Mahen, first_name: Ea Cahya Septia, last_name: Mahen}
-- {id: eishi-tanabe, name: Eishi Tanabe, first_name: Eishi, last_name: Tanabe}
-- {id: eka-lutfi-septiani, name: Eka Lutfi Septiani, first_name: Eka Lutfi, last_name: Septiani}
+- {"id": "eishi-tanabe", "name": "Eishi Tanabe", "first_name": "Eishi", "last_name": "Tanabe", "name_ja": "田辺 栄司", "name_ja_confirmed_on": "2026-10-22", "aliases": ["田辺 栄司", "田辺栄司"], "identity_confirmed_on": "2026-10-22"}
+- {"id": "eka-lutfi-septiani", "name": "Eka Lutfi Septiani", "first_name": "Eka Lutfi", "last_name": "Septiani", "aliases": ["Septiani Eka Lutfi"], "identity_confirmed_on": "2026-10-22"}
 - {id: eli-hendrik-sanjaya, name: Eli Hendrik Sanjaya, first_name: Eli Hendrik, last_name: Sanjaya}
 - {id: eva, name: Eva, first_name: Eva}
-- {id: febrigia-ghana-rinaldi, name: Febrigia Ghana Rinaldi, first_name: Febrigia Ghana, last_name: Rinaldi}
+- {"id": "febrigia-ghana-rinaldi", "name": "Febrigia Ghana Rinaldi", "first_name": "Febrigia Ghana", "last_name": "Rinaldi", "aliases": ["Rinaldi Febrigia Ghana"], "identity_confirmed_on": "2026-10-22"}
 - {"id": "ferry-iskandar", "name": "Ferry Iskandar", "first_name": "Ferry", "last_name": "Iskandar", "aliases": ["Ferry Inskandar"], "legacy_ids": ["ferry-inskandar"], "identity_confirmed_on": "2026-10-22"}
 - {id: fitri-aulia-permatasari, name: Fitri Aulia Permatasari, first_name: Fitri Aulia, last_name: Permatasari}
 - {id: goki-sasaki, name: Goki Sasaki, first_name: Goki, last_name: Sasaki}
@@ -43,7 +43,7 @@ records:
 - {id: kikuo-okuyama, name: Kikuo Okuyama, first_name: Kikuo, last_name: Okuyama}
 - {id: kodai-fusatani, name: Kodai Fusatani, first_name: Kodai, last_name: Fusatani}
 - {id: kohei-kume, name: Kohei Kume, first_name: Kohei, last_name: Kume}
-- {"id": "kohei-matsumoto", "name": "Kohei Matsumoto", "first_name": "Kohei", "last_name": "Matsumoto", "aliases": ["Kouhei Matsumoto"], "legacy_ids": ["kouhei-matsumoto"], "identity_confirmed_on": "2026-10-22"}
+- {"id": "kohei-matsumoto", "name": "Kohei Matsumoto", "first_name": "Kohei", "last_name": "Matsumoto", "aliases": ["Kouhei Matsumoto", "松本 恒平", "松本恒平"], "legacy_ids": ["kouhei-matsumoto"], "identity_confirmed_on": "2026-10-22", "name_ja": "松本 恒平", "name_ja_confirmed_on": "2026-10-22"}
 - {id: koichi-yokoyama, name: Koichi Yokoyama, first_name: Koichi, last_name: Yokoyama}
 - {id: kosuke-kondo, name: Kosuke Kondo, first_name: Kosuke, last_name: Kondo}
 - {id: lailatul-alawiyah, name: Lailatul Alawiyah, first_name: Lailatul, last_name: Alawiyah}
@@ -82,7 +82,7 @@ records:
 - {id: satoshi-suzuki, name: Satoshi Suzuki, first_name: Satoshi, last_name: Suzuki}
 - {id: shintaro-kamio, name: Shintaro Kamio, first_name: Shintaro, last_name: Kamio}
 - {id: shogo-kaseda, name: Shogo Kaseda, first_name: Shogo, last_name: Kaseda}
-- {id: shota-imaoka, name: Shota Imaoka, first_name: Shota, last_name: Imaoka}
+- {"id": "shota-imaoka", "name": "Shota Imaoka", "first_name": "Shota", "last_name": "Imaoka", "name_ja": "今岡 生太", "name_ja_confirmed_on": "2026-10-22", "aliases": ["今岡 生太", "今岡生太"], "identity_confirmed_on": "2026-10-22"}
 - {id: shuhei-nakakura, name: Shuhei Nakakura, first_name: Shuhei, last_name: Nakakura}
 - {id: shunki-yamashita, name: Shunki Yamashita, first_name: Shunki, last_name: Yamashita}
 - {id: siti-fadilah, name: Siti Fadilah, first_name: Siti, last_name: Fadilah}

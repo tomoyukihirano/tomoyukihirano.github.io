@@ -87,6 +87,7 @@ records:
       highlight: false
     - name: 松本 恒平
       highlight: false
+      person_id: kohei-matsumoto
     - name: 森田 祐子
       highlight: false
     - name: 大西敏之
@@ -230,6 +231,7 @@ records:
       highlight: false
     - name: 松本 恒平
       highlight: false
+      person_id: kohei-matsumoto
     - name: 森田 祐子
       highlight: false
     - name: 大西敏之
@@ -283,9 +285,10 @@ records:
     authors:
     - name: 今岡 生太
       highlight: false
+      person_id: shota-imaoka
     - name: 平野 知之
       highlight: true
-    - name: "Kiet Le Anh Cao"
+    - name: Kiet Le Anh Cao
       person_id: kiet-le-anh-cao
       highlight: false
     - name: 荻 崇
@@ -339,8 +342,9 @@ records:
       highlight: false
     - name: 平野 知之
       highlight: true
-    - name: 田辺栄司
+    - name: 田辺 栄司
       highlight: false
+      person_id: eishi-tanabe
     - name: 荻 崇
       highlight: false
     presenter_position: 1

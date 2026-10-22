@@ -27,6 +27,7 @@ records:
       highlight: false
     - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -110,6 +111,7 @@ records:
       highlight: false
     - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: Tomoyuki Hirano
       highlight: true
     - name: Kikuo Okuyama
@@ -153,6 +155,7 @@ records:
       highlight: false
     - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: 荻 崇
       highlight: false
     presenter_position: 1
@@ -233,6 +236,7 @@ records:
       highlight: false
     - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1
@@ -276,6 +280,7 @@ records:
       highlight: false
     - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: Tomoyuki Hirano
       highlight: true
     - name: Ratna Balgis
@@ -317,8 +322,9 @@ records:
     authors:
     - name: 中倉 修平
       highlight: false
-    - name: Rinaldi Febrigia Ghana
+    - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
@@ -363,6 +369,7 @@ records:
       highlight: false
     - name: Febrigia Ghana Rinaldi
       highlight: false
+      person_id: febrigia-ghana-rinaldi
     - name: 荻 崇
       highlight: false
     presenter_position: 1

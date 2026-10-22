@@ -91,3 +91,13 @@ The owner confirmed 渡邊 真衣 / 渡邉 麻衣 as the same person,
 with canonical Japanese name 渡邊 真衣 (mai-watanabe).
 These public Japanese names and alternate forms are stored in the people dictionary.
 Only structured presentation display names are normalized; raw citations are unchanged.
+
+## Batched review corrections (2026-10-22)
+
+Owner-confirmed aliases and Japanese names are linked by stable person IDs.
+Questions 16-24 were applied as one coherent production batch.
+Four records moved from the 2020 data file to 2021 without changing record IDs or display order.
+The recorded conference dates are corrected; original citation text and date source text remain unchanged.
+`quality.date_correction` preserves the previous structured dates and confirmation.
+`quality.invited_status` and `invited_confirmed_on` distinguish confirmed invitation classifications
+from legacy boolean values with no explicit confirmation.

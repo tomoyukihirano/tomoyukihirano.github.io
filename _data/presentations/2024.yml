@@ -347,6 +347,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invited_status: confirmed_by_owner
+    invited_confirmed_on: '2026-10-22'
   display_order: 21
   display:
     authors:
@@ -418,7 +420,7 @@ records:
   title_raw: Particle Nanostructuring in Flames for Environmental and Energy Applications
   details_raw: Seminar at Karolinska Institutet, (2024/4/11, Karolinska Institutet, Sweden)
   classification:
-    invited: false
+    invited: true
     award: false
   quality:
     parsing_status: partial
@@ -426,6 +428,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invited_status: confirmed_by_owner
+    invited_confirmed_on: '2026-10-22'
   display_order: 23
   display:
     authors:
@@ -443,7 +447,8 @@ records:
       kind: single
       source_text: 2024/4/11
       precision: conference_dates_as_recorded
-    annotations: []
+    annotations:
+    - 招待講演
 - id: pres-0068
   type: presentation
   year: 2024
@@ -460,7 +465,7 @@ records:
   title_raw: Multicore/shell Structures of ZnO/TiO2 Particle for Enhancing Acid Resistance as UV-Protective Material
   details_raw: Spray Drying Symposium 2024 in Fraunhofer ISC, (2024/4/8, Würzburg, Germany)
   classification:
-    invited: false
+    invited: true
     award: false
   quality:
     parsing_status: partial
@@ -468,6 +473,8 @@ records:
     presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
     presenter_confirmed_on: '2026-10-22'
+    invited_status: confirmed_by_owner
+    invited_confirmed_on: '2026-10-22'
   display_order: 24
   display:
     authors:
@@ -488,7 +495,8 @@ records:
       kind: single
       source_text: 2024/4/8
       precision: conference_dates_as_recorded
-    annotations: []
+    annotations:
+    - 招待講演
 - id: pres-0067
   type: presentation
   year: 2024
@@ -525,6 +533,7 @@ records:
     authors:
     - name: Eka Lutfi Septiani
       highlight: false
+      person_id: eka-lutfi-septiani
     - name: Shunki Yamashita
       highlight: false
     - name: Kiet Le Anh Cao
@@ -594,6 +603,7 @@ records:
       highlight: true
     - name: 松本 恒平
       highlight: false
+      person_id: kohei-matsumoto
     - name: 渡邊 真衣
       highlight: false
     - name: 森田 祐子
@@ -645,6 +655,7 @@ records:
     authors:
     - name: Eka Lutfi Septiani
       highlight: false
+      person_id: eka-lutfi-septiani
     - name: 平野 知之
       highlight: true
     - name: 奥田 修弘
