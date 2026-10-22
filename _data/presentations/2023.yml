@@ -1,136 +1,499 @@
-schema_version: 1
+schema_version: 2
 year: 2023
-source: presentations.md
+source: Legacy presentations.md import; original citations preserved
 records:
 - id: pres-0063
   type: presentation
   year: 2023
   source_order: 28
-  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">Tomoyuki Hirano</span></strong>, Advances in the Fabrication of Nanostructured Materials for Potential Applications, Scientific Seminar, Ho Chi Minh, Vietnam, December 5, 2023. <strong><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-vivid-red-color\">【Invited】</mark></strong>"
-  citation_text: "Tomoyuki Hirano, Advances in the Fabrication of Nanostructured Materials for Potential Applications, Scientific Seminar, Ho Chi Minh, Vietnam, December 5, 2023. 【Invited】"
+  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Advances
+    in the Fabrication of Nanostructured Materials for Potential Applications, Scientific Seminar, Ho Chi Minh,
+    Vietnam, December 5, 2023. <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【Invited】</mark></strong>'
+  citation_text: Tomoyuki Hirano, Advances in the Fabrication of Nanostructured Materials for Potential Applications,
+    Scientific Seminar, Ho Chi Minh, Vietnam, December 5, 2023. 【Invited】
   classification:
     invited: true
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 29
+  display:
+    authors:
+    - name: Tomoyuki Hirano
+      highlight: true
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: Advances in the Fabrication of Nanostructured Materials for Potential Applications
+    conference: Scientific Seminar
+    location: Ho Chi Minh，Vietnam
+    dates:
+      text: 2023年12月5日
+      start: '2023-12-05'
+      end: '2023-12-05'
+      kind: single
+      source_text: December 5, 2023
+      precision: conference_dates_as_recorded
+    annotations:
+    - 招待講演
 - id: pres-0062
   type: presentation
   year: 2023
   source_order: 29
-  raw_citation_html: "Nur Syakirah Nabilah Saipul Bahri，Tue Tri Nguyen，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，松本 恒平，渡邊 真衣，森田 祐子，荻 崇，セルロースナノファイバー構成微粒子の架橋剤による耐水性の向上，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
-  citation_text: "Nur Syakirah Nabilah Saipul Bahri，Tue Tri Nguyen，平野 知之，松本 恒平，渡邊 真衣，森田 祐子，荻 崇，セルロースナノファイバー構成微粒子の架橋剤による耐水性の向上，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
+  raw_citation_html: 'Nur Syakirah Nabilah Saipul Bahri，Tue Tri Nguyen，<strong><span style="text-decoration: underline;">平野
+    知之</span></strong>，松本 恒平，渡邊 真衣，森田 祐子，荻 崇，セルロースナノファイバー構成微粒子の架橋剤による耐水性の向上，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
+  citation_text: Nur Syakirah Nabilah Saipul Bahri，Tue Tri Nguyen，平野 知之，松本 恒平，渡邊 真衣，森田 祐子，荻 崇，セルロースナノファイバー構成微粒子の架橋剤による耐水性の向上，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 30
+  display:
+    authors:
+    - name: Nur Syakirah Nabilah Saipul Bahri
+      highlight: false
+    - name: Tue Tri Nguyen
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: 松本 恒平
+      highlight: false
+    - name: 渡邊 真衣
+      highlight: false
+    - name: 森田 祐子
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: セルロースナノファイバー構成微粒子の架橋剤による耐水性の向上
+    conference: 粉体工学会2023年度秋期研究発表会
+    location: 大阪
+    dates:
+      text: 2023年10月10日－11日
+      start: '2023-10-10'
+      end: '2023-10-11'
+      kind: range
+      source_text: 2023年10月10-11日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0061
   type: presentation
   year: 2023
   source_order: 30
-  raw_citation_html: "山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
-  citation_text: "山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，平野 知之，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
+  raw_citation_html: '山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，荻
+    崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
+  citation_text: 山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，平野 知之，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 31
+  display:
+    authors:
+    - name: 山下 俊輝
+      highlight: false
+    - name: Phong Hoai Le
+      highlight: false
+    - name: Kiet Le Anh Cao
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 三元触媒ナノ粒子のポーラス構造化と触媒性能評価
+    conference: 粉体工学会2023年度秋期研究発表会
+    location: 大阪
+    dates:
+      text: 2023年10月10日－11日
+      start: '2023-10-10'
+      end: '2023-10-11'
+      kind: range
+      source_text: 2023年10月10-11日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0060
   type: presentation
   year: 2023
   source_order: 31
-  raw_citation_html: "房谷 航大，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，水谷 和揮，加藤 貴久，荻 崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
-  citation_text: "房谷 航大，平野 知之，水谷 和揮，加藤 貴久，荻 崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
+  raw_citation_html: '房谷 航大，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，水谷 和揮，加藤 貴久，荻
+    崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
+  citation_text: 房谷 航大，平野 知之，水谷 和揮，加藤 貴久，荻 崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 32
+  display:
+    authors:
+    - name: 房谷 航大
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: 水谷 和揮
+      highlight: false
+    - name: 加藤 貴久
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 火炎法による組成を制御した球状ガラス粒子の合成
+    conference: 粉体工学会2023年度秋期研究発表会
+    location: 大阪
+    dates:
+      text: 2023年10月10日－11日
+      start: '2023-10-10'
+      end: '2023-10-11'
+      kind: range
+      source_text: 2023年10月10-11日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0059
   type: presentation
   year: 2023
   source_order: 32
-  raw_citation_html: "鳴井 遼介，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO<sub>2</sub>粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
-  citation_text: "鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO2粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日"
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh
+    Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO<sub>2</sub>粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
+  citation_text: 鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO2粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 33
+  display:
+    authors:
+    - name: 鳴井 遼介
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: Ho Thi Thanh Nguyen
+      highlight: false
+    - name: 堤 裕司
+      highlight: false
+    - name: 岸 美保
+      highlight: false
+    - name: 吉川 裕亮
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 火炎法によるIr/TiO<sub>2</sub>粒子の合成と固体高分子形燃料電池への応用
+    conference: 粉体工学会2023年度秋期研究発表会
+    location: 大阪
+    dates:
+      text: 2023年10月10日－11日
+      start: '2023-10-10'
+      end: '2023-10-11'
+      kind: range
+      source_text: 2023年10月10-11日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0058
   type: presentation
   year: 2023
   source_order: 33
-  raw_citation_html: "山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日"
-  citation_text: "山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，平野 知之，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日"
+  raw_citation_html: '山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，荻
+    崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日'
+  citation_text: 山下 俊輝，Phong Hoai Le，Kiet Le Anh Cao，平野 知之，荻 崇，三元触媒ナノ粒子のポーラス構造化と触媒性能評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 34
+  display:
+    authors:
+    - name: 山下 俊輝
+      highlight: false
+    - name: Phong Hoai Le
+      highlight: false
+    - name: Kiet Le Anh Cao
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 三元触媒ナノ粒子のポーラス構造化と触媒性能評価
+    conference: 化学工学会第54回秋季大会
+    location: 福岡
+    dates:
+      text: 2023年9月11日－13日
+      start: '2023-09-11'
+      end: '2023-09-13'
+      kind: range
+      source_text: 2023年9月11-13日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0057
   type: presentation
   year: 2023
   source_order: 34
-  raw_citation_html: "鳴井 遼介，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO<sub>2</sub>/TiO<sub>2</sub>担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日"
-  citation_text: "鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO2/TiO2担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日"
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh
+    Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO<sub>2</sub>/TiO<sub>2</sub>担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日'
+  citation_text: 鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO2/TiO2担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 35
+  display:
+    authors:
+    - name: 鳴井 遼介
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: Ho Thi Thanh Nguyen
+      highlight: false
+    - name: 堤 裕司
+      highlight: false
+    - name: 岸 美保
+      highlight: false
+    - name: 吉川 裕亮
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: Ir-IrO<sub>2</sub>/TiO<sub>2</sub>担体を用いた燃料電池用触媒の開発と高電位耐久性評価
+    conference: 化学工学会第54回秋季大会
+    location: 福岡
+    dates:
+      text: 2023年9月11日－13日
+      start: '2023-09-11'
+      end: '2023-09-13'
+      kind: range
+      source_text: 2023年9月11-13日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0056
   type: presentation
   year: 2023
   source_order: 35
-  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，火炎法によるZnO@TiO<sub>2</sub>コアシェル粒子の合成と耐酸性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日"
-  citation_text: "平野 知之，荻 崇，火炎法によるZnO@TiO2コアシェル粒子の合成と耐酸性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日"
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，荻 崇，火炎法によるZnO@TiO<sub>2</sub>コアシェル粒子の合成と耐酸性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日'
+  citation_text: 平野 知之，荻 崇，火炎法によるZnO@TiO2コアシェル粒子の合成と耐酸性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 36
+  display:
+    authors:
+    - name: 平野 知之
+      highlight: true
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 火炎法によるZnO@TiO<sub>2</sub>コアシェル粒子の合成と耐酸性評価
+    conference: 化学工学会第54回秋季大会
+    location: 福岡
+    dates:
+      text: 2023年9月11日－13日
+      start: '2023-09-11'
+      end: '2023-09-13'
+      kind: range
+      source_text: 2023年9月11-13日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0055
   type: presentation
   year: 2023
   source_order: 36
-  raw_citation_html: "鳴井 遼介，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日"
-  citation_text: "鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrOx/TiO2粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日"
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh
+    Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日'
+  citation_text: 鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrOx/TiO2粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 37
+  display:
+    authors:
+    - name: 鳴井 遼介
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+    - name: Ho Thi Thanh Nguyen
+      highlight: false
+    - name: 堤 裕司
+      highlight: false
+    - name: 岸 美保
+      highlight: false
+    - name: 吉川 裕亮
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 火炎法による燃料電池用触媒担体IrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電特性評価
+    conference: 第40回エアロゾル科学・技術研究討論会
+    location: 群馬
+    dates:
+      text: 2023年8月29日－31日
+      start: '2023-08-29'
+      end: '2023-08-31'
+      kind: range
+      source_text: 2023年8月29–31日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0054
   type: presentation
   year: 2023
   source_order: 37
-  raw_citation_html: "Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, <strong><span style=\"text-decoration: underline;\">Tomoyuki Hirano</span></strong>, Takashi Ogi, Enhancement of Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst Particles via Spray Process, 化学工学会第88年会, 東京, 2023年3月15–17日"
-  citation_text: "Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, Tomoyuki Hirano, Takashi Ogi, Enhancement of Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst Particles via Spray Process, 化学工学会第88年会, 東京, 2023年3月15–17日"
+  raw_citation_html: 'Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, <strong><span style="text-decoration: underline;">Tomoyuki
+    Hirano</span></strong>, Takashi Ogi, Enhancement of Gas Diffusion by Appending Interconnected Macropores Network
+    in Three-way Catalyst Particles via Spray Process, 化学工学会第88年会, 東京, 2023年3月15–17日'
+  citation_text: Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, Tomoyuki Hirano, Takashi Ogi, Enhancement of
+    Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst Particles via Spray Process,
+    化学工学会第88年会, 東京, 2023年3月15–17日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 38
+  display:
+    authors:
+    - name: Phong Hoai Le
+      highlight: false
+    - name: Kiet Le Anh Cao
+      highlight: false
+    - name: Yasuhiko Kitamoto
+      highlight: false
+    - name: Tomoyuki Hirano
+      highlight: true
+    - name: Takashi Ogi
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: Enhancement of Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst
+      Particles via Spray Process
+    conference: 化学工学会第88年会
+    location: 東京
+    dates:
+      text: 2023年3月15日－17日
+      start: '2023-03-15'
+      end: '2023-03-17'
+      kind: range
+      source_text: 2023年3月15–17日
+      precision: conference_dates_as_recorded
+    annotations: []
 - id: pres-0053
   type: presentation
   year: 2023
   source_order: 38
-  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，気相燃焼合成法による微粒子材料の高機能化デザイン，化学工学会第88年会，東京，2023年3月15–17日 <strong><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-vivid-red-color\">【招待講演】</mark></strong>"
-  citation_text: "平野 知之，気相燃焼合成法による微粒子材料の高機能化デザイン，化学工学会第88年会，東京，2023年3月15–17日 【招待講演】"
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，気相燃焼合成法による微粒子材料の高機能化デザイン，化学工学会第88年会，東京，2023年3月15–17日
+    <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【招待講演】</mark></strong>'
+  citation_text: 平野 知之，気相燃焼合成法による微粒子材料の高機能化デザイン，化学工学会第88年会，東京，2023年3月15–17日 【招待講演】
   classification:
     invited: true
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 39
+  display:
+    authors:
+    - name: 平野 知之
+      highlight: true
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 気相燃焼合成法による微粒子材料の高機能化デザイン
+    conference: 化学工学会第88年会
+    location: 東京
+    dates:
+      text: 2023年3月15日－17日
+      start: '2023-03-15'
+      end: '2023-03-17'
+      kind: range
+      source_text: 2023年3月15–17日
+      precision: conference_dates_as_recorded
+    annotations:
+    - 招待講演
 - id: pres-0052
   type: presentation
   year: 2023
   source_order: 39
-  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，鳴井 遼介，堤 裕司，岸 美保，吉川 裕亮，荻 崇，固体高分子形燃料電池用 IrO<sub>2</sub>/TiO<sub>2</sub>担体の開発，化学工学会第88年会，東京，2023年3月15–17日"
-  citation_text: "平野 知之，鳴井 遼介，堤 裕司，岸 美保，吉川 裕亮，荻 崇，固体高分子形燃料電池用 IrO2/TiO2担体の開発，化学工学会第88年会，東京，2023年3月15–17日"
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，鳴井 遼介，堤 裕司，岸 美保，吉川
+    裕亮，荻 崇，固体高分子形燃料電池用 IrO<sub>2</sub>/TiO<sub>2</sub>担体の開発，化学工学会第88年会，東京，2023年3月15–17日'
+  citation_text: 平野 知之，鳴井 遼介，堤 裕司，岸 美保，吉川 裕亮，荻 崇，固体高分子形燃料電池用 IrO2/TiO2担体の開発，化学工学会第88年会，東京，2023年3月15–17日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
+    display_parsing_status: checked_against_original_citation
+    presenter_status: needs_confirmation
+    display_names_not_identity_verified: true
+  display_order: 40
+  display:
+    authors:
+    - name: 平野 知之
+      highlight: true
+    - name: 鳴井 遼介
+      highlight: false
+    - name: 堤 裕司
+      highlight: false
+    - name: 岸 美保
+      highlight: false
+    - name: 吉川 裕亮
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+    presenter_position: null
+    presenter_evidence: unconfirmed
+    title_html: 固体高分子形燃料電池用 IrO<sub>2</sub>/TiO<sub>2</sub>担体の開発
+    conference: 化学工学会第88年会
+    location: 東京
+    dates:
+      text: 2023年3月15日－17日
+      start: '2023-03-15'
+      end: '2023-03-17'
+      kind: range
+      source_text: 2023年3月15–17日
+      precision: conference_dates_as_recorded
+    annotations: []

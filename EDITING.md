@@ -9,7 +9,7 @@
 | Home | `index.md` |
 | About | `about.md` |
 | Publications | `publications.md` |
-| Presentations | `presentations.md` |
+| Presentations | `_data/presentations/YYYY.yml` |
 | Grants | `supports-grants.md` |
 | Award | `award.md` |
 | Research | `information.md` |
@@ -43,11 +43,20 @@
 
 ## Presentationsを追加する
 
-`presentations.md` のリスト先頭に次のように追記します。
+発表一覧は `_data/presentations/YYYY.yml` のデータから自動生成されます。
+`presentations.md` は表示用なので，そこへ別の一覧を追記しないでください。
 
-```markdown
-1. 著者名，発表題目，学会名，開催地，日付
-```
+既存レコードの `display` を編集すると表示に反映されます。
+`display.authors` は著者順，`display.presenter_position` は発表者の位置（1から）です。
+発表者が未確認なら `null` にします。筆頭著者から推測しないでください。
+`highlight: true` は平野知之の太字・下線に使います。
+`display.title_html` は題目，`conference` は学会名，`location` は開催地，
+`dates.text` は表示日付です。日付変更時は `dates.start` と `dates.end` も揃えます。
+`annotations` は元データで確認できた招待・受賞の注記です。
+
+新規項目は重複しない `id` を付け，`display_order` で掲載順を指定します。
+`raw_citation_html` と `citation_text` は旧記載の保存用です。通常は変更しません。
+詳しくは `_data/README.md` の Presentation display format を参照してください。
 
 ## Grantsを追加する
 

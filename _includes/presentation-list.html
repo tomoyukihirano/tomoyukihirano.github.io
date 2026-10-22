@@ -1,0 +1,11 @@
+{%- assign presentations = "" | split: "" -%}
+{%- for year_data in site.data.presentations -%}
+  {%- assign presentations = presentations | concat: year_data[1].records -%}
+{%- endfor -%}
+{%- assign presentations = presentations | sort: "display_order" -%}
+<ol reversed class="wp-block-list">
+{%- for item in presentations -%}
+  {%- assign d = item.display -%}
+<li id="{{ item.id }}">{%- for author in d.authors -%}{%- unless forloop.first -%}，{%- endunless -%}{%- if author.highlight -%}<strong><u>{%- endif -%}{%- if d.presenter_position == forloop.index -%}〇{%- endif -%}{{ author.name | escape }}{%- if author.highlight -%}</u></strong>{%- endif -%}{%- endfor -%}，{{ d.title_html }}，{{ d.conference | escape }}{%- if d.location -%}，{{ d.location | escape }}{%- endif -%}，{{ d.dates.text | escape }}{%- for annotation in d.annotations %} <strong>【{{ annotation | escape }}】</strong>{%- endfor -%}</li>
+{%- endfor -%}
+</ol>
