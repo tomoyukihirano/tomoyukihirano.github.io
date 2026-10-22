@@ -96,7 +96,7 @@ records:
 - {id: takeo-kitamura, name: Takeo Kitamura, first_name: Takeo, last_name: Kitamura}
 - {id: tareq-w-m-amen, name: Tareq W.M. Amen, first_name: Tareq W.M., last_name: Amen}
 - {id: tetsutaro-hayashi, name: Tetsutaro Hayashi, first_name: Tetsutaro, last_name: Hayashi}
-- {"id": "thi-thanh-nguyen-ho", "name": "Thi Thanh Nguyen Ho", "first_name": "Thi Thanh Nguyen", "last_name": "Ho", "aliases": ["Thi Tanh Nguyen Ho"], "legacy_ids": ["thi-tanh-nguyen-ho"], "identity_confirmed_on": "2026-10-22"}
+- {"id": "thi-thanh-nguyen-ho", "name": "Thi Thanh Nguyen Ho", "first_name": "Thi Thanh Nguyen", "last_name": "Ho", "aliases": ["Thi Tanh Nguyen Ho", "Ho Thi Thang Nguyen"], "legacy_ids": ["thi-tanh-nguyen-ho"], "identity_confirmed_on": "2026-10-22"}
 - {id: tomoyuki-hirano, name: Tomoyuki Hirano, first_name: Tomoyuki, last_name: Hirano}
 - {id: toshiyuki-onishi, name: Toshiyuki Onishi, first_name: Toshiyuki, last_name: Onishi}
 - {id: tue-tri-nguyen, name: Tue Tri Nguyen, first_name: Tue Tri, last_name: Nguyen}
