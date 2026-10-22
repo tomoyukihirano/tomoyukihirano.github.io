@@ -14,8 +14,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 63
   display:
     authors:
@@ -25,8 +26,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Pt/Nb-SnO<sub>2</sub>ナノ粒子の気相燃焼合成
     conference: 第38回エアロゾル科学・技術研究討論会
     location: オンライン開催
@@ -58,8 +59,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 64
   display:
     authors:
@@ -69,8 +71,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎噴霧法によるサブミクロンサイズの球形YAG:Ce粒子の合成と蛍光特性評価
     conference: 第38回エアロゾル科学・技術研究討論会
     location: オンライン開催
@@ -94,8 +96,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 65
   display:
     authors:
@@ -105,8 +108,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: エアロゾルプロセスによるZnO-TiO<sub>2</sub>複合粒子の合成と耐酸特性評価
     conference: 第38回エアロゾル科学・技術研究討論会
     location: オンライン開催
@@ -130,15 +133,16 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 66
   display:
     authors:
     - name: 平野 知之
       highlight: true
     presenter_position: 1
-    presenter_evidence: source_circle_marker
+    presenter_evidence: owner_confirmed_first_author
     title_html: エアロゾル技術と管状火炎のハイブリッド化で目指す革新的ナノ材料創製プロセス
     conference: 第38回エアロゾル科学・技術研究討論会
     location: オンライン開催
@@ -163,8 +167,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 69
   display:
     authors:
@@ -174,8 +179,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 管状火炎を用いた金属タングステンナノ粒子の合成
     conference: 化学工学会 広島大会2020
     location: null
@@ -208,8 +213,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 70
   display:
     authors:
@@ -219,8 +225,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎噴霧法によるサブミクロンオーダーでの球形YAG:Ce粒子の合成とその蛍光特性評価
     conference: 化学工学会 広島大会2020
     location: null
@@ -253,8 +259,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 71
   display:
     authors:
@@ -267,7 +274,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
+    presenter_evidence: owner_confirmed_first_author
     title_html: 金属タングステンナノ粒子の管状火炎合成
     conference: 第58回燃焼シンポジウム
     location: オンライン開催
@@ -299,19 +306,20 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 72
   display:
     authors:
-    - name: 鬼頭 祐輔
+    - name: 鬼頭 佑輔
       highlight: false
     - name: 平野 知之
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎噴霧法による粒子径を制御した球形YAG:Ce 粒子の合成
     conference: 第58回燃焼シンポジウム
     location: オンライン開催
@@ -343,8 +351,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 73
   display:
     authors:
@@ -354,8 +363,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎噴霧法によるYAG:Ce粒子の形状および構造制御
     conference: 化学工学会第51回秋季大会
     location: オンライン開催
@@ -379,8 +388,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 74
   display:
     authors:
@@ -390,8 +400,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 管状火炎による金属微粒子合成
     conference: 化学工学会第51回秋季大会
     location: オンライン開催
@@ -415,8 +425,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 75
   display:
     authors:
@@ -425,7 +436,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
+    presenter_evidence: owner_confirmed_first_author
     title_html: 直接噴霧型管状火炎を用いたナノ構造化微粒子の合成
     conference: 化学工学会第51回秋季大会
     location: オンライン開催
@@ -449,8 +460,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 76
   display:
     authors:
@@ -461,7 +473,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
+    presenter_evidence: owner_confirmed_first_author
     title_html: 管状火炎内部の還元ガス領域を利用した金属タングステンナノ粒子の合成
     conference: 第37回エアロゾル科学・技術研究討論会
     location: オンライン開催
@@ -493,8 +505,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 77
   display:
     authors:
@@ -504,8 +517,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎噴霧法によるマクロポーラス構造を持つ球形YAG:Ce蛍光体粒子の合成
     conference: 第22回化学工学会学生発表会
     location: 岡山

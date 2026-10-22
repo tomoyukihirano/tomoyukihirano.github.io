@@ -48,7 +48,9 @@
 
 既存レコードの `display` を編集すると表示に反映されます。
 `display.authors` は著者順，`display.presenter_position` は発表者の位置（1から）です。
-発表者が未確認なら `null` にします。筆頭著者から推測しないでください。
+既存91件は，全件で先頭著者が発表者と確認済みのため，`presenter_position: 1` です。
+発表者情報は提出用一覧の抽出に使いますが，ホームページには発表者記号を表示しません。
+新規追加分は発表者を個別に確認し，未確認なら `null` にします。
 `highlight: true` は平野知之の太字・下線に使います。
 `display.title_html` は題目，`conference` は学会名，`location` は開催地，
 `dates.text` は表示日付です。日付変更時は `dates.start` と `dates.end` も揃えます。

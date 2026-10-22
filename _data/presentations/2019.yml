@@ -6,20 +6,21 @@ records:
   type: presentation
   year: 2019
   source_order: 77
-  raw_citation_html: 'Jun Kikkawa, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>,
-    Takashi Ogi, A Newly Developed Nanoparticles Processing using Tubular Flame Reactor, National Central University
-    – Hiroshima University Joint Symposium on Materials Chemistry and Physics, Taiwan, ROC, November 1, 2019.'
-  citation_text: Jun Kikkawa, Tomoyuki Hirano, Takashi Ogi, A Newly Developed Nanoparticles Processing using Tubular
-    Flame Reactor, National Central University – Hiroshima University Joint Symposium on Materials Chemistry and
-    Physics, Taiwan, ROC, November 1, 2019.
+  raw_citation_html: 'Jun Kikkawa, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi
+    Ogi, A Newly Developed Nanoparticles Processing using Tubular Flame Reactor, National Central University – Hiroshima University
+    Joint Symposium on Materials Chemistry and Physics, Taiwan, ROC, November 1, 2019.'
+  citation_text: Jun Kikkawa, Tomoyuki Hirano, Takashi Ogi, A Newly Developed Nanoparticles Processing using Tubular Flame
+    Reactor, National Central University – Hiroshima University Joint Symposium on Materials Chemistry and Physics, Taiwan,
+    ROC, November 1, 2019.
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 78
   display:
     authors:
@@ -29,8 +30,8 @@ records:
       highlight: true
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: A Newly Developed Nanoparticles Processing using Tubular Flame Reactor
     conference: National Central University – Hiroshima University Joint Symposium on Materials Chemistry and Physics
     location: Taiwan，ROC
@@ -55,8 +56,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 79
   display:
     authors:
@@ -67,7 +69,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
+    presenter_evidence: owner_confirmed_first_author
     title_html: 管状火炎燃焼を利用した微粒子合成技術の開発
     conference: 第36回 エアロゾル科学・技術研究討論会
     location: 広島
@@ -83,23 +85,24 @@ records:
   type: presentation
   year: 2019
   source_order: 79
-  raw_citation_html: '<strong><span style="text-decoration: underline;">◯Tomoyuki Hirano</span></strong> and Takashi
-    Ogi, Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared shielding
-    applications, Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International
-    Network on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate
-    Laboratory, Hiroshima, July 16, 2019.'
-  citation_text: ◯Tomoyuki Hirano and Takashi Ogi, Evaluation of cesium doped tungsten oxide nanoparticles made
-    in diffusion flames for near-infrared shielding applications, Young Researcher Seminar of EPSRC-JSPS Core-to-Core
-    Collaboration in Advanced Materials International Network on Polyoxometalate Science for Advanced Energy Materials
-    and NANOXCAT French-Japan International Associate Laboratory, Hiroshima, July 16, 2019.
+  raw_citation_html: '<strong><span style="text-decoration: underline;">◯Tomoyuki Hirano</span></strong> and Takashi Ogi,
+    Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared shielding applications,
+    Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International Network on Polyoxometalate
+    Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate Laboratory, Hiroshima, July 16,
+    2019.'
+  citation_text: ◯Tomoyuki Hirano and Takashi Ogi, Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion
+    flames for near-infrared shielding applications, Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in
+    Advanced Materials International Network on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan
+    International Associate Laboratory, Hiroshima, July 16, 2019.
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 80
   display:
     authors:
@@ -108,12 +111,11 @@ records:
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
-    title_html: Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared
-      shielding applications
-    conference: Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International
-      Network on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate
-      Laboratory
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared shielding
+      applications
+    conference: Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International Network
+      on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate Laboratory
     location: Hiroshima
     dates:
       text: 2019年7月16日
@@ -127,20 +129,19 @@ records:
   type: presentation
   year: 2019
   source_order: 80
-  raw_citation_html: '<strong><span style="text-decoration: underline;">◯Tomoyuki Hirano</span></strong>, Shuhei
-    Nakakura, Takashi Ogi: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame
-    Aerosol Reactor for Near-infrared Shielding Applications, Asian Aerosol Conference 2019, Hong Kong, May 27-30,
-    2019.'
-  citation_text: '◯Tomoyuki Hirano, Shuhei Nakakura, Takashi Ogi: Rapid and Energy Effective Production of Cs Doped
-    Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor for Near-infrared Shielding Applications, Asian Aerosol
-    Conference 2019, Hong Kong, May 27-30, 2019.'
+  raw_citation_html: '<strong><span style="text-decoration: underline;">◯Tomoyuki Hirano</span></strong>, Shuhei Nakakura,
+    Takashi Ogi: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor
+    for Near-infrared Shielding Applications, Asian Aerosol Conference 2019, Hong Kong, May 27-30, 2019.'
+  citation_text: '◯Tomoyuki Hirano, Shuhei Nakakura, Takashi Ogi: Rapid and Energy Effective Production of Cs Doped Tungsten
+    Oxide Nanoparticles in a Flame Aerosol Reactor for Near-infrared Shielding Applications, Asian Aerosol Conference 2019,
+    Hong Kong, May 27-30, 2019.'
   authors_raw:
   - Tomoyuki Hirano
   - Shuhei Nakakura
   - Takashi Ogi
   presenter_raw: Tomoyuki Hirano
-  title_raw: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor
-    for Near-infrared Shielding Applications
+  title_raw: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor for
+    Near-infrared Shielding Applications
   details_raw: Asian Aerosol Conference 2019, Hong Kong, May 27-30, 2019.
   classification:
     invited: false
@@ -148,8 +149,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 81
   display:
     authors:
@@ -160,9 +162,9 @@ records:
     - name: Takashi Ogi
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
-    title_html: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol
-      Reactor for Near-infrared Shielding Applications
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor
+      for Near-infrared Shielding Applications
     conference: Asian Aerosol Conference 2019
     location: Hong Kong
     dates:
@@ -186,8 +188,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 82
   display:
     authors:
@@ -197,8 +200,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 管状火炎を用いたナノ粒子合成
     conference: 2019年度 粉体工学会 春期研究発表会
     location: 東京

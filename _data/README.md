@@ -67,9 +67,14 @@ The presentation page is generated from `_data/presentations/YYYY.yml` through
 The display order is authors, title, conference, location, date, separated by `，`.
 Dates use `YYYY年M月D日－D日` (or both months when needed). English titles and author
 names are not translated. Chemical subscripts/superscripts from source HTML are preserved.
-Tomoyuki Hirano's name is bold and underlined; `〇` identifies an evidenced presenter.
-`display.presenter_position` is 1-based or null. Never infer it solely from author order.
-The older auto-parsed `presenter_raw` is NOT confirmed evidence.
+Tomoyuki Hirano's name is bold and underlined. No presenter symbol is displayed.
+The owner confirmed on 2026-10-22 that all 91 existing presentations were given by
+the first author. Their `display.presenter_position` is 1 and `presenter_evidence`
+is `owner_confirmed_first_author`. The presenter remains queryable for reports
+even though the website does not print a symbol. This confirmation applies to
+the existing records; explicitly verify the presenter of each future addition.
+The older auto-parsed `presenter_raw` is retained only as imported source text;
+use `display.authors[display.presenter_position - 1]` for the confirmed presenter.
 `display.dates` describes recorded conference dates, not a verified individual talk date.
 Original citation fields remain immutable except for the owner-approved split of pres-0072.
 That original combined record is preserved in `source_before_split`; the new second record
@@ -77,3 +82,12 @@ is pres-0091. Existing IDs are never renumbered. `display_order` controls view o
 The `display` fields are the structured citation used by the template. `title_html` permits
 only sub/sup markup; all other display text is HTML-escaped by the template.
 Unconfirmed name variants, conference editions and presenter identities require review.
+
+## Confirmed Japanese names (2026-10-22)
+
+The owner confirmed 鬼頭 佑輔 / 鬼頭 祐輔 as the same person,
+with canonical Japanese name 鬼頭 佑輔 (yusuke-kitou).
+The owner confirmed 渡邊 真衣 / 渡邉 麻衣 as the same person,
+with canonical Japanese name 渡邊 真衣 (mai-watanabe).
+These public Japanese names and alternate forms are stored in the people dictionary.
+Only structured presentation display names are normalized; raw citations are unchanged.

@@ -6,26 +6,27 @@ records:
   type: presentation
   year: 2023
   source_order: 28
-  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Advances
-    in the Fabrication of Nanostructured Materials for Potential Applications, Scientific Seminar, Ho Chi Minh,
-    Vietnam, December 5, 2023. <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【Invited】</mark></strong>'
-  citation_text: Tomoyuki Hirano, Advances in the Fabrication of Nanostructured Materials for Potential Applications,
-    Scientific Seminar, Ho Chi Minh, Vietnam, December 5, 2023. 【Invited】
+  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Advances in the Fabrication
+    of Nanostructured Materials for Potential Applications, Scientific Seminar, Ho Chi Minh, Vietnam, December 5, 2023. <strong><mark
+    style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【Invited】</mark></strong>'
+  citation_text: Tomoyuki Hirano, Advances in the Fabrication of Nanostructured Materials for Potential Applications, Scientific
+    Seminar, Ho Chi Minh, Vietnam, December 5, 2023. 【Invited】
   classification:
     invited: true
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 29
   display:
     authors:
     - name: Tomoyuki Hirano
       highlight: true
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Advances in the Fabrication of Nanostructured Materials for Potential Applications
     conference: Scientific Seminar
     location: Ho Chi Minh，Vietnam
@@ -51,8 +52,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 30
   display:
     authors:
@@ -70,8 +72,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: セルロースナノファイバー構成微粒子の架橋剤による耐水性の向上
     conference: 粉体工学会2023年度秋期研究発表会
     location: 大阪
@@ -96,8 +98,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 31
   display:
     authors:
@@ -111,8 +114,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 三元触媒ナノ粒子のポーラス構造化と触媒性能評価
     conference: 粉体工学会2023年度秋期研究発表会
     location: 大阪
@@ -128,8 +131,7 @@ records:
   type: presentation
   year: 2023
   source_order: 31
-  raw_citation_html: '房谷 航大，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，水谷 和揮，加藤 貴久，荻
-    崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
+  raw_citation_html: '房谷 航大，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，水谷 和揮，加藤 貴久，荻 崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
   citation_text: 房谷 航大，平野 知之，水谷 和揮，加藤 貴久，荻 崇，火炎法による組成を制御した球状ガラス粒子の合成，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
@@ -137,8 +139,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 32
   display:
     authors:
@@ -152,8 +155,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法による組成を制御した球状ガラス粒子の合成
     conference: 粉体工学会2023年度秋期研究発表会
     location: 大阪
@@ -169,8 +172,8 @@ records:
   type: presentation
   year: 2023
   source_order: 32
-  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh
-    Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO<sub>2</sub>粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh Nguyen，堤
+    裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO<sub>2</sub>粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日'
   citation_text: 鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIr/TiO2粒子の合成と固体高分子形燃料電池への応用，粉体工学会2023年度秋期研究発表会，大阪，2023年10月10-11日
   classification:
     invited: false
@@ -178,8 +181,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 33
   display:
     authors:
@@ -197,8 +201,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法によるIr/TiO<sub>2</sub>粒子の合成と固体高分子形燃料電池への応用
     conference: 粉体工学会2023年度秋期研究発表会
     location: 大阪
@@ -223,8 +227,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 34
   display:
     authors:
@@ -238,8 +243,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 三元触媒ナノ粒子のポーラス構造化と触媒性能評価
     conference: 化学工学会第54回秋季大会
     location: 福岡
@@ -255,8 +260,8 @@ records:
   type: presentation
   year: 2023
   source_order: 34
-  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh
-    Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO<sub>2</sub>/TiO<sub>2</sub>担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日'
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh Nguyen，堤
+    裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO<sub>2</sub>/TiO<sub>2</sub>担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日'
   citation_text: 鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，Ir-IrO2/TiO2担体を用いた燃料電池用触媒の開発と高電位耐久性評価，化学工学会第54回秋季大会，福岡，2023年9月11-13日
   classification:
     invited: false
@@ -264,8 +269,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 35
   display:
     authors:
@@ -283,8 +289,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Ir-IrO<sub>2</sub>/TiO<sub>2</sub>担体を用いた燃料電池用触媒の開発と高電位耐久性評価
     conference: 化学工学会第54回秋季大会
     location: 福岡
@@ -308,8 +314,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 36
   display:
     authors:
@@ -317,8 +324,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法によるZnO@TiO<sub>2</sub>コアシェル粒子の合成と耐酸性評価
     conference: 化学工学会第54回秋季大会
     location: 福岡
@@ -334,8 +341,8 @@ records:
   type: presentation
   year: 2023
   source_order: 36
-  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh
-    Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日'
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，Ho Thi Thanh Nguyen，堤
+    裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日'
   citation_text: 鳴井 遼介，平野 知之，Ho Thi Thanh Nguyen，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法による燃料電池用触媒担体IrOx/TiO2粒子の合成と発電特性評価，第40回エアロゾル科学・技術研究討論会，群馬，2023年8月29–31日
   classification:
     invited: false
@@ -343,8 +350,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 37
   display:
     authors:
@@ -362,8 +370,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法による燃料電池用触媒担体IrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電特性評価
     conference: 第40回エアロゾル科学・技術研究討論会
     location: 群馬
@@ -380,19 +388,19 @@ records:
   year: 2023
   source_order: 37
   raw_citation_html: 'Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, <strong><span style="text-decoration: underline;">Tomoyuki
-    Hirano</span></strong>, Takashi Ogi, Enhancement of Gas Diffusion by Appending Interconnected Macropores Network
-    in Three-way Catalyst Particles via Spray Process, 化学工学会第88年会, 東京, 2023年3月15–17日'
-  citation_text: Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, Tomoyuki Hirano, Takashi Ogi, Enhancement of
-    Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst Particles via Spray Process,
-    化学工学会第88年会, 東京, 2023年3月15–17日
+    Hirano</span></strong>, Takashi Ogi, Enhancement of Gas Diffusion by Appending Interconnected Macropores Network in Three-way
+    Catalyst Particles via Spray Process, 化学工学会第88年会, 東京, 2023年3月15–17日'
+  citation_text: Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, Tomoyuki Hirano, Takashi Ogi, Enhancement of Gas Diffusion
+    by Appending Interconnected Macropores Network in Three-way Catalyst Particles via Spray Process, 化学工学会第88年会, 東京, 2023年3月15–17日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 38
   display:
     authors:
@@ -406,10 +414,10 @@ records:
       highlight: true
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: Enhancement of Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst
-      Particles via Spray Process
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Enhancement of Gas Diffusion by Appending Interconnected Macropores Network in Three-way Catalyst Particles
+      via Spray Process
     conference: 化学工学会第88年会
     location: 東京
     dates:
@@ -433,15 +441,16 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 39
   display:
     authors:
     - name: 平野 知之
       highlight: true
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 気相燃焼合成法による微粒子材料の高機能化デザイン
     conference: 化学工学会第88年会
     location: 東京
@@ -458,8 +467,8 @@ records:
   type: presentation
   year: 2023
   source_order: 39
-  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，鳴井 遼介，堤 裕司，岸 美保，吉川
-    裕亮，荻 崇，固体高分子形燃料電池用 IrO<sub>2</sub>/TiO<sub>2</sub>担体の開発，化学工学会第88年会，東京，2023年3月15–17日'
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，鳴井 遼介，堤 裕司，岸 美保，吉川 裕亮，荻 崇，固体高分子形燃料電池用
+    IrO<sub>2</sub>/TiO<sub>2</sub>担体の開発，化学工学会第88年会，東京，2023年3月15–17日'
   citation_text: 平野 知之，鳴井 遼介，堤 裕司，岸 美保，吉川 裕亮，荻 崇，固体高分子形燃料電池用 IrO2/TiO2担体の開発，化学工学会第88年会，東京，2023年3月15–17日
   classification:
     invited: false
@@ -467,8 +476,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 40
   display:
     authors:
@@ -484,8 +494,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 固体高分子形燃料電池用 IrO<sub>2</sub>/TiO<sub>2</sub>担体の開発
     conference: 化学工学会第88年会
     location: 東京

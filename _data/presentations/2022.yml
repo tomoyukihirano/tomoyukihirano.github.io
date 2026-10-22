@@ -14,8 +14,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 41
   display:
     authors:
@@ -25,8 +26,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: マルチコア-シェル構造を有するZnO-TiO<sub>2</sub>粒子の合成と特性評価
     conference: 粉体工学会2022年度秋期研究発表会
     location: 東京
@@ -42,8 +43,7 @@ records:
   type: presentation
   year: 2022
   source_order: 41
-  raw_citation_html: '坪井 隆真, <strong><span style="text-decoration: underline;">平野 知之</span></strong>, 高野 葵, 片岡 幹裕,
-    荻 崇，Nb-SnO<sub>2</sub>ナノ粒子の火炎合成と発電性能評価，粉体工学会2022年度秋期研究発表会，東京，2022年12月6–7日'
+  raw_citation_html: '坪井 隆真, <strong><span style="text-decoration: underline;">平野 知之</span></strong>, 高野 葵, 片岡 幹裕, 荻 崇，Nb-SnO<sub>2</sub>ナノ粒子の火炎合成と発電性能評価，粉体工学会2022年度秋期研究発表会，東京，2022年12月6–7日'
   citation_text: 坪井 隆真, 平野 知之, 高野 葵, 片岡 幹裕, 荻 崇，Nb-SnO2ナノ粒子の火炎合成と発電性能評価，粉体工学会2022年度秋期研究発表会，東京，2022年12月6–7日
   classification:
     invited: false
@@ -51,8 +51,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 42
   display:
     authors:
@@ -66,8 +67,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Nb-SnO<sub>2</sub>ナノ粒子の火炎合成と発電性能評価
     conference: 粉体工学会2022年度秋期研究発表会
     location: 東京
@@ -83,8 +84,7 @@ records:
   type: presentation
   year: 2022
   source_order: 42
-  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，堤 裕司，岸 美保，吉川
-    裕亮，荻 崇，火炎法によるIrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電性能評価，粉体工学会2022年度秋期研究発表会，東京，2022年12月6–7日'
+  raw_citation_html: '鳴井 遼介，<strong><span style="text-decoration: underline;">平野 知之</span></strong>，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電性能評価，粉体工学会2022年度秋期研究発表会，東京，2022年12月6–7日'
   citation_text: 鳴井 遼介，平野 知之，堤 裕司，岸 美保，吉川 裕亮，荻 崇，火炎法によるIrOx/TiO2粒子の合成と発電性能評価，粉体工学会2022年度秋期研究発表会，東京，2022年12月6–7日
   classification:
     invited: false
@@ -92,8 +92,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 43
   display:
     authors:
@@ -109,8 +110,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法によるIrO<sub>x</sub>/TiO<sub>2</sub>粒子の合成と発電性能評価
     conference: 粉体工学会2022年度秋期研究発表会
     location: 東京
@@ -126,8 +127,7 @@ records:
   type: presentation
   year: 2022
   source_order: 43
-  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，鳴井 遼介，門脇 範人，一宮 聖，荻
-    崇，エネルギー物質を添加した原料溶液を用いた管状火炎法によるアルミナ微粒子の合成，火薬学会2022年度秋季研究発表会，熊本，2022年11月10–11日'
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>，鳴井 遼介，門脇 範人，一宮 聖，荻 崇，エネルギー物質を添加した原料溶液を用いた管状火炎法によるアルミナ微粒子の合成，火薬学会2022年度秋季研究発表会，熊本，2022年11月10–11日'
   citation_text: 平野 知之，鳴井 遼介，門脇 範人，一宮 聖，荻 崇，エネルギー物質を添加した原料溶液を用いた管状火炎法によるアルミナ微粒子の合成，火薬学会2022年度秋季研究発表会，熊本，2022年11月10–11日
   classification:
     invited: false
@@ -135,8 +135,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 44
   display:
     authors:
@@ -150,8 +151,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: エネルギー物質を添加した原料溶液を用いた管状火炎法によるアルミナ微粒子の合成
     conference: 火薬学会2022年度秋季研究発表会
     location: 熊本
@@ -167,20 +168,20 @@ records:
   type: presentation
   year: 2022
   source_order: 44
-  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Shogo Kaseda,
-    Kiet Le Anh Cao and Takashi Ogi, Protection of ZnO nanoparticles against acid corrosion by TiO<sub>2</sub> coatings,
-    9th World Congress on Particle Technology, Madrid, Spain, September 18–22, 2022.'
-  citation_text: Tomoyuki Hirano, Shogo Kaseda, Kiet Le Anh Cao and Takashi Ogi, Protection of ZnO nanoparticles
-    against acid corrosion by TiO2 coatings, 9th World Congress on Particle Technology, Madrid, Spain, September
-    18–22, 2022.
+  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Shogo Kaseda, Kiet
+    Le Anh Cao and Takashi Ogi, Protection of ZnO nanoparticles against acid corrosion by TiO<sub>2</sub> coatings, 9th World
+    Congress on Particle Technology, Madrid, Spain, September 18–22, 2022.'
+  citation_text: Tomoyuki Hirano, Shogo Kaseda, Kiet Le Anh Cao and Takashi Ogi, Protection of ZnO nanoparticles against acid
+    corrosion by TiO2 coatings, 9th World Congress on Particle Technology, Madrid, Spain, September 18–22, 2022.
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 45
   display:
     authors:
@@ -192,8 +193,8 @@ records:
       highlight: false
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Protection of ZnO nanoparticles against acid corrosion by TiO<sub>2</sub> coatings
     conference: 9th World Congress on Particle Technology
     location: Madrid，Spain
@@ -211,16 +212,17 @@ records:
   source_order: 45
   raw_citation_html: '山下 俊輝, Septiani Eka Lutfi, <strong><span style="text-decoration: underline;">平野 知之</span></strong>,
     奥田 修弘, 松元 裕之, 榎戸 靖, 荻 崇, 噴霧熱分解法によるサブミクロンサイズのシリカコートFeNi粒子の合成, 化学工学会第53回秋季大会, 長野, 2022年9月14-16日'
-  citation_text: 山下 俊輝, Septiani Eka Lutfi, 平野 知之, 奥田 修弘, 松元 裕之, 榎戸 靖, 荻 崇, 噴霧熱分解法によるサブミクロンサイズのシリカコートFeNi粒子の合成,
-    化学工学会第53回秋季大会, 長野, 2022年9月14-16日
+  citation_text: 山下 俊輝, Septiani Eka Lutfi, 平野 知之, 奥田 修弘, 松元 裕之, 榎戸 靖, 荻 崇, 噴霧熱分解法によるサブミクロンサイズのシリカコートFeNi粒子の合成, 化学工学会第53回秋季大会,
+    長野, 2022年9月14-16日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 46
   display:
     authors:
@@ -238,8 +240,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 噴霧熱分解法によるサブミクロンサイズのシリカコートFeNi粒子の合成
     conference: 化学工学会第53回秋季大会
     location: 長野
@@ -255,18 +257,18 @@ records:
   type: presentation
   year: 2022
   source_order: 46
-  raw_citation_html: '北本 泰彦, Phong Hoai Le, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">平野
-    知之</span></strong>, 荻 崇, 噴霧熱分解法によるポーラス触媒粒子の合成と三次元構造解析, 化学工学会第53回秋季大会, 長野, 2022年9月14-16日'
-  citation_text: 北本 泰彦, Phong Hoai Le, Kiet Le Anh Cao, 平野 知之, 荻 崇, 噴霧熱分解法によるポーラス触媒粒子の合成と三次元構造解析, 化学工学会第53回秋季大会,
-    長野, 2022年9月14-16日
+  raw_citation_html: '北本 泰彦, Phong Hoai Le, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">平野 知之</span></strong>,
+    荻 崇, 噴霧熱分解法によるポーラス触媒粒子の合成と三次元構造解析, 化学工学会第53回秋季大会, 長野, 2022年9月14-16日'
+  citation_text: 北本 泰彦, Phong Hoai Le, Kiet Le Anh Cao, 平野 知之, 荻 崇, 噴霧熱分解法によるポーラス触媒粒子の合成と三次元構造解析, 化学工学会第53回秋季大会, 長野, 2022年9月14-16日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 47
   display:
     authors:
@@ -280,8 +282,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 噴霧熱分解法によるポーラス触媒粒子の合成と三次元構造解析
     conference: 化学工学会第53回秋季大会
     location: 長野
@@ -298,19 +300,19 @@ records:
   year: 2022
   source_order: 47
   raw_citation_html: 'Tue Tri Nguyen, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">平野 知之</span></strong>,
-    荻 崇, Preparation of Macroporous Pectin Particles with High Specific Surface Areas and Interconnected Pore Networks
-    for Enhancement of Protein Adsorption Capacity, 粉体工学会第56回技術討論会, 京都, 2022年9月1–2日'
-  citation_text: Tue Tri Nguyen, Kiet Le Anh Cao, 平野 知之, 荻 崇, Preparation of Macroporous Pectin Particles with High
-    Specific Surface Areas and Interconnected Pore Networks for Enhancement of Protein Adsorption Capacity, 粉体工学会第56回技術討論会,
-    京都, 2022年9月1–2日
+    荻 崇, Preparation of Macroporous Pectin Particles with High Specific Surface Areas and Interconnected Pore Networks for
+    Enhancement of Protein Adsorption Capacity, 粉体工学会第56回技術討論会, 京都, 2022年9月1–2日'
+  citation_text: Tue Tri Nguyen, Kiet Le Anh Cao, 平野 知之, 荻 崇, Preparation of Macroporous Pectin Particles with High Specific
+    Surface Areas and Interconnected Pore Networks for Enhancement of Protein Adsorption Capacity, 粉体工学会第56回技術討論会, 京都, 2022年9月1–2日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 48
   display:
     authors:
@@ -322,10 +324,10 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: Preparation of Macroporous Pectin Particles with High Specific Surface Areas and Interconnected
-      Pore Networks for Enhancement of Protein Adsorption Capacity
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Preparation of Macroporous Pectin Particles with High Specific Surface Areas and Interconnected Pore Networks
+      for Enhancement of Protein Adsorption Capacity
     conference: 粉体工学会第56回技術討論会
     location: 京都
     dates:
@@ -343,16 +345,17 @@ records:
   raw_citation_html: 'Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, Kiet Le Anh Cao, <strong><span style="text-decoration:
     underline;">平野 知之</span></strong>, 高橋 克夫, 後居 洋介, 森田 祐子, 渡邉 麻衣, 荻 崇, 有機溶媒を用いた噴霧乾燥によるセルロースナノファイバーの微粒子化, 粉体工学会第56回技術討論会,
     京都, 2022年9月1–2日'
-  citation_text: Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, Kiet Le Anh Cao, 平野 知之, 高橋 克夫, 後居 洋介, 森田 祐子,
-    渡邉 麻衣, 荻 崇, 有機溶媒を用いた噴霧乾燥によるセルロースナノファイバーの微粒子化, 粉体工学会第56回技術討論会, 京都, 2022年9月1–2日
+  citation_text: Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, Kiet Le Anh Cao, 平野 知之, 高橋 克夫, 後居 洋介, 森田 祐子, 渡邉 麻衣, 荻
+    崇, 有機溶媒を用いた噴霧乾燥によるセルロースナノファイバーの微粒子化, 粉体工学会第56回技術討論会, 京都, 2022年9月1–2日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 49
   display:
     authors:
@@ -370,12 +373,12 @@ records:
       highlight: false
     - name: 森田 祐子
       highlight: false
-    - name: 渡邉 麻衣
+    - name: 渡邊 真衣
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 有機溶媒を用いた噴霧乾燥によるセルロースナノファイバーの微粒子化
     conference: 粉体工学会第56回技術討論会
     location: 京都
@@ -391,22 +394,22 @@ records:
   type: presentation
   year: 2022
   source_order: 49
-  raw_citation_html: 'Eka Lutfi Septiani, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki
-    Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, and Takashi Ogi, Investigation
-    of densified spherical and submicron-sized FeNi particles on their magnetic characteristic, 19th Asian pacific
-    Confederation of Chemical Engineering (APCChE) 2022, Kuala Lumpur, Malaysia, August 9–12, 2022.'
-  citation_text: Eka Lutfi Septiani, Kiet Le Anh Cao, Tomoyuki Hirano, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi
-    Enokido, and Takashi Ogi, Investigation of densified spherical and submicron-sized FeNi particles on their magnetic
-    characteristic, 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022, Kuala Lumpur, Malaysia,
-    August 9–12, 2022.
+  raw_citation_html: 'Eka Lutfi Septiani, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>,
+    Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, and Takashi Ogi, Investigation of densified spherical and submicron-sized
+    FeNi particles on their magnetic characteristic, 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022,
+    Kuala Lumpur, Malaysia, August 9–12, 2022.'
+  citation_text: Eka Lutfi Septiani, Kiet Le Anh Cao, Tomoyuki Hirano, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido,
+    and Takashi Ogi, Investigation of densified spherical and submicron-sized FeNi particles on their magnetic characteristic,
+    19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022, Kuala Lumpur, Malaysia, August 9–12, 2022.
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 50
   display:
     authors:
@@ -424,8 +427,8 @@ records:
       highlight: false
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Investigation of densified spherical and submicron-sized FeNi particles on their magnetic characteristic
     conference: 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022
     location: Kuala Lumpur，Malaysia
@@ -441,22 +444,22 @@ records:
   type: presentation
   year: 2022
   source_order: 50
-  raw_citation_html: 'Tue Tri Nguyen, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki
-    Hirano</span></strong>, and Takashi Ogi, Preparation of Macroporous Pectin Particles with High Specific Surface
-    Area and Interconnected Pore Networks for Enhancement of protein Adsorption Capacity, 19th Asian pacific Confederation
-    of Chemical Engineering (APCChE) 2022, Kuala Lumpur, Malaysia, August 9–12, 2022.'
-  citation_text: Tue Tri Nguyen, Kiet Le Anh Cao, Tomoyuki Hirano, and Takashi Ogi, Preparation of Macroporous Pectin
-    Particles with High Specific Surface Area and Interconnected Pore Networks for Enhancement of protein Adsorption
-    Capacity, 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022, Kuala Lumpur, Malaysia, August
-    9–12, 2022.
+  raw_citation_html: 'Tue Tri Nguyen, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>,
+    and Takashi Ogi, Preparation of Macroporous Pectin Particles with High Specific Surface Area and Interconnected Pore Networks
+    for Enhancement of protein Adsorption Capacity, 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022,
+    Kuala Lumpur, Malaysia, August 9–12, 2022.'
+  citation_text: Tue Tri Nguyen, Kiet Le Anh Cao, Tomoyuki Hirano, and Takashi Ogi, Preparation of Macroporous Pectin Particles
+    with High Specific Surface Area and Interconnected Pore Networks for Enhancement of protein Adsorption Capacity, 19th
+    Asian pacific Confederation of Chemical Engineering (APCChE) 2022, Kuala Lumpur, Malaysia, August 9–12, 2022.
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 51
   display:
     authors:
@@ -468,10 +471,10 @@ records:
       highlight: true
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: Preparation of Macroporous Pectin Particles with High Specific Surface Area and Interconnected Pore
-      Networks for Enhancement of protein Adsorption Capacity
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Preparation of Macroporous Pectin Particles with High Specific Surface Area and Interconnected Pore Networks
+      for Enhancement of protein Adsorption Capacity
     conference: 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022
     location: Kuala Lumpur，Malaysia
     dates:
@@ -495,8 +498,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 52
   display:
     authors:
@@ -510,8 +514,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 噴霧熱分解法によるポーラス触媒粒子の合成と三次元構造解析
     conference: 粉体工学会2022年度春季研究発表会
     location: 姫路
@@ -527,9 +531,9 @@ records:
   type: presentation
   year: 2022
   source_order: 52
-  raw_citation_html: 'Eka Lutfi Septiani，Kiet Le Anh Cao，<strong><span style="text-decoration: underline;">Tomoyuki
-    Hirano</span></strong>，Nobuhiro Okuda，Hiroyuki Matsumoto，Yasushi Enokido，Takashi Ogi，Aerosol synthesis of dense
-    spherical FeNi particles and their magnetic characterization, 粉体工学会2022年度春季研究発表会，姫路，2022年5月17-18日'
+  raw_citation_html: 'Eka Lutfi Septiani，Kiet Le Anh Cao，<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>，Nobuhiro
+    Okuda，Hiroyuki Matsumoto，Yasushi Enokido，Takashi Ogi，Aerosol synthesis of dense spherical FeNi particles and their magnetic
+    characterization, 粉体工学会2022年度春季研究発表会，姫路，2022年5月17-18日'
   citation_text: Eka Lutfi Septiani，Kiet Le Anh Cao，Tomoyuki Hirano，Nobuhiro Okuda，Hiroyuki Matsumoto，Yasushi Enokido，Takashi
     Ogi，Aerosol synthesis of dense spherical FeNi particles and their magnetic characterization, 粉体工学会2022年度春季研究発表会，姫路，2022年5月17-18日
   classification:
@@ -538,8 +542,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 53
   display:
     authors:
@@ -557,8 +562,8 @@ records:
       highlight: false
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Aerosol synthesis of dense spherical FeNi particles and their magnetic characterization
     conference: 粉体工学会2022年度春季研究発表会
     location: 姫路
@@ -575,8 +580,7 @@ records:
   year: 2022
   source_order: 53
   raw_citation_html: '<strong><span style="text-decoration: underline;">○平野 知之</span></strong>，水谷 和揮，加藤 貴久，荻 崇，微粒子の球状化に向けた管状火炎システムの開発，化学工学会第87年会，神戸，2022年3月16–18日
-    <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【優秀学生賞
-    受賞】</mark></strong>'
+    <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">【優秀学生賞 受賞】</mark></strong>'
   citation_text: ○平野 知之，水谷 和揮，加藤 貴久，荻 崇，微粒子の球状化に向けた管状火炎システムの開発，化学工学会第87年会，神戸，2022年3月16–18日 【優秀学生賞 受賞】
   classification:
     invited: false
@@ -584,8 +588,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 54
   display:
     authors:
@@ -598,7 +603,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: source_circle_marker
+    presenter_evidence: owner_confirmed_first_author
     title_html: 微粒子の球状化に向けた管状火炎システムの開発
     conference: 化学工学会第87年会
     location: 神戸
@@ -623,8 +628,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 55
   display:
     authors:
@@ -634,8 +640,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Pt/Nb-SnO<sub>2</sub>ナノ粒子のワンステップ火炎合成
     conference: 化学工学会第87年会
     location: 神戸
@@ -659,8 +665,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 56
   display:
     authors:
@@ -670,8 +677,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 耐酸特性の向上へ向けた紫外線吸収微粒子のナノ構造化
     conference: 化学工学会第87年会
     location: 神戸
@@ -688,18 +695,19 @@ records:
   year: 2022
   source_order: 56
   raw_citation_html: 'Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, <strong><span style="text-decoration: underline;">Tomoyuki
-    Hirano</span></strong>, Takashi Ogi, Synthesis of Porous Three-Way Catalysts Particles using Template-Assisted
-    Spray Pyrolysis Method, 化学工学会第87年会, 神戸, 2022年3月16–18日'
-  citation_text: Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, Tomoyuki Hirano, Takashi Ogi, Synthesis of Porous
-    Three-Way Catalysts Particles using Template-Assisted Spray Pyrolysis Method, 化学工学会第87年会, 神戸, 2022年3月16–18日
+    Hirano</span></strong>, Takashi Ogi, Synthesis of Porous Three-Way Catalysts Particles using Template-Assisted Spray Pyrolysis
+    Method, 化学工学会第87年会, 神戸, 2022年3月16–18日'
+  citation_text: Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, Tomoyuki Hirano, Takashi Ogi, Synthesis of Porous Three-Way
+    Catalysts Particles using Template-Assisted Spray Pyrolysis Method, 化学工学会第87年会, 神戸, 2022年3月16–18日
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 57
   display:
     authors:
@@ -713,8 +721,8 @@ records:
       highlight: true
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Synthesis of Porous Three-Way Catalysts Particles using Template-Assisted Spray Pyrolysis Method
     conference: 化学工学会第87年会
     location: 神戸
@@ -730,22 +738,22 @@ records:
   type: presentation
   year: 2022
   source_order: 57
-  raw_citation_html: 'Eka Lutfi Septiani, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki
-    Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, and Takashi Ogi, Spherical and
-    submicron-sized FeNi particles with controllable density for performance enhancement of the powder core inductor,
-    International Chemical Engineering Symposia 2022 (IChES 2022), Kobe, Japan, March 16–18, 2022'
-  citation_text: Eka Lutfi Septiani, Kiet Le Anh Cao, Tomoyuki Hirano, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi
-    Enokido, and Takashi Ogi, Spherical and submicron-sized FeNi particles with controllable density for performance
-    enhancement of the powder core inductor, International Chemical Engineering Symposia 2022 (IChES 2022), Kobe,
-    Japan, March 16–18, 2022
+  raw_citation_html: 'Eka Lutfi Septiani, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>,
+    Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, and Takashi Ogi, Spherical and submicron-sized FeNi particles with
+    controllable density for performance enhancement of the powder core inductor, International Chemical Engineering Symposia
+    2022 (IChES 2022), Kobe, Japan, March 16–18, 2022'
+  citation_text: Eka Lutfi Septiani, Kiet Le Anh Cao, Tomoyuki Hirano, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido,
+    and Takashi Ogi, Spherical and submicron-sized FeNi particles with controllable density for performance enhancement of
+    the powder core inductor, International Chemical Engineering Symposia 2022 (IChES 2022), Kobe, Japan, March 16–18, 2022
   classification:
     invited: false
     award: false
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 58
   display:
     authors:
@@ -763,10 +771,10 @@ records:
       highlight: false
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: Spherical and submicron-sized FeNi particles with controllable density for performance enhancement
-      of the powder core inductor
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Spherical and submicron-sized FeNi particles with controllable density for performance enhancement of the
+      powder core inductor
     conference: International Chemical Engineering Symposia 2022 (IChES 2022)
     location: Kobe，Japan
     dates:

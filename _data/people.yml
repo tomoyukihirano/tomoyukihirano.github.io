@@ -49,7 +49,7 @@ records:
 - {id: lailatul-alawiyah, name: Lailatul Alawiyah, first_name: Lailatul, last_name: Alawiyah}
 - {id: lailatul-qomariyah, name: Lailatul Qomariyah, first_name: Lailatul, last_name: Qomariyah}
 - {id: leon-gradon, name: Leon Gradon, first_name: Leon, last_name: Gradon}
-- {id: mai-watanabe, name: Mai Watanabe, first_name: Mai, last_name: Watanabe}
+- {"id": "mai-watanabe", "name": "Mai Watanabe", "first_name": "Mai", "last_name": "Watanabe", "name_ja": "渡邊 真衣", "name_ja_confirmed_on": "2026-10-22", "aliases": ["渡邊 真衣", "渡邉 麻衣"]}
 - {id: makoto-maeda, name: Makoto Maeda, first_name: Makoto, last_name: Maeda}
 - {id: mar-atul-fauziyah, name: Mar’atul Fauziyah, first_name: Mar’atul, last_name: Fauziyah}
 - {id: masahiko-matsukata, name: Masahiko Matsukata, first_name: Masahiko, last_name: Matsukata}
@@ -109,7 +109,7 @@ records:
 - {id: youhei-toyoda, name: Youhei Toyoda, first_name: Youhei, last_name: Toyoda}
 - {id: yuhi-okada, name: Yuhi Okada, first_name: Yuhi, last_name: Okada}
 - {id: yuko-morita, name: Yuko Morita, first_name: Yuko, last_name: Morita}
-- {"id": "yusuke-kitou", "name": "Yusuke Kitou", "first_name": "Yusuke", "last_name": "Kitou", "aliases": ["Yusuke Kito"], "legacy_ids": ["yusuke-kito"], "identity_confirmed_on": "2026-10-22"}
+- {"id": "yusuke-kitou", "name": "Yusuke Kitou", "first_name": "Yusuke", "last_name": "Kitou", "aliases": ["Yusuke Kito", "鬼頭 佑輔", "鬼頭 祐輔"], "legacy_ids": ["yusuke-kito"], "identity_confirmed_on": "2026-10-22", "name_ja": "鬼頭 佑輔", "name_ja_confirmed_on": "2026-10-22"}
 - {id: yusuke-yoshikawa, name: Yusuke Yoshikawa, first_name: Yusuke, last_name: Yoshikawa}
 
 id_redirects:
