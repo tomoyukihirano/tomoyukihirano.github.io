@@ -1,0 +1,561 @@
+schema_version: 2
+year: 2023
+records:
+- id: pub-0032
+  paper_id: P032
+  hp_no: 32
+  type: journal_article
+  peer_reviewed: true
+  title: Porosity Engineering of Pt Loaded Nb-SnO2 Catalyst Layers in Polymer Electrolyte Fuel Cells
+  journal: ACS Applied Energy Materials
+  year: 2023
+  volume: '6'
+  issue: '24'
+  pages_or_article_number: 12364–12370
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsaem.3c02165
+  authors:
+  - tomoyuki-hirano
+  - takama-tsuboi
+  - thi-thanh-nguyen-ho
+  - eishi-tanabe
+  - aoi-takano
+  - mikihiro-kataoka
+  - takashi-ogi
+  corresponding_authors:
+  - tomoyuki-hirano
+  - takashi-ogi
+  dates:
+    submitted: '2023-08-28'
+    accepted: '2023-11-27'
+    published_online: '2023-12-08'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: August 28, 2023
+
+      Revision Received: November 01, 2023
+
+      Accepted: November 27, 2023
+
+      Published Online: December 08, 2023
+
+      Published in Issue: December 25, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - R
+    - S
+    - T
+    top10_percent: false
+- id: pub-0031
+  paper_id: P031
+  hp_no: 31
+  type: journal_article
+  peer_reviewed: true
+  title: Macropore-Size Engineering toward Enhancing the Catalytic Performance of CO Oxidation over Three-Way Catalyst Particles
+  journal: ACS Applied Materials & Interfaces
+  year: 2023
+  volume: '15'
+  issue: '46'
+  pages_or_article_number: 54073-54084
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsami.3c11489
+  authors:
+  - phong-hoai-le
+  - yasuhiko-kitamoto
+  - shunki-yamashita
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nao-tsunoji
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-08-03'
+    accepted: '2023-10-27'
+    published_online: '2023-11-09'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: August 03, 2023
+
+      Revision Received: October 18, 2023
+
+      Accepted: October 27, 2023
+
+      Published Online: November 09, 2023
+
+      Published in Issue: November 22, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: true
+- id: pub-0029
+  paper_id: P029
+  hp_no: 29
+  type: journal_article
+  peer_reviewed: true
+  title: Enhancing water stability of nanostructured cellulose nanofiber particle through the application of oxazoline cross-linker
+  journal: Advanced Powder Technology
+  year: 2023
+  volume: '34'
+  issue: '12'
+  pages_or_article_number: 104241-104241
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883123003060
+  authors:
+  - nur-syakirah-nabilah-saipul-bahri
+  - tue-tri-nguyen
+  - tomoyuki-hirano
+  - kouhei-matsumoto
+  - mai-watanabe
+  - yuko-morita
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-06-12'
+    accepted: '2023-10-05'
+    published_online: '2023-10-18'
+    accepted_fiscal_year: 2023
+    timeline_note: Received 12 June 2023, Revised 11 September 2023, Accepted 5 October 2023, Available online 18 October 2023, Version of Record 18 October 2023.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0028
+  paper_id: P028
+  hp_no: 28
+  type: journal_article
+  peer_reviewed: true
+  title: Synthesis of submicron-sized spherical silica-coated iron nickel particles with adjustable shell thickness via a swirler connector-assisted spray pyrolysis
+  journal: Langmuir
+  year: 2023
+  volume: '39'
+  issue: '39'
+  pages_or_article_number: 14063-14073
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.langmuir.3c01900
+  authors:
+  - delyana-ratnasari
+  - eka-lutfi-septiani
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-07-09'
+    accepted: '2023-09-07'
+    published_online: '2023-09-22'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: July 09, 2023
+
+      Revision Received: September 01, 2023
+
+      Accepted: September 07, 2023
+
+      Published Online: September 22, 2023
+
+      Published in Issue: October 03, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0027
+  paper_id: P027
+  hp_no: 27
+  type: journal_article
+  peer_reviewed: true
+  title: CO Oxidation Enabled by Three-Way Catalysts Comprised of Pd/Rh Nanoparticles Supported on Al2O3 and CeZrO4 Confined in Macroporous Polystyrene Latex Templates
+  journal: ACS Applied Nano Materials
+  year: 2023
+  volume: '6'
+  issue: '18'
+  pages_or_article_number: 17324-17335
+  status: published
+  article_url: https://pubs.acs.org/doi/abs/10.1021/acsanm.3c03954
+  authors:
+  - phong-hoai-le
+  - shunki-yamashita
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nao-tsunoji
+  - duhaul-biqal-kautsar
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-08-23'
+    accepted: '2023-09-01'
+    published_online: '2023-09-13'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: August 23, 2023
+
+      Revision Received: August 31, 2023
+
+      Accepted: September 01, 2023
+
+      Published Online: September 13, 2023
+
+      Published in Issue: September 22, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0026
+  paper_id: P026
+  hp_no: 26
+  type: journal_article
+  peer_reviewed: true
+  title: Synthesis of spherical β-quartz solid-solution particles derived from cordierite using a flame process
+  journal: ACS Applied Engineering Materials
+  year: 2023
+  volume: '1'
+  issue: '7'
+  pages_or_article_number: 1789–1798
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsaenm.3c00176
+  authors:
+  - kiet-le-anh-cao
+  - yusuke-kito
+  - phong-hoai-le
+  - takashi-ogi
+  - tomoyuki-hirano
+  corresponding_authors:
+  - takashi-ogi
+  - tomoyuki-hirano
+  dates:
+    submitted: '2023-04-11'
+    accepted: '2023-06-26'
+    published_online: '2023-07-11'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: April 11, 2023
+
+      Revision Received: June 08, 2023
+
+      Accepted: June 26, 2023
+
+      Published Online: July 11, 2023
+
+      Published in Issue: July 28, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: false
+    legacy_list_codes:
+    - R
+    - T
+    top10_percent: false
+- id: pub-0024
+  paper_id: P024
+  hp_no: 24
+  type: journal_article
+  peer_reviewed: true
+  title: 'Tubular flame synthesis of alumina particles: Effect of the addition of energetic materials to precursors'
+  journal: Science and Technology of Energetic Materials
+  year: 2023
+  volume: '84'
+  issue: '3'
+  pages_or_article_number: 1-5
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/stem/84/3-4/84_40/_article/-char/ja
+  authors:
+  - tomoyuki-hirano
+  - norito-kadowaki
+  - akira-ichimiya
+  - ryosuke-narui
+  - takashi-ogi
+  corresponding_authors:
+  - tomoyuki-hirano
+  - takashi-ogi
+  dates:
+    submitted: '2022-12-22'
+    accepted: '2023-06-15'
+    published_online: '2023-10-10'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Published: 2023 Received: 2022/12/22 Available on J-STAGE: 2023/10/10 Accepted: 2023/06/15'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - R
+    - S
+    - T
+    top10_percent: false
+- id: pub-0023
+  paper_id: P023
+  hp_no: 23
+  type: journal_article
+  peer_reviewed: true
+  title: Rapid Indomethacin Release from Porous Pectin Particles as a Colon Targeted Drug Delivery System
+  journal: ACS Applied Bio Materials
+  year: 2023
+  volume: '6'
+  issue: '7'
+  pages_or_article_number: 2725-2737
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsabm.3c00218
+  authors:
+  - tue-tri-nguyen
+  - nur-syakirah-nabilah-saipul-bahri
+  - annie-m-rahmatika
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-03-19'
+    accepted: '2023-06-07'
+    published_online: '2023-06-21'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: March 19, 2023
+
+      Revision Received: June 05, 2023
+
+      Accepted: June 07, 2023
+
+      Published Online: June 21, 2023
+
+      Published in Issue: July 17, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: true
+- id: pub-0022
+  paper_id: P022
+  hp_no: 22
+  type: journal_article
+  peer_reviewed: true
+  title: Characteristics of CO2 Methanation of Catalytic Powder Layer on the Inner Surface of Circular Tube with Porous Structure
+  journal: Journal of the Society of Powder Technology, Japan
+  year: 2023
+  volume: '60'
+  pages_or_article_number: 462–469
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/sptj/60/8/60_60.462/_article/-char/en
+  authors:
+  - koichi-yokoyama
+  - goki-sasaki
+  - masashi-kiyosawa
+  - kazunori-sato
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - koichi-yokoyama
+  dates:
+    submitted: '2023-01-26'
+    accepted: '2023-06-05'
+    published_online: '2023-08-10'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Published: August 10, 2023 Received: January 26, 2023 Released on J-STAGE: November 03, 2023 Accepted: June 05, 2023'
+  classification:
+    domestic_society_journal: true
+    english_journal: false
+    sci_or_equivalent: false
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0021
+  paper_id: P021
+  hp_no: 21
+  type: journal_article
+  peer_reviewed: true
+  title: 'Designing the Macroporous Structure of Three-Way Catalyst Particles: The Influence of Template Concentration on Framework Thickness and Mass Transfer'
+  journal: Langmuir
+  year: 2023
+  volume: '39'
+  issue: '22'
+  pages_or_article_number: 7783-7792
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.langmuir.3c00621
+  authors:
+  - phong-hoai-le
+  - kiet-le-anh-cao
+  - yasuhiko-kitamoto
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-03-06'
+    accepted: '2023-05-15'
+    published_online: '2023-05-26'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: March 06, 2023
+
+      Revision Received: May 01, 2023
+
+      Accepted: May 15, 2023
+
+      Published Online: May 26, 2023
+
+      Published in Issue: June 06, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: true
+- id: pub-0020
+  paper_id: P020
+  hp_no: 20
+  type: journal_article
+  peer_reviewed: true
+  title: Flame-made Ir-IrO2/TiO2 Particles as Anode Catalyst Support for Improved Durability in Polymer Electrolyte Fuel Cells
+  journal: ACS Applied Energy Materials
+  year: 2023
+  volume: '6'
+  issue: '11'
+  pages_or_article_number: 6064–6071
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsaem.3c00536
+  authors:
+  - thi-thanh-nguyen-ho
+  - tomoyuki-hirano
+  - ryosuke-narui
+  - hiroshi-tsutsumi
+  - miho-kishi
+  - yusuke-yoshikawa
+  - kiet-le-anh-cao
+  - takashi-ogi
+  corresponding_authors:
+  - tomoyuki-hirano
+  - takashi-ogi
+  dates:
+    submitted: '2023-02-27'
+    accepted: '2023-05-02'
+    published_online: '2023-05-15'
+    accepted_fiscal_year: 2023
+    timeline_note: 'Received: February 27, 2023
+
+      Revision Received: April 21, 2023
+
+      Accepted: May 02, 2023
+
+      Published Online: May 15, 2023
+
+      Published in Issue: June 12, 2023'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: false
+    legacy_list_codes:
+    - R
+    - T
+    top10_percent: false
+- id: pub-0019
+  paper_id: P019
+  hp_no: 19
+  type: journal_article
+  peer_reviewed: true
+  title: High specific surface area niobium-doped tin oxide nanoparticles produced in spray flames as catalyst supports in polymer electrolyte fuel cells
+  journal: Journal of Nanoparticle Research
+  year: 2023
+  volume: '25'
+  status: published
+  article_url: https://link.springer.com/article/10.1007/s11051-022-05649-3
+  authors:
+  - tomoyuki-hirano
+  - takama-tsuboi
+  - kiet-le-anh-cao
+  - eishi-tanabe
+  - takashi-ogi
+  corresponding_authors:
+  - tomoyuki-hirano
+  - takashi-ogi
+  dates:
+    submitted: '2022-06-30'
+    accepted: '2022-12-06'
+    published_online: '2022-12-17'
+    accepted_fiscal_year: 2022
+    timeline_note: 'Received
+
+      30 June 2022
+
+
+      Accepted
+
+      06 December 2022
+
+
+      Published
+
+      17 December 2022'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - R
+    - S
+    - T
+    top10_percent: false
+- id: pub-0015
+  paper_id: P015
+  hp_no: 15
+  type: journal_article
+  peer_reviewed: true
+  title: Characteristics of reaction and temperature in catalytic reactors for CO2 methanation
+  journal: KAGAKU KOGAKU RONBUNSHU
+  year: 2023
+  volume: '49'
+  issue: '2'
+  pages_or_article_number: 28–37
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/kakoronbunshu/49/2/49_22wh025/_article/-char/ja/
+  authors:
+  - koichi-yokoyama
+  - goki-sasaki
+  - masashi-kiyosawa
+  - kazunori-sato
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - koichi-yokoyama
+  - takashi-ogi
+  dates:
+    submitted: '2022-07-09'
+    accepted: '2022-09-17'
+    published_online: '2023-03-20'
+    accepted_fiscal_year: 2022
+    timeline_note: '発行日: 2023/03/20 受付日: 2022/07/09 J-STAGE公開日: 2023/03/20 受理日: 2022/09/17'
+  classification:
+    domestic_society_journal: true
+    english_journal: false
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
