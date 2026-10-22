@@ -1,0 +1,82 @@
+schema_version: 2
+year: 2020
+records:
+- id: pub-0006
+  paper_id: P006
+  hp_no: 6
+  type: journal_article
+  peer_reviewed: true
+  title: Advanced aerosol technologies towards structure and morphologically controlled next-generation catalytic materials
+  journal: Journal of Aerosol Science
+  year: 2020
+  volume: '149'
+  pages_or_article_number: '105608'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0021850220300975
+  authors:
+  - leon-gradon
+  - ratna-balgis
+  - tomoyuki-hirano
+  - annie-mufyda-rahmatika
+  - takashi-ogi
+  - kikuo-okuyama
+  corresponding_authors:
+  - leon-gradon
+  - ratna-balgis
+  - takashi-ogi
+  dates:
+    submitted: '2020-05-12'
+    accepted: '2020-06-04'
+    published_online: '2020-06-20'
+    accepted_fiscal_year: 2020
+    timeline_note: Received 12 May 2020, Revised 4 June 2020, Accepted 4 June 2020, Available online 20 June 2020, Version of Record 25 June 2020.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: true
+- id: pub-0005
+  paper_id: P005
+  hp_no: 5
+  type: journal_article
+  peer_reviewed: true
+  title: Improving the crystallinity and purity of monodisperse Ag fine particles by heating colloidal sprays in-flight
+  journal: Industrial & Engineering Chemistry Research
+  year: 2020
+  volume: '59'
+  issue: '13'
+  pages_or_article_number: 5745-5751
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.iecr.9b05482
+  authors:
+  - takashi-ogi
+  - hiromitsu-fukazawa
+  - annie-mufyda-rahmatika
+  - tomoyuki-hirano
+  - kiet-le-anh-cao
+  - ferry-iskandar
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2019-10-04'
+    accepted: '2020-03-10'
+    published_online: '2020-03-19'
+    accepted_fiscal_year: 2019
+    timeline_note: 'Received: October 04, 2019
+
+      Revision Received: February 05, 2020
+
+      Accepted: March 10, 2020
+
+      Published Online: March 19, 2020
+
+      Published in Issue: April 01, 2020'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
