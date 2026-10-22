@@ -1,0 +1,101 @@
+name: Prepare approved presentation format
+on:
+  push:
+    branches: ["data/presentation-format-20261022"]
+    paths:
+      - '_maintenance/normalize_presentations.py'
+      - '.github/workflows/prepare-presentation-format.yml'
+permissions:
+  contents: write
+  pages: read
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependencies
+        run: python -m pip install PyYAML==6.0.2 beautifulsoup4==4.12.3
+      - name: Build unchanged baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_baseline
+      - name: Normalize only approved presentation scope
+        run: python _maintenance/normalize_presentations.py
+      - name: Build normalized page
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify data and complete site
+        run: |
+          python - <<'PY'
+          import json, subprocess, zipfile
+          from pathlib import Path
+          import yaml
+          from bs4 import BeautifulSoup
+          root=Path('.')
+          before={}; after={}
+          for p in sorted(Path('_data/presentations').glob('*.yml')):
+              before.update({r['id']:r for r in yaml.safe_load(subprocess.check_output(['git','show','HEAD:'+str(p)],text=True))['records']})
+              after.update({r['id']:r for r in yaml.safe_load(p.read_text())['records']})
+          assert len(before)==90 and len(after)==91
+          for k,r in before.items():
+              if k=='pres-0072':
+                  assert after[k]['source_before_split']==r
+                  assert after[k]['raw_citation_html']+after['pres-0091']['raw_citation_html']==r['raw_citation_html']
+              else:
+                  assert after[k]['raw_citation_html']==r['raw_citation_html']
+                  assert after[k]['citation_text']==r['citation_text']
+          page=BeautifulSoup(Path('_site/presentations/index.html').read_text(),'html.parser')
+          items=page.select('.entry-content > ol.wp-block-list > li')
+          assert len(items)==91,len(items)
+          assert len({x['id'] for x in items})==91
+          for item in items:
+              d=after[item['id']]['display']
+              assert len(item.select('strong > u'))==1
+              assert item.get_text().count('〇')==(1 if d['presenter_position'] else 0)
+              assert BeautifulSoup(d['title_html'],'html.parser').get_text() in item.get_text()
+              assert d['conference'] in item.get_text()
+              assert d['dates']['text'] in item.get_text()
+          assert page.select_one('#pres-0013 strong > u').get_text()=='〇平野 知之'
+          assert page.select_one('#pres-0072').get_text().startswith('〇時津 菜穂，')
+          assert page.select_one('#pres-0091 strong > u').get_text()=='〇平野 知之'
+          other=0
+          for p in Path('_baseline').rglob('*.html'):
+              rel=p.relative_to('_baseline')
+              if str(rel)=='presentations/index.html':continue
+              assert p.read_bytes()==(Path('_site')/rel).read_bytes(),str(rel)
+              other+=1
+          allowed={'_data/README.md','EDITING.md','presentations.md'}
+          changed=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
+          assert all(p in allowed or p.startswith('_data/presentations/') for p in changed),changed
+          report=json.loads(Path('_presentation_report.json').read_text())
+          report['unchanged_other_html_pages']=other
+          report['rendered_presentations']=len(items)
+          report['original_citations_preserved']=True
+          Path('_presentation_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          with zipfile.ZipFile('_presentation_preview.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in Path('_site').rglob('*'):
+                  if p.is_file():z.write(p,p.relative_to('_site'))
+          print(json.dumps(report,ensure_ascii=False))
+          PY
+      - name: Commit only to isolated review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add _data/presentations _data/README.md EDITING.md presentations.md _includes/presentation-list.html
+          git commit -m 'Split owner-confirmed talks and normalize all presentation citations from YAML'
+          git push origin HEAD:data/presentation-format-20261022
+          git rev-parse HEAD > _presentation_commit.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: presentation-format-audit
+          path: |
+            _presentation_report.json
+            _presentation_commit.txt
+            _presentation_preview.zip
+          retention-days: 7
