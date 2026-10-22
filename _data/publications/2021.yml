@@ -85,12 +85,8 @@ records:
   pages_or_article_number: 557-565
   status: published
   article_url: https://www.jstage.jst.go.jp/article/jcej/54/10/54_21we009/_article
-  authors:
-  - tomoyuki-hirano
-  - jun-kikkawa
-  - daisuke-shimokuri
-  - asep-nandiyanto
-  - takashi-ogi
+  authors: ["tomoyuki-hirano", "jun-kikkawa", "daisuke-shimokuri", "asep-bayu-dani-nandiyanto", "takashi-ogi"]
+  author_names_as_imported: ["Tomoyuki Hirano", "Jun Kikkawa", "Daisuke Shimokuri", "Asep Nandiyanto", "Takashi Ogi"]
   corresponding_authors:
   - takashi-ogi
   dates:

@@ -4,12 +4,10 @@ records:
 - {id: aditya-farhan-arif, name: Aditya Farhan Arif, first_name: Aditya Farhan, last_name: Arif}
 - {id: ai-ando, name: Ai Ando, first_name: Ai, last_name: Ando}
 - {id: akira-ichimiya, name: Akira Ichimiya, first_name: Akira, last_name: Ichimiya}
-- {id: annie-m-rahmatika, name: Annie M. Rahmatika, first_name: Annie M., last_name: Rahmatika}
-- {id: annie-mufyda-rahmatika, name: Annie Mufyda Rahmatika, first_name: Annie Mufyda, last_name: Rahmatika}
+- {"id": "annie-mufyda-rahmatika", "name": "Annie Mufyda Rahmatika", "first_name": "Annie Mufyda", "last_name": "Rahmatika", "aliases": ["Annie M. Rahmatika"], "legacy_ids": ["annie-m-rahmatika"], "identity_confirmed_on": "2026-10-22"}
 - {id: aoi-takano, name: Aoi Takano, first_name: Aoi, last_name: Takano}
 - {id: arika-nur-indrayani, name: Arika Nur Indrayani, first_name: Arika Nur, last_name: Indrayani}
-- {id: asep-bayu-dani-nandiyanto, name: Asep Bayu Dani Nandiyanto, first_name: Asep Bayu Dani, last_name: Nandiyanto}
-- {id: asep-nandiyanto, name: Asep Nandiyanto, first_name: Asep, last_name: Nandiyanto}
+- {"id": "asep-bayu-dani-nandiyanto", "name": "Asep Bayu Dani Nandiyanto", "first_name": "Asep Bayu Dani", "last_name": "Nandiyanto", "aliases": ["Asep Nandiyanto"], "legacy_ids": ["asep-nandiyanto"], "identity_confirmed_on": "2026-10-22"}
 - {id: ayano-kamimura, name: Ayano Kamimura, first_name: Ayano, last_name: Kamimura}
 - {id: azzania-fibriani, name: Azzania Fibriani, first_name: Azzania, last_name: Fibriani}
 - {id: daiki-tomonaga, name: Daiki Tomonaga, first_name: Daiki, last_name: Tomonaga}
@@ -121,3 +119,5 @@ id_redirects:
   le-hoai-phong: phong-hoai-le
   le-thi-nguyet-hang: hang-thi-nguyet-le
   ferry-inskandar: ferry-iskandar
+  annie-m-rahmatika: annie-mufyda-rahmatika
+  asep-nandiyanto: asep-bayu-dani-nandiyanto

@@ -48,7 +48,7 @@ Presentation records preserve `raw_citation_html` and `citation_text` as the sou
 
 ## Confirmed author identity corrections
 
-Six identity merges were confirmed by the repository owner on 2026-10-22.
+Eight identity merges were confirmed by the repository owner on 2026-10-22.
 Canonical person records keep alternate spellings/order in `aliases` and retired IDs in `legacy_ids`.
 `people.yml` also contains `id_redirects` so old exported IDs can be resolved.
 Publication author and corresponding-author IDs were redirected without changing their order.
