@@ -50,14 +50,9 @@
     list.id = list.id || "peer-reviewed-publication-list";
     list.classList.add("publication-filter-list");
 
-    // Preserve each paper's original number when other entries are hidden.
-    let number = list.hasAttribute("start") ? Number(list.getAttribute("start")) :
-      (list.reversed ? records.length : 1);
-    records.forEach(function (record) {
-      if (record.item.hasAttribute("value")) number = Number(record.item.getAttribute("value"));
-      record.item.value = number;
-      number += list.reversed ? -1 : 1;
-    });
+    // Keep the existing newest-first ordering and numbering direction.
+    // Each filter gets its own continuous sequence instead of original IDs.
+    const reverseNumbering = list.reversed;
 
     const controls = document.createElement("div");
     controls.className = "publication-filters";
@@ -85,16 +80,34 @@
       mode.button = button;
     });
     controls.append(buttons, status);
-    if (legacyLinks) legacyLinks.replaceWith(controls);
-    else content.insertBefore(controls, heading);
+
+    // Place both the author-marker explanation and controls under this heading.
+    // Move the existing note rather than duplicating it or changing its text.
+    const correspondingNote = Array.from(content.querySelectorAll("p")).find(function (paragraph) {
+      return paragraph.textContent.replace(/\s+/g, "").trim() === "*は責任著者を表しています。";
+    });
+    if (legacyLinks) legacyLinks.remove();
+    if (correspondingNote) {
+      heading.insertAdjacentElement("afterend", correspondingNote);
+      correspondingNote.insertAdjacentElement("afterend", controls);
+    } else {
+      heading.insertAdjacentElement("afterend", controls);
+    }
 
     function applyFilter(value) {
       const active = modes.find(function (mode) { return mode.value === value; }) || modes[0];
-      let visible = 0;
+      const visible = records.filter(active.matches).length;
+      list.start = reverseNumbering ? visible : 1;
+      let number = list.start;
       records.forEach(function (record) {
         const matches = active.matches(record);
         record.item.hidden = !matches;
-        if (matches) visible += 1;
+        if (matches) {
+          record.item.value = number;
+          number += reverseNumbering ? -1 : 1;
+        } else {
+          record.item.removeAttribute("value");
+        }
       });
       modes.forEach(function (mode) {
         mode.button.setAttribute("aria-pressed", String(mode === active));
