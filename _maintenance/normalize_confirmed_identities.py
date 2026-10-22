@@ -97,8 +97,9 @@ def main():
             assert block, record['id']
             updated = block.group(0)
             for key, ids, preservation_key, names in replacements:
-                updated = replace_once(updated, r'^  ' + key + r': [^\n]+$',
-                    f'  {key}: {flow(ids)}\n  {preservation_key}: {flow(names)}')
+                pattern = r'^  ' + key + r':[^\n]*\n(?:  - [^\n]*(?:\n|$))*'
+                updated = replace_once(updated, pattern,
+                    f'  {key}: {flow(ids)}\n  {preservation_key}: {flow(names)}\n')
             output = output[:block.start()] + updated + output[block.end():]
             affected_publications.append(record['id'])
         if output != before_text[path]:
