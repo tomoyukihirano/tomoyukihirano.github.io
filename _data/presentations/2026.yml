@@ -620,7 +620,7 @@ records:
       person_id: takashi-ogi
     presenter_position: 1
     presenter_evidence: first_listed_author_in_source
-    title_html: "火炎法による高熱伝導フィラー用球状室化アルミニウムの合成"
+    title_html: "火炎法による高熱伝導フィラー用球状窒化アルミニウム粒子の合成"
     conference: "火薬学会春季研究発表会"
     location: "東京"
     dates:
@@ -632,7 +632,16 @@ records:
       precision: conference_dates_as_recorded
     annotations:
       []
-  source_quality_note: "原典表記「室化アルミニウム」は要確認（変更せず保持）"
+  source_quality_note: "研究室一覧の誤記は原典記録に保持。公開題目は火薬学会の公式プログラムで確認した正式題目に修正。"
+  verification:
+    status: verified_against_official_program
+    checked_on: '2026-10-22'
+    source_url: "https://www.jes.or.jp/amr/amr26_sp.html"
+    presentation_number: '21'
+    verified_title: "火炎法による高熱伝導フィラー用球状窒化アルミニウム粒子の合成"
+    presentation_date: '2026-05-29'
+    conference_start: '2026-05-28'
+    conference_end: '2026-05-29'
 - id: pres-0095
   type: presentation
   year: 2026
@@ -687,6 +696,8 @@ records:
     annotations:
       []
 - id: pres-0094
+  public: false
+  publication_status: pending_title_verification
   type: presentation
   year: 2026
   source_order: 14
@@ -731,7 +742,13 @@ records:
       precision: conference_dates_as_recorded
     annotations:
     - 招待講演
-  source_quality_note: "原典表記「AIN Filter」は要確認（変更せず保持）"
+  source_quality_note: "英語題目は未確認のため公開保留。原典の文字列は保持し，推測でAlNやFillerに置き換えない。"
+  verification:
+    status: pending_title_verification
+    checked_on: '2026-10-22'
+    public: false
+    official_program_url: "https://wcpt10.org/program/"
+    note: "公式サイトの招待講演者一覧で本人名は確認済み。題目は未確認。"
 - id: pres-0093
   type: presentation
   year: 2026
@@ -846,7 +863,7 @@ records:
       precision: conference_dates_as_recorded
     annotations:
       []
-- id: pres-0091
+- id: pres-0108
   type: presentation
   year: 2026
   source_order: 17
