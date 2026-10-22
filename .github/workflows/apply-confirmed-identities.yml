@@ -1,0 +1,73 @@
+name: Apply confirmed author identities
+
+on:
+  push:
+    branches:
+      - data/confirmed-identities-20261022
+    paths:
+      - _maintenance/normalize_confirmed_identities.py
+      - .github/workflows/apply-confirmed-identities.yml
+
+permissions:
+  contents: write
+  pages: read
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install YAML parser
+        run: python -m pip install PyYAML==6.0.2
+      - name: Build baseline HTML
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_baseline
+      - name: Apply only owner-confirmed identities
+        run: python _maintenance/normalize_confirmed_identities.py
+      - name: Build corrected data with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify generated pages are unchanged
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, shutil
+          def manifest(root):
+              return {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest()
+                      for p in root.rglob('*.html')}
+          before = manifest(Path('_baseline'))
+          after = manifest(Path('_site'))
+          assert before and before == after, 'Generated HTML changed unexpectedly'
+          report = json.loads(Path('/tmp/identity-normalization-report.json').read_text())
+          report['unchanged_html_pages'] = len(before)
+          out = Path('_identity-audit')
+          out.mkdir()
+          (out / 'report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
+          shutil.make_archive(str(out / 'data'), 'zip', root_dir='_data')
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+      - name: Commit corrections to review branch only
+        env:
+          REVIEW_BRANCH: data/confirmed-identities-20261022
+        run: |
+          test "$GITHUB_REF_NAME" = "$REVIEW_BRANCH"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- _data
+          git diff --cached --exit-code --quiet && exit 1
+          git commit -m 'Normalize six owner-confirmed identities and preserve imported author names'
+          git push origin "HEAD:refs/heads/$REVIEW_BRANCH"
+          git rev-parse HEAD > _identity-audit/commit.txt
+      - name: Upload audit results
+        uses: actions/upload-artifact@v4
+        with:
+          name: confirmed-identity-audit
+          path: _identity-audit/
+          retention-days: 7
