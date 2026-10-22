@@ -1,0 +1,890 @@
+schema_version: 2
+year: 2026
+source: "荻研究室学会発表一覧（https://www.hu-tme.com/pages/1503269/page_201712172212）；2026-10-22確認"
+records:
+- id: pres-0107
+  type: presentation
+  year: 2026
+  source_order: 1
+  source_number: 411
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "片岡百花, 平野知之, 荻崇: 噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  citation_text: "片岡百花, 平野知之, 荻崇: 噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  authors_raw:
+  - "片岡百花"
+  - "平野知之"
+  - "荻崇"
+  presenter_raw: "片岡百花"
+  title_raw: "噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -16
+  display:
+    authors:
+    - name: "片岡 百花"
+      highlight: false
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月15日"
+      start: "2026-09-15"
+      end: "2026-09-15"
+      kind: single
+      source_text: "2026/09/15"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0106
+  type: presentation
+  year: 2026
+  source_order: 2
+  source_number: 410
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "小松昇生, 平野知之, 神尾慎太郎, 荻崇: 火炎法で調製したアモルファスAl2O3-SiO2ナノ粒子の組成制御と触媒性能評価, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  citation_text: "小松昇生, 平野知之, 神尾慎太郎, 荻崇: 火炎法で調製したアモルファスAl2O3-SiO2ナノ粒子の組成制御と触媒性能評価, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  authors_raw:
+  - "小松昇生"
+  - "平野知之"
+  - "神尾慎太郎"
+  - "荻崇"
+  presenter_raw: "小松昇生"
+  title_raw: "火炎法で調製したアモルファスAl2O3-SiO2ナノ粒子の組成制御と触媒性能評価"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -15
+  display:
+    authors:
+    - name: "小松 昇生"
+      highlight: false
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "神尾 慎太郎"
+      highlight: false
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "火炎法で調製したアモルファスAl2O3-SiO2ナノ粒子の組成制御と触媒性能評価"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月15日"
+      start: "2026-09-15"
+      end: "2026-09-15"
+      kind: single
+      source_text: "2026/09/15"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0105
+  type: presentation
+  year: 2026
+  source_order: 3
+  source_number: 409
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "丸橋稜輝, 平野知之, 中田邦彦, 荻崇: 火炎溶融法による高結晶性球状α-Al2O3粒子の合成, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  citation_text: "丸橋稜輝, 平野知之, 中田邦彦, 荻崇: 火炎溶融法による高結晶性球状α-Al2O3粒子の合成, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  authors_raw:
+  - "丸橋稜輝"
+  - "平野知之"
+  - "中田邦彦"
+  - "荻崇"
+  presenter_raw: "丸橋稜輝"
+  title_raw: "火炎溶融法による高結晶性球状α-Al2O3粒子の合成"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -14
+  display:
+    authors:
+    - name: "丸橋 稜輝"
+      highlight: false
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "中田 邦彦"
+      highlight: false
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "火炎溶融法による高結晶性球状α-Al2O3粒子の合成"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月15日"
+      start: "2026-09-15"
+      end: "2026-09-15"
+      kind: single
+      source_text: "2026/09/15"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0104
+  type: presentation
+  year: 2026
+  source_order: 4
+  source_number: 408
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "内田真聖, 平野知之, 高野葵, 荻崇: NbドープSnO2担体のナノ構造制御に基づくIr系OER触媒の設計, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  citation_text: "内田真聖, 平野知之, 高野葵, 荻崇: NbドープSnO2担体のナノ構造制御に基づくIr系OER触媒の設計, 化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  authors_raw:
+  - "内田真聖"
+  - "平野知之"
+  - "高野葵"
+  - "荻崇"
+  presenter_raw: "内田真聖"
+  title_raw: "NbドープSnO2担体のナノ構造制御に基づくIr系OER触媒の設計"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/15, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -13
+  display:
+    authors:
+    - name: "内田 真聖"
+      highlight: false
+      person_id: masato-uchida
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "高野 葵"
+      highlight: false
+      person_id: aoi-takano
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "NbドープSnO2担体のナノ構造制御に基づくIr系OER触媒の設計"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月15日"
+      start: "2026-09-15"
+      end: "2026-09-15"
+      kind: single
+      source_text: "2026/09/15"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0103
+  type: presentation
+  year: 2026
+  source_order: 5
+  source_number: 407
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "井上莉彩, Nur Syakirah Nabilah Saipul Bahri, 平野知之, 松本恒平, 渡邊真衣, 苅田祐馬, 荻崇: 磁気ビーズ応用を指向したセルロースナノファイバー／酸化鉄複合微粒子の噴霧合成と粒子径効果の評価, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  citation_text: "井上莉彩, Nur Syakirah Nabilah Saipul Bahri, 平野知之, 松本恒平, 渡邊真衣, 苅田祐馬, 荻崇: 磁気ビーズ応用を指向したセルロースナノファイバー／酸化鉄複合微粒子の噴霧合成と粒子径効果の評価, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  authors_raw:
+  - "井上莉彩"
+  - "Nur Syakirah Nabilah Saipul Bahri"
+  - "平野知之"
+  - "松本恒平"
+  - "渡邊真衣"
+  - "苅田祐馬"
+  - "荻崇"
+  presenter_raw: "井上莉彩"
+  title_raw: "磁気ビーズ応用を指向したセルロースナノファイバー／酸化鉄複合微粒子の噴霧合成と粒子径効果の評価"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -12
+  display:
+    authors:
+    - name: "井上 莉彩"
+      highlight: false
+    - name: "Nur Syakirah Nabilah Saipul Bahri"
+      highlight: false
+      person_id: nur-syakirah-nabilah-saipul-bahri
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "松本 恒平"
+      highlight: false
+      person_id: kohei-matsumoto
+    - name: "渡邊 真衣"
+      highlight: false
+      person_id: mai-watanabe
+    - name: "苅田 祐馬"
+      highlight: false
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "磁気ビーズ応用を指向したセルロースナノファイバー／酸化鉄複合微粒子の噴霧合成と粒子径効果の評価"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月14日"
+      start: "2026-09-14"
+      end: "2026-09-14"
+      kind: single
+      source_text: "2026/09/14"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0102
+  type: presentation
+  year: 2026
+  source_order: 6
+  source_number: 406
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "平野知之, 荻崇: 火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  citation_text: "平野知之, 荻崇: 火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  authors_raw:
+  - "平野知之"
+  - "荻崇"
+  presenter_raw: "平野知之"
+  title_raw: "火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -11
+  display:
+    authors:
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月14日"
+      start: "2026-09-14"
+      end: "2026-09-14"
+      kind: single
+      source_text: "2026/09/14"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0101
+  type: presentation
+  year: 2026
+  source_order: 7
+  source_number: 405
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "小山遼太, 平野知之, 手跡雄太, 増野敦信, 荻崇: 火炎法によるCaO-Al2O3-SiO2系ガラス粒子の合成とバルク化の検討, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  citation_text: "小山遼太, 平野知之, 手跡雄太, 増野敦信, 荻崇: 火炎法によるCaO-Al2O3-SiO2系ガラス粒子の合成とバルク化の検討, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  authors_raw:
+  - "小山遼太"
+  - "平野知之"
+  - "手跡雄太"
+  - "増野敦信"
+  - "荻崇"
+  presenter_raw: "小山遼太"
+  title_raw: "火炎法によるCaO-Al2O3-SiO2系ガラス粒子の合成とバルク化の検討"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -10
+  display:
+    authors:
+    - name: "小山 遼太"
+      highlight: false
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "手跡 雄太"
+      highlight: false
+    - name: "増野 敦信"
+      highlight: false
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "火炎法によるCaO-Al2O3-SiO2系ガラス粒子の合成とバルク化の検討"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月14日"
+      start: "2026-09-14"
+      end: "2026-09-14"
+      kind: single
+      source_text: "2026/09/14"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0100
+  type: presentation
+  year: 2026
+  source_order: 8
+  source_number: 404
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "近藤航右, Cao K. L. A., 平野知之, 荻崇: 高分子結着剤を用いた三元触媒ナノ粒子の気中ポーラス構造化とCO酸化活性評価, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  citation_text: "近藤航右, Cao K. L. A., 平野知之, 荻崇: 高分子結着剤を用いた三元触媒ナノ粒子の気中ポーラス構造化とCO酸化活性評価, 化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  authors_raw:
+  - "近藤航右"
+  - "Cao K. L. A."
+  - "平野知之"
+  - "荻崇"
+  presenter_raw: "近藤航右"
+  title_raw: "高分子結着剤を用いた三元触媒ナノ粒子の気中ポーラス構造化とCO酸化活性評価"
+  details_raw: "化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -9
+  display:
+    authors:
+    - name: "近藤 航右"
+      highlight: false
+      person_id: kosuke-kondo
+    - name: "Cao K. L. A."
+      highlight: false
+      person_id: kiet-le-anh-cao
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "高分子結着剤を用いた三元触媒ナノ粒子の気中ポーラス構造化とCO酸化活性評価"
+    conference: "化学工学会 第57回秋季大会"
+    location: "東広島"
+    dates:
+      text: "2026年9月14日"
+      start: "2026-09-14"
+      end: "2026-09-14"
+      kind: single
+      source_text: "2026/09/14"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0099
+  type: presentation
+  year: 2026
+  source_order: 9
+  source_number: 402
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "Masato Uchida, Tomoyuki Hirano, Aoi Takano, Mikihiro Kataoka, Takashi Ogi: Size-controlled Nb-doped SnO2 supports promote ultrafine Ir catalysts dispersion and boost OER activities for PEM water electrolysis, The 11th International Congress on Ceramics (ICC’11) (2026/09/09, Sapporo)"
+  citation_text: "Masato Uchida, Tomoyuki Hirano, Aoi Takano, Mikihiro Kataoka, Takashi Ogi: Size-controlled Nb-doped SnO2 supports promote ultrafine Ir catalysts dispersion and boost OER activities for PEM water electrolysis, The 11th International Congress on Ceramics (ICC’11) (2026/09/09, Sapporo)"
+  authors_raw:
+  - "Masato Uchida"
+  - "Tomoyuki Hirano"
+  - "Aoi Takano"
+  - "Mikihiro Kataoka"
+  - "Takashi Ogi"
+  presenter_raw: "Masato Uchida"
+  title_raw: "Size-controlled Nb-doped SnO2 supports promote ultrafine Ir catalysts dispersion and boost OER activities for PEM water electrolysis"
+  details_raw: "The 11th International Congress on Ceramics (ICC’11) (2026/09/09, Sapporo)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -8
+  display:
+    authors:
+    - name: "Masato Uchida"
+      highlight: false
+      person_id: masato-uchida
+    - name: "Tomoyuki Hirano"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "Aoi Takano"
+      highlight: false
+      person_id: aoi-takano
+    - name: "Mikihiro Kataoka"
+      highlight: false
+      person_id: mikihiro-kataoka
+    - name: "Takashi Ogi"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "Size-controlled Nb-doped SnO2 supports promote ultrafine Ir catalysts dispersion and boost OER activities for PEM water electrolysis"
+    conference: "The 11th International Congress on Ceramics (ICC’11)"
+    location: "Sapporo"
+    dates:
+      text: "2026年9月9日"
+      start: "2026-09-09"
+      end: "2026-09-09"
+      kind: single
+      source_text: "2026/09/09"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0098
+  type: presentation
+  year: 2026
+  source_order: 10
+  source_number: 400
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "Izuki Maruhashi, Tomoyuki Hirano, Kunihiko Nakata, Takashi Ogi: Flame-Melted Highly Crystalline Spherical α-Al2O3Particles for Thermally Conductive Composite Applications, The 11th International Congress on Ceramics (ICC’11) (2026/09/09, Sapporo)"
+  citation_text: "Izuki Maruhashi, Tomoyuki Hirano, Kunihiko Nakata, Takashi Ogi: Flame-Melted Highly Crystalline Spherical α-Al2O3Particles for Thermally Conductive Composite Applications, The 11th International Congress on Ceramics (ICC’11) (2026/09/09, Sapporo)"
+  authors_raw:
+  - "Izuki Maruhashi"
+  - "Tomoyuki Hirano"
+  - "Kunihiko Nakata"
+  - "Takashi Ogi"
+  presenter_raw: "Izuki Maruhashi"
+  title_raw: "Flame-Melted Highly Crystalline Spherical α-Al2O3Particles for Thermally Conductive Composite Applications"
+  details_raw: "The 11th International Congress on Ceramics (ICC’11) (2026/09/09, Sapporo)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -7
+  display:
+    authors:
+    - name: "Izuki Maruhashi"
+      highlight: false
+    - name: "Tomoyuki Hirano"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "Kunihiko Nakata"
+      highlight: false
+    - name: "Takashi Ogi"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "Flame-Melted Highly Crystalline Spherical α-Al2O3Particles for Thermally Conductive Composite Applications"
+    conference: "The 11th International Congress on Ceramics (ICC’11)"
+    location: "Sapporo"
+    dates:
+      text: "2026年9月9日"
+      start: "2026-09-09"
+      end: "2026-09-09"
+      kind: single
+      source_text: "2026/09/09"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0097
+  type: presentation
+  year: 2026
+  source_order: 11
+  source_number: 398
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "内田真聖, 平野知之, 高野葵, 片岡幹裕, 荻崇: 粒径を制御したNbドープSnO₂担体によるIr触媒の高分散化とOER活性評価, 第18回中四国若手CE合宿 (2026/09/01-02, 倉敷) (Award)"
+  citation_text: "内田真聖, 平野知之, 高野葵, 片岡幹裕, 荻崇: 粒径を制御したNbドープSnO₂担体によるIr触媒の高分散化とOER活性評価, 第18回中四国若手CE合宿 (2026/09/01-02, 倉敷) (Award)"
+  authors_raw:
+  - "内田真聖"
+  - "平野知之"
+  - "高野葵"
+  - "片岡幹裕"
+  - "荻崇"
+  presenter_raw: "内田真聖"
+  title_raw: "粒径を制御したNbドープSnO₂担体によるIr触媒の高分散化とOER活性評価"
+  details_raw: "第18回中四国若手CE合宿 (2026/09/01-02, 倉敷)"
+  classification:
+    invited: false
+    award: null
+    award_reporting: excluded_by_owner
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -6
+  display:
+    authors:
+    - name: "内田 真聖"
+      highlight: false
+      person_id: masato-uchida
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "高野 葵"
+      highlight: false
+      person_id: aoi-takano
+    - name: "片岡 幹裕"
+      highlight: false
+      person_id: mikihiro-kataoka
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "粒径を制御したNbドープSnO₂担体によるIr触媒の高分散化とOER活性評価"
+    conference: "第18回中四国若手CE合宿"
+    location: "倉敷"
+    dates:
+      text: "2026年9月1日－2日"
+      start: "2026-09-01"
+      end: "2026-09-02"
+      kind: range
+      source_text: "2026/09/01-02"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0096
+  type: presentation
+  year: 2026
+  source_order: 12
+  source_number: 396
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "平野知之, 荻崇: 火炎法による高熱伝導フィラー用球状室化アルミニウムの合成, 火薬学会春季研究発表会 (2026/05/28-29, 東京) (Award)"
+  citation_text: "平野知之, 荻崇: 火炎法による高熱伝導フィラー用球状室化アルミニウムの合成, 火薬学会春季研究発表会 (2026/05/28-29, 東京) (Award)"
+  authors_raw:
+  - "平野知之"
+  - "荻崇"
+  presenter_raw: "平野知之"
+  title_raw: "火炎法による高熱伝導フィラー用球状室化アルミニウムの合成"
+  details_raw: "火薬学会春季研究発表会 (2026/05/28-29, 東京)"
+  classification:
+    invited: false
+    award: null
+    award_reporting: excluded_by_owner
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -5
+  display:
+    authors:
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "荻 崇"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "火炎法による高熱伝導フィラー用球状室化アルミニウムの合成"
+    conference: "火薬学会春季研究発表会"
+    location: "東京"
+    dates:
+      text: "2026年5月28日－29日"
+      start: "2026-05-28"
+      end: "2026-05-29"
+      kind: range
+      source_text: "2026/05/28-29"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+  source_quality_note: "原典表記「室化アルミニウム」は要確認（変更せず保持）"
+- id: pres-0095
+  type: presentation
+  year: 2026
+  source_order: 13
+  source_number: 394
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "Ryuta Hasuno, Hirano Tomoyuki, Hayashi Tetsutaro, Ogi Takashi: Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis, The 10th World Congress on Particle Technology (WCPT10) (2026/05/15, Osaka)"
+  citation_text: "Ryuta Hasuno, Hirano Tomoyuki, Hayashi Tetsutaro, Ogi Takashi: Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis, The 10th World Congress on Particle Technology (WCPT10) (2026/05/15, Osaka)"
+  authors_raw:
+  - "Ryuta Hasuno"
+  - "Hirano Tomoyuki"
+  - "Hayashi Tetsutaro"
+  - "Ogi Takashi"
+  presenter_raw: "Ryuta Hasuno"
+  title_raw: "Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis"
+  details_raw: "The 10th World Congress on Particle Technology (WCPT10) (2026/05/15, Osaka)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -4
+  display:
+    authors:
+    - name: "Ryuta Hasuno"
+      highlight: false
+      person_id: ryuta-hasuno
+    - name: "Tomoyuki Hirano"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "Hayashi Tetsutaro"
+      highlight: false
+      person_id: tetsutaro-hayashi
+    - name: "Ogi Takashi"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis"
+    conference: "The 10th World Congress on Particle Technology (WCPT10)"
+    location: "Osaka"
+    dates:
+      text: "2026年5月15日"
+      start: "2026-05-15"
+      end: "2026-05-15"
+      kind: single
+      source_text: "2026/05/15"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0094
+  type: presentation
+  year: 2026
+  source_order: 14
+  source_number: 391
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "Hirano Tomoyuki, Takashi Ogi: Flame-Engineered AIN Filter for Thermal Management, The 10th World Congress on Particle Technology (WCPT10) (2026/05/13, Osaka) (Invited)"
+  citation_text: "Hirano Tomoyuki, Takashi Ogi: Flame-Engineered AIN Filter for Thermal Management, The 10th World Congress on Particle Technology (WCPT10) (2026/05/13, Osaka) (Invited)"
+  authors_raw:
+  - "Hirano Tomoyuki"
+  - "Takashi Ogi"
+  presenter_raw: "Hirano Tomoyuki"
+  title_raw: "Flame-Engineered AIN Filter for Thermal Management"
+  details_raw: "The 10th World Congress on Particle Technology (WCPT10) (2026/05/13, Osaka)"
+  classification:
+    invited: true
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -3
+  display:
+    authors:
+    - name: "Tomoyuki Hirano"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "Takashi Ogi"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "Flame-Engineered AIN Filter for Thermal Management"
+    conference: "The 10th World Congress on Particle Technology (WCPT10)"
+    location: "Osaka"
+    dates:
+      text: "2026年5月13日"
+      start: "2026-05-13"
+      end: "2026-05-13"
+      kind: single
+      source_text: "2026/05/13"
+      precision: conference_dates_as_recorded
+    annotations:
+    - 招待講演
+  source_quality_note: "原典表記「AIN Filter」は要確認（変更せず保持）"
+- id: pres-0093
+  type: presentation
+  year: 2026
+  source_order: 15
+  source_number: 387
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "Kautsar Duhaul Biqal, Septiani Eka Lutfi, Cao Kiet Le Anh, Hirano Tomoyuki, Ogi Takashi: Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance, IChES 2026 (2026/03/19, Kyoto)"
+  citation_text: "Kautsar Duhaul Biqal, Septiani Eka Lutfi, Cao Kiet Le Anh, Hirano Tomoyuki, Ogi Takashi: Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance, IChES 2026 (2026/03/19, Kyoto)"
+  authors_raw:
+  - "Kautsar Duhaul Biqal"
+  - "Septiani Eka Lutfi"
+  - "Cao Kiet Le Anh"
+  - "Hirano Tomoyuki"
+  - "Ogi Takashi"
+  presenter_raw: "Kautsar Duhaul Biqal"
+  title_raw: "Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance"
+  details_raw: "IChES 2026 (2026/03/19, Kyoto)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -2
+  display:
+    authors:
+    - name: "Kautsar Duhaul Biqal"
+      highlight: false
+      person_id: duhaul-biqal-kautsar
+    - name: "Septiani Eka Lutfi"
+      highlight: false
+      person_id: eka-lutfi-septiani
+    - name: "Cao Kiet Le Anh"
+      highlight: false
+      person_id: kiet-le-anh-cao
+    - name: "Tomoyuki Hirano"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "Ogi Takashi"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance"
+    conference: "IChES 2026"
+    location: "Kyoto"
+    dates:
+      text: "2026年3月19日"
+      start: "2026-03-19"
+      end: "2026-03-19"
+      kind: single
+      source_text: "2026/03/19"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0092
+  type: presentation
+  year: 2026
+  source_order: 16
+  source_number: 386
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "Hasuno Ryuta, Cao Kiet Le Anh, Hirano Tomoyuki, Hayashi Tetsutaro, Ogi Takashi: Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis, IChES 2026 (2026/03/19, Kyoto)"
+  citation_text: "Hasuno Ryuta, Cao Kiet Le Anh, Hirano Tomoyuki, Hayashi Tetsutaro, Ogi Takashi: Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis, IChES 2026 (2026/03/19, Kyoto)"
+  authors_raw:
+  - "Hasuno Ryuta"
+  - "Cao Kiet Le Anh"
+  - "Hirano Tomoyuki"
+  - "Hayashi Tetsutaro"
+  - "Ogi Takashi"
+  presenter_raw: "Hasuno Ryuta"
+  title_raw: "Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis"
+  details_raw: "IChES 2026 (2026/03/19, Kyoto)"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: -1
+  display:
+    authors:
+    - name: "Hasuno Ryuta"
+      highlight: false
+      person_id: ryuta-hasuno
+    - name: "Cao Kiet Le Anh"
+      highlight: false
+      person_id: kiet-le-anh-cao
+    - name: "Tomoyuki Hirano"
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: "Hayashi Tetsutaro"
+      highlight: false
+      person_id: tetsutaro-hayashi
+    - name: "Ogi Takashi"
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis"
+    conference: "IChES 2026"
+    location: "Kyoto"
+    dates:
+      text: "2026年3月19日"
+      start: "2026-03-19"
+      end: "2026-03-19"
+      kind: single
+      source_text: "2026/03/19"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
+- id: pres-0091
+  type: presentation
+  year: 2026
+  source_order: 17
+  source_number: 384
+  source_url: "https://www.hu-tme.com/pages/1503269/page_201712172212"
+  raw_citation_html: "平野 知之: 火炎プロセスによる電極触媒微粒子の高機能化設計, 化学工学会第91年会 (2026/03/17, 京都) (Award)"
+  citation_text: "平野 知之: 火炎プロセスによる電極触媒微粒子の高機能化設計, 化学工学会第91年会 (2026/03/17, 京都) (Award)"
+  authors_raw:
+  - "平野 知之"
+  presenter_raw: "平野 知之"
+  title_raw: "火炎プロセスによる電極触媒微粒子の高機能化設計"
+  details_raw: "化学工学会第91年会 (2026/03/17, 京都)"
+  classification:
+    invited: false
+    award: null
+    award_reporting: excluded_by_owner
+  quality:
+    parsing_status: source_transcribed
+    presenter_status: inferred_from_first_author
+    display_names_not_identity_verified: true
+    source_checked_on: '2026-10-22'
+  display_order: 0
+  display:
+    authors:
+    - name: "平野 知之"
+      highlight: true
+      person_id: tomoyuki-hirano
+    presenter_position: 1
+    presenter_evidence: first_listed_author_in_source
+    title_html: "火炎プロセスによる電極触媒微粒子の高機能化設計"
+    conference: "化学工学会第91年会"
+    location: "京都"
+    dates:
+      text: "2026年3月17日"
+      start: "2026-03-17"
+      end: "2026-03-17"
+      kind: single
+      source_text: "2026/03/17"
+      precision: conference_dates_as_recorded
+    annotations:
+      []
