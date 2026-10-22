@@ -58,3 +58,8 @@ Original website citations and all presentation `*_raw` / `citation_text` fields
 Presentation `author_id_links` use 1-based positions and only exact, confirmed name matches.
 Missing links mean unresolved, not absence of the person from the work.
 Unconfirmed spelling variants must not be merged automatically.
+
+
+## Presentation display and classification
+
+Presentation records use `scope: domestic|international` for the public filter. `display_html` is the normalized website citation; `citation_text` and `raw_citation_html` retain the imported source. The presenter is marked by `〇` with bold underline. `classification.invited` and `classification.award` drive visible badges. Never discard a source citation when correcting display formatting.

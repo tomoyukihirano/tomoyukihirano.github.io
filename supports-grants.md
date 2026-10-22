@@ -23,8 +23,8 @@ core_supports: true
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-3">財団助成金</h3>
+- <strong>公益財団法人旭硝子財団 2026年度研究奨励</strong><br>課題名：火炎法による大過冷却融液/ガラス状態を経由した準安定相の創製<br>採択年度：2026年度，助成額：3,000,000円
 - <strong>ガラス産業連合会・ニューガラスフォーラム 2025年度ガラス基礎研究振興プログラム</strong><br>課題名：無容器法としての火炎プロセスで切り拓くニューガラスサイエンス<br>期間：2025/04–2028/03，金額：7,000,000円
-- <strong>粉体工学情報センター 2025年度（第21回）粉体工学情報センター研究助成</strong><br>課題名：燃焼反応器を用いた新規粉体球状化プロセスに関する基礎研究<br>期間：2025/04–2026/03，金額：1,000,000円
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-4">産学連携</h3>
@@ -40,6 +40,7 @@ core_supports: true
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-6">財団助成金</h3>
+- <strong>粉体工学情報センター 2025年度（第21回）粉体工学情報センター研究助成</strong><br>課題名：燃焼反応器を用いた新規粉体球状化プロセスに関する基礎研究<br>期間：2025/04–2026/03，金額：1,000,000円
 - <strong>岩谷直治記念財団 第50回（2023年度）岩谷科学技術研究助成</strong><br>課題名：固体高分子形燃料電池の高耐久・高性能化に向けた3次元鎖状構造を有するマクロポーラス酸化物触媒担体の開発<br>期間：2024/04–2025/03，金額：2,000,000円
 - <strong>スズキ財団 2023年度科学技術研究助成</strong><br>課題名：気相燃焼反応を用いた酸化スズ系熱線遮へい材料の開発<br>期間：2024/04–2025/03，金額：1,000,000円
 - <strong>谷川熱技術振興基金令和5年度研究助成</strong><br>課題名：気相燃焼法による機能性微粒子の球状化<br>期間：2023/10–2024/09，金額：1,000,000円

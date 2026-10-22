@@ -117,3 +117,10 @@ _includes/navigation.html
 
 JekyllはMarkdown原稿とレイアウトを組み合わせて，公開用HTMLを自動生成する静的サイトジェネレーターです。
 このリポジトリでは，GitHub Pages上でJekyllが自動実行されます。
+
+
+## 発表・論文の絞り込み表示
+
+Presentationsは `_data/presentations/YYYY.yml` の `scope`（`domestic` / `international`）と `classification.invited` を使って自動表示します。表示用の統一表記は `display_html`，元データは `citation_text` / `raw_citation_html` に残します。
+
+Publicationsページの「全論文」「筆頭著者」「筆頭著者・責任著者」は `_data/publications/YYYY.yml` の `classification.hirano_first_author` と `classification.hirano_corresponding` に基づいて切り替わります。

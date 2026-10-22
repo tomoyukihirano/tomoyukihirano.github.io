@@ -441,3 +441,62 @@ button.back-to-top {
     padding-top: 24px;
   }
 }
+
+
+/* Academic achievement filters */
+.achievement-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.achievement-filter__button {
+  appearance: none;
+  border: 1px solid #1f5f99;
+  border-radius: 999px;
+  background: #fff;
+  color: #1f5f99;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.25;
+  padding: 0.58rem 1rem;
+}
+
+.achievement-filter__button:hover,
+.achievement-filter__button:focus-visible {
+  background: #eef6fd;
+}
+
+.achievement-filter__button[aria-pressed="true"] {
+  background: #1f5f99;
+  color: #fff;
+}
+
+.achievement-list > li[hidden] {
+  display: none;
+}
+
+.achievement-badge {
+  display: inline-block;
+  border-radius: 0.3rem;
+  font-size: 0.82em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-left: 0.45em;
+  padding: 0.18em 0.48em;
+  vertical-align: 0.08em;
+}
+
+.achievement-badge--invited {
+  background: #fff1cc;
+  border: 1px solid #b87900;
+  color: #7a5000;
+}
+
+.achievement-badge--award {
+  background: #fbe9ef;
+  border: 1px solid #a33a5b;
+  color: #842844;
+}

@@ -1,0 +1,178 @@
+schema_version: 2
+year: 2026
+source: presentations.md and verified supplemental records
+records:
+- id: pres-0102
+  type: presentation
+  year: 2026
+  raw_citation_html: 平野 知之，火炎を用いた微粒子材料の高機能化，材料化学システム工学討論会2026，京都大学桂キャンパス，2026年9月24日
+  citation_text: 平野 知之，火炎を用いた微粒子材料の高機能化，材料化学システム工学討論会2026，京都大学桂キャンパス，2026年9月24日
+  authors_raw:
+  - 平野 知之
+  presenter_raw: 平野 知之
+  title_raw: 火炎を用いた微粒子材料の高機能化
+  details_raw: 材料化学システム工学討論会2026，京都大学桂キャンパス，2026年9月24日
+  scope: domestic
+  classification:
+    invited: true
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: owner_records
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇平野 知之</u></strong>，火炎を用いた微粒子材料の高機能化，材料化学システム工学討論会2026，京都大学桂キャンパス，2026年9月24日
+- id: pres-0101
+  type: presentation
+  year: 2026
+  raw_citation_html: 平野 知之，荻 崇，火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化，化学工学会第57回秋季大会，東広島，2026年9月14日－16日
+  citation_text: 平野 知之，荻 崇，火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化，化学工学会第57回秋季大会，東広島，2026年9月14日－16日
+  authors_raw:
+  - 平野 知之
+  - 荻 崇
+  presenter_raw: 平野 知之
+  title_raw: 火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化
+  details_raw: 化学工学会第57回秋季大会，東広島，2026年9月14日－16日
+  scope: domestic
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: owner_records
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇平野 知之</u></strong>，荻 崇，火炎プロセスを用いた高熱伝導フィラー用窒化アルミニウム粒子の球状化，化学工学会第57回秋季大会，東広島，2026年9月14日－16日
+- id: pres-0100
+  type: presentation
+  year: 2026
+  raw_citation_html: 平野 知之，荻 崇，火炎法による高熱伝導フィラー用球状窒化アルミニウム粒子の合成，火薬学会2026年度春季研究発表会，2026年5月28日－29日
+  citation_text: 平野 知之，荻 崇，火炎法による高熱伝導フィラー用球状窒化アルミニウム粒子の合成，火薬学会2026年度春季研究発表会，2026年5月28日－29日
+  authors_raw:
+  - 平野 知之
+  - 荻 崇
+  presenter_raw: 平野 知之
+  title_raw: 火炎法による高熱伝導フィラー用球状窒化アルミニウム粒子の合成
+  details_raw: 火薬学会2026年度春季研究発表会，2026年5月28日－29日
+  scope: domestic
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: owner_records
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇平野 知之</u></strong>，荻 崇，火炎法による高熱伝導フィラー用球状窒化アルミニウム粒子の合成，火薬学会2026年度春季研究発表会，2026年5月28日－29日
+- id: pres-0099
+  type: presentation
+  year: 2026
+  raw_citation_html: Ryuta Hasuno，Tomoyuki Hirano，Tetsutaro Hayashi，Takashi Ogi，Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis，10th World Congress on Particle Technology，Osaka，2026年5月15日
+  citation_text: Ryuta Hasuno，Tomoyuki Hirano，Tetsutaro Hayashi，Takashi Ogi，Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis，10th World Congress on Particle Technology，Osaka，2026年5月15日
+  authors_raw:
+  - Ryuta Hasuno
+  - Tomoyuki Hirano
+  - Tetsutaro Hayashi
+  - Takashi Ogi
+  presenter_raw: Ryuta Hasuno
+  title_raw: Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis
+  details_raw: 10th World Congress on Particle Technology，Osaka，2026年5月15日
+  scope: international
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: lab_website
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇Ryuta Hasuno</u></strong>，Tomoyuki Hirano，Tetsutaro Hayashi，Takashi Ogi，Three-Fluid Nozzle Flame Spray Pyrolysis for Multicomponent Oxide Nanoparticle Synthesis，10th World Congress on Particle Technology，Osaka，2026年5月15日
+- id: pres-0098
+  type: presentation
+  year: 2026
+  raw_citation_html: Tomoyuki Hirano，Takashi Ogi，Flame-Engineered AlN Fillers for Thermal Management，10th World Congress on Particle Technology，Osaka，2026年5月13日
+  citation_text: Tomoyuki Hirano，Takashi Ogi，Flame-Engineered AlN Fillers for Thermal Management，10th World Congress on Particle Technology，Osaka，2026年5月13日
+  authors_raw:
+  - Tomoyuki Hirano
+  - Takashi Ogi
+  presenter_raw: Tomoyuki Hirano
+  title_raw: Flame-Engineered AlN Fillers for Thermal Management
+  details_raw: 10th World Congress on Particle Technology，Osaka，2026年5月13日
+  scope: international
+  classification:
+    invited: true
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: owner_records
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇Tomoyuki Hirano</u></strong>，Takashi Ogi，Flame-Engineered AlN Fillers for Thermal Management，10th World Congress on Particle Technology，Osaka，2026年5月13日
+- id: pres-0097
+  type: presentation
+  year: 2026
+  raw_citation_html: Ryuta Hasuno，Kiet Le Anh Cao，Tomoyuki Hirano，Tetsutaro Hayashi，Takashi Ogi，Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis，International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+  citation_text: Ryuta Hasuno，Kiet Le Anh Cao，Tomoyuki Hirano，Tetsutaro Hayashi，Takashi Ogi，Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis，International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+  authors_raw:
+  - Ryuta Hasuno
+  - Kiet Le Anh Cao
+  - Tomoyuki Hirano
+  - Tetsutaro Hayashi
+  - Takashi Ogi
+  presenter_raw: Ryuta Hasuno
+  title_raw: Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis
+  details_raw: International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+  scope: international
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: lab_website
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇Ryuta Hasuno</u></strong>，Kiet Le Anh Cao，Tomoyuki Hirano，Tetsutaro Hayashi，Takashi Ogi，Synthesis of Al-Doped Nanocrystalline Li4Ti5O12 via Flame Spray Pyrolysis，International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+- id: pres-0096
+  type: presentation
+  year: 2026
+  raw_citation_html: Duhaul Biqal Kautsar，Eka Lutfi Septiani，Kiet Le Anh Cao，Tomoyuki Hirano，Takashi Ogi，Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance，International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+  citation_text: Duhaul Biqal Kautsar，Eka Lutfi Septiani，Kiet Le Anh Cao，Tomoyuki Hirano，Takashi Ogi，Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance，International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+  authors_raw:
+  - Duhaul Biqal Kautsar
+  - Eka Lutfi Septiani
+  - Kiet Le Anh Cao
+  - Tomoyuki Hirano
+  - Takashi Ogi
+  presenter_raw: Duhaul Biqal Kautsar
+  title_raw: Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance
+  details_raw: International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+  scope: international
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: verified
+  source:
+    kind: lab_website
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇Duhaul Biqal Kautsar</u></strong>，Eka Lutfi Septiani，Kiet Le Anh Cao，Tomoyuki Hirano，Takashi Ogi，Effect of Template Surface Charge on the Formation of Nanostructured Three-Way Catalyst Particles and Their Soot Oxidation Performance，International Chemical Engineering Symposium 2026，Kyoto，2026年3月19日
+- id: pres-0095
+  type: presentation
+  year: 2026
+  raw_citation_html: 平野 知之，火炎プロセスによる電極触媒微粒子の高機能化設計，化学工学会第91年会，京都，2026年3月17日
+  citation_text: 平野 知之，火炎プロセスによる電極触媒微粒子の高機能化設計，化学工学会第91年会，京都，2026年3月17日
+  authors_raw:
+  - 平野 知之
+  presenter_raw: 平野 知之
+  title_raw: 火炎プロセスによる電極触媒微粒子の高機能化設計
+  details_raw: 化学工学会第91年会，京都，2026年3月17日
+  scope: domestic
+  classification:
+    invited: false
+    award: true
+  quality:
+    parsing_status: verified
+  source:
+    kind: owner_records
+    verified_on: '2026-10-22'
+  display_html: <strong><u>〇平野 知之</u></strong>，火炎プロセスによる電極触媒微粒子の高機能化設計，化学工学会第91年会，京都，2026年3月17日
