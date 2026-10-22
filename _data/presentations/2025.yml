@@ -475,7 +475,8 @@ records:
     authors:
     - name: 平野 知之
       highlight: true
-    - name: Ho Thi Thang Nguyen
+    - name: Thi Thanh Nguyen Ho
+      person_id: thi-thanh-nguyen-ho
       highlight: false
     - name: 荻 崇
       highlight: false
