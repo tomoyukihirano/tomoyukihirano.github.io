@@ -1,0 +1,121 @@
+schema_version: 1
+records:
+- {id: abdul-kadir, name: Abdul Kadir, first_name: Abdul, last_name: Kadir}
+- {id: aditya-farhan-arif, name: Aditya Farhan Arif, first_name: Aditya Farhan, last_name: Arif}
+- {id: ai-ando, name: Ai Ando, first_name: Ai, last_name: Ando}
+- {id: akira-ichimiya, name: Akira Ichimiya, first_name: Akira, last_name: Ichimiya}
+- {id: annie-m-rahmatika, name: Annie M. Rahmatika, first_name: Annie M., last_name: Rahmatika}
+- {id: annie-mufyda-rahmatika, name: Annie Mufyda Rahmatika, first_name: Annie Mufyda, last_name: Rahmatika}
+- {id: aoi-takano, name: Aoi Takano, first_name: Aoi, last_name: Takano}
+- {id: arika-nur-indrayani, name: Arika Nur Indrayani, first_name: Arika Nur, last_name: Indrayani}
+- {id: asep-bayu-dani-nandiyanto, name: Asep Bayu Dani Nandiyanto, first_name: Asep Bayu Dani, last_name: Nandiyanto}
+- {id: asep-nandiyanto, name: Asep Nandiyanto, first_name: Asep, last_name: Nandiyanto}
+- {id: ayano-kamimura, name: Ayano Kamimura, first_name: Ayano, last_name: Kamimura}
+- {id: azzania-fibriani, name: Azzania Fibriani, first_name: Azzania, last_name: Fibriani}
+- {id: daiki-tomonaga, name: Daiki Tomonaga, first_name: Daiki, last_name: Tomonaga}
+- {id: daisuke-shimokuri, name: Daisuke Shimokuri, first_name: Daisuke, last_name: Shimokuri}
+- {id: delyana-ratnasari, name: Delyana Ratnasari, first_name: Delyana, last_name: Ratnasari}
+- {id: diva-addini-maghribi-muyassiroh, name: Diva Addini Maghribi Muyassiroh, first_name: Diva Addini Maghribi, last_name: Muyassiroh}
+- {id: duhaul-biqal-kautsar, name: Duhaul Biqal Kautsar, first_name: Duhaul Biqal, last_name: Kautsar}
+- {id: ea-cahya-septia-mahen, name: Ea Cahya Septia Mahen, first_name: Ea Cahya Septia, last_name: Mahen}
+- {id: eishi-tanabe, name: Eishi Tanabe, first_name: Eishi, last_name: Tanabe}
+- {id: eka-lutfi-septiani, name: Eka Lutfi Septiani, first_name: Eka Lutfi, last_name: Septiani}
+- {id: eli-hendrik-sanjaya, name: Eli Hendrik Sanjaya, first_name: Eli Hendrik, last_name: Sanjaya}
+- {id: eva, name: Eva, first_name: Eva}
+- {id: febrigia-ghana-rinaldi, name: Febrigia Ghana Rinaldi, first_name: Febrigia Ghana, last_name: Rinaldi}
+- {id: ferry-inskandar, name: Ferry Inskandar, first_name: Ferry, last_name: Inskandar}
+- {id: ferry-iskandar, name: Ferry Iskandar, first_name: Ferry, last_name: Iskandar}
+- {id: fitri-aulia-permatasari, name: Fitri Aulia Permatasari, first_name: Fitri Aulia, last_name: Permatasari}
+- {id: goki-sasaki, name: Goki Sasaki, first_name: Goki, last_name: Sasaki}
+- {id: hang-thi-nguyet-le, name: Hang Thi Nguyet Le, first_name: Hang Thi Nguyet, last_name: Le}
+- {id: hardy-atmajaya, name: Hardy Atmajaya, first_name: Hardy, last_name: Atmajaya}
+- {id: hendrix-abdul-ajiz, name: Hendrix Abdul Ajiz, first_name: Hendrix Abdul, last_name: Ajiz}
+- {id: hirofumi-seo, name: Hirofumi Seo, first_name: Hirofumi, last_name: Seo}
+- {id: hiromitsu-fukazawa, name: Hiromitsu Fukazawa, first_name: Hiromitsu, last_name: Fukazawa}
+- {id: hiroshi-tsutsumi, name: Hiroshi Tsutsumi, first_name: Hiroshi, last_name: Tsutsumi}
+- {id: hiroyuki-matsumoto, name: Hiroyuki Matsumoto, first_name: Hiroyuki, last_name: Matsumoto}
+- {id: jun-kikkawa, name: Jun Kikkawa, first_name: Jun, last_name: Kikkawa}
+- {id: katsuo-takahashi, name: Katsuo Takahashi, first_name: Katsuo, last_name: Takahashi}
+- {id: kazuki-mizutani, name: Kazuki Mizutani, first_name: Kazuki, last_name: Mizutani}
+- {id: kazunori-sato, name: Kazunori Sato, first_name: Kazunori, last_name: Sato}
+- {id: kazuto-harada, name: Kazuto Harada, first_name: Kazuto, last_name: Harada}
+- {id: keita-yoshitake, name: Keita Yoshitake, first_name: Keita, last_name: Yoshitake}
+- {id: kenshi-kitawaki, name: Kenshi Kitawaki, first_name: Kenshi, last_name: Kitawaki}
+- {id: khoa-anh-le-cao, name: Khoa Anh Le Cao, first_name: Khoa Anh Le, last_name: Cao}
+- {id: kiet-le-anh-cao, name: Kiet Le Anh Cao, first_name: Kiet Le Anh, last_name: Cao}
+- {id: kikuo-okuyama, name: Kikuo Okuyama, first_name: Kikuo, last_name: Okuyama}
+- {id: kodai-fusatani, name: Kodai Fusatani, first_name: Kodai, last_name: Fusatani}
+- {id: kohei-kume, name: Kohei Kume, first_name: Kohei, last_name: Kume}
+- {id: kohei-matsumoto, name: Kohei Matsumoto, first_name: Kohei, last_name: Matsumoto}
+- {id: koichi-yokoyama, name: Koichi Yokoyama, first_name: Koichi, last_name: Yokoyama}
+- {id: kosuke-kondo, name: Kosuke Kondo, first_name: Kosuke, last_name: Kondo}
+- {id: kouhei-matsumoto, name: Kouhei Matsumoto, first_name: Kouhei, last_name: Matsumoto}
+- {id: lailatul-alawiyah, name: Lailatul Alawiyah, first_name: Lailatul, last_name: Alawiyah}
+- {id: lailatul-qomariyah, name: Lailatul Qomariyah, first_name: Lailatul, last_name: Qomariyah}
+- {id: le-hoai-phong, name: Le Hoai Phong, first_name: Le Hoai, last_name: Phong}
+- {id: le-thi-nguyet-hang, name: Le Thi Nguyet Hang, first_name: Le Thi Nguyet, last_name: Hang}
+- {id: leon-gradon, name: Leon Gradon, first_name: Leon, last_name: Gradon}
+- {id: mai-watanabe, name: Mai Watanabe, first_name: Mai, last_name: Watanabe}
+- {id: makoto-maeda, name: Makoto Maeda, first_name: Makoto, last_name: Maeda}
+- {id: mar-atul-fauziyah, name: Mar’atul Fauziyah, first_name: Mar’atul, last_name: Fauziyah}
+- {id: masahiko-matsukata, name: Masahiko Matsukata, first_name: Masahiko, last_name: Matsukata}
+- {id: masaru-kubo, name: Masaru Kubo, first_name: Masaru, last_name: Kubo}
+- {id: masashi-kiyosawa, name: Masashi Kiyosawa, first_name: Masashi, last_name: Kiyosawa}
+- {id: masato-uchida, name: Masato Uchida, first_name: Masato, last_name: Uchida}
+- {id: miho-kishi, name: Miho Kishi, first_name: Miho, last_name: Kishi}
+- {id: mikihiro-kataoka, name: Mikihiro Kataoka, first_name: Mikihiro, last_name: Kataoka}
+- {id: mila-tejamaya, name: Mila Tejamaya, first_name: Mila, last_name: Tejamaya}
+- {id: nao-tsunoji, name: Nao Tsunoji, first_name: Nao, last_name: Tsunoji}
+- {id: nhan-trung-nguyen, name: Nhan Trung Nguyen, first_name: Nhan Trung, last_name: Nguyen}
+- {id: nicky-rahmana-putra, name: Nicky Rahmana Putra, first_name: Nicky Rahmana, last_name: Putra}
+- {id: nobuhiro-okuda, name: Nobuhiro Okuda, first_name: Nobuhiro, last_name: Okuda}
+- {id: norito-kadowaki, name: Norito Kadowaki, first_name: Norito, last_name: Kadowaki}
+- {id: nur-syakirah-nabilah-saipul-bahri, name: Nur Syakirah Nabilah Saipul Bahri, first_name: Nur Syakirah Nabilah Saipul, last_name: Bahri}
+- {id: nurdiana-ratna-puri, name: Nurdiana Ratna Puri, first_name: Nurdiana Ratna, last_name: Puri}
+- {id: oktavia-ningrum, name: Oktavia Ningrum, first_name: Oktavia, last_name: Ningrum}
+- {id: oktaviardi-bityasmawan-abdillah, name: Oktaviardi Bityasmawan Abdillah, first_name: Oktaviardi Bityasmawan, last_name: Abdillah}
+- {id: osi-arutanti, name: Osi Arutanti, first_name: Osi, last_name: Arutanti}
+- {id: phong-hoai-le, name: Phong Hoai Le, first_name: Phong Hoai, last_name: Le}
+- {id: rashid-shamsuddin, name: Rashid Shamsuddin, first_name: Rashid, last_name: Shamsuddin}
+- {id: ratna-balgis, name: Ratna Balgis, first_name: Ratna, last_name: Balgis}
+- {id: reza-umami, name: Reza Umami, first_name: Reza, last_name: Umami}
+- {id: ridha-nurul-chamida, name: Ridha Nurul Chamida, first_name: Ridha Nurul, last_name: Chamida}
+- {id: risti-ragadhita, name: Risti Ragadhita, first_name: Risti, last_name: Ragadhita}
+- {id: rizka-ayu-yuniar, name: Rizka Ayu Yuniar, first_name: Rizka Ayu, last_name: Yuniar}
+- {id: ryosuke-narui, name: Ryosuke Narui, first_name: Ryosuke, last_name: Narui}
+- {id: ryuta-hasuno, name: Ryuta Hasuno, first_name: Ryuta, last_name: Hasuno}
+- {id: saidah-altway, name: Saidah Altway, first_name: Saidah, last_name: Altway}
+- {id: satoshi-suzuki, name: Satoshi Suzuki, first_name: Satoshi, last_name: Suzuki}
+- {id: shintaro-kamio, name: Shintaro Kamio, first_name: Shintaro, last_name: Kamio}
+- {id: shogo-kaseda, name: Shogo Kaseda, first_name: Shogo, last_name: Kaseda}
+- {id: shota-imaoka, name: Shota Imaoka, first_name: Shota, last_name: Imaoka}
+- {id: shuhei-nakakura, name: Shuhei Nakakura, first_name: Shuhei, last_name: Nakakura}
+- {id: shunki-yamashita, name: Shunki Yamashita, first_name: Shunki, last_name: Yamashita}
+- {id: siti-fadilah, name: Siti Fadilah, first_name: Siti, last_name: Fadilah}
+- {id: stevan-deby-anbiya-muhammad-sunarno, name: Stevan Deby Anbiya Muhammad Sunarno, first_name: Stevan Deby Anbiya Muhammad, last_name: Sunarno}
+- {id: suprapto-suprapto, name: Suprapto Suprapto, first_name: Suprapto, last_name: Suprapto}
+- {id: syu-miyasaka, name: Syu Miyasaka, first_name: Syu, last_name: Miyasaka}
+- {id: takahisa-katou, name: Takahisa Katou, first_name: Takahisa, last_name: Katou}
+- {id: takama-tsuboi, name: Takama Tsuboi, first_name: Takama, last_name: Tsuboi}
+- {id: takashi-ogi, name: Takashi Ogi, first_name: Takashi, last_name: Ogi}
+- {id: takehiro-yamagishi, name: Takehiro Yamagishi, first_name: Takehiro, last_name: Yamagishi}
+- {id: takeo-kitamura, name: Takeo Kitamura, first_name: Takeo, last_name: Kitamura}
+- {id: tareq-w-m-amen, name: Tareq W.M. Amen, first_name: Tareq W.M., last_name: Amen}
+- {id: tetsutaro-hayashi, name: Tetsutaro Hayashi, first_name: Tetsutaro, last_name: Hayashi}
+- {id: thi-tanh-nguyen-ho, name: Thi Tanh Nguyen Ho, first_name: Thi Tanh Nguyen, last_name: Ho}
+- {id: thi-thanh-nguyen-ho, name: Thi Thanh Nguyen Ho, first_name: Thi Thanh Nguyen, last_name: Ho}
+- {id: tomoyuki-hirano, name: Tomoyuki Hirano, first_name: Tomoyuki, last_name: Hirano}
+- {id: toshiyuki-onishi, name: Toshiyuki Onishi, first_name: Toshiyuki, last_name: Onishi}
+- {id: tue-tri-nguyen, name: Tue Tri Nguyen, first_name: Tue Tri, last_name: Nguyen}
+- {id: tung-van-pham, name: Tung Van Pham, first_name: Tung Van, last_name: Pham}
+- {id: w-widiysatuti, name: W. Widiysatuti, first_name: W., last_name: Widiysatuti}
+- {id: wei-ning-wang, name: Wei-Ning Wang, first_name: Wei-Ning, last_name: Wang}
+- {id: yasuhiko-kitamoto, name: Yasuhiko Kitamoto, first_name: Yasuhiko, last_name: Kitamoto}
+- {id: yasushi-enokido, name: Yasushi Enokido, first_name: Yasushi, last_name: Enokido}
+- {id: yohsuke-goi, name: Yohsuke Goi, first_name: Yohsuke, last_name: Goi}
+- {id: youhei-toyoda, name: Youhei Toyoda, first_name: Youhei, last_name: Toyoda}
+- {id: yuhi-okada, name: Yuhi Okada, first_name: Yuhi, last_name: Okada}
+- {id: yuko-morita, name: Yuko Morita, first_name: Yuko, last_name: Morita}
+- {id: yusuke-kito, name: Yusuke Kito, first_name: Yusuke, last_name: Kito}
+- {id: yusuke-kitou, name: Yusuke Kitou, first_name: Yusuke, last_name: Kitou}
+- {id: yusuke-yoshikawa, name: Yusuke Yoshikawa, first_name: Yusuke, last_name: Yoshikawa}
