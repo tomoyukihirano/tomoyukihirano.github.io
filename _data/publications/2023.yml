@@ -108,14 +108,8 @@ records:
   pages_or_article_number: 104241-104241
   status: published
   article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883123003060
-  authors:
-  - nur-syakirah-nabilah-saipul-bahri
-  - tue-tri-nguyen
-  - tomoyuki-hirano
-  - kouhei-matsumoto
-  - mai-watanabe
-  - yuko-morita
-  - takashi-ogi
+  authors: ["nur-syakirah-nabilah-saipul-bahri", "tue-tri-nguyen", "tomoyuki-hirano", "kohei-matsumoto", "mai-watanabe", "yuko-morita", "takashi-ogi"]
+  author_names_as_imported: ["Nur Syakirah Nabilah Saipul Bahri", "Tue Tri Nguyen", "Tomoyuki Hirano", "Kouhei Matsumoto", "Mai Watanabe", "Yuko Morita", "Takashi Ogi"]
   corresponding_authors:
   - takashi-ogi
   dates:
@@ -232,12 +226,8 @@ records:
   pages_or_article_number: 1789–1798
   status: published
   article_url: https://pubs.acs.org/doi/10.1021/acsaenm.3c00176
-  authors:
-  - kiet-le-anh-cao
-  - yusuke-kito
-  - phong-hoai-le
-  - takashi-ogi
-  - tomoyuki-hirano
+  authors: ["kiet-le-anh-cao", "yusuke-kitou", "phong-hoai-le", "takashi-ogi", "tomoyuki-hirano"]
+  author_names_as_imported: ["Kiet Le Anh Cao", "Yusuke Kito", "Phong Hoai Le", "Takashi Ogi", "Tomoyuki Hirano"]
   corresponding_authors:
   - takashi-ogi
   - tomoyuki-hirano

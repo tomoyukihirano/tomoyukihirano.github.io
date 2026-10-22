@@ -98,13 +98,8 @@ records:
   pages_or_article_number: 15449–15456
   status: published
   article_url: https://pubs.acs.org/doi/10.1021/acsanm.2c03489
-  authors:
-  - tomoyuki-hirano
-  - shogo-kaseda
-  - kiet-le-anh-cao
-  - ferry-inskandar
-  - eishi-tanabe
-  - takashi-ogi
+  authors: ["tomoyuki-hirano", "shogo-kaseda", "kiet-le-anh-cao", "ferry-iskandar", "eishi-tanabe", "takashi-ogi"]
+  author_names_as_imported: ["Tomoyuki Hirano", "Shogo Kaseda", "Kiet Le Anh Cao", "Ferry Inskandar", "Eishi Tanabe", "Takashi Ogi"]
   corresponding_authors:
   - takashi-ogi
   dates:

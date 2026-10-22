@@ -70,7 +70,8 @@ records:
   pages_or_article_number: '122697'
   status: published
   article_url: https://www.sciencedirect.com/science/article/abs/pii/S0032591026005863
-  authors: [thi-tanh-nguyen-ho, tomoyuki-hirano, aoi-takano, syu-miyasaka, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
+  authors: ["thi-thanh-nguyen-ho", "tomoyuki-hirano", "aoi-takano", "syu-miyasaka", "eka-lutfi-septiani", "kiet-le-anh-cao", "takashi-ogi"]
+  author_names_as_imported: ["Thi Tanh Nguyen Ho", "Tomoyuki Hirano", "Aoi Takano", "Syu Miyasaka", "Eka Lutfi Septiani", "Kiet Le Anh Cao", "Takashi Ogi"]
   corresponding_authors: [tomoyuki-hirano, takashi-ogi]
   dates: {submitted: '2025-11-28', accepted: '2026-05-18', published_online: '2026-05-19', accepted_fiscal_year: 2026}
   classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [K,N,P,R,T], top10_percent: false}
@@ -121,7 +122,8 @@ records:
   pages_or_article_number: '105238'
   status: published
   article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883126000749
-  authors: [ridha-nurul-chamida, kiet-le-anh-cao, hirofumi-seo, le-thi-nguyet-hang, eka-lutfi-septiani, oktaviardi-bityasmawan-abdillah, tomoyuki-hirano, takashi-ogi]
+  authors: ["ridha-nurul-chamida", "kiet-le-anh-cao", "hirofumi-seo", "hang-thi-nguyet-le", "eka-lutfi-septiani", "oktaviardi-bityasmawan-abdillah", "tomoyuki-hirano", "takashi-ogi"]
+  author_names_as_imported: ["Ridha Nurul Chamida", "Kiet Le Anh Cao", "Hirofumi Seo", "Le Thi Nguyet Hang", "Eka Lutfi Septiani", "Oktaviardi Bityasmawan Abdillah", "Tomoyuki Hirano", "Takashi Ogi"]
   corresponding_authors: [takashi-ogi]
   dates: {submitted: '2025-12-29', accepted: '2026-03-20', published_online: '2026-04-01', accepted_fiscal_year: 2025}
   classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}

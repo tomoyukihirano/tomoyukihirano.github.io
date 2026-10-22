@@ -23,11 +23,10 @@ records:
 - {id: eli-hendrik-sanjaya, name: Eli Hendrik Sanjaya, first_name: Eli Hendrik, last_name: Sanjaya}
 - {id: eva, name: Eva, first_name: Eva}
 - {id: febrigia-ghana-rinaldi, name: Febrigia Ghana Rinaldi, first_name: Febrigia Ghana, last_name: Rinaldi}
-- {id: ferry-inskandar, name: Ferry Inskandar, first_name: Ferry, last_name: Inskandar}
-- {id: ferry-iskandar, name: Ferry Iskandar, first_name: Ferry, last_name: Iskandar}
+- {"id": "ferry-iskandar", "name": "Ferry Iskandar", "first_name": "Ferry", "last_name": "Iskandar", "aliases": ["Ferry Inskandar"], "legacy_ids": ["ferry-inskandar"], "identity_confirmed_on": "2026-10-22"}
 - {id: fitri-aulia-permatasari, name: Fitri Aulia Permatasari, first_name: Fitri Aulia, last_name: Permatasari}
 - {id: goki-sasaki, name: Goki Sasaki, first_name: Goki, last_name: Sasaki}
-- {id: hang-thi-nguyet-le, name: Hang Thi Nguyet Le, first_name: Hang Thi Nguyet, last_name: Le}
+- {"id": "hang-thi-nguyet-le", "name": "Hang Thi Nguyet Le", "first_name": "Hang Thi Nguyet", "last_name": "Le", "aliases": ["Le Thi Nguyet Hang"], "legacy_ids": ["le-thi-nguyet-hang"], "identity_confirmed_on": "2026-10-22"}
 - {id: hardy-atmajaya, name: Hardy Atmajaya, first_name: Hardy, last_name: Atmajaya}
 - {id: hendrix-abdul-ajiz, name: Hendrix Abdul Ajiz, first_name: Hendrix Abdul, last_name: Ajiz}
 - {id: hirofumi-seo, name: Hirofumi Seo, first_name: Hirofumi, last_name: Seo}
@@ -46,14 +45,11 @@ records:
 - {id: kikuo-okuyama, name: Kikuo Okuyama, first_name: Kikuo, last_name: Okuyama}
 - {id: kodai-fusatani, name: Kodai Fusatani, first_name: Kodai, last_name: Fusatani}
 - {id: kohei-kume, name: Kohei Kume, first_name: Kohei, last_name: Kume}
-- {id: kohei-matsumoto, name: Kohei Matsumoto, first_name: Kohei, last_name: Matsumoto}
+- {"id": "kohei-matsumoto", "name": "Kohei Matsumoto", "first_name": "Kohei", "last_name": "Matsumoto", "aliases": ["Kouhei Matsumoto"], "legacy_ids": ["kouhei-matsumoto"], "identity_confirmed_on": "2026-10-22"}
 - {id: koichi-yokoyama, name: Koichi Yokoyama, first_name: Koichi, last_name: Yokoyama}
 - {id: kosuke-kondo, name: Kosuke Kondo, first_name: Kosuke, last_name: Kondo}
-- {id: kouhei-matsumoto, name: Kouhei Matsumoto, first_name: Kouhei, last_name: Matsumoto}
 - {id: lailatul-alawiyah, name: Lailatul Alawiyah, first_name: Lailatul, last_name: Alawiyah}
 - {id: lailatul-qomariyah, name: Lailatul Qomariyah, first_name: Lailatul, last_name: Qomariyah}
-- {id: le-hoai-phong, name: Le Hoai Phong, first_name: Le Hoai, last_name: Phong}
-- {id: le-thi-nguyet-hang, name: Le Thi Nguyet Hang, first_name: Le Thi Nguyet, last_name: Hang}
 - {id: leon-gradon, name: Leon Gradon, first_name: Leon, last_name: Gradon}
 - {id: mai-watanabe, name: Mai Watanabe, first_name: Mai, last_name: Watanabe}
 - {id: makoto-maeda, name: Makoto Maeda, first_name: Makoto, last_name: Maeda}
@@ -75,7 +71,7 @@ records:
 - {id: oktavia-ningrum, name: Oktavia Ningrum, first_name: Oktavia, last_name: Ningrum}
 - {id: oktaviardi-bityasmawan-abdillah, name: Oktaviardi Bityasmawan Abdillah, first_name: Oktaviardi Bityasmawan, last_name: Abdillah}
 - {id: osi-arutanti, name: Osi Arutanti, first_name: Osi, last_name: Arutanti}
-- {id: phong-hoai-le, name: Phong Hoai Le, first_name: Phong Hoai, last_name: Le}
+- {"id": "phong-hoai-le", "name": "Phong Hoai Le", "first_name": "Phong Hoai", "last_name": "Le", "aliases": ["Le Hoai Phong"], "legacy_ids": ["le-hoai-phong"], "identity_confirmed_on": "2026-10-22"}
 - {id: rashid-shamsuddin, name: Rashid Shamsuddin, first_name: Rashid, last_name: Shamsuddin}
 - {id: ratna-balgis, name: Ratna Balgis, first_name: Ratna, last_name: Balgis}
 - {id: reza-umami, name: Reza Umami, first_name: Reza, last_name: Umami}
@@ -102,8 +98,7 @@ records:
 - {id: takeo-kitamura, name: Takeo Kitamura, first_name: Takeo, last_name: Kitamura}
 - {id: tareq-w-m-amen, name: Tareq W.M. Amen, first_name: Tareq W.M., last_name: Amen}
 - {id: tetsutaro-hayashi, name: Tetsutaro Hayashi, first_name: Tetsutaro, last_name: Hayashi}
-- {id: thi-tanh-nguyen-ho, name: Thi Tanh Nguyen Ho, first_name: Thi Tanh Nguyen, last_name: Ho}
-- {id: thi-thanh-nguyen-ho, name: Thi Thanh Nguyen Ho, first_name: Thi Thanh Nguyen, last_name: Ho}
+- {"id": "thi-thanh-nguyen-ho", "name": "Thi Thanh Nguyen Ho", "first_name": "Thi Thanh Nguyen", "last_name": "Ho", "aliases": ["Thi Tanh Nguyen Ho"], "legacy_ids": ["thi-tanh-nguyen-ho"], "identity_confirmed_on": "2026-10-22"}
 - {id: tomoyuki-hirano, name: Tomoyuki Hirano, first_name: Tomoyuki, last_name: Hirano}
 - {id: toshiyuki-onishi, name: Toshiyuki Onishi, first_name: Toshiyuki, last_name: Onishi}
 - {id: tue-tri-nguyen, name: Tue Tri Nguyen, first_name: Tue Tri, last_name: Nguyen}
@@ -116,6 +111,13 @@ records:
 - {id: youhei-toyoda, name: Youhei Toyoda, first_name: Youhei, last_name: Toyoda}
 - {id: yuhi-okada, name: Yuhi Okada, first_name: Yuhi, last_name: Okada}
 - {id: yuko-morita, name: Yuko Morita, first_name: Yuko, last_name: Morita}
-- {id: yusuke-kito, name: Yusuke Kito, first_name: Yusuke, last_name: Kito}
-- {id: yusuke-kitou, name: Yusuke Kitou, first_name: Yusuke, last_name: Kitou}
+- {"id": "yusuke-kitou", "name": "Yusuke Kitou", "first_name": "Yusuke", "last_name": "Kitou", "aliases": ["Yusuke Kito"], "legacy_ids": ["yusuke-kito"], "identity_confirmed_on": "2026-10-22"}
 - {id: yusuke-yoshikawa, name: Yusuke Yoshikawa, first_name: Yusuke, last_name: Yoshikawa}
+
+id_redirects:
+  yusuke-kito: yusuke-kitou
+  kouhei-matsumoto: kohei-matsumoto
+  thi-tanh-nguyen-ho: thi-thanh-nguyen-ho
+  le-hoai-phong: phong-hoai-le
+  le-thi-nguyet-hang: hang-thi-nguyet-le
+  ferry-inskandar: ferry-iskandar
