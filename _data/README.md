@@ -45,3 +45,16 @@ When source values conflict, do not silently overwrite them; record and review t
 ## Presentation records
 
 Presentation records preserve `raw_citation_html` and `citation_text` as the source of truth. Automatically extracted fields such as `authors_raw`, `presenter_raw`, and `title_raw` are convenience fields and are marked as partial parsing. One 2024 source line appears to contain two concatenated presentations; it is intentionally preserved as one record with `quality.needs_review: true` until manually confirmed.
+
+## Confirmed author identity corrections
+
+Six identity merges were confirmed by the repository owner on 2026-10-22.
+Canonical person records keep alternate spellings/order in `aliases` and retired IDs in `legacy_ids`.
+`people.yml` also contains `id_redirects` so old exported IDs can be resolved.
+Publication author and corresponding-author IDs were redirected without changing their order.
+`author_names_as_imported` and `corresponding_author_names_as_imported` preserve the names
+resolved from the pre-correction master; these are NOT independently verified publisher spellings.
+Original website citations and all presentation `*_raw` / `citation_text` fields are unchanged.
+Presentation `author_id_links` use 1-based positions and only exact, confirmed name matches.
+Missing links mean unresolved, not absence of the person from the work.
+Unconfirmed spelling variants must not be merged automatically.

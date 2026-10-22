@@ -51,13 +51,8 @@ records:
   pages_or_article_number: 30305-30314
   status: published
   article_url: https://pubs.rsc.org/en/content/articlehtml/2021/ra/d1ra04800g
-  authors:
-  - asep-bayu-dani-nandiyanto
-  - yusuke-kitou
-  - tomoyuki-hirano
-  - risti-ragadhita
-  - le-hoai-phong
-  - takashi-ogi
+  authors: ["asep-bayu-dani-nandiyanto", "yusuke-kitou", "tomoyuki-hirano", "risti-ragadhita", "phong-hoai-le", "takashi-ogi"]
+  author_names_as_imported: ["Asep Bayu Dani Nandiyanto", "Yusuke Kitou", "Tomoyuki Hirano", "Risti Ragadhita", "Le Hoai Phong", "Takashi Ogi"]
   corresponding_authors:
   - takashi-ogi
   dates:
