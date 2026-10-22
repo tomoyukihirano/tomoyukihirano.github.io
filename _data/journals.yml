@@ -1,0 +1,53 @@
+schema_version: 1
+description: Journal-level JCR/impact-factor metadata from the research records workbook.
+records:
+- {journal: ACS Applied Bio Materials, jcr_quartile: Q2, impact_factor: 5.6, quartile_source: JCR}
+- {journal: ACS Applied Energy Materials, jcr_quartile: Q2, impact_factor: 5.5, quartile_source: JCR}
+- {journal: ACS Applied Engineering Materials, jcr_quartile: Q3, impact_factor: 3.5, quartile_source: JCR}
+- {journal: ACS Applied Materials & Interfaces, jcr_quartile: Q1, impact_factor: 7.8, quartile_source: JCR}
+- {journal: ACS Applied Nano Materials, jcr_quartile: Q2, impact_factor: 5.8, quartile_source: JCR}
+- {journal: ACS Applied Polymer Materials, jcr_quartile: Q1, impact_factor: 5.2, quartile_source: JCR}
+- {journal: ACS Food Science & Technology, jcr_quartile: Q3, impact_factor: 3, quartile_source: JCR}
+- {journal: ACS Omega, jcr_quartile: Q2, impact_factor: 5.2, quartile_source: JCR}
+- {journal: ACS Photonics, jcr_quartile: Q1, impact_factor: 6, quartile_source: JCR}
+- {journal: Advanced Powder Technology, jcr_quartile: Q2, impact_factor: 4.5, quartile_source: JCR}
+- {journal: Biomacromolecules, jcr_quartile: Q1, impact_factor: 5.9, quartile_source: JCR}
+- {journal: Chemical Engineering Science, jcr_quartile: Q2, impact_factor: 5.1, quartile_source: JCR}
+- {journal: Chemical Physics, jcr_quartile: Q2, impact_factor: 2.8, quartile_source: JCR}
+- {journal: Chemistry of Materials, jcr_quartile: Q1, impact_factor: 7.1, quartile_source: JCR}
+- {journal: Chemistry – An Asian Journal, jcr_quartile: Q2, impact_factor: 3.2, quartile_source: JCR}
+- {journal: Diamond and Related Materials, jcr_quartile: Q1, impact_factor: 5.2, quartile_source: JCR}
+- {journal: Energy & Fuels, jcr_quartile: Q1, impact_factor: 6, quartile_source: JCR}
+- {journal: Industrial & Engineering Chemistry Research, jcr_quartile: Q2, impact_factor: 3.9, quartile_source: JCR}
+- {journal: International Journal of Biological Macromolecules, jcr_quartile: Q1, impact_factor: 8.7, quartile_source: JCR}
+- {journal: Journal of Aerosol Science, jcr_quartile: Q2, impact_factor: 2.9, quartile_source: JCR}
+- {journal: Journal of Alloys and Compounds, jcr_quartile: Q1, impact_factor: 6.7, quartile_source: JCR}
+- {journal: Journal of Chemical Engineering of Japan, jcr_quartile: Q3, impact_factor: 1.9, quartile_source: JCR}
+- {journal: Journal of Colloid and Interface Science, jcr_quartile: Q1, impact_factor: 9.6, quartile_source: JCR}
+- {journal: Journal of Materials Chemistry A, jcr_quartile: Q1, impact_factor: 9.2, quartile_source: JCR}
+- {journal: Journal of Materials Chemistry C, jcr_quartile: Q2, impact_factor: 5.1, quartile_source: JCR}
+- {journal: Journal of Nanoparticle Research, jcr_quartile: Q2, impact_factor: 3.5, quartile_source: JCR}
+- {journal: Journal of Power Sources, jcr_quartile: Q1, impact_factor: 8.4, quartile_source: JCR}
+- {journal: Journal of Thermal Science and Technology, jcr_quartile: Q4, impact_factor: 1.2, quartile_source: JCR}
+- {journal: Journal of the American Ceramic Society, jcr_quartile: Q1, impact_factor: 4.2, quartile_source: JCR}
+- {journal: Journal of the Japan Institute of Energy, jcr_quartile: Q4, impact_factor: 0.4, quartile_source: JCR}
+- journal: Journal of the Society of Powder Technology, Japan
+  jcr_quartile: null
+  impact_factor: null
+  quartile_source: null
+  source_note: でてこない？
+- {journal: KAGAKU KOGAKU RONBUNSHU, jcr_quartile: Q4, impact_factor: 0.3, quartile_source: JCR}
+- {journal: Langmuir, jcr_quartile: Q2, impact_factor: 4.4, quartile_source: JCR}
+- {journal: Nano Letters, jcr_quartile: Q1, impact_factor: 9.1, quartile_source: JCR}
+- {journal: Nanoscale, jcr_quartile: Q1, impact_factor: 5.2, quartile_source: JCR}
+- journal: Nanotechnology for Environmental Engineering
+  jcr_quartile: null
+  impact_factor: null
+  quartile_source: null
+  source_note: でてこない？
+- {journal: Powder Technology, jcr_quartile: Q2, impact_factor: 5.5, quartile_source: JCR}
+- {journal: RSC Advances, jcr_quartile: Q2, impact_factor: 6.1, quartile_source: JCR}
+- {journal: RSC Applied Interfaces, jcr_quartile: Q2, impact_factor: 4.6, quartile_source: JCR}
+- {journal: Science and Technology of Energetic Materials, jcr_quartile: Q3, impact_factor: 1.6, quartile_source: JCR}
+- {journal: South African Journal of Chemical Engineering, jcr_quartile: Q1, impact_factor: 6.3, quartile_source: JCR}
+- {journal: The Canadian Journal of Chemical Engineering, jcr_quartile: Q3, impact_factor: 2.2, quartile_source: JCR}
