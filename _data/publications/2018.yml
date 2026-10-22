@@ -1,0 +1,80 @@
+schema_version: 2
+year: 2018
+records:
+- id: pub-0002
+  paper_id: P002
+  hp_no: 2
+  type: journal_article
+  peer_reviewed: true
+  title: Correlations between Reduction Degree and Catalytic Properties of WOx Nanoparticles
+  journal: ACS Omega
+  year: 2018
+  volume: '3'
+  issue: '8'
+  pages_or_article_number: 8963-8970
+  status: published
+  article_url: https://pubs.acs.org/doi/full/10.1021/acsomega.8b01110
+  authors:
+  - febrigia-ghana-rinaldi
+  - osi-arutanti
+  - aditya-farhan-arif
+  - tomoyuki-hirano
+  - takashi-ogi
+  - kikuo-okuyama
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2018-05-24'
+    accepted: '2018-08-03'
+    published_online: '2018-08-13'
+    accepted_fiscal_year: 2018
+    timeline_note: 'Received: May 24, 2018
+
+      Accepted: August 3, 2018
+
+      Published: August 13, 2018'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0001
+  paper_id: P001
+  hp_no: 1
+  type: journal_article
+  peer_reviewed: true
+  title: Synthesis of Highly Crystalline Hexagonal Cesium Tungsten Bronze Nanoparticles by Flame-assisted Spray Pyrolysis
+  journal: Advanced Powder Technology
+  year: 2018
+  volume: '29'
+  issue: '10'
+  pages_or_article_number: 2512-2520
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S092188311830308X
+  authors:
+  - tomoyuki-hirano
+  - shuhei-nakakura
+  - febrigia-ghana-rinaldi
+  - eishi-tanabe
+  - wei-ning-wang
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2018-04-20'
+    accepted: '2018-07-03'
+    published_online: '2018-07-14'
+    accepted_fiscal_year: 2018
+    timeline_note: Received 20 April 2018, Revised 18 June 2018, Accepted 3 July 2018, Available online 14 July 2018, Version of Record 9 August 2018.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - S
+    top10_percent: false
