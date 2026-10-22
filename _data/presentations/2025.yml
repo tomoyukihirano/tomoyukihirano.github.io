@@ -285,7 +285,8 @@ records:
       highlight: false
     - name: 平野 知之
       highlight: true
-    - name: CAO LE ANH KIET
+    - name: "Kiet Le Anh Cao"
+      person_id: kiet-le-anh-cao
       highlight: false
     - name: 荻 崇
       highlight: false
@@ -383,7 +384,8 @@ records:
     authors:
     - name: 近藤 航右
       highlight: false
-    - name: Cao Le Anh Kiet
+    - name: "Kiet Le Anh Cao"
+      person_id: kiet-le-anh-cao
       highlight: false
     - name: 平野 知之
       highlight: true
@@ -526,7 +528,8 @@ records:
       highlight: false
     - name: 平野 知之
       highlight: true
-    - name: Ratnasari Delyana
+    - name: "Delyana Ratnasari"
+      person_id: delyana-ratnasari
       highlight: false
     - name: 林 徹太郎
       highlight: false
