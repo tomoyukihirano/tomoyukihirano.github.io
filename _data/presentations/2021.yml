@@ -1,0 +1,70 @@
+schema_version: 1
+year: 2021
+source: presentations.md
+records:
+- id: pres-0033
+  type: presentation
+  year: 2021
+  source_order: 58
+  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯Tomoyuki Hirano</span></strong>, Takashi Ogi, Tubular flame combustion for fine particle production, The 8th Asian Particle Technology Symposium, Osaka, Japan, October 11-14, 2021"
+  citation_text: "◯Tomoyuki Hirano, Takashi Ogi, Tubular flame combustion for fine particle production, The 8th Asian Particle Technology Symposium, Osaka, Japan, October 11-14, 2021"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: raw_only
+- id: pres-0032
+  type: presentation
+  year: 2021
+  source_order: 59
+  raw_citation_html: "坪井 隆真，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，白金を担持したニオブドープ酸化スズの火炎噴霧合成，化学工学会第52回秋季大会，オンライン開催，2021年9月22-24日"
+  citation_text: "坪井 隆真，平野 知之，荻 崇，白金を担持したニオブドープ酸化スズの火炎噴霧合成，化学工学会第52回秋季大会，オンライン開催，2021年9月22-24日"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: raw_only
+- id: pres-0031
+  type: presentation
+  year: 2021
+  source_order: 60
+  raw_citation_html: "加世田 将伍，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，ZnOとTiO<sub>2</sub>の複合化による高耐久性紫外線遮蔽材料の開発，化学工学会第52回秋季大会，オンライン開催，2021年9月22-24日"
+  citation_text: "加世田 将伍，平野 知之，荻 崇，ZnOとTiO2の複合化による高耐久性紫外線遮蔽材料の開発，化学工学会第52回秋季大会，オンライン開催，2021年9月22-24日"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: raw_only
+- id: pres-0030
+  type: presentation
+  year: 2021
+  source_order: 61
+  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，下栗 大右，荻 崇，微粒子合成用管状火炎バーナ内に形成される火炎の特性, 化学工学会第52回秋季大会，オンライン開催，2021年9月22-24日 <mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-vivid-red-color\"><strong>【プレゼンテーション賞 受賞】</strong></mark>"
+  citation_text: "◯平野 知之，下栗 大右，荻 崇，微粒子合成用管状火炎バーナ内に形成される火炎の特性, 化学工学会第52回秋季大会，オンライン開催，2021年9月22-24日 【プレゼンテーション賞 受賞】"
+  classification:
+    invited: false
+    award: true
+  quality:
+    parsing_status: raw_only
+- id: pres-0025
+  type: presentation
+  year: 2021
+  source_order: 66
+  raw_citation_html: "坪井 隆真，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，火炎噴霧熱分解法によるPt/Nb-SnO<sub>2</sub>ナノ粒子の合成と特性評価，第23回化学工学会学生発表会，オンライン開催，2021年3月6日"
+  citation_text: "坪井 隆真，平野 知之，荻 崇，火炎噴霧熱分解法によるPt/Nb-SnO2ナノ粒子の合成と特性評価，第23回化学工学会学生発表会，オンライン開催，2021年3月6日"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: raw_only
+- id: pres-0024
+  type: presentation
+  year: 2021
+  source_order: 67
+  raw_citation_html: "加世田 将伍，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，噴霧法によるZnO/SiO<sub>2</sub>複合粒子の合成と耐酸特性評価，第23回化学工学会学生発表会，オンライン開催，2021年3月6日"
+  citation_text: "加世田 将伍，平野 知之，荻 崇，噴霧法によるZnO/SiO2複合粒子の合成と耐酸特性評価，第23回化学工学会学生発表会，オンライン開催，2021年3月6日"
+  classification:
+    invited: false
+    award: false
+  quality:
+    parsing_status: raw_only
