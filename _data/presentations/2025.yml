@@ -20,8 +20,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 1
   display:
     authors:
@@ -29,8 +30,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 無容器法としての火炎プロセスによる酸化物ガラス材料の合成
     conference: 第66回ガラスおよびフォトニクス材料討論会
     location: 長岡
@@ -68,8 +69,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 2
   display:
     authors:
@@ -89,8 +91,8 @@ records:
       highlight: false
     - name: 大西敏之
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と性能評価
     conference: 化学工学会吹田大会2025発表会
     location: 大阪
@@ -122,8 +124,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 3
   display:
     authors:
@@ -133,8 +136,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: CuO/CeO2-ZrO2ナノ粒子の火炎噴霧合成と触媒性能評価
     conference: 化学工学会吹田大会2025発表会
     location: 大阪
@@ -164,8 +167,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 4
   display:
     authors:
@@ -173,8 +177,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法を用いた多孔質酸化物粒子の合成と電極触媒性能評価
     conference: 化学工学会吹田大会2025発表会
     location: 大阪
@@ -212,8 +216,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 5
   display:
     authors:
@@ -233,8 +238,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: セルロースナノファイバー/酸化鉄ナノ粒子コンポジット粒子の合成と磁気分離回収評価
     conference: 粉体工学会2025年度秋季研究発表会
     location: 大阪
@@ -250,10 +255,10 @@ records:
   type: presentation
   year: 2025
   source_order: 6
-  raw_citation_html: '今岡 生太，平野 知之，CAO LE ANH KIET，荻 崇、岩崎 秀治，岡本 真人， 服部 勇作: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と
-    CO2吸着特性, 粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)'
-  citation_text: '今岡 生太，平野 知之，CAO LE ANH KIET，荻 崇、岩崎 秀治，岡本 真人， 服部 勇作: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と
-    CO2吸着特性, 粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)'
+  raw_citation_html: '今岡 生太，平野 知之，CAO LE ANH KIET，荻 崇、岩崎 秀治，岡本 真人， 服部 勇作: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性,
+    粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)'
+  citation_text: '今岡 生太，平野 知之，CAO LE ANH KIET，荻 崇、岩崎 秀治，岡本 真人， 服部 勇作: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性,
+    粉体工学会2025年度秋季研究発表会（2025/10/14-15, 大阪)'
   authors_raw:
   - 今岡 生太
   - 平野 知之
@@ -270,8 +275,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 6
   display:
     authors:
@@ -289,8 +295,8 @@ records:
       highlight: false
     - name: 服部 勇作
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: リグニンーアルカリ賦活剤を前駆体とした噴霧乾燥および炭素化による多孔質カーボン粒子の製造と CO2吸着特性
     conference: 粉体工学会2025年度秋季研究発表会
     location: 大阪
@@ -322,8 +328,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 7
   display:
     authors:
@@ -335,8 +342,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: ポーラス微粒子のデジタルモデル化と内部構造の定量解析
     conference: 粉体工学会2025年度秋季研究発表会
     location: 大阪
@@ -352,10 +359,8 @@ records:
   type: presentation
   year: 2025
   source_order: 8
-  raw_citation_html: '近藤 航右, Cao Le Anh Kiet, 平野 知之, 荻 崇: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価, 化学工学会第56回秋季大会（2025/9/16-18,
-    東京)'
-  citation_text: '近藤 航右, Cao Le Anh Kiet, 平野 知之, 荻 崇: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価, 化学工学会第56回秋季大会（2025/9/16-18,
-    東京)'
+  raw_citation_html: '近藤 航右, Cao Le Anh Kiet, 平野 知之, 荻 崇: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)'
+  citation_text: '近藤 航右, Cao Le Anh Kiet, 平野 知之, 荻 崇: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)'
   authors_raw:
   - 近藤 航右
   - Cao Le Anh Kiet
@@ -370,8 +375,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 8
   display:
     authors:
@@ -383,8 +389,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 三元触媒ナノ粒子の結着剤活用による気中構造化と触媒性能評価
     conference: 化学工学会第56回秋季大会
     location: 東京
@@ -400,8 +406,7 @@ records:
   type: presentation
   year: 2025
   source_order: 9
-  raw_citation_html: '岡田 祐陽, 平野知之, 荻 崇: 火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価, 化学工学会第56回秋季大会（2025/9/16-18,
-    東京)'
+  raw_citation_html: '岡田 祐陽, 平野知之, 荻 崇: 火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)'
   citation_text: '岡田 祐陽, 平野知之, 荻 崇: 火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価, 化学工学会第56回秋季大会（2025/9/16-18, 東京)'
   authors_raw:
   - 岡田 祐陽
@@ -416,8 +421,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 9
   display:
     authors:
@@ -427,8 +433,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎噴霧熱分解法によるCuO/CeO2-ZrO2ナノ粒子の合成とCO酸化触媒活性評価
     conference: 化学工学会第56回秋季大会
     location: 東京
@@ -461,8 +467,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 10
   display:
     authors:
@@ -472,8 +479,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計
     conference: 化学工学会第56回秋季大会
     location: 東京
@@ -508,8 +515,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 11
   display:
     authors:
@@ -523,8 +531,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 多成分系酸化物ナノ粒子の合成に向けた三流体ノズル式火炎噴霧熱分解法の開発
     conference: 化学工学会第56回秋季大会
     location: 東京
@@ -541,8 +549,8 @@ records:
   type: presentation
   year: 2025
   source_order: 12
-  raw_citation_html: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計, 粉体粉末冶金協会2025年度春季大会
-    (2025/5/28-30, 京都)'
+  raw_citation_html: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計, 粉体粉末冶金協会2025年度春季大会 (2025/5/28-30,
+    京都)'
   citation_text: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計, 粉体粉末冶金協会2025年度春季大会 (2025/5/28-30,
     京都)'
   authors_raw:
@@ -559,8 +567,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 12
   display:
     authors:
@@ -572,8 +581,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法により調製したマクロポーラス Nb-SnO2微粒子を用いた燃料電池触媒層の空隙設計
     conference: 粉体粉末冶金協会2025年度春季大会
     location: 京都
@@ -604,8 +613,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 13
   display:
     authors:
@@ -615,8 +625,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 触媒ナノ粒子の気中構造化における結着剤の影響評価
     conference: 2025年度 粉体工学会 春季研究発表会
     location: 仙台

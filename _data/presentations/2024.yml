@@ -14,15 +14,16 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 14
   display:
     authors:
     - name: 平野 知之
       highlight: true
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 数種類の火炎で、さまざまな微粒子をつくります
     conference: 国際粉体工業展POWTEX2024
     location: 東京
@@ -38,18 +39,18 @@ records:
   type: presentation
   year: 2024
   source_order: 15
-  raw_citation_html: 'Tomoyuki Hirano, Takashi Ogi: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst
-    Support Induce High Porosity and Performance in Fuel Cell Catalyst Layers, Expert Workshop on Nanoparticles
-    Synthesis (2024/11/13-15, Bremen, Germany)'
-  citation_text: 'Tomoyuki Hirano, Takashi Ogi: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst
-    Support Induce High Porosity and Performance in Fuel Cell Catalyst Layers, Expert Workshop on Nanoparticles
-    Synthesis (2024/11/13-15, Bremen, Germany)'
+  raw_citation_html: 'Tomoyuki Hirano, Takashi Ogi: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support
+    Induce High Porosity and Performance in Fuel Cell Catalyst Layers, Expert Workshop on Nanoparticles Synthesis (2024/11/13-15,
+    Bremen, Germany)'
+  citation_text: 'Tomoyuki Hirano, Takashi Ogi: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support
+    Induce High Porosity and Performance in Fuel Cell Catalyst Layers, Expert Workshop on Nanoparticles Synthesis (2024/11/13-15,
+    Bremen, Germany)'
   authors_raw:
   - Tomoyuki Hirano
   - Takashi Ogi
   presenter_raw: Tomoyuki Hirano
-  title_raw: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support Induce High Porosity and
-    Performance in Fuel Cell Catalyst Layers
+  title_raw: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support Induce High Porosity and Performance
+    in Fuel Cell Catalyst Layers
   details_raw: Expert Workshop on Nanoparticles Synthesis (2024/11/13-15, Bremen, Germany)
   classification:
     invited: false
@@ -57,8 +58,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 15
   display:
     authors:
@@ -66,10 +68,10 @@ records:
       highlight: true
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support Induce High Porosity
-      and Performance in Fuel Cell Catalyst Layers
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support Induce High Porosity and Performance
+      in Fuel Cell Catalyst Layers
     conference: Expert Workshop on Nanoparticles Synthesis
     location: Bremen，Germany
     dates:
@@ -99,8 +101,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 16
   display:
     authors:
@@ -110,8 +113,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Sb-SnO2ナノ粒子の火炎噴霧合成と光学特性
     conference: 化学工学会第55回秋季大会
     location: 北海道
@@ -142,8 +145,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 17
   display:
     authors:
@@ -153,8 +157,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 三元触媒ナノ粒子の構造化と内部構造解析および触媒特性評価
     conference: 化学工学会第55回秋季大会
     location: 北海道
@@ -170,10 +174,8 @@ records:
   type: presentation
   year: 2024
   source_order: 18
-  raw_citation_html: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第55回秋季大会 (2024/9/11-13,
-    北海道)'
-  citation_text: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第55回秋季大会 (2024/9/11-13,
-    北海道)'
+  raw_citation_html: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第55回秋季大会 (2024/9/11-13, 北海道)'
+  citation_text: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第55回秋季大会 (2024/9/11-13, 北海道)'
   authors_raw:
   - 平野 知之
   - 高野 葵
@@ -188,8 +190,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 18
   display:
     authors:
@@ -201,8 +204,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計
     conference: 化学工学会第55回秋季大会
     location: 北海道
@@ -234,26 +237,27 @@ records:
     parsing_status: owner_confirmed_split
     needs_review: false
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   source_before_split:
     id: pres-0072
     type: presentation
     year: 2024
     source_order: 19
     raw_citation_html: '時津 菜穂, 平野 知之, 荻 崇: 火炎法によるSb-SnO2ナノ粒子の合成と近赤外線吸収特性評価, 第41回エアロゾル科学・技術研究討論会（2024/8/20-22, 東京都八王子市）<strong><span
-      style="text-decoration: underline;">平野 知之</span></strong>, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成,
-      日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)'
-    citation_text: '時津 菜穂, 平野 知之, 荻 崇: 火炎法によるSb-SnO2ナノ粒子の合成と近赤外線吸収特性評価, 第41回エアロゾル科学・技術研究討論会（2024/8/20-22, 東京都八王子市）平野
-      知之, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)'
+      style="text-decoration: underline;">平野 知之</span></strong>, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部
+      第18回関西支部学術講演会 (2024/8/9, 滋賀)'
+    citation_text: '時津 菜穂, 平野 知之, 荻 崇: 火炎法によるSb-SnO2ナノ粒子の合成と近赤外線吸収特性評価, 第41回エアロゾル科学・技術研究討論会（2024/8/20-22, 東京都八王子市）平野 知之, 房谷
+      航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)'
     authors_raw:
     - 時津 菜穂
     - 平野 知之
     - 荻 崇
     presenter_raw: 時津 菜穂
     title_raw: 火炎法によるSb-SnO2ナノ粒子の合成と近赤外線吸収特性評価
-    details_raw: 第41回エアロゾル科学・技術研究討論会（2024/8/20-22, 東京都八王子市）平野 知之, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成,
-      日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)
+    details_raw: 第41回エアロゾル科学・技術研究討論会（2024/8/20-22, 東京都八王子市）平野 知之, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部
+      第18回関西支部学術講演会 (2024/8/9, 滋賀)
     classification:
       invited: false
       award: false
@@ -272,7 +276,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: owner_confirmation_2026-10-22
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎法によるSb-SnO2ナノ粒子の合成と近赤外線吸収特性評価
     conference: 第41回エアロゾル科学・技術研究討論会
     location: 東京都八王子市
@@ -291,16 +295,16 @@ records:
   source_part: 2
   derived_from: pres-0072
   split_confirmed_on: '2026-10-22'
-  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>, 房谷 航大, 水谷 和揮, 加藤
-    貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)'
-  citation_text: 平野 知之, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9,
-    滋賀)
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成,
+    日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)'
+  citation_text: 平野 知之, 房谷 航大, 水谷 和揮, 加藤 貴久, 荻 崇, 火炎プロセスを用いた球状ガラス微粒子の合成, 日本セラミックス協会関西支部 第18回関西支部学術講演会 (2024/8/9, 滋賀)
   quality:
     parsing_status: owner_confirmed_split
     needs_review: false
     display_parsing_status: checked_against_original_citation
-    presenter_status: confirmed
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 20
   display:
     authors:
@@ -315,7 +319,7 @@ records:
     - name: 荻 崇
       highlight: false
     presenter_position: 1
-    presenter_evidence: owner_confirmation_2026-10-22
+    presenter_evidence: owner_confirmed_first_author
     title_html: 火炎プロセスを用いた球状ガラス微粒子の合成
     conference: 日本セラミックス協会関西支部 第18回関西支部学術講演会
     location: 滋賀
@@ -340,15 +344,16 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 21
   display:
     authors:
     - name: 平野 知之
       highlight: true
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 気相燃焼合成技術を用いた微粒子設計におけるエネルギー物質の活用
     conference: 火薬学会2024年度春季研究発表会
     location: 東京
@@ -373,8 +378,9 @@ records:
   quality:
     parsing_status: raw_only
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 22
   display:
     authors:
@@ -384,8 +390,8 @@ records:
       highlight: true
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 三元触媒ナノ粒子の構造化と触媒特性評価
     conference: 粉体工学会2024年度春期研究発表会
     location: 姫路
@@ -401,11 +407,11 @@ records:
   type: presentation
   year: 2024
   source_order: 22
-  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>: Particle
-    Nanostructuring in Flames for Environmental and Energy Applications, Seminar at Karolinska Institutet, (2024/4/11,
-    Karolinska Institutet, Sweden)'
-  citation_text: 'Tomoyuki Hirano: Particle Nanostructuring in Flames for Environmental and Energy Applications,
-    Seminar at Karolinska Institutet, (2024/4/11, Karolinska Institutet, Sweden)'
+  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>: Particle Nanostructuring
+    in Flames for Environmental and Energy Applications, Seminar at Karolinska Institutet, (2024/4/11, Karolinska Institutet,
+    Sweden)'
+  citation_text: 'Tomoyuki Hirano: Particle Nanostructuring in Flames for Environmental and Energy Applications, Seminar at
+    Karolinska Institutet, (2024/4/11, Karolinska Institutet, Sweden)'
   authors_raw:
   - Tomoyuki Hirano
   presenter_raw: Tomoyuki Hirano
@@ -417,15 +423,16 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 23
   display:
     authors:
     - name: Tomoyuki Hirano
       highlight: true
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Particle Nanostructuring in Flames for Environmental and Energy Applications
     conference: Seminar at Karolinska Institutet
     location: Karolinska Institutet，Sweden
@@ -441,11 +448,11 @@ records:
   type: presentation
   year: 2024
   source_order: 23
-  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi
-    Ogi: Multicore/shell Structures of ZnO/TiO<sub>2</sub> Particle for Enhancing Acid Resistance as UV-Protective
-    Material, Spray Drying Symposium 2024 in Fraunhofer ISC, (2024/4/8, Würzburg, Germany)'
-  citation_text: 'Tomoyuki Hirano, Takashi Ogi: Multicore/shell Structures of ZnO/TiO2 Particle for Enhancing Acid
-    Resistance as UV-Protective Material, Spray Drying Symposium 2024 in Fraunhofer ISC, (2024/4/8, Würzburg, Germany)'
+  raw_citation_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi: Multicore/shell
+    Structures of ZnO/TiO<sub>2</sub> Particle for Enhancing Acid Resistance as UV-Protective Material, Spray Drying Symposium
+    2024 in Fraunhofer ISC, (2024/4/8, Würzburg, Germany)'
+  citation_text: 'Tomoyuki Hirano, Takashi Ogi: Multicore/shell Structures of ZnO/TiO2 Particle for Enhancing Acid Resistance
+    as UV-Protective Material, Spray Drying Symposium 2024 in Fraunhofer ISC, (2024/4/8, Würzburg, Germany)'
   authors_raw:
   - Tomoyuki Hirano
   - Takashi Ogi
@@ -458,8 +465,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 24
   display:
     authors:
@@ -467,8 +475,8 @@ records:
       highlight: true
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Multicore/shell Structures of ZnO/TiO<sub>2</sub> Particle for Enhancing Acid Resistance as UV-Protective
       Material
     conference: Spray Drying Symposium 2024 in Fraunhofer ISC
@@ -485,13 +493,12 @@ records:
   type: presentation
   year: 2024
   source_order: 24
-  raw_citation_html: 'Eka Lutfi Septiani, Shunki Yamashita, Kiet Le Anh Cao, <strong><span style="text-decoration:
-    underline;">Tomoyuki Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, Takashi Ogi:
-    One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted Spray Pyrolysis,
-    化学工学会第89年会, (2024/3/19, 大阪) (Award)'
-  citation_text: 'Eka Lutfi Septiani, Shunki Yamashita, Kiet Le Anh Cao, Tomoyuki Hirano, Nobuhiro Okuda, Hiroyuki
-    Matsumoto, Yasushi Enokido, Takashi Ogi: One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler
-    Connector-Assisted Spray Pyrolysis, 化学工学会第89年会, (2024/3/19, 大阪) (Award)'
+  raw_citation_html: 'Eka Lutfi Septiani, Shunki Yamashita, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki
+    Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, Takashi Ogi: One-Step Aerosol Synthesis of
+    SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted Spray Pyrolysis, 化学工学会第89年会, (2024/3/19, 大阪) (Award)'
+  citation_text: 'Eka Lutfi Septiani, Shunki Yamashita, Kiet Le Anh Cao, Tomoyuki Hirano, Nobuhiro Okuda, Hiroyuki Matsumoto,
+    Yasushi Enokido, Takashi Ogi: One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted
+    Spray Pyrolysis, 化学工学会第89年会, (2024/3/19, 大阪) (Award)'
   authors_raw:
   - Eka Lutfi Septiani
   - Shunki Yamashita
@@ -502,8 +509,7 @@ records:
   - Yasushi Enokido
   - Takashi Ogi
   presenter_raw: Eka Lutfi Septiani
-  title_raw: One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted Spray
-    Pyrolysis
+  title_raw: One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted Spray Pyrolysis
   details_raw: 化学工学会第89年会, (2024/3/19, 大阪) (Award)
   classification:
     invited: false
@@ -511,8 +517,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 25
   display:
     authors:
@@ -532,10 +539,9 @@ records:
       highlight: false
     - name: Takashi Ogi
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted Spray
-      Pyrolysis
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: One-Step Aerosol Synthesis of SiO2-Coated FeNi Particles by Using Swirler Connector-Assisted Spray Pyrolysis
     conference: 化学工学会第89年会
     location: 大阪
     dates:
@@ -552,12 +558,11 @@ records:
   year: 2024
   source_order: 25
   raw_citation_html: 'Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, <strong><span style="text-decoration: underline;">平野
-    知之</span></strong>, 松本 恒平, 渡邊 真衣, 森田 祐子, 荻 崇: Controlling the magnetical responsiveness of cellulose nanofiber
-    particles embedded with iron oxide nanoparticles, International chemical Engineering Symposium (IChES) 2024,
-    (2024/3/18-20, 大阪)'
-  citation_text: 'Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, 平野 知之, 松本 恒平, 渡邊 真衣, 森田 祐子, 荻 崇: Controlling
-    the magnetical responsiveness of cellulose nanofiber particles embedded with iron oxide nanoparticles, International
-    chemical Engineering Symposium (IChES) 2024, (2024/3/18-20, 大阪)'
+    知之</span></strong>, 松本 恒平, 渡邊 真衣, 森田 祐子, 荻 崇: Controlling the magnetical responsiveness of cellulose nanofiber particles
+    embedded with iron oxide nanoparticles, International chemical Engineering Symposium (IChES) 2024, (2024/3/18-20, 大阪)'
+  citation_text: 'Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, 平野 知之, 松本 恒平, 渡邊 真衣, 森田 祐子, 荻 崇: Controlling the magnetical
+    responsiveness of cellulose nanofiber particles embedded with iron oxide nanoparticles, International chemical Engineering
+    Symposium (IChES) 2024, (2024/3/18-20, 大阪)'
   authors_raw:
   - Nur Syakirah Nabilah Saipul Bahri
   - Tue Tri Nguyen
@@ -567,8 +572,7 @@ records:
   - 森田 祐子
   - 荻 崇
   presenter_raw: Nur Syakirah Nabilah Saipul Bahri
-  title_raw: Controlling the magnetical responsiveness of cellulose nanofiber particles embedded with iron oxide
-    nanoparticles
+  title_raw: Controlling the magnetical responsiveness of cellulose nanofiber particles embedded with iron oxide nanoparticles
   details_raw: International chemical Engineering Symposium (IChES) 2024, (2024/3/18-20, 大阪)
   classification:
     invited: false
@@ -576,8 +580,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 26
   display:
     authors:
@@ -595,10 +600,9 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
-    title_html: Controlling the magnetical responsiveness of cellulose nanofiber particles embedded with iron oxide
-      nanoparticles
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
+    title_html: Controlling the magnetical responsiveness of cellulose nanofiber particles embedded with iron oxide nanoparticles
     conference: International chemical Engineering Symposium (IChES) 2024
     location: 大阪
     dates:
@@ -613,12 +617,11 @@ records:
   type: presentation
   year: 2024
   source_order: 26
-  raw_citation_html: 'Eka Lutfi Septiani, <strong><span style="text-decoration: underline;">平野 知之</span></strong>,
-    奥田 修弘, 松元 裕之, 荻 崇: Production of silica-coated FeNi particles via aerosol process assisted by a swirling flow,
-    International chemical Engineering Symposium (IChES) 2024, (2024/3/18-20, 大阪)'
-  citation_text: 'Eka Lutfi Septiani, 平野 知之, 奥田 修弘, 松元 裕之, 荻 崇: Production of silica-coated FeNi particles via aerosol
-    process assisted by a swirling flow, International chemical Engineering Symposium (IChES) 2024, (2024/3/18-20,
-    大阪)'
+  raw_citation_html: 'Eka Lutfi Septiani, <strong><span style="text-decoration: underline;">平野 知之</span></strong>, 奥田 修弘,
+    松元 裕之, 荻 崇: Production of silica-coated FeNi particles via aerosol process assisted by a swirling flow, International
+    chemical Engineering Symposium (IChES) 2024, (2024/3/18-20, 大阪)'
+  citation_text: 'Eka Lutfi Septiani, 平野 知之, 奥田 修弘, 松元 裕之, 荻 崇: Production of silica-coated FeNi particles via aerosol process
+    assisted by a swirling flow, International chemical Engineering Symposium (IChES) 2024, (2024/3/18-20, 大阪)'
   authors_raw:
   - Eka Lutfi Septiani
   - 平野 知之
@@ -634,8 +637,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 27
   display:
     authors:
@@ -649,8 +653,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: Production of silica-coated FeNi particles via aerosol process assisted by a swirling flow
     conference: International chemical Engineering Symposium (IChES) 2024
     location: 大阪
@@ -666,8 +670,8 @@ records:
   type: presentation
   year: 2024
   source_order: 27
-  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>, 高野 葵, 片岡 幹裕, 荻 崇:
-    固体高分子形燃料電池用Pt/Nb-SnO<sub>2</sub>触媒層の空隙設計, 化学工学会第89年会 (2024/3/18-20, 大阪)'
+  raw_citation_html: '<strong><span style="text-decoration: underline;">平野 知之</span></strong>, 高野 葵, 片岡 幹裕, 荻 崇: 固体高分子形燃料電池用Pt/Nb-SnO<sub>2</sub>触媒層の空隙設計,
+    化学工学会第89年会 (2024/3/18-20, 大阪)'
   citation_text: '平野 知之, 高野 葵, 片岡 幹裕, 荻 崇: 固体高分子形燃料電池用Pt/Nb-SnO2触媒層の空隙設計, 化学工学会第89年会 (2024/3/18-20, 大阪)'
   authors_raw:
   - 平野 知之
@@ -683,8 +687,9 @@ records:
   quality:
     parsing_status: partial
     display_parsing_status: checked_against_original_citation
-    presenter_status: needs_confirmation
+    presenter_status: confirmed_by_owner
     display_names_not_identity_verified: true
+    presenter_confirmed_on: '2026-10-22'
   display_order: 28
   display:
     authors:
@@ -696,8 +701,8 @@ records:
       highlight: false
     - name: 荻 崇
       highlight: false
-    presenter_position: null
-    presenter_evidence: unconfirmed
+    presenter_position: 1
+    presenter_evidence: owner_confirmed_first_author
     title_html: 固体高分子形燃料電池用Pt/Nb-SnO<sub>2</sub>触媒層の空隙設計
     conference: 化学工学会第89年会
     location: 大阪
