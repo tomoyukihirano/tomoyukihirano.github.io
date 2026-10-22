@@ -3,11 +3,34 @@
   {%- assign presentations = presentations | concat: year_data[1].records -%}
 {%- endfor -%}
 {%- assign presentations = presentations | sort: "display_order" -%}
-<ol reversed class="wp-block-list">
+<link rel="stylesheet" href="{{ '/assets/presentation-filters.css' | relative_url }}">
+<div id="presentation-controls" class="presentation-controls" hidden>
+  <div class="presentation-controls__buttons" role="group" aria-label="学会発表の区分を切り替える">
+    <button type="button" class="presentation-controls__button" data-presentation-filter="all" aria-controls="presentation-list" aria-pressed="true">全発表</button>
+    <button type="button" class="presentation-controls__button" data-presentation-filter="domestic" aria-controls="presentation-list" aria-pressed="false">国内学会</button>
+    <button type="button" class="presentation-controls__button" data-presentation-filter="international" aria-controls="presentation-list" aria-pressed="false">国際学会</button>
+  </div>
+  <p class="presentation-controls__status" role="status" aria-live="polite" aria-atomic="true"></p>
+  <p class="presentation-controls__note">セミナー・勉強会・展示会講演などは「全発表」に含みます。</p>
+</div>
+<ol reversed id="presentation-list" class="wp-block-list presentation-list">
 {%- for item in presentations -%}
   {%- unless item.public == false -%}
   {%- assign d = item.display -%}
-<li id="{{ item.id }}">{%- for author in d.authors -%}{%- unless forloop.first -%}，{%- endunless -%}{%- if author.highlight -%}<strong><u>{%- endif -%}{{ author.name | escape }}{%- if author.highlight -%}</u></strong>{%- endif -%}{%- endfor -%}，{% include chemical-formula.html text=d.title_html %}，{{ d.conference | escape }}{%- if d.location -%}，{{ d.location | escape }}{%- endif -%}，{{ d.dates.text | escape }}{%- for annotation in d.annotations %} <strong>【{{ annotation | escape }}】</strong>{%- endfor -%}</li>
+  {%- assign scope = item.classification.conference_scope -%}
+  {%- unless scope == 'domestic' or scope == 'international' or scope == 'other' -%}
+    {%- assign scope = 'unclassified' -%}
+    {%- if site.data.presentation_scopes.domestic contains item.id -%}
+      {%- assign scope = 'domestic' -%}
+    {%- elsif site.data.presentation_scopes.international contains item.id -%}
+      {%- assign scope = 'international' -%}
+    {%- elsif site.data.presentation_scopes.other contains item.id -%}
+      {%- assign scope = 'other' -%}
+    {%- endif -%}
+  {%- endunless -%}
+  {%- assign is_invited = item.classification.invited -%}
+<li id="{{ item.id }}" data-conference-scope="{{ scope }}"{% if is_invited == true %} class="presentation-item--invited"{% endif %}>{%- if is_invited == true -%}<span class="presentation-invited-badge"><span aria-hidden="true">★ </span>招待講演</span> {% endif -%}{%- for author in d.authors -%}{%- unless forloop.first -%}，{%- endunless -%}{%- if author.highlight -%}<strong><u>{%- endif -%}{{ author.name | escape }}{%- if author.highlight -%}</u></strong>{%- endif -%}{%- endfor -%}，{% include chemical-formula.html text=d.title_html %}，{{ d.conference | escape }}{%- if d.location -%}，{{ d.location | escape }}{%- endif -%}，{{ d.dates.text | escape }}{%- for annotation in d.annotations -%}{%- unless annotation == '招待講演' and is_invited == true %} <strong>【{{ annotation | escape }}】</strong>{%- endunless -%}{%- endfor -%}</li>
   {%- endunless -%}
 {%- endfor -%}
 </ol>
+<script src="{{ '/assets/presentation-filters.js' | relative_url }}" defer></script>
