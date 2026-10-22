@@ -1,0 +1,126 @@
+name: Apply achievement review update
+
+on:
+  push:
+    branches:
+      - data/presentation-publication-grants-20261022
+    paths:
+      - _maintenance/review_update_payload.b64
+      - .github/workflows/apply-achievement-review.yml
+
+permissions:
+  contents: write
+  pages: read
+
+jobs:
+  apply-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout review branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install YAML parser
+        run: python -m pip install PyYAML==6.0.2
+
+      - name: Apply staged update
+        run: |
+          base64 --decode _maintenance/review_update_payload.b64 > /tmp/review-update.tgz
+          tar -xzf /tmp/review-update.tgz
+          rm -f _maintenance/review_update_payload.b64
+          rm -f .github/workflows/apply-achievement-review.yml
+          rm -f .github/workflows/export-review-worktree.yml
+
+      - name: Validate source data
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import yaml
+
+          root = Path('.')
+          records = []
+          by_year = {}
+          for path in sorted((root / '_data' / 'presentations').glob('*.yml')):
+              data = yaml.safe_load(path.read_text(encoding='utf-8'))
+              year = int(data['year'])
+              by_year[year] = len(data['records'])
+              records.extend(data['records'])
+
+          assert len(records) == 102, len(records)
+          assert len({r['id'] for r in records}) == 102
+          assert by_year == {2018: 9, 2019: 7, 2020: 9, 2021: 10, 2022: 18, 2023: 12, 2024: 15, 2025: 14, 2026: 8}, by_year
+          assert all(r['scope'] in {'domestic', 'international'} for r in records)
+          assert all(r.get('display_html', '').startswith('<strong><u>〇') for r in records)
+          assert sum(r['scope'] == 'domestic' for r in records) == 80
+          assert sum(r['scope'] == 'international' for r in records) == 22
+          assert sum(bool(r['classification'].get('invited')) for r in records) == 7
+          assert sum(bool(r['classification'].get('award')) for r in records) == 6
+
+          locations = {r['id']: int(r['year']) for r in records}
+          for rid in ('pres-0026', 'pres-0027', 'pres-0028', 'pres-0029'):
+              assert locations[rid] == 2021
+          assert 'pres-0091' in locations
+          assert not any(r.get('quality', {}).get('needs_review') for r in records)
+
+          presentation_page = (root / 'presentations.md').read_text(encoding='utf-8')
+          assert '全発表' in presentation_page and '国内学会' in presentation_page and '国際学会' in presentation_page
+          publication_page = (root / 'publications.md').read_text(encoding='utf-8')
+          assert publication_page.count('<li data-filters=') == 78
+          assert '筆頭著者・責任著者' in publication_page
+          grants = (root / 'supports-grants.md').read_text(encoding='utf-8')
+          assert '公益財団法人旭硝子財団 2026年度研究奨励' in grants
+          assert grants.count('粉体工学情報センター 2025年度（第21回）') == 1
+          print({'presentations': len(records), 'by_year': by_year})
+          PY
+
+      - name: Build review site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Verify rendered pages
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('_site/presentations/index.html').read_text(encoding='utf-8')
+          u = Path('_site/publications/index.html').read_text(encoding='utf-8')
+          g = Path('_site/supports-grants/index.html').read_text(encoding='utf-8')
+
+          p_list = re.search(r'<ol id="presentation-list"[\s\S]*?</ol>', p)
+          u_list = re.search(r'<ol id="publication-list"[\s\S]*?</ol>', u)
+          assert p_list and u_list
+          assert p_list.group(0).count('<li data-filters=') == 102
+          assert u_list.group(0).count('<li data-filters=') == 78
+          assert p.count('achievement-badge--invited') == 7
+          assert p.count('achievement-badge--award') == 6
+          assert 'data-filter-value="international"' in p
+          assert 'data-filter-value="first-or-corresponding"' in u
+          assert '公益財団法人旭硝子財団 2026年度研究奨励' in g
+          assert '{%' not in p and '{{' not in p
+          assert Path('_site/assets/achievement-filters.js').is_file()
+          print('Rendered site verification succeeded.')
+          PY
+
+      - name: Upload rendered review site
+        uses: actions/upload-artifact@v4
+        with:
+          name: achievement-review-site
+          path: ./_site
+          retention-days: 7
+
+      - name: Commit verified review changes
+        run: |
+          rm -rf _site
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Prepare standardized presentation filters, publication toggles, and grants update'
+          git push origin HEAD:data/presentation-publication-grants-20261022
