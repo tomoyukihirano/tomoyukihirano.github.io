@@ -58,18 +58,8 @@ records:
   pages_or_article_number: 134-143
   status: published
   article_url: https://www.sciencedirect.com/science/article/abs/pii/S0021979722018422
-  authors:
-  - tue-tri-nguyen
-  - youhei-toyoda
-  - nur-syakirah-nabilah-saipul-bahri
-  - annie-m-rahmatika
-  - kiet-le-anh-cao
-  - tomoyuki-hirano
-  - katsuo-takahashi
-  - yohsuke-goi
-  - yuko-morita
-  - mai-watanabe
-  - takashi-ogi
+  authors: ["tue-tri-nguyen", "youhei-toyoda", "nur-syakirah-nabilah-saipul-bahri", "annie-mufyda-rahmatika", "kiet-le-anh-cao", "tomoyuki-hirano", "katsuo-takahashi", "yohsuke-goi", "yuko-morita", "mai-watanabe", "takashi-ogi"]
+  author_names_as_imported: ["Tue Tri Nguyen", "Youhei Toyoda", "Nur Syakirah Nabilah Saipul Bahri", "Annie M. Rahmatika", "Kiet Le Anh Cao", "Tomoyuki Hirano", "Katsuo Takahashi", "Yohsuke Goi", "Yuko Morita", "Mai Watanabe", "Takashi Ogi"]
   corresponding_authors:
   - takashi-ogi
   dates:

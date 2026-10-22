@@ -308,13 +308,8 @@ records:
   pages_or_article_number: 2725-2737
   status: published
   article_url: https://pubs.acs.org/doi/10.1021/acsabm.3c00218
-  authors:
-  - tue-tri-nguyen
-  - nur-syakirah-nabilah-saipul-bahri
-  - annie-m-rahmatika
-  - kiet-le-anh-cao
-  - tomoyuki-hirano
-  - takashi-ogi
+  authors: ["tue-tri-nguyen", "nur-syakirah-nabilah-saipul-bahri", "annie-mufyda-rahmatika", "kiet-le-anh-cao", "tomoyuki-hirano", "takashi-ogi"]
+  author_names_as_imported: ["Tue Tri Nguyen", "Nur Syakirah Nabilah Saipul Bahri", "Annie M. Rahmatika", "Kiet Le Anh Cao", "Tomoyuki Hirano", "Takashi Ogi"]
   corresponding_authors:
   - takashi-ogi
   dates:
