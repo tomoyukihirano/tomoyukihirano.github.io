@@ -7,6 +7,7 @@ This directory contains the public source-of-truth data used to generate academi
 - `publications/YYYY.yml`: peer-reviewed journal articles grouped by publication year.
 - `people.yml`: public author-name dictionary keyed by stable `person_id`.
 - `journals.yml`: journal-level JCR quartile / impact-factor metadata.
+- `presentations/YYYY.yml`: public presentation records grouped by year. The initial import preserves the exact existing website citation and adds safe structured fields where parsing is unambiguous.
 
 ## Publication record
 
@@ -40,3 +41,7 @@ For the initial import:
 3. Journal metrics: `Journal Info` in the detailed workbook.
 
 When source values conflict, do not silently overwrite them; record and review the discrepancy.
+
+## Presentation records
+
+Presentation records preserve `raw_citation_html` and `citation_text` as the source of truth. Automatically extracted fields such as `authors_raw`, `presenter_raw`, and `title_raw` are convenience fields and are marked as partial parsing. One 2024 source line appears to contain two concatenated presentations; it is intentionally preserved as one record with `quality.needs_review: true` until manually confirmed.
