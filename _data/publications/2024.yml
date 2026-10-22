@@ -1,0 +1,564 @@
+schema_version: 2
+year: 2024
+records:
+- id: pub-0045
+  paper_id: P045
+  hp_no: 45
+  type: journal_article
+  peer_reviewed: true
+  title: Sustainable removal of pigment dye from traditional batik textile wastewater using ZnO photocatalysis
+  journal: South African Journal of Chemical Engineering
+  year: 2024
+  volume: '50'
+  pages_or_article_number: 223-234
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/pii/S1026918524000994
+  authors:
+  - lailatul-qomariyah
+  - abdul-kadir
+  - tomoyuki-hirano
+  - mila-tejamaya
+  - mar-atul-fauziyah
+  - nicky-rahmana-putra
+  - stevan-deby-anbiya-muhammad-sunarno
+  - hardy-atmajaya
+  corresponding_authors:
+  - lailatul-qomariyah
+  - abdul-kadir
+  dates:
+    accepted: '2024-08-16'
+    published_online: '2024-08-22'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0044
+  paper_id: P044
+  hp_no: 44
+  type: journal_article
+  peer_reviewed: true
+  title: Facilitating Gas Accessibility via Macropore-Engineering in Amine Loaded Silica Particles for Enhancing CO2 Adsorption Performance
+  journal: Energy & Fuels
+  year: 2024
+  volume: '38'
+  issue: '17'
+  pages_or_article_number: 16743–16755
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.energyfuels.4c02937
+  authors:
+  - tung-van-pham
+  - tomoyuki-hirano
+  - kiet-le-anh-cao
+  - eka-lutfi-septiani
+  - takashi-ogi
+  corresponding_authors:
+  - kiet-le-anh-cao
+  - takashi-ogi
+  dates:
+    submitted: '2024-06-17'
+    accepted: '2024-08-15'
+    published_online: '2024-08-23'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: true
+- id: pub-0043
+  paper_id: P043
+  hp_no: 43
+  type: journal_article
+  peer_reviewed: true
+  title: Macroporous Structures of Nb–SnO2 Particle as a Catalyst Support Induce High Porosity and Performance in Polymer Electrolyte Fuel Cell Catalyst Layers
+  journal: Nano Letters
+  year: 2024
+  volume: '24'
+  issue: '34'
+  pages_or_article_number: 10426-10433
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.nanolett.4c01150
+  authors:
+  - tomoyuki-hirano
+  - takama-tsuboi
+  - thi-thanh-nguyen-ho
+  - eishi-tanabe
+  - aoi-takano
+  - mikihiro-kataoka
+  - takashi-ogi
+  corresponding_authors:
+  - tomoyuki-hirano
+  - takashi-ogi
+  dates:
+    submitted: '2024-03-07'
+    accepted: '2024-08-07'
+    published_online: '2024-08-14'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: true
+    legacy_list_codes:
+    - G
+    - M
+    - N
+    - O
+    - P
+    - Q
+    - R
+    - S
+    - T
+    top10_percent: true
+- id: pub-0042
+  paper_id: P042
+  hp_no: 42
+  type: journal_article
+  peer_reviewed: true
+  title: Effect of annealing treatment on nanostructure and electrical conductivity of flame-made Ir−IrO2/TiO2 particles
+  journal: Advanced Powder Technology
+  year: 2024
+  volume: '35'
+  issue: '8'
+  pages_or_article_number: '104568'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/pii/S0921883124002449
+  authors:
+  - thi-thanh-nguyen-ho
+  - tomoyuki-hirano
+  - ryosuke-narui
+  - hiroshi-tsutsumi
+  - miho-kishi
+  - yusuke-yoshikawa
+  - kiet-le-anh-cao
+  - takashi-ogi
+  corresponding_authors:
+  - tomoyuki-hirano
+  - takashi-ogi
+  dates:
+    submitted: '2024-03-29'
+    accepted: '2024-07-04'
+    published_online: '2024-07-15'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: true
+    hirano_first_author: false
+    legacy_list_codes:
+    - G
+    - N
+    - P
+    - R
+    - T
+    top10_percent: false
+- id: pub-0041
+  paper_id: P041
+  hp_no: 41
+  type: journal_article
+  peer_reviewed: true
+  title: Nanostructuring Silica-iron Core-shell Particles in a One-step Aerosol Process
+  journal: RSC Advances
+  year: 2024
+  volume: '14'
+  pages_or_article_number: 18171-18180
+  status: published
+  article_url: https://pubs.rsc.org/en/content/articlelanding/2024/ra/d4ra01154f
+  authors:
+  - delyana-ratnasari
+  - eka-lutfi-septiani
+  - asep-bayu-dani-nandiyanto
+  - kiet-le-anh-cao
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2024-02-15'
+    accepted: '2024-05-30'
+    published_online: '2024-06-06'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0040
+  paper_id: P040
+  hp_no: 40
+  type: journal_article
+  peer_reviewed: true
+  title: 'Insights into Nanostructured Silica Particle Formation from Sodium Silicate using Spray Drying: An Experimental and Theoretical Study'
+  journal: Chemical Physics
+  year: 2024
+  volume: '585'
+  pages_or_article_number: '112347'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/pii/S0301010424001769
+  authors:
+  - lailatul-qomariyah
+  - nicky-rahmana-putra
+  - rashid-shamsuddin
+  - tomoyuki-hirano
+  - nurdiana-ratna-puri
+  - lailatul-alawiyah
+  corresponding_authors:
+  - lailatul-qomariyah
+  dates:
+    submitted: '2024-02-29'
+    accepted: '2024-05-29'
+    published_online: '2024-06-07'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0039
+  paper_id: P039
+  hp_no: 39
+  type: journal_article
+  peer_reviewed: true
+  title: Effects of Coating Characteristics of One-Step Aerosol Synthesized–Silica-Coated FeNi Nanostructured Particles on Powder Core Properties for Electronic Machines Development
+  journal: ACS Applied Nano Materials
+  year: 2024
+  volume: '7'
+  issue: '10'
+  pages_or_article_number: 11839-11850
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsanm.4c01399
+  authors:
+  - eka-lutfi-septiani
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2024-03-07'
+    accepted: '2024-04-24'
+    published_online: '2024-05-03'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0038
+  paper_id: P038
+  hp_no: 38
+  type: journal_article
+  peer_reviewed: true
+  title: 'Innovative surfactant-free synthesis of core–shell SiO2/ZnO particles: rapid ultrasonication and photocatalytic inhibition'
+  journal: RSC Advances
+  year: 2024
+  volume: '14'
+  pages_or_article_number: 12665-12675
+  status: published
+  article_url: https://pubs.rsc.org/en/content/articlelanding/2024/ra/d4ra01309c
+  authors:
+  - lailatul-qomariyah
+  - tomoyuki-hirano
+  - nicky-rahmana-putra
+  - suprapto-suprapto
+  - hendrix-abdul-ajiz
+  - mar-atul-fauziyah
+  corresponding_authors:
+  - lailatul-qomariyah
+  dates:
+    submitted: '2024-02-20'
+    accepted: '2024-04-05'
+    published_online: '2024-04-19'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0037
+  paper_id: P037
+  hp_no: 37
+  type: journal_article
+  peer_reviewed: true
+  title: Porous Pectin Particle Formation Utilizing Spray Drying with a Three-Fluid Nozzle
+  journal: Powder Technology
+  year: 2024
+  volume: '440'
+  pages_or_article_number: '119782'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/pii/S003259102400425X?via%3Dihub
+  authors:
+  - tue-tri-nguyen
+  - tomoyuki-hirano
+  - ridha-nurul-chamida
+  - eka-lutfi-septiani
+  - nhan-trung-nguyen
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2024-03-05'
+    accepted: '2024-04-16'
+    published_online: '2024-04-18'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0036
+  paper_id: P036
+  hp_no: 36
+  type: journal_article
+  peer_reviewed: true
+  title: Controlling the Magnetic Responsiveness of Cellulose Nanofiber Particles Embedded with Iron Oxide Nanoparticles
+  journal: ACS Applied Bio Materials
+  year: 2024
+  volume: '7'
+  issue: '5'
+  pages_or_article_number: 3227–3237
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsabm.4c00213
+  authors:
+  - nur-syakirah-nabilah-saipul-bahri
+  - tue-tri-nguyen
+  - kohei-matsumoto
+  - mai-watanabe
+  - yuko-morita
+  - eka-lutfi-septiani
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2024-02-14'
+    accepted: '2024-04-09'
+    published_online: '2024-04-17'
+    accepted_fiscal_year: 2024
+  classification:
+    hiroshima_academic_year: 2024
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    legacy_list_codes:
+    - H
+    top10_percent: false
+- id: pub-0035
+  paper_id: P035
+  hp_no: 35
+  type: journal_article
+  peer_reviewed: true
+  title: Controllable synthesis of porous and hollow nanostructured catalyst particles and their soot oxidation
+  journal: Langmuir
+  year: 2024
+  volume: '40'
+  issue: '15'
+  pages_or_article_number: 8260–8270
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acs.langmuir.4c00490
+  authors:
+  - duhaul-biqal-kautsar
+  - phong-hoai-le
+  - ai-ando
+  - kiet-le-anh-cao
+  - eka-lutfi-septiani
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2024-02-08'
+    accepted: '2024-03-21'
+    published_online: '2024-04-04'
+    accepted_fiscal_year: 2023
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0034
+  paper_id: P034
+  hp_no: 34
+  type: journal_article
+  peer_reviewed: true
+  title: Machine Learning-Guided Synthesis of Room-Temperature Phosphorescence Carbon Dots for Enhanced Phosphorescence Lifetime and Information Encryption
+  journal: ACS Applied Nano Materials
+  year: 2024
+  volume: '7'
+  issue: '5'
+  pages_or_article_number: 5465-5475
+  status: published
+  article_url: https://pubs.acs.org/doi/10.1021/acsanm.3c06282
+  authors:
+  - diva-addini-maghribi-muyassiroh
+  - fitri-aulia-permatasari
+  - tomoyuki-hirano
+  - takashi-ogi
+  - ferry-iskandar
+  corresponding_authors:
+  - fitri-aulia-permatasari
+  - ferry-iskandar
+  dates:
+    submitted: '2023-12-29'
+    accepted: '2024-02-08'
+    published_online: '2024-02-28'
+    accepted_fiscal_year: 2023
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: true
+- id: pub-0033
+  paper_id: P033
+  hp_no: 33
+  type: journal_article
+  peer_reviewed: true
+  title: Enhancing soft magnetic characteristics of dense submicron FeNi particles with low carbon content by swirler connector assisted spray pyrolysis
+  journal: Chemical Engineering Science
+  year: 2024
+  pages_or_article_number: '119820'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0009250924001209
+  authors:
+  - eka-lutfi-septiani
+  - shunki-yamashita
+  - delyana-ratnasari
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2023-10-03'
+    accepted: '2024-01-25'
+    published_online: '2024-01-30'
+    accepted_fiscal_year: 2023
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0030
+  paper_id: P030
+  hp_no: 30
+  type: journal_article
+  peer_reviewed: true
+  title: Multi-Stage Reactor for CO2 Methanation Process
+  journal: KAGAKU KOGAKU RONBUNSHU
+  year: 2024
+  volume: '50'
+  issue: '1'
+  pages_or_article_number: 1–8
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/kakoronbunshu/50/1/50_23wh025/_article/-char/ja/
+  authors:
+  - koichi-yokoyama
+  - goki-sasaki
+  - masashi-kiyosawa
+  - kazunori-sato
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - koichi-yokoyama
+  - takashi-ogi
+  dates:
+    submitted: '2023-08-01'
+    accepted: '2023-10-11'
+    published_online: '2024-01-20'
+    accepted_fiscal_year: 2023
+  classification:
+    domestic_society_journal: true
+    english_journal: false
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0025
+  paper_id: P025
+  hp_no: 25
+  type: journal_article
+  peer_reviewed: true
+  title: Combustion Synthesis of Spherical Particles Using Explosives
+  journal: Journal of the Society of Powder Technology, Japan
+  year: 2024
+  volume: '61'
+  pages_or_article_number: 4–8
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/sptj/61/1/61_61.4/_article/-char/ja/
+  authors:
+  - keita-yoshitake
+  - satoshi-suzuki
+  - tomoyuki-hirano
+  - takashi-ogi
+  corresponding_authors:
+  - keita-yoshitake
+  - tomoyuki-hirano
+  dates:
+    submitted: '2023-03-10'
+    accepted: '2023-06-27'
+    published_online: '2024-01-10'
+    accepted_fiscal_year: 2023
+  classification:
+    domestic_society_journal: true
+    english_journal: false
+    sci_or_equivalent: false
+    hirano_corresponding: true
+    hirano_first_author: false
+    legacy_list_codes:
+    - R
+    top10_percent: false
