@@ -1,0 +1,49 @@
+name: Validate approved alias normalization
+on:
+  push:
+    branches:
+      - data/approved-aliases-20261022
+    paths:
+      - _maintenance/apply_aliases.py
+      - .github/workflows/validate-approved-aliases.yml
+permissions:
+  contents: write
+  pages: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependency
+        run: python -m pip install PyYAML==6.0.2
+      - name: Build baseline
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_baseline
+      - name: Apply approved data corrections
+        run: python _maintenance/apply_aliases.py apply
+      - name: Build updated site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify exact data and HTML changes
+        run: python _maintenance/apply_aliases.py verify
+      - name: Save changes to isolated review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add _data/people.yml _data/presentations EDITING.md
+          git diff --cached --check
+          git commit -m 'Normalize approved author aliases and presentation labels'
+          git push origin HEAD:refs/heads/data/approved-aliases-20261022
+      - name: Upload verification report
+        uses: actions/upload-artifact@v4
+        with:
+          name: approved-alias-validation
+          path: _audit/alias-report.json
+          retention-days: 7
