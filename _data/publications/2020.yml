@@ -37,6 +37,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: true
+  display_html: 'Leon Gradon*, Ratna Balgis*, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Annie Mufyda Rahmatika, Takashi Ogi*, Kikuo Okuyama, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021850220300975" target="_blank" rel="noreferrer noopener">Advanced aerosol technologies towards structure and morphologically controlled next-generation catalytic materials</a>, <em><strong>Journal of Aerosol Science</strong></em>, 149, 105608, 2020.'
 - id: pub-0005
   paper_id: P005
   hp_no: 5
@@ -80,3 +81,4 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Takashi Ogi*, Hiromitsu Fukazawa, Annie Mufyda Rahmatika, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Kiet Le Anh Cao, Ferry Iskandar, <a href="https://pubs.acs.org/doi/10.1021/acs.iecr.9b05482" target="_blank" rel="noreferrer noopener">Improving the crystallinity and purity of monodisperse Ag fine particles by heating colloidal sprays in-flight</a>, <em><strong>Industrial &amp; Engineering Chemistry Research</strong></em>, 59 (13), 5745-5751, 2020.'

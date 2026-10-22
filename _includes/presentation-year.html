@@ -1,0 +1,14 @@
+{% assign dataset = site.data.presentations[include.year] %}
+{% if dataset and dataset.records %}
+<h2 class="wp-block-heading achievement-year-heading">{{ include.year }}</h2>
+<ol reversed class="wp-block-list achievement-list presentation-list" data-achievement-list>
+{% for item in dataset.records %}
+  {% assign scope = item.classification.scope | default: "domestic" %}
+  <li data-achievement-item data-scope="{{ scope }}" data-invited="{{ item.classification.invited | default: false }}"{% if item.classification.invited %} class="is-invited"{% endif %}>
+    {% if item.classification.invited %}<span class="achievement-badge achievement-badge-invited">招待講演</span>{% endif %}
+    {% if item.classification.award_lecture %}<span class="achievement-badge achievement-badge-award">受賞講演</span>{% elsif item.classification.award %}<span class="achievement-badge achievement-badge-award">受賞</span>{% endif %}
+    <span class="achievement-citation">{{ item.display_html }}</span>
+  </li>
+{% endfor %}
+</ol>
+{% endif %}

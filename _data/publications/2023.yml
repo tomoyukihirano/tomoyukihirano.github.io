@@ -51,6 +51,7 @@ records:
     - S
     - T
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Takama Tsuboi, Thi Thanh Nguyen Ho, Eishi Tanabe, Aoi Takano, Mikihiro Kataoka, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsaem.3c02165" target="_blank" rel="noreferrer noopener">Porosity Engineering of Pt Loaded Nb-SnO<sub>2</sub> Catalyst Layers in Polymer Electrolyte Fuel Cells</a>, <em><strong>ACS Applied Energy Materials</strong></em>, 6 (24), 12364–12370, 2023.'
 - id: pub-0031
   paper_id: P031
   hp_no: 31
@@ -95,6 +96,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: true
+  display_html: 'Phong Hoai Le, Yasuhiko Kitamoto, Shunki Yamashita, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nao Tsunoji, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsami.3c11489" target="_blank" rel="noreferrer noopener">Macropore-Size Engineering toward Enhancing the Catalytic Performance of CO Oxidation over Three-Way Catalyst Particles</a>, <em><strong>ACS Applied Materials &amp; Interfaces</strong></em>, 15 (46), 54073-54084, 2023.'
 - id: pub-0029
   paper_id: P029
   hp_no: 29
@@ -125,6 +127,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Kohei Matsumoto, Mai Watanabe, Yuko Morita, and Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921883123003060" target="_blank" rel="noreferrer noopener">Enhancing water stability of nanostructured cellulose nanofiber particle through the application of oxazoline cross-linker</a>, <em><strong>Advanced Powder Technology</strong></em>, 34 (12), 104241-104241, 2023.'
 - id: pub-0028
   paper_id: P028
   hp_no: 28
@@ -169,6 +172,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Delyana Ratnasari, Eka Lutfi Septiani, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.3c01900" target="_blank" rel="noreferrer noopener">Synthesis of submicron-sized spherical silica-coated iron nickel particles with adjustable shell thickness via a swirler connector-assisted spray pyrolysis</a>, <em><strong>Langmuir</strong></em>, 39 (39), 14063-14073, 2023.'
 - id: pub-0027
   paper_id: P027
   hp_no: 27
@@ -213,6 +217,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Phong Hoai Le, Shunki Yamashita, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nao Tsunoji, Duhaul Biqal Kautsar, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/abs/10.1021/acsanm.3c03954" target="_blank" rel="noreferrer noopener">CO Oxidation Enabled by Three-Way Catalysts Comprised of Pd/Rh Nanoparticles Supported on Al<sub>2</sub>O<sub>3</sub> and CeZrO<sub>4</sub> Confined in Macroporous Polystyrene Latex Templates</a>, <em><strong>ACS Applied Nano Materials</strong></em>, 6 (18), 17324-17335, 2023.'
 - id: pub-0026
   paper_id: P026
   hp_no: 26
@@ -255,6 +260,7 @@ records:
     - R
     - T
     top10_percent: false
+  display_html: 'Kiet Le Anh Cao, Yusuke Kitou, Phong Hoai Le, Takashi Ogi*, and <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, <a href="https://pubs.acs.org/doi/10.1021/acsaenm.3c00176" target="_blank" rel="noreferrer noopener">Synthesis of spherical β-quartz solid-solution particles derived from cordierite using a flame process</a>, <em><strong>ACS Applied Engineering Materials</strong></em>, 1 (7), 1789–1798, 2023.'
 - id: pub-0024
   paper_id: P024
   hp_no: 24
@@ -295,6 +301,7 @@ records:
     - S
     - T
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano*</span></strong>, Norito Kadowaki, Akira Ichimiya, Ryosuke Narui, and Takashi Ogi*, <a href="https://www.jstage.jst.go.jp/article/stem/84/3-4/84_40/_article/-char/ja" target="_blank" rel="noreferrer noopener">Tubular flame synthesis of alumina particles: Effect of the addition of energetic materials to precursors</a>, <em><strong>Science and Technology of Energetic Materials</strong></em>, 84 (3), 1-5, 2023.'
 - id: pub-0023
   paper_id: P023
   hp_no: 23
@@ -333,6 +340,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: true
+  display_html: 'Tue Tri Nguyen, Nur Syakirah Nabilah Saipul Bahri, Annie Mufyda Rahmatika, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsabm.3c00218" target="_blank" rel="noreferrer noopener">Rapid Indomethacin Release from Porous Pectin Particles as a Colon Targeted Drug Delivery System</a>, <em><strong>ACS Applied Bio Materials</strong></em>, 6 (7), 2725-2737, 2023.'
 - id: pub-0022
   paper_id: P022
   hp_no: 22
@@ -367,6 +375,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Koichi Yokoyama*, Goki Sasaki, Masashi Kiyosawa, Kazunori Sato, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi, <a href="https://www.jstage.jst.go.jp/article/sptj/60/8/60_60.462/_article/-char/en" target="_blank" rel="noreferrer noopener">Characteristics of CO<sub>2</sub> Methanation of Catalytic Powder Layer on the Inner Surface of Circular Tube with Porous Structure</a>, <em><strong>Journal of the Society of Powder Technology, Japan</strong></em>, 60, 462–469, 2023.'
 - id: pub-0021
   paper_id: P021
   hp_no: 21
@@ -409,6 +418,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: true
+  display_html: 'Phong Hoai Le, Kiet Le Anh Cao, Yasuhiko Kitamoto, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.3c00621" target="_blank" rel="noopener">Designing the Macroporous Structure of Three-Way Catalyst Particles: The Influence of Template Concentration on Framework Thickness and Mass Transfer</a>, <em><strong>Langmuir</strong></em>, 39 (22), 7783-7792, 2023.'
 - id: pub-0020
   paper_id: P020
   hp_no: 20
@@ -458,6 +468,7 @@ records:
     - R
     - T
     top10_percent: false
+  display_html: 'Thi Thanh Nguyen Ho, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Ryosuke Narui, Hiroshi Tsutsumi, Miho Kishi, Yusuke Yoshikawa, Kiet Le Anh Cao, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsaem.3c00536" target="_blank" rel="noreferrer noopener">Flame-made Ir-IrO<sub>2</sub>/TiO<sub>2</sub> Particles as Anode Catalyst Support for Improved Durability in Polymer Electrolyte Fuel Cells</a>, <em><strong>ACS Applied Energy Materials</strong></em>, 6 (11), 6064–6071, 2023.'
 - id: pub-0019
   paper_id: P019
   hp_no: 19
@@ -508,6 +519,7 @@ records:
     - S
     - T
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Takama Tsuboi, Kiet Le Anh Cao, Eishi Tanabe, and Takashi Ogi*, <a href="https://link.springer.com/article/10.1007/s11051-022-05649-3" target="_blank" rel="noreferrer noopener">High specific surface area niobium-doped tin oxide nanoparticles produced in spray flames as catalyst supports in polymer electrolyte fuel cells</a>, <em><strong>Journal of Nanoparticle Research</strong></em>, 25, 2023.'
 - id: pub-0015
   paper_id: P015
   hp_no: 15
@@ -544,3 +556,4 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Koichi Yokoyama*, Goki Sasaki, Masashi Kiyosawa, Kazunori Sato, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://www.jstage.jst.go.jp/article/kakoronbunshu/49/2/49_22wh025/_article/-char/ja/" target="_blank" rel="noreferrer noopener">Characteristics of reaction and temperature in catalytic reactors for CO<sub>2</sub> methanation</a>, <em><strong>KAGAKU KOGAKU RONBUNSHU</strong></em>, 49 (2), 28–37, 2023.'

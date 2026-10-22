@@ -1,0 +1,3 @@
+{% assign group = site.data.grants.records | where: "status", include.status | where: "category", include.category %}
+{% assign visible_count = 0 %}{% for item in group %}{% if item.publish != false %}{% assign visible_count = visible_count | plus: 1 %}{% endif %}{% endfor %}
+{% if visible_count > 0 %}<h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color">{{ include.heading }}</h3><ul class="wp-block-list">{% for item in group %}{% if item.publish != false %}<li>{{ item.display_html }}</li>{% endif %}{% endfor %}</ul>{% endif %}

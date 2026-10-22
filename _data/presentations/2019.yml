@@ -5,59 +5,96 @@ records:
 - id: pres-0014
   type: presentation
   year: 2019
-  source_order: 77
+  source_order: 87
   raw_citation_html: "Jun Kikkawa, <strong><span style=\"text-decoration: underline;\">Tomoyuki Hirano</span></strong>, Takashi Ogi, A Newly Developed Nanoparticles Processing using Tubular Flame Reactor, National Central University – Hiroshima University Joint Symposium on Materials Chemistry and Physics, Taiwan, ROC, November 1, 2019."
   citation_text: "Jun Kikkawa, Tomoyuki Hirano, Takashi Ogi, A Newly Developed Nanoparticles Processing using Tubular Flame Reactor, National Central University – Hiroshima University Joint Symposium on Materials Chemistry and Physics, Taiwan, ROC, November 1, 2019."
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: raw_only
+  display_html: Jun Kikkawa，<strong><u>〇Tomoyuki Hirano</u></strong>，Takashi Ogi，A Newly Developed Nanoparticles Processing using Tubular Flame Reactor，National Central University – Hiroshima University Joint Symposium on Materials Chemistry and Physics，Taiwan，ROC，November 1，2019.
+  presenter_raw: Tomoyuki Hirano
 - id: pres-0013
   type: presentation
   year: 2019
-  source_order: 78
+  source_order: 88
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，吉川 潤，荻 崇，管状火炎燃焼を利用した微粒子合成技術の開発，第36回 エアロゾル科学・技術研究討論会，広島，2019年9月4日－6日"
   citation_text: "◯平野 知之，吉川 潤，荻 崇，管状火炎燃焼を利用した微粒子合成技術の開発，第36回 エアロゾル科学・技術研究討論会，広島，2019年9月4日－6日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，吉川 潤，荻 崇，管状火炎燃焼を利用した微粒子合成技術の開発，第36回 エアロゾル科学・技術研究討論会，広島，2019年9月4日－6日
+  presenter_raw: 平野 知之
 - id: pres-0012
   type: presentation
   year: 2019
-  source_order: 79
+  source_order: 89
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯Tomoyuki Hirano</span></strong> and Takashi Ogi, Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared shielding applications, Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International Network on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate Laboratory, Hiroshima, July 16, 2019."
   citation_text: "◯Tomoyuki Hirano and Takashi Ogi, Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared shielding applications, Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International Network on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate Laboratory, Hiroshima, July 16, 2019."
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇Tomoyuki Hirano</u></strong> and Takashi Ogi，Evaluation of cesium doped tungsten oxide nanoparticles made in diffusion flames for near-infrared shielding applications，Young Researcher Seminar of EPSRC-JSPS Core-to-Core Collaboration in Advanced Materials International Network on Polyoxometalate Science for Advanced Energy Materials and NANOXCAT French-Japan International Associate Laboratory，Hiroshima，July 16，2019.
+  presenter_raw: Tomoyuki Hirano
 - id: pres-0011
   type: presentation
   year: 2019
-  source_order: 80
+  source_order: 90
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯Tomoyuki Hirano</span></strong>, Shuhei Nakakura, Takashi Ogi: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor for Near-infrared Shielding Applications, Asian Aerosol Conference 2019, Hong Kong, May 27-30, 2019."
   citation_text: "◯Tomoyuki Hirano, Shuhei Nakakura, Takashi Ogi: Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor for Near-infrared Shielding Applications, Asian Aerosol Conference 2019, Hong Kong, May 27-30, 2019."
-  authors_raw: ["Tomoyuki Hirano","Shuhei Nakakura","Takashi Ogi"]
+  authors_raw: ["Tomoyuki Hirano", "Shuhei Nakakura", "Takashi Ogi"]
   presenter_raw: "Tomoyuki Hirano"
   title_raw: "Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor for Near-infrared Shielding Applications"
   details_raw: "Asian Aerosol Conference 2019, Hong Kong, May 27-30, 2019."
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: partial
+  display_html: <strong><u>〇Tomoyuki Hirano</u></strong>，Shuhei Nakakura，Takashi Ogi，Rapid and Energy Effective Production of Cs Doped Tungsten Oxide Nanoparticles in a Flame Aerosol Reactor for Near-infrared Shielding Applications，Asian Aerosol Conference 2019, Hong Kong, May 27-30, 2019.
 - id: pres-0010
   type: presentation
   year: 2019
-  source_order: 81
+  source_order: 91
   raw_citation_html: "吉川 潤，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，管状火炎を用いたナノ粒子合成，2019年度 粉体工学会 春期研究発表会，東京，2019年5月9–10日"
   citation_text: "吉川 潤，平野 知之，荻 崇，管状火炎を用いたナノ粒子合成，2019年度 粉体工学会 春期研究発表会，東京，2019年5月9–10日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: 吉川 潤，<strong><u>〇平野 知之</u></strong>，荻 崇，管状火炎を用いたナノ粒子合成，2019年度 粉体工学会 春期研究発表会，東京，2019年5月9–10日
+  presenter_raw: 平野 知之
+- id: pres-0091
+  type: presentation
+  year: 2019
+  source_order: 92
+  raw_citation_html: 平野 知之，荻 崇，噴霧法による微粒子のナノ構造化とその特性，広島大学若手研究者による研究シーズ発表会，広島，2019年7月31日
+  citation_text: 平野 知之，荻 崇，噴霧法による微粒子のナノ構造化とその特性，広島大学若手研究者による研究シーズ発表会，広島，2019年7月31日
+  authors_raw:
+  - 平野 知之
+  - 荻 崇
+  presenter_raw: 平野 知之
+  title_raw: 噴霧法による微粒子のナノ構造化とその特性
+  details_raw: 広島大学若手研究者による研究シーズ発表会，広島，2019年7月31日
+  classification:
+    invited: false
+    award: false
+    scope: domestic
+  quality:
+    parsing_status: confirmed
+  sources:
+  - type: hu_tme
+    record_no: 226
+    url: https://www.hu-tme.com/pages/1503269/page_201712172212
+  display_html: <strong><u>〇平野 知之</u></strong>，荻 崇，噴霧法による微粒子のナノ構造化とその特性，広島大学若手研究者による研究シーズ発表会，広島，2019年7月31日

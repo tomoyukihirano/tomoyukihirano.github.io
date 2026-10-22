@@ -1,0 +1,6 @@
+{% assign dataset = site.data.publications[include.year] %}
+{% if dataset and dataset.records %}
+{% for item in dataset.records %}
+<li data-achievement-item data-first="{{ item.classification.hirano_first_author | default: false }}" data-corresponding="{{ item.classification.hirano_corresponding | default: false }}"><span class="achievement-citation">{{ item.display_html }}</span></li>
+{% endfor %}
+{% endif %}

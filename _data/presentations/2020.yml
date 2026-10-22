@@ -2,170 +2,144 @@ schema_version: 1
 year: 2020
 source: presentations.md
 records:
-- id: pres-0029
-  type: presentation
-  year: 2020
-  source_order: 62
-  raw_citation_html: "坪井 隆真，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，Pt/Nb-SnO<sub>2</sub>ナノ粒子の気相燃焼合成，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  citation_text: "坪井 隆真，平野 知之，荻 崇，Pt/Nb-SnO2ナノ粒子の気相燃焼合成，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  classification:
-    invited: false
-    award: false
-  quality:
-    parsing_status: raw_only
-- id: pres-0028
-  type: presentation
-  year: 2020
-  source_order: 63
-  raw_citation_html: "鬼頭 佑輔，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，火炎噴霧法によるサブミクロンサイズの球形YAG:Ce粒子の合成と蛍光特性評価，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  citation_text: "鬼頭 佑輔，平野 知之，荻 崇，火炎噴霧法によるサブミクロンサイズの球形YAG:Ce粒子の合成と蛍光特性評価，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  authors_raw: ["鬼頭 佑輔","平野 知之","荻 崇","火炎噴霧法によるサブミクロンサイズの球形YAG"]
-  presenter_raw: "鬼頭 佑輔"
-  title_raw: "Ce粒子の合成と蛍光特性評価"
-  details_raw: "第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  classification:
-    invited: false
-    award: false
-  quality:
-    parsing_status: partial
-- id: pres-0027
-  type: presentation
-  year: 2020
-  source_order: 64
-  raw_citation_html: "加世田 将伍，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，エアロゾルプロセスによるZnO-TiO<sub>2</sub>複合粒子の合成と耐酸特性評価，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  citation_text: "加世田 将伍，平野 知之，荻 崇，エアロゾルプロセスによるZnO-TiO2複合粒子の合成と耐酸特性評価，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  classification:
-    invited: false
-    award: false
-  quality:
-    parsing_status: raw_only
-- id: pres-0026
-  type: presentation
-  year: 2020
-  source_order: 65
-  raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，エアロゾル技術と管状火炎のハイブリッド化で目指す革新的ナノ材料創製プロセス，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  citation_text: "◯平野 知之，エアロゾル技術と管状火炎のハイブリッド化で目指す革新的ナノ材料創製プロセス，第38回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月26-27日"
-  classification:
-    invited: false
-    award: false
-  quality:
-    parsing_status: raw_only
 - id: pres-0023
   type: presentation
   year: 2020
-  source_order: 68
+  source_order: 78
   raw_citation_html: "吉川 潤，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，管状火炎を用いた金属タングステンナノ粒子の合成，化学工学会 広島大会2020，2020年12月11日"
   citation_text: "吉川 潤，平野 知之，荻 崇，管状火炎を用いた金属タングステンナノ粒子の合成，化学工学会 広島大会2020，2020年12月11日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: 吉川 潤，<strong><u>〇平野 知之</u></strong>，荻 崇，管状火炎を用いた金属タングステンナノ粒子の合成，化学工学会 広島大会2020，2020年12月11日
+  presenter_raw: 平野 知之
 - id: pres-0022
   type: presentation
   year: 2020
-  source_order: 69
+  source_order: 79
   raw_citation_html: "鬼頭 佑輔，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，火炎噴霧法によるサブミクロンオーダーでの球形YAG:Ce粒子の合成とその蛍光特性評価，化学工学会 広島大会2020，2020年12月11日"
   citation_text: "鬼頭 佑輔，平野 知之，荻 崇，火炎噴霧法によるサブミクロンオーダーでの球形YAG:Ce粒子の合成とその蛍光特性評価，化学工学会 広島大会2020，2020年12月11日"
-  authors_raw: ["鬼頭 佑輔","平野 知之","荻 崇","火炎噴霧法によるサブミクロンオーダーでの球形YAG"]
+  authors_raw: ["鬼頭 佑輔", "平野 知之", "荻 崇", "火炎噴霧法によるサブミクロンオーダーでの球形YAG"]
   presenter_raw: "鬼頭 佑輔"
   title_raw: "Ce粒子の合成とその蛍光特性評価"
   details_raw: "化学工学会 広島大会2020，2020年12月11日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: partial
+  display_html: <strong><u>〇鬼頭 佑輔</u></strong>，平野 知之，荻 崇，火炎噴霧法によるサブミクロンオーダーでの球形YAG，Ce粒子の合成とその蛍光特性評価，化学工学会 広島大会2020，2020年12月11日
 - id: pres-0021
   type: presentation
   year: 2020
-  source_order: 70
+  source_order: 80
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，吉川 潤，下栗 大右，荻 崇: 金属タングステンナノ粒子の管状火炎合成，第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)"
   citation_text: "◯平野 知之，吉川 潤，下栗 大右，荻 崇: 金属タングステンナノ粒子の管状火炎合成，第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)"
-  authors_raw: ["平野 知之","吉川 潤","下栗 大右","荻 崇"]
+  authors_raw: ["平野 知之", "吉川 潤", "下栗 大右", "荻 崇"]
   presenter_raw: "平野 知之"
   title_raw: "金属タングステンナノ粒子の管状火炎合成"
   details_raw: "第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: partial
+  display_html: <strong><u>〇平野 知之</u></strong>，吉川 潤，下栗 大右，荻 崇，金属タングステンナノ粒子の管状火炎合成，第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)
 - id: pres-0020
   type: presentation
   year: 2020
-  source_order: 71
+  source_order: 81
   raw_citation_html: "鬼頭 祐輔，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇: 火炎噴霧法による粒子径を制御した球形YAG:Ce 粒子の合成，第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)"
   citation_text: "鬼頭 祐輔，平野 知之，荻 崇: 火炎噴霧法による粒子径を制御した球形YAG:Ce 粒子の合成，第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)"
-  authors_raw: ["鬼頭 祐輔","平野 知之","荻 崇"]
+  authors_raw: ["鬼頭 祐輔", "平野 知之", "荻 崇"]
   presenter_raw: "鬼頭 祐輔"
   title_raw: "火炎噴霧法による粒子径を制御した球形YAG:Ce 粒子の合成"
   details_raw: "第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: partial
+  display_html: <strong><u>〇鬼頭 祐輔</u></strong>，平野 知之，荻 崇，火炎噴霧法による粒子径を制御した球形YAG:Ce 粒子の合成，第58回燃焼シンポジウム (2020/12/2–4，オンライン開催)
 - id: pres-0019
   type: presentation
   year: 2020
-  source_order: 72
+  source_order: 82
   raw_citation_html: "鬼頭 佑輔，<span style=\"text-decoration: underline;\"><strong>平野 知之</strong></span>，荻 崇，火炎噴霧法によるYAG:Ce粒子の形状および構造制御，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
   citation_text: "鬼頭 佑輔，平野 知之，荻 崇，火炎噴霧法によるYAG:Ce粒子の形状および構造制御，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
-  authors_raw: ["鬼頭 佑輔","平野 知之","荻 崇","火炎噴霧法によるYAG"]
+  authors_raw: ["鬼頭 佑輔", "平野 知之", "荻 崇", "火炎噴霧法によるYAG"]
   presenter_raw: "鬼頭 佑輔"
   title_raw: "Ce粒子の形状および構造制御"
   details_raw: "化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: partial
+  display_html: <strong><u>〇鬼頭 佑輔</u></strong>，平野 知之，荻 崇，火炎噴霧法によるYAG，Ce粒子の形状および構造制御，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日
 - id: pres-0018
   type: presentation
   year: 2020
-  source_order: 73
+  source_order: 83
   raw_citation_html: "吉川 潤，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，管状火炎による金属微粒子合成，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
   citation_text: "吉川 潤，平野 知之，荻 崇，管状火炎による金属微粒子合成，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: 吉川 潤，<strong><u>〇平野 知之</u></strong>，荻 崇，管状火炎による金属微粒子合成，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日
+  presenter_raw: 平野 知之
 - id: pres-0017
   type: presentation
   year: 2020
-  source_order: 74
+  source_order: 84
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，荻 崇，直接噴霧型管状火炎を用いたナノ構造化微粒子の合成，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
   citation_text: "◯平野 知之，荻 崇，直接噴霧型管状火炎を用いたナノ構造化微粒子の合成，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，荻 崇，直接噴霧型管状火炎を用いたナノ構造化微粒子の合成，化学工学会第51回秋季大会，オンライン開催，2020年9月24–26日
+  presenter_raw: 平野 知之
 - id: pres-0016
   type: presentation
   year: 2020
-  source_order: 75
+  source_order: 85
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，吉川 潤，荻 崇，管状火炎内部の還元ガス領域を利用した金属タングステンナノ粒子の合成，第37回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月27–28日"
   citation_text: "◯平野 知之，吉川 潤，荻 崇，管状火炎内部の還元ガス領域を利用した金属タングステンナノ粒子の合成，第37回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月27–28日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，吉川 潤，荻 崇，管状火炎内部の還元ガス領域を利用した金属タングステンナノ粒子の合成，第37回エアロゾル科学・技術研究討論会，オンライン開催，2020年8月27–28日
+  presenter_raw: 平野 知之
 - id: pres-0015
   type: presentation
   year: 2020
-  source_order: 76
+  source_order: 86
   raw_citation_html: "鬼頭 佑輔，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，火炎噴霧法によるマクロポーラス構造を持つ球形YAG:Ce蛍光体粒子の合成，第22回化学工学会学生発表会，岡山，2020年3月7日"
   citation_text: "鬼頭 佑輔，平野 知之，荻 崇，火炎噴霧法によるマクロポーラス構造を持つ球形YAG:Ce蛍光体粒子の合成，第22回化学工学会学生発表会，岡山，2020年3月7日"
-  authors_raw: ["鬼頭 佑輔","平野 知之","荻 崇","火炎噴霧法によるマクロポーラス構造を持つ球形YAG"]
+  authors_raw: ["鬼頭 佑輔", "平野 知之", "荻 崇", "火炎噴霧法によるマクロポーラス構造を持つ球形YAG"]
   presenter_raw: "鬼頭 佑輔"
   title_raw: "Ce蛍光体粒子の合成"
   details_raw: "第22回化学工学会学生発表会，岡山，2020年3月7日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: partial
+  display_html: <strong><u>〇鬼頭 佑輔</u></strong>，平野 知之，荻 崇，火炎噴霧法によるマクロポーラス構造を持つ球形YAG，Ce蛍光体粒子の合成，第22回化学工学会学生発表会，岡山，2020年3月7日

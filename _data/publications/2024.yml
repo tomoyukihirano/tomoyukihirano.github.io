@@ -39,6 +39,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Lailatul Qomariyah*, Abdul Kadir*, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Mila Tejamaya, Mar’atul Fauziyah, Nicky Rahmana Putra, Stevan Deby Anbiya Muhammad Sunarno, Hardy Atmajaya, <a href="https://www.sciencedirect.com/science/article/pii/S1026918524000994" target="_blank" rel="noreferrer noopener">Sustainable removal of pigment dye from traditional batik textile wastewater using ZnO photocatalysis</a>, <em><strong>South African Journal of Chemical Engineering</strong></em>, 50, 223-234, 2024.'
 - id: pub-0044
   paper_id: P044
   hp_no: 44
@@ -76,6 +77,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: true
+  display_html: 'Tung Van Pham, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Kiet Le Anh Cao*, Eka Lutfi Septiani, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.energyfuels.4c02937" target="_blank" rel="noreferrer noopener">Facilitating Gas Accessibility via Macropore-Engineering in Amine Loaded Silica Particles for Enhancing CO<sub>2</sub> Adsorption Performance</a>, <em><strong>Energy &amp; Fuels</strong></em>, 38(17), 16743–16755, 2024.'
 - id: pub-0043
   paper_id: P043
   hp_no: 43
@@ -123,6 +125,7 @@ records:
     - S
     - T
     top10_percent: true
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Takama Tsuboi, Thi Thanh Nguyen Ho, Eishi Tanabe, Aoi Takano, Mikihiro Kataoka, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.nanolett.4c01150" target="_blank" rel="noreferrer noopener">Macroporous Structures of Nb–SnO<sub>2</sub> Particle as a Catalyst Support Induce High Porosity and Performance in Polymer Electrolyte Fuel Cell Catalyst Layers</a>, <em><strong>Nano Letters</strong></em>, 24(34), 10426-10433, 2024.'
 - id: pub-0042
   paper_id: P042
   hp_no: 42
@@ -167,6 +170,7 @@ records:
     - R
     - T
     top10_percent: false
+  display_html: 'Thi Thanh Nguyen Ho, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Ryosuke Narui, Hiroshi Tsutsumi, Miho Kishi, Yusuke Yoshikawa, Kiet Le Anh Cao, Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/pii/S0921883124002449" target="_blank" rel="noreferrer noopener">Effect of annealing treatment on nanostructure and electrical conductivity of flame-made Ir−IrO<sub>2</sub>/TiO<sub>2</sub> particles</a>, <em><strong>Advanced Powder Technology</strong></em>, 35(8), 104568, 2024.'
 - id: pub-0041
   paper_id: P041
   hp_no: 41
@@ -205,6 +209,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Delyana Ratnasari, Eka Lutfi Septiani, Asep Bayu Dani Nandiyanto, Kiet Le Anh Cao, Nobuhiro Okuda, Hiroyuki Matsumoto, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://pubs.rsc.org/en/content/articlelanding/2024/ra/d4ra01154f" target="_blank" rel="noreferrer noopener">Nanostructuring Silica-iron Core-shell Particles in a One-step Aerosol Process</a>, <em><strong>RSC Advances</strong></em>, 14, 18171-18180, 2024.'
 - id: pub-0040
   paper_id: P040
   hp_no: 40
@@ -241,6 +246,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Lailatul Qomariyah*, Nicky Rahmana Putra, Rashid Shamsuddin, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nurdiana Ratna Puri, Lailatul Alawiyah, <a href="https://www.sciencedirect.com/science/article/pii/S0301010424001769" target="_blank" rel="noreferrer noopener">Insights into Nanostructured Silica Particle Formation from Sodium Silicate using Spray Drying: An Experimental and Theoretical Study</a>, <em><strong>Chemical Physics</strong></em>, 585, 112347, 2024.'
 - id: pub-0039
   paper_id: P039
   hp_no: 39
@@ -278,6 +284,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Eka Lutfi Septiani, Nobuhiro Okuda, Hiroyuki Matsumoto, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsanm.4c01399" target="_blank" rel="noreferrer noopener">Effects of Coating Characteristics of One-Step Aerosol Synthesized–Silica-Coated FeNi Nanostructured Particles on Powder Core Properties for Electronic Machines Development</a>, <em><strong>ACS Applied Nano Materials</strong></em>, 7(10), 11839-11850, 2024.'
 - id: pub-0038
   paper_id: P038
   hp_no: 38
@@ -314,6 +321,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Lailatul Qomariyah*, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nicky Rahmana Putra, Suprapto Suprapto, Hendrix Abdul Ajiz, Mar’atul Fauziyah, <a href="https://pubs.rsc.org/en/content/articlelanding/2024/ra/d4ra01309c" target="_blank" rel="noreferrer noopener">Innovative surfactant-free synthesis of core–shell SiO<sub>2</sub>/ZnO particles: rapid ultrasonication and photocatalytic inhibition</a>, <em><strong>RSC Advances</strong></em>, 14, 12665-12675, 2024.'
 - id: pub-0037
   paper_id: P037
   hp_no: 37
@@ -350,6 +358,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Tue Tri Nguyen, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Ridha Nurul Chamida, Eka Lutfi Septiani, Nhan Trung Nguyen, and Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/pii/S003259102400425X?via%3Dihub" target="_blank" rel="noreferrer noopener">Porous Pectin Particle Formation Utilizing Spray Drying with a Three-Fluid Nozzle</a>, <em><strong>Powder Technology</strong></em>, 440, 119782, 2024.'
 - id: pub-0036
   paper_id: P036
   hp_no: 36
@@ -390,6 +399,7 @@ records:
     legacy_list_codes:
     - H
     top10_percent: false
+  display_html: 'Nur Syakirah Nabilah Saipul Bahri, Tue Tri Nguyen, Kohei Matsumoto, Mai Watanabe, Yuko Morita, Eka Lutfi Septiani, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsabm.4c00213" target="_blank" rel="noreferrer noopener">Controlling the Magnetic Responsiveness of Cellulose Nanofiber Particles Embedded with Iron Oxide Nanoparticles</a>, <em><strong>ACS Applied Bio Materials</strong></em>, 7(5), 3227–3237, 2024.'
 - id: pub-0035
   paper_id: P035
   hp_no: 35
@@ -425,6 +435,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Duhaul Biqal Kautsar, Phong Hoai Le, Ai Ando, Kiet Le Anh Cao, Eka Lutfi Septiani, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.4c00490" target="_blank" rel="noreferrer noopener">Controllable synthesis of porous and hollow nanostructured catalyst particles and their soot oxidation</a>, <em><strong>Langmuir</strong></em>, 40(15), 8260–8270, 2024.'
 - id: pub-0034
   paper_id: P034
   hp_no: 34
@@ -459,6 +470,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: true
+  display_html: 'Diva Addini Maghribi Muyassiroh, Fitri Aulia Permatasari*, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi, and Ferry Iskandar*, <a href="https://pubs.acs.org/doi/10.1021/acsanm.3c06282" target="_blank" rel="noreferrer noopener">Machine Learning-Guided Synthesis of Room-Temperature Phosphorescence Carbon Dots for Enhanced Phosphorescence Lifetime and Information Encryption</a>, <em><strong>ACS Applied Nano Materials</strong></em>, 7(5), 5465-5475, 2024.'
 - id: pub-0033
   paper_id: P033
   hp_no: 33
@@ -493,6 +505,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Eka Lutfi Septiani, Shunki Yamashita, Delyana Ratnasari, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0009250924001209" target="_blank" rel="noreferrer noopener">Enhancing soft magnetic characteristics of dense submicron FeNi particles with low carbon content by swirler connector assisted spray pyrolysis</a>, <em><strong>Chemical Engineering Science</strong></em>, 119820, 2024.'
 - id: pub-0030
   paper_id: P030
   hp_no: 30
@@ -528,6 +541,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Koichi Yokoyama*, Goki Sasaki, Masashi Kiyosawa, Kazunori Sato, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://www.jstage.jst.go.jp/article/kakoronbunshu/50/1/50_23wh025/_article/-char/ja/" target="_blank" rel="noreferrer noopener">Multi-Stage Reactor for CO<sub>2</sub> Methanation Process</a>, <em><strong>KAGAKU KOGAKU RONBUNSHU</strong></em>, 50 (1), 1–8, 2024.'
 - id: pub-0025
   paper_id: P025
   hp_no: 25
@@ -562,3 +576,4 @@ records:
     legacy_list_codes:
     - R
     top10_percent: false
+  display_html: 'Keita Yoshitake*, Satoshi Suzuki, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, and Takashi Ogi, <a href="https://www.jstage.jst.go.jp/article/sptj/61/1/61_61.4/_article/-char/ja/" target="_blank" rel="noreferrer noopener">Combustion Synthesis of Spherical Particles Using Explosives</a>, <em><strong>Journal of the Society of Powder Technology, Japan</strong></em>, 61, 4–8, 2024.'

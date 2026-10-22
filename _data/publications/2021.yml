@@ -38,6 +38,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Eka Lutfi Septiani, Jun Kikkawa, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, and Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921883121004544" target="_blank" rel="noreferrer noopener">Direct synthesis of submicron FeNi particles via spray pyrolysis using various reduction agents</a>, <em><strong>Advanced Powder Technology</strong></em>, 32 (11), 4263-4272, 2021.'
 - id: pub-0009
   paper_id: P009
   hp_no: 9
@@ -72,6 +73,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Asep Bayu Dani Nandiyanto, Yusuke Kitouu, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Risti Ragadhita, Phong Hoai Le, and Takashi Ogi*, <a href="https://pubs.rsc.org/en/content/articlehtml/2021/ra/d1ra04800g" target="_blank" rel="noopener">Spherical submicron YAG:Ce particles with controllable particle outer diameters and crystallite sizes and their photoluminescence properties</a>, <em><strong>RSC Advances</strong></em>, 11 (48), 30305-30314, 2021.'
 - id: pub-0008
   paper_id: P008
   hp_no: 8
@@ -105,6 +107,7 @@ records:
     - Q
     - S
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Jun Kikkawa, Daisuke Shimokuri, Asep Bayu Dani Nandiyanto, Takashi Ogi*, <a href="https://www.jstage.jst.go.jp/article/jcej/54/10/54_21we009/_article" target="_blank" rel="noreferrer noopener">Sinter-Necked, Mixed Nanoparticles of Metallic Tungsten and Tungsten Oxide Produced in Fuel-Rich Methane/Air Tubular Flames</a>, <em><strong>Journal of Chemical Engineering of Japan</strong></em>, 54 (10), 557-565, 2021.'
 - id: pub-0007
   paper_id: P007
   hp_no: 7
@@ -141,3 +144,4 @@ records:
     - Q
     - S
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Daiki Tomonaga, Takashi Ogi*, Daisuke Shimokuri, <a href="https://www.jstage.jst.go.jp/article/jtst/16/3/16_2021jtst0035/_article/-char/ja/" target="_blank" rel="noreferrer noopener">Direct spray combustion in a tubular flame burner toward fine particle synthesis</a>,<em> <strong>Journal of Thermal Science and Technology</strong></em>, 16 (3), JTST0035 2021.'

@@ -58,3 +58,7 @@ Original website citations and all presentation `*_raw` / `citation_text` fields
 Presentation `author_id_links` use 1-based positions and only exact, confirmed name matches.
 Missing links mean unresolved, not absence of the person from the work.
 Unconfirmed spelling variants must not be merged automatically.
+
+## Display sources
+
+Publications，presentations，and grants pages are generated from the YAML master files in this directory. `display_html` stores the approved public citation while structured fields drive filters and internal exports.

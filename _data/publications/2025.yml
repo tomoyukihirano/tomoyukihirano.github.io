@@ -17,6 +17,7 @@ records:
   corresponding_authors: [fitri-aulia-permatasari, ferry-iskandar]
   dates: {submitted: '2025-08-12', accepted: '2025-09-20', published_online: '2025-09-21', accepted_fiscal_year: 2025}
   classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: false}
+  display_html: 'Reza Umami, Fitri Aulia Permatasari*, Siti Fadilah, Ea Cahya Septia Mahen, Azzania Fibriani, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi, Ferry Iskandar*, <a href="https://www.sciencedirect.com/science/article/pii/S0925963525009161" target="_blank" rel="noreferrer noopener">Rapid solvent-free synthesis of carbon dots with yellow to red emission for LED spectral conversion</a>, <strong><em>Diamond and Related Materials</em></strong>, 159, 112859, 2025.'
 - id: pub-0060
   paper_id: P060
   hp_no: 60
@@ -34,6 +35,7 @@ records:
   corresponding_authors: [takashi-ogi]
   dates: {submitted: '2025-07-15', accepted: '2025-09-12', published_online: '2025-09-16', accepted_fiscal_year: 2025}
   classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: false}
+  display_html: 'Nur Syakirah Nabilah Saipul Bahri, Mai Watanabe, Kohei Matsumoto, Yuko Morita, Toshiyuki Onishi, Eka Lutfi Septiani, Kiet Le Anh Cao, Oktaviardi Bityasmawan Abdillah, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsanm.5c03321" target="_blank" rel="noopener">Bioconjugation and Magnetic Separation Performance of Cellulose Nanofiber/Fe3O4 Nanoparticle Composites with Tunable Fe3O4 Sizes for Biomedical Applications</a>, <strong><em>ACS Applied Nano Materials</em></strong>, 8(38), 18534–18545, 2025.'
 - id: pub-0059
   paper_id: P059
   hp_no: 59
@@ -50,7 +52,8 @@ records:
   authors: [phong-hoai-le, tomoyuki-hirano, yuhi-okada, tareq-w-m-amen, nao-tsunoji, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano, takashi-ogi]
   dates: {submitted: '2025-06-25', accepted: '2025-07-24', published_online: '2025-07-29', accepted_fiscal_year: 2025}
-  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [I,N,P,R,T], top10_percent: false}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [I, N, P, R, T], top10_percent: false}
+  display_html: 'Phong Hoai Le, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Yuhi Okada, Tareq W.M. Amen, Nao Tsunoji, Eka Lutfi Septiani, Kiet Le Anh Cao, Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsanm.5c03033" target="_blank" rel="noreferrer noopener">CeO<sub>2</sub>-ZrO<sub>2</sub> Solid-Solution-Supported CuO Nanocatalysts for Efficient CO Oxidation</a>, <strong><em>ACS Applied Nano Materials</em></strong>, 8(31), 15703–15716, 2025.'
 - id: pub-0058
   paper_id: P058
   hp_no: 58
@@ -66,7 +69,8 @@ records:
   authors: [tomoyuki-hirano, delyana-ratnasari, ryuta-hasuno, tung-van-pham, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano]
   dates: {submitted: '2025-03-14', accepted: '2025-06-15', published_online: '2025-06-23', accepted_fiscal_year: 2025}
-  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: true, legacy_list_codes: [I,M,N,O,P,Q,R,S,T], top10_percent: false}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: true, legacy_list_codes: [I, M, N, O, P, Q, R, S, T], top10_percent: false}
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Delyana Ratnasari, Ryuta Hasuno, Tung Van Pham, Eka Lutfi Septiani, Kiet Le Anh Cao, Takashi Ogi, <a href="https://www.sciencedirect.com/science/article/pii/S0032591025006758" target="_blank" rel="noreferrer noopener">Three-Fluid Nozzle Flame Spray Pyrolysis of Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub> nanoparticles</a>, <strong><em>Powder Technology</em></strong>, 465, 121280, 2025.'
 - id: pub-0057
   paper_id: P057
   hp_no: 57
@@ -82,7 +86,8 @@ records:
   authors: [tung-van-pham, tomoyuki-hirano, eishi-tanabe, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano]
   dates: {submitted: '2024-12-16', accepted: '2025-04-29', published_online: '2025-04-30', accepted_fiscal_year: 2025}
-  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [I,N,P,R,T], top10_percent: false}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [I, N, P, R, T], top10_percent: false}
+  display_html: 'Tung Van Pham, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Eishi Tanabe, Eka Lutfi Septiani, Kiet Le Anh Cao, Takashi Ogi, <a href="https://pubs.rsc.org/en/content/articlelanding/2025/nr/d4nr05289g" target="_blank" rel="noreferrer noopener">Tailored Nanoscale Structure of Flame-made Antimony Doped Tin Oxides and Their Near-Infrared Shielding Properties</a>, <strong><em>Nanoscale</em></strong>, 17(21), 13366-13377, 2025.'
 - id: pub-0056
   paper_id: P056
   hp_no: 56
@@ -99,7 +104,8 @@ records:
   authors: [tue-tri-nguyen, tomoyuki-hirano, kodai-fusatani, tung-van-pham, kazuki-mizutani, takahisa-katou, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano, takashi-ogi]
   dates: {submitted: '2024-12-18', accepted: '2025-04-27', published_online: '2025-05-06', accepted_fiscal_year: 2025}
-  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [I,N,P,R,T], top10_percent: false}
+  classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [I, N, P, R, T], top10_percent: false}
+  display_html: 'Tue Tri Nguyen, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Kodai Fusatani, Tung Van Pham, Kazuki Mizutani, Takahisa Katou, and Takashi Ogi*, <a href="https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.20638?af=R" target="_blank" rel="noreferrer noopener">Customizable Flame-Spheroidized Submicron Glass Particles with Controlled CaO-Al<sub>2</sub>O<sub>3</sub>-SiO<sub>2</sub> Compositions</a>, <strong><em>Journal of the American Ceramic Society</em></strong>, 108(9), e20638, 2025.'
 - id: pub-0055
   paper_id: P055
   hp_no: 55
@@ -117,6 +123,7 @@ records:
   corresponding_authors: [takashi-ogi]
   dates: {submitted: '2025-02-26', accepted: '2025-04-23', published_online: '2025-05-26', accepted_fiscal_year: 2025}
   classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: false}
+  display_html: 'Delyana Ratnasari, Eka Lutfi Septiani, Asep Bayu Dani Nandiyanto, Kiet Le Anh Cao, Nobuhiro Okuda, Hiroyuki Matsumoto, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsomega.5c01824" target="_blank" rel="noreferrer noopener">Impact of Morphological and Structural Properties of Submicron Core-Shell Fe-Silica Particles on High-Current Power Converter Performance in Electronics</a>, <strong><em>ACS Omega</em></strong>, 10(22), 23387–23396, 2025.'
 - id: pub-0054
   paper_id: P054
   hp_no: 54
@@ -134,6 +141,7 @@ records:
   corresponding_authors: [lailatul-qomariyah]
   dates: {submitted: '2024-11-13', accepted: '2025-03-24', published_online: '2025-05-08', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: false}
+  display_html: 'Lailatul Qomariyah*, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nicky Rahmana Putra, Abdul Kadir, Hendrix Abdul Ajiz, <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/cjce.25718" target="_blank" rel="noreferrer noopener">Ultrasonication process-induced highly dispersed SiO<sub>2</sub> on ZnO nanoparticles for improving catalyst dispersibilityand photocatalyst performances</a>, <strong><em>The Canadian Journal of Chemical Engineering</em></strong>, 103(11), 5436-5447, 2025.'
 - id: pub-0053
   paper_id: P053
   hp_no: 53
@@ -150,7 +158,8 @@ records:
   authors: [thi-thanh-nguyen-ho, tomoyuki-hirano, ryosuke-narui, shota-imaoka, aoi-takano, syu-miyasaka, eishi-tanabe, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano, takashi-ogi]
   dates: {submitted: '2025-01-29', accepted: '2025-03-21', published_online: '2025-03-31', accepted_fiscal_year: 2024}
-  classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [G,N,P,R,T], top10_percent: true}
+  classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [G, N, P, R, T], top10_percent: true}
+  display_html: 'Thi Thanh Nguyen Ho, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Ryosuke Narui, Shota Imaoka, Aoi Takano, Syu Miyasaka, Eishi Tanabe, Eka Lutfi Septiani, Kiet Le Anh Cao, and Takashi Ogi*,<a href="https://pubs.acs.org/doi/10.1021/acsaem.5c00266" target="_blank" rel="noreferrer noopener"> Flame Spray Pyrolysis Achieves Size-Tunable Niobium-Doped Tin Oxide Nanoparticles for Improved Catalyst Performance in PEFCs</a>, <strong><em>ACS Applied Energy Materials</em></strong>, 8(7), 4640–4647, 2025.'
 - id: pub-0052
   paper_id: P052
   hp_no: 52
@@ -168,6 +177,7 @@ records:
   corresponding_authors: [takashi-ogi]
   dates: {submitted: '2024-12-17', accepted: '2025-03-21', published_online: '2025-04-02', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: true}
+  display_html: 'Kiet Le Anh Cao, Duhaul Biqal Kautsar, Kohei Kume, Khoa Anh Le Cao, Eka Lutfi Septiani, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nao Tsunoji, Masahiko Matsukata, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsami.4c22163" target="_blank" rel="noreferrer noopener">Preparation of hierarchical porous zeolite particles with multi-scale pore architectures through a template-assisted spray process for enhanced toluene adsorption rate</a>, <strong><em>ACS Applied Materials &amp; Interfaces</em></strong>, 17(16), 24310–24326, 2025.'
 - id: pub-0051
   paper_id: P051
   hp_no: 51
@@ -183,7 +193,8 @@ records:
   authors: [thi-thanh-nguyen-ho, tomoyuki-hirano, aoi-takano, syu-miyasaka, eishi-tanabe, makoto-maeda, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano]
   dates: {submitted: '2024-12-05', accepted: '2025-03-18', published_online: '2025-03-24', accepted_fiscal_year: 2024}
-  classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [G,N,P,R,T], top10_percent: false}
+  classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: false, legacy_list_codes: [G, N, P, R, T], top10_percent: false}
+  display_html: 'Thi Thanh Nguyen Ho, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span>*</strong>, Aoi Takano, Syu Miyasaka, Eishi Tanabe, Makoto Maeda, Eka Lutfi Septiani, Kiet Le Anh Cao and Takashi Ogi*, <a href="https://pubs.rsc.org/lf/article/2/3/795/853543/Conductive-RuO2-binders-enhance-mechanical" target="_blank" rel="noopener">Conductive RuO<sub>2</sub> Binders Enhance Mechanical Stability of Macroporous Nb-SnO<sub>2</sub> Particles as Cathode Catalyst Supports for High-Performance PEFCs</a>, <strong><em>RSC Applied Interfaces</em></strong>, 2(3), 795-807, 2025.'
 - id: pub-0050
   paper_id: P050
   hp_no: 50
@@ -201,6 +212,7 @@ records:
   corresponding_authors: [kiet-le-anh-cao, takashi-ogi]
   dates: {submitted: '2025-01-07', accepted: '2025-03-14', published_online: '2025-03-25', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: true}
+  display_html: 'Khoa Anh Le Cao, Kiet Le Anh Cao*, Oktaviardi Bityasmawan Abdillah, Eka Lutfi Septiani, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nhan Trung Nguyen, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.energyfuels.5c00125" target="_blank" rel="noreferrer noopener">Correlation between pore characteristics and high-performance carbon dioxide capture of sustainable porous carbon derived from Kraft lignin and potassium carbonate</a>, <em><strong>Energy &amp; Fuels</strong></em>, 39(13), 6372–6387, 2025.'
 - id: pub-0049
   paper_id: P049
   hp_no: 49
@@ -218,6 +230,7 @@ records:
   corresponding_authors: [koichi-yokoyama]
   dates: {submitted: '2024-11-05', accepted: '2025-02-17', published_online: '2025-05-20', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: false}
+  display_html: 'Koichi Yokoyama*, Goki Sasaki, Masashi Kiyosawa, Kazunori Sato, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi, <a href="https://www.jstage.jst.go.jp/article/jie/104/5/104_63/_article/-char/ja/">Study of temperature-unified reactor for CO<sub>2</sub> methanation and estimation of operating characteristics by reaction rate analysis</a>, <strong><em>Journal of the Japan Institute of Energy</em></strong>, 104(5), 63-75, 2025.'
 - id: pub-0048
   paper_id: P048
   hp_no: 48
@@ -234,6 +247,7 @@ records:
   corresponding_authors: [lailatul-qomariyah]
   dates: {submitted: '2024-12-03', accepted: '2025-02-14', published_online: '2025-02-15', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: true}
+  display_html: 'Lailatul Qomariyah*, Annie Mufyda Rahmatika, Eli Hendrik Sanjaya, W. Widiysatuti, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Tung Van Pham, Nicky Rahmana Putra, <a href="https://doi.org/10.1016/j.ijbiomac.2025.141134" target="_blank" rel="noopener">Synergistic photocatalytic and adsorption capabilities of ZnO/chitosan/CMC for organic dye degradation under sunlight irradiation</a>, <strong><em>International Journal of Biological Macromolecules</em></strong>, 305, 141134, 2025.'
 - id: pub-0047
   paper_id: P047
   hp_no: 47
@@ -250,6 +264,7 @@ records:
   corresponding_authors: [takashi-ogi]
   dates: {submitted: '2024-11-01', accepted: '2025-01-26', published_online: '2025-01-27', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: true}
+  display_html: 'Ai Ando, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Kiet Le Anh Cao, Eka Lutfi Septiani, Eishi Tanabe, Risti Ragadhita, Asep Bayu Dani Nandiyanto, Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021979725002966">Design and Internal Structure Analysis of Submicron Aggregated and Porous Three-Way Catalyst Particles Synthesized via Spray Drying for Enhanced CO Conversion</a>, <strong><em>Journal of Colloid and Interface Science</em></strong>, 686, 277-288, 2025.'
 - id: pub-0046
   paper_id: P046
   hp_no: 46
@@ -266,3 +281,4 @@ records:
   corresponding_authors: [takashi-ogi]
   dates: {submitted: '2024-09-14', accepted: '2024-12-23', published_online: '2025-01-08', accepted_fiscal_year: 2024}
   classification: {hiroshima_academic_year: 2024, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [H], top10_percent: true}
+  display_html: 'Duhaul Biqal Kautsar, Phong Hoai Le, Ai Ando, Eishi Tanabe, Kiet Le Anh Cao, Eka Lutfi Septiani, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi*, <a href="https://doi.org/10.1039/d4nr03770g" target="_blank" rel="noopener">Enhancing CO oxidation performance by controlling the interconnected pore structure in porous three-way catalyst particles</a>, <strong><em>Nanoscale</em></strong>, 17, 2841-2851, 2025.'

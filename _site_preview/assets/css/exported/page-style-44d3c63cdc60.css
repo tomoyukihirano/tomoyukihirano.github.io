@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, "Noto Sans JP", sans-serif;
+    margin: 8px;
+  }
+
+  /* 言語切替 */
+  .language-switch {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 16px 0;
+  }
+
+  .language-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1967d2;
+    border-radius: 8px;
+    background: white;
+    color: #1967d2;
+    cursor: pointer;
+  }
+
+  .language-button.active {
+    background: #1967d2;
+    color: white;
+  }
+
+  .language-button:hover {
+    opacity: 0.85;
+  }
+
+  /* タイトル */
+  #schedule-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0 6px;
+  }
+
+  /* ページ間リンク */
+  .page-navigation {
+    margin: 0 0 24px;
+  }
+
+  #page-link {
+    color: #1967d2;
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  #page-link:hover {
+    color: #1557b0;
+  }
+
+  /* ログイン案内 */
+  .login-area {
+    text-align: center;
+    margin: 16px 0 22px;
+  }
+
+  #instructions {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 14px;
+  }
+
+  /* ログアウト・再ログイン用ボタン */
+  #login-button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 12px 24px;
+    background: #1967d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  #login-button:hover {
+    background: #1557b0;
+  }
+
+  .button-main {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .button-sub {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  /* Googleカレンダー */
+  #lab-calendar {
+    display: block;
+    width: 100%;
+    height: max(800px, calc(100dvh - 200px));
+    border: 1px solid #777;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 600px) {
+    #schedule-title {
+      font-size: 26px;
+    }
+
+    .language-button {
+      padding: 10px 18px;
+      font-size: 15px;
+    }
+
+    #login-button {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .button-main {
+      font-size: 14px;
+    }
+
+    .button-sub {
+      font-size: 11px;
+    }
+  }

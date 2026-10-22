@@ -5,99 +5,126 @@ records:
 - id: pres-0009
   type: presentation
   year: 2018
-  source_order: 82
+  source_order: 93
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，Cs<sub>x</sub>WO<sub>3</sub>ナノ粒子の火炎噴霧合成と光学特性，化学工学会第50回秋季大会，鹿児島，2018年9月18－20日"
   citation_text: "◯平野 知之，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，CsxWO3ナノ粒子の火炎噴霧合成と光学特性，化学工学会第50回秋季大会，鹿児島，2018年9月18－20日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，Cs<sub>x</sub>WO<sub>3</sub>ナノ粒子の火炎噴霧合成と光学特性，化学工学会第50回秋季大会，鹿児島，2018年9月18－20日
+  presenter_raw: 平野 知之
 - id: pres-0008
   type: presentation
   year: 2018
-  source_order: 83
+  source_order: 94
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯Tomoyuki Hirano</span></strong>, Takashi Ogi, Kikuo Okuyama, Synthesis of CuO/WO<sub>3</sub> and Pt/WO<sub>3</sub> Nanocatalysts via Flame-assisted Spray Pyrolysis and Their Photocatalytic Activity, 10th International Aerosol Conference (IAC2018), St. Louis, USA, September 2－7, 2018"
   citation_text: "◯Tomoyuki Hirano, Takashi Ogi, Kikuo Okuyama, Synthesis of CuO/WO3 and Pt/WO3 Nanocatalysts via Flame-assisted Spray Pyrolysis and Their Photocatalytic Activity, 10th International Aerosol Conference (IAC2018), St. Louis, USA, September 2－7, 2018"
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇Tomoyuki Hirano</u></strong>，Takashi Ogi，Kikuo Okuyama，Synthesis of CuO/WO<sub>3</sub> and Pt/WO<sub>3</sub> Nanocatalysts via Flame-assisted Spray Pyrolysis and Their Photocatalytic Activity，10th International Aerosol Conference (IAC2018)，St. Louis，USA，September 2－7，2018
+  presenter_raw: Tomoyuki Hirano
 - id: pres-0007
   type: presentation
   year: 2018
-  source_order: 84
+  source_order: 95
   raw_citation_html: "Takashi Ogi, Febrigia Ghana Rinaldi, <strong><span style=\"text-decoration: underline;\">Tomoyuki Hirano</span></strong>, Kikuo Okuyama, Tailored Synthesis of Macroporous Pt/WO<sub>3</sub> Nanoaggregates via Flame Spray Pyrolysis and Their Photocatalytic Properties, 10th International Aerosol Conference (IAC2018), St. Louis, USA, September 2－7, 2018"
   citation_text: "Takashi Ogi, Febrigia Ghana Rinaldi, Tomoyuki Hirano, Kikuo Okuyama, Tailored Synthesis of Macroporous Pt/WO3 Nanoaggregates via Flame Spray Pyrolysis and Their Photocatalytic Properties, 10th International Aerosol Conference (IAC2018), St. Louis, USA, September 2－7, 2018"
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: raw_only
+  display_html: Takashi Ogi，Febrigia Ghana Rinaldi，<strong><u>〇Tomoyuki Hirano</u></strong>，Kikuo Okuyama，Tailored Synthesis of Macroporous Pt/WO<sub>3</sub> Nanoaggregates via Flame Spray Pyrolysis and Their Photocatalytic Properties，10th International Aerosol Conference (IAC2018)，St. Louis，USA，September 2－7，2018
+  presenter_raw: Tomoyuki Hirano
 - id: pres-0006
   type: presentation
   year: 2018
-  source_order: 85
+  source_order: 96
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，火炎噴霧法による高結晶性セシウムタングステンブロンズナノ粒子の合成と近赤外線吸収特性，第35回 エアロゾル科学・技術研究討論会，名古屋，2018年7月31日－8月1日"
   citation_text: "◯平野 知之，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，火炎噴霧法による高結晶性セシウムタングステンブロンズナノ粒子の合成と近赤外線吸収特性，第35回 エアロゾル科学・技術研究討論会，名古屋，2018年7月31日－8月1日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，火炎噴霧法による高結晶性セシウムタングステンブロンズナノ粒子の合成と近赤外線吸収特性，第35回 エアロゾル科学・技術研究討論会，名古屋，2018年7月31日－8月1日
+  presenter_raw: 平野 知之
 - id: pres-0005
   type: presentation
   year: 2018
-  source_order: 86
+  source_order: 97
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>, 荻 崇, 火炎法により作製したCs<sub>x</sub>WO<sub>3</sub>ナノ粒子の近赤外線吸収特性，2018年度 粉体操作に伴う諸現象に関する勉強会，呉, 2018年7月26－28日"
   citation_text: "◯平野 知之, 荻 崇, 火炎法により作製したCsxWO3ナノ粒子の近赤外線吸収特性，2018年度 粉体操作に伴う諸現象に関する勉強会，呉, 2018年7月26－28日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，荻 崇，火炎法により作製したCs<sub>x</sub>WO<sub>3</sub>ナノ粒子の近赤外線吸収特性，2018年度 粉体操作に伴う諸現象に関する勉強会，呉，2018年7月26－28日
+  presenter_raw: 平野 知之
 - id: pres-0004
   type: presentation
   year: 2018
-  source_order: 87
+  source_order: 98
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯Tomoyuki Hirano</span></strong>, Shuhei Nakakura, Febrigia Ghana Rinaldi, Takashi Ogi, Synthesis of Cs<sub>0.32</sub>WO<sub>3</sub> nanoparticles via flame-assisted spray pyrolysis, The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials (ICCCI2018), Kurashiki, Japan, July 9－12, 2018"
   citation_text: "◯Tomoyuki Hirano, Shuhei Nakakura, Febrigia Ghana Rinaldi, Takashi Ogi, Synthesis of Cs0.32WO3 nanoparticles via flame-assisted spray pyrolysis, The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials (ICCCI2018), Kurashiki, Japan, July 9－12, 2018"
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇Tomoyuki Hirano</u></strong>，Shuhei Nakakura，Febrigia Ghana Rinaldi，Takashi Ogi，Synthesis of Cs<sub>0.32</sub>WO<sub>3</sub> nanoparticles via flame-assisted spray pyrolysis，The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials (ICCCI2018)，Kurashiki，Japan，July 9－12，2018
+  presenter_raw: Tomoyuki Hirano
 - id: pres-0003
   type: presentation
   year: 2018
-  source_order: 88
+  source_order: 99
   raw_citation_html: "Shuhei Nakakura, Febrigia Ghana Rinaldi, <strong><span style=\"text-decoration: underline;\">Tomoyuki Hirano</span></strong>, Ratna Balgis, Takashi Ogi, Direct synthesis of single-phase hexagonal tungsten oxide nanorods by spray pyrolysis method, The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials (ICCCI2018), Kurashiki, Japan, July 9－12, 2018"
   citation_text: "Shuhei Nakakura, Febrigia Ghana Rinaldi, Tomoyuki Hirano, Ratna Balgis, Takashi Ogi, Direct synthesis of single-phase hexagonal tungsten oxide nanorods by spray pyrolysis method, The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials (ICCCI2018), Kurashiki, Japan, July 9－12, 2018"
   classification:
     invited: false
     award: false
+    scope: international
   quality:
     parsing_status: raw_only
+  display_html: Shuhei Nakakura，Febrigia Ghana Rinaldi，<strong><u>〇Tomoyuki Hirano</u></strong>，Ratna Balgis，Takashi Ogi，Direct synthesis of single-phase hexagonal tungsten oxide nanorods by spray pyrolysis method，The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials (ICCCI2018)，Kurashiki，Japan，July 9－12，2018
+  presenter_raw: Tomoyuki Hirano
 - id: pres-0002
   type: presentation
   year: 2018
-  source_order: 89
+  source_order: 100
   raw_citation_html: "中倉 修平，Rinaldi Febrigia Ghana，<strong><span style=\"text-decoration: underline;\">平野 知之</span></strong>，荻 崇，噴霧熱分解法による六方晶WO<sub>3</sub>ナノロッドの合成，化学工学会第83 年会，大阪，2018年3月13－15日"
   citation_text: "中倉 修平，Rinaldi Febrigia Ghana，平野 知之，荻 崇，噴霧熱分解法による六方晶WO3ナノロッドの合成，化学工学会第83 年会，大阪，2018年3月13－15日"
   classification:
     invited: false
     award: false
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: 中倉 修平，Rinaldi Febrigia Ghana，<strong><u>〇平野 知之</u></strong>，荻 崇，噴霧熱分解法による六方晶WO<sub>3</sub>ナノロッドの合成，化学工学会第83 年会，大阪，2018年3月13－15日
+  presenter_raw: 平野 知之
 - id: pres-0001
   type: presentation
   year: 2018
-  source_order: 90
+  source_order: 101
   raw_citation_html: "<strong><span style=\"text-decoration: underline;\">◯平野 知之</span></strong>，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，火炎噴霧熱分解法によるセシウムをドープした酸化タングステンナノ粒子の合成，第20 回化学工学会学生発表会（東広島大会），東広島，2018年3月3日 <strong><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-vivid-red-color\">【優秀賞 受賞】</mark></strong>"
   citation_text: "◯平野 知之，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，火炎噴霧熱分解法によるセシウムをドープした酸化タングステンナノ粒子の合成，第20 回化学工学会学生発表会（東広島大会），東広島，2018年3月3日 【優秀賞 受賞】"
   classification:
     invited: false
     award: true
+    scope: domestic
   quality:
     parsing_status: raw_only
+  display_html: <strong><u>〇平野 知之</u></strong>，中倉 修平，Febrigia Ghana Rinaldi，荻 崇，火炎噴霧熱分解法によるセシウムをドープした酸化タングステンナノ粒子の合成，第20 回化学工学会学生発表会（東広島大会），東広島，2018年3月3日 <strong><mark style="background-color，rgba(0，0，0，0)" class="has-inline-color has-vivid-red-color">【優秀賞 受賞】</mark></strong>
+  presenter_raw: 平野 知之

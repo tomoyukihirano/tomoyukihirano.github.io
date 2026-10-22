@@ -40,6 +40,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Febrigia Ghana Rinaldi, Osi Arutanti, Aditya Farhan Arif, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takashi Ogi*, Kikuo Okuyama, <a href="https://pubs.acs.org/doi/full/10.1021/acsomega.8b01110" target="_blank" rel="noreferrer noopener">Correlations between Reduction Degree and Catalytic Properties of WO<sub>x</sub> Nanoparticles</a>, <em><strong>ACS Omega</strong></em>, 3 (8), 8963-8970, 2018.'
 - id: pub-0001
   paper_id: P001
   hp_no: 1
@@ -78,3 +79,4 @@ records:
     - Q
     - S
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Shuhei Nakakura, Febrigia Ghana Rinaldi, Eishi Tanabe, Wei-Ning Wang, Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S092188311830308X" target="_blank" rel="noreferrer noopener">Synthesis of Highly Crystalline Hexagonal Cesium Tungsten Bronze Nanoparticles by Flame-assisted Spray Pyrolysis</a>, <em><strong>Advanced Powder Technology</strong></em>, 29 (10), 2512-2520, 2018.'

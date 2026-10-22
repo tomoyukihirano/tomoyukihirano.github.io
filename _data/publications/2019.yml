@@ -48,6 +48,7 @@ records:
     - Q
     - S
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Jun Kikkawa, Febrigia Ghana Rinaldi, Kenshi Kitawaki, Daisuke Shimokuri, Eishi Tanabe, Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.iecr.9b00620" target="_blank" rel="noreferrer noopener">Tubular Flame Combustion for Nanoparticle Production</a>, <em><strong>Industrial &amp; Engineering Chemistry Research</strong></em>, 58 (17), 7193-7199, 2019.'
 - id: pub-0003
   paper_id: P003
   hp_no: 3
@@ -84,3 +85,4 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Shuhei Nakakura, Aditya Farhan Arif, Febrigia Ghana Rinaldi, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Eishi Tanabe, Ratna Balgis and Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921883118306290" target="_blank" rel="noreferrer noopener">Direct Synthesis of Highly Crystalline Single-phase Hexagonal Tungsten Oxide Nanorods by Spray Pyrolysis</a>, <em><strong>Advanced Powder Technology</strong></em>, 30 (1), 6-12, 2019.'

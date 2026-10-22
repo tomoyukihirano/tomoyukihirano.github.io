@@ -46,6 +46,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Eka Lutfi Septiani, Shunki Yamashita, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acs.iecr.2c02837" target="_blank" rel="noreferrer noopener">One-step aerosol synthesis of SiO<sub>2</sub> coated FeNi particles by using swirler connector-assisted spray pyrolysis</a>, <em><strong>Industrial &amp; Engineering Chemistry Research</strong></em>, 61 (49), 17885-17893, 2022.'
 - id: pub-0017
   paper_id: P017
   hp_no: 17
@@ -75,6 +76,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Tue Tri Nguyen, Youhei Toyoda, Nur Syakirah Nabilah Saipul Bahri, Annie Mufyda Rahmatika, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Katsuo Takahashi, Yohsuke Goi, Yuko Morita, Mai Watanabe, and Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021979722018422" target="_blank" rel="noreferrer noopener">Tuning of water resistance and protein adsorption capacity of porous cellulose nanofiber particles prepared by spray drying with cross-linking reaction</a>, <em><strong>Journal of Colloid and Interface Science</strong></em>, 630, 134-143, 2022.'
 - id: pub-0016
   paper_id: P016
   hp_no: 16
@@ -116,6 +118,7 @@ records:
     - Q
     - S
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Shogo Kaseda, Kiet Le Anh Cao, Ferry Iskandar, Eishi Tanabe, and Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsanm.2c03489" target="_blank" rel="noreferrer noopener">Multiple ZnO Core Nanoparticles Embedded in TiO<sub>2</sub> Nanoparticles as Agents for Acid Resistance and UV Protection</a>, <em><strong>ACS Applied Nano Materials</strong></em>, 5 (10), 15449–15456, 2022.'
 - id: pub-0014
   paper_id: P014
   hp_no: 14
@@ -162,6 +165,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Annie Mufyda Rahmatika, Youhei Toyoda, Tue Tri Nguyen, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takeo Kitamura, Yohsuke Goi, Yuko Morita, Takashi Ogi*, <a href="https://pubs.acs.org/doi/10.1021/acsapm.2c01063" target="_blank" rel="noreferrer noopener">Effects of Solvent Polarity on Nanostructure Formation of Spray-Dried TEMPO-Oxidized Cellulose Nanofiber Particles</a>, <em><strong>ACS Applied Polymer Materials</strong></em>, 4 (9), 6700–6709, 2022.'
 - id: pub-0013
   paper_id: P013
   hp_no: 13
@@ -203,6 +207,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: false
+  display_html: 'Eka Lutfi Septiani, Jun Kikkawa, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nobuhiro Okuda, Hiroyuki Matsumoto, Yasushi Enokido and Takashi Ogi*, <a href="https://pubs.rsc.org/en/content/articlelanding/2022/tc/d1tc05917c" target="_blank" rel="noreferrer noopener">DC bias characteristic enhancement of the powder core by using densified submicron sized FeNi particles through spray pyrolysis</a>, <em><strong>Journal of Materials Chemistry C</strong></em>, 10 (21), 8288-8295 2022.'
 - id: pub-0012
   paper_id: P012
   hp_no: 12
@@ -238,6 +243,7 @@ records:
     hirano_corresponding: false
     hirano_first_author: false
     top10_percent: true
+  display_html: 'Phong Hoai Le, Yasuhiko Kitamoto, Kiet Le Anh Cao, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Eishi Tanabe, and Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921883122001595" target="_blank" rel="noreferrer noopener">Synthesis of Macroporous Three-way Catalysts via Template-assisted Spray Process for Enhancing Mass Transfer in Gas Adsorption</a>, <em><strong>Advanced Powder Technology</strong></em>, 33 (6), 103581, 2022.'
 - id: pub-0011
   paper_id: P011
   hp_no: 11
@@ -274,3 +280,4 @@ records:
     - Q
     - S
     top10_percent: false
+  display_html: '<strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Takama Tsuboi, Eishi Tanabe, Takashi Ogi*, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925838821041591" target="_blank" rel="noreferrer noopener"><em>In-situ</em> flame deposition of Pt catalysts on Nb-doped SnO<sub>2</sub> nanoparticles</a>, <em><strong>Journal of Alloys and Compounds</strong></em>, 898 (25), 162749, 2022.'
