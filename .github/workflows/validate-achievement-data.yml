@@ -1,0 +1,30 @@
+name: Validate achievement data
+
+on:
+  push:
+    branches:
+      - main
+      - "data/**"
+    paths:
+      - "_data/**"
+      - "_layouts/**"
+      - "_includes/**"
+      - "*.md"
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Validate Jekyll build
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
