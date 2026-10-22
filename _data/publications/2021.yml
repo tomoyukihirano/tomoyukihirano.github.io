@@ -1,0 +1,152 @@
+schema_version: 2
+year: 2021
+records:
+- id: pub-0010
+  paper_id: P010
+  hp_no: 10
+  type: journal_article
+  peer_reviewed: true
+  title: Direct synthesis of submicron FeNi particles via spray pyrolysis using various reduction agents
+  journal: Advanced Powder Technology
+  year: 2021
+  volume: '32'
+  issue: '11'
+  pages_or_article_number: 4263-4272
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S0921883121004544
+  authors:
+  - eka-lutfi-septiani
+  - jun-kikkawa
+  - kiet-le-anh-cao
+  - tomoyuki-hirano
+  - nobuhiro-okuda
+  - hiroyuki-matsumoto
+  - yasushi-enokido
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2021-06-27'
+    accepted: '2021-09-18'
+    published_online: '2021-10-01'
+    accepted_fiscal_year: 2021
+    timeline_note: Received 27 June 2021, Revised 15 September 2021, Accepted 18 September 2021, Available online 1 October 2021, Version of Record 26 October 2021.
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0009
+  paper_id: P009
+  hp_no: 9
+  type: journal_article
+  peer_reviewed: true
+  title: Correlation between particle/crystallite size and photoluminescence of spherical submicron YAG:Ce particles
+  journal: RSC Advances
+  year: 2021
+  volume: '11'
+  issue: '48'
+  pages_or_article_number: 30305-30314
+  status: published
+  article_url: https://pubs.rsc.org/en/content/articlehtml/2021/ra/d1ra04800g
+  authors:
+  - asep-bayu-dani-nandiyanto
+  - yusuke-kitou
+  - tomoyuki-hirano
+  - risti-ragadhita
+  - le-hoai-phong
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2021-06-21'
+    accepted: '2021-09-03'
+    published_online: '2021-09-10'
+    accepted_fiscal_year: 2021
+    timeline_note: 'Received: 21 June 2021
+
+      Accepted: 03 September 2021
+
+      First published: 10 September 2021'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: false
+    top10_percent: false
+- id: pub-0008
+  paper_id: P008
+  hp_no: 8
+  type: journal_article
+  peer_reviewed: true
+  title: Sinter-Necked, Mixed Nanoparticles of Metallic Tungsten and Tungsten Oxide Produced in Fuel-Rich Methane/Air Tubular Flames
+  journal: Journal of Chemical Engineering of Japan
+  year: 2021
+  volume: '54'
+  issue: '10'
+  pages_or_article_number: 557-565
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/jcej/54/10/54_21we009/_article
+  authors:
+  - tomoyuki-hirano
+  - jun-kikkawa
+  - daisuke-shimokuri
+  - asep-nandiyanto
+  - takashi-ogi
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2021-01-25'
+    accepted: '2021-07-12'
+    published_online: '2021-10-20'
+    accepted_fiscal_year: 2021
+    timeline_note: 'Published: October 20, 2021 Received: January 25, 2021 Published on J-STAGE: October 20, 2021 Accepted: July 12, 2021'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - S
+    top10_percent: false
+- id: pub-0007
+  paper_id: P007
+  hp_no: 7
+  type: journal_article
+  peer_reviewed: true
+  title: Direct spray combustion in a tubular flame burner toward fine particle synthesis
+  journal: Journal of Thermal Science and Technology
+  year: 2021
+  volume: '16'
+  issue: '3'
+  pages_or_article_number: JTST0035
+  status: published
+  article_url: https://www.jstage.jst.go.jp/article/jtst/16/3/16_2021jtst0035/_article/-char/ja/
+  authors:
+  - tomoyuki-hirano
+  - daiki-tomonaga
+  - takashi-ogi
+  - daisuke-shimokuri
+  corresponding_authors:
+  - takashi-ogi
+  dates:
+    submitted: '2021-06-23'
+    accepted: '2021-07-21'
+    published_online: '2021-08-05'
+    accepted_fiscal_year: 2021
+    timeline_note: 'Published: 2021 Received: 2021/06/23 Released on J-STAGE: 2021/08/05 Accepted: 2021/07/21 Revised: 2021/07/19'
+  classification:
+    domestic_society_journal: false
+    english_journal: true
+    sci_or_equivalent: true
+    hirano_corresponding: false
+    hirano_first_author: true
+    legacy_list_codes:
+    - Q
+    - S
+    top10_percent: false
