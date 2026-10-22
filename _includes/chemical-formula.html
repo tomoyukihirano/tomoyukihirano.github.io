@@ -1,0 +1,18 @@
+{%- comment -%}
+Format only known chemical formulas in presentation titles. Existing sub/sup tags,
+conference numbers and dates are left unchanged; raw source citations are preserved.
+{%- endcomment -%}
+{%- assign chemical_title = include.text
+  | replace: 'Li4Ti5O12', 'Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub>'
+  | replace: 'Al2O3', 'Al<sub>2</sub>O<sub>3</sub>'
+  | replace: 'CeO2', 'CeO<sub>2</sub>'
+  | replace: 'ZrO2', 'ZrO<sub>2</sub>'
+  | replace: 'SnO2', 'SnO<sub>2</sub>'
+  | replace: 'SnO₂', 'SnO<sub>2</sub>'
+  | replace: 'SiO2', 'SiO<sub>2</sub>'
+  | replace: 'TiO2', 'TiO<sub>2</sub>'
+  | replace: 'IrO2', 'IrO<sub>2</sub>'
+  | replace: 'WO3', 'WO<sub>3</sub>'
+  | replace: 'CO2', 'CO<sub>2</sub>'
+-%}
+{{- chemical_title -}}

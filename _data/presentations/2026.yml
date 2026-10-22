@@ -696,8 +696,8 @@ records:
     annotations:
       []
 - id: pres-0094
-  public: false
-  publication_status: pending_title_verification
+  public: true
+  publication_status: confirmed_by_owner
   type: presentation
   year: 2026
   source_order: 14
@@ -730,7 +730,7 @@ records:
       person_id: takashi-ogi
     presenter_position: 1
     presenter_evidence: first_listed_author_in_source
-    title_html: "Flame-Engineered AIN Filter for Thermal Management"
+    title_html: "Flame-Engineered AlN Fillers for Thermal Management"
     conference: "The 10th World Congress on Particle Technology (WCPT10)"
     location: "Osaka"
     dates:
@@ -742,13 +742,15 @@ records:
       precision: conference_dates_as_recorded
     annotations:
     - 招待講演
-  source_quality_note: "英語題目は未確認のため公開保留。原典の文字列は保持し，推測でAlNやFillerに置き換えない。"
+  source_quality_note: "原典の表記は保持。公開題目は本人の確認に基づきAlN Fillersへ修正し，公開保留を解除。"
   verification:
-    status: pending_title_verification
+    status: confirmed_by_owner
+    confirmed_on: '2026-10-22'
+    verified_title: "Flame-Engineered AlN Fillers for Thermal Management"
     checked_on: '2026-10-22'
-    public: false
+    public: true
     official_program_url: "https://wcpt10.org/program/"
-    note: "公式サイトの招待講演者一覧で本人名は確認済み。題目は未確認。"
+    note: "題目のAlN Fillers表記は2026年10月22日に本人が確認。"
 - id: pres-0093
   type: presentation
   year: 2026
