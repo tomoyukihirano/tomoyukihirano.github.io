@@ -1,7 +1,8 @@
 /* Filter the existing journal list by author role AND printed publication year.
  * Do not duplicate or rewrite citations. In-press items with no publication year
  * have their own option; never infer a publication year from an acceptance date.
- * Original links remain usable without JavaScript. Other sections are unchanged.
+ * Access buttons remain usable without JavaScript. Other sections are unchanged.
+ * Parse citation text only, excluding access labels, DOI strings, and dates.
  */
 (function () {
   "use strict";
@@ -36,9 +37,13 @@
     }
 
     const records = items.map(function (item) {
-      const text = item.textContent.replace(/\s+/g, " ").trim();
+      const citation = item.querySelector(".publication-citation") || item;
+      const text = citation.textContent.replace(/\s+/g, " ").trim();
+      const id = item.dataset.publicationId || citation.dataset.publicationId || "";
+      if (id) item.dataset.publicationId = id;
       return {
         item: item,
+        id: id,
         citationText: text,
         first: /^Tomoyuki\s+Hirano(?=[\s*,，])/.test(text),
         corresponding: /\bTomoyuki\s+Hirano\s*\*/.test(text),
@@ -160,16 +165,17 @@
         : "査読付き論文：" + active.label + "・" + activeYear.label + "の" + visible + "件を表示しています（全" + records.length + "件）。";
     }
 
-    // Join by a unique article URL or title, never by the visible list number.
+    // Join by the stable ID first; URL/title matching supports older unlabelled items.
     // Read citation text before adding dates so year/author filters stay intact.
     function addPublicationDates() {
       const script = Array.from(document.scripts).find(function (element) {
         return /\/publication-filters\.js(?:[?#]|$)/.test(element.src);
       });
-      if (!script || typeof window.fetch !== "function") return;
-      const source = new URL("publication-dates.json", script.src);
+      const inlineData = document.getElementById("publication-date-data");
+      if (!inlineData && (!script || typeof window.fetch !== "function")) return;
+      const source = script ? new URL("publication-dates.json", script.src) : null;
       // Keep metadata and display assets on the same deployed build.
-      const assetVersion = new URL(script.src).searchParams.get("v");
+      const assetVersion = script ? new URL(script.src).searchParams.get("v") : null;
       if (assetVersion) source.searchParams.set("v", assetVersion);
       function normalized(text) {
         return String(text || "").normalize("NFKC").toLowerCase()
@@ -199,12 +205,14 @@
         const parts = value.split("-");
         return months[Number(parts[1]) - 1] + " " + parts[2] + ", " + parts[0];
       }
-      fetch(source.href, { credentials: "same-origin" })
-        .then(function (response) {
-          if (!response.ok) throw new Error("Date metadata unavailable");
-          return response.json();
-        })
-        .then(function (data) {
+      const dateData = inlineData
+        ? Promise.resolve().then(function () { return JSON.parse(inlineData.textContent); })
+        : fetch(source.href, { credentials: "same-origin" })
+          .then(function (response) {
+            if (!response.ok) throw new Error("Date metadata unavailable");
+            return response.json();
+          });
+      dateData.then(function (data) {
           if (data.schema_version !== 1 || !Array.isArray(data.records)) return;
           const ids = data.records.map(function (paper) { return paper.id; });
           if (ids.some(function (id) { return !id; }) || new Set(ids).size !== ids.length) return;
@@ -218,10 +226,12 @@
             if (record.item.querySelector(".publication-timeline")) return;
             const urls = Array.from(record.item.querySelectorAll("a[href]"))
               .map(function (link) { return urlKey(link.href); }).filter(Boolean);
-            let matches = data.records.filter(function (paper) {
+            let matches = record.id ? data.records.filter(function (paper) {
+              return paper.id === record.id;
+            }) : data.records.filter(function (paper) {
               return paper.article_url && urls.includes(urlKey(paper.article_url));
             });
-            if (!matches.length) {
+            if (!record.id && !matches.length) {
               matches = data.records.filter(function (paper) {
                 const title = normalized(paper.title);
                 return title.length > 20 && normalized(record.citationText).includes(title);

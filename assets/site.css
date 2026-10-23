@@ -441,3 +441,46 @@ button.back-to-top {
     padding-top: 24px;
   }
 }
+/* Plain DOI text and shared access buttons for publication pages. */
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.7rem;
+  margin-top: 0.4rem;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.publication-doi {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.publication-access-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.45rem;
+  min-width: 0;
+}
+.entry-content .publication-links a.publication-access-button {
+  display: inline-block;
+  padding: 0.08em 0.55em;
+  border: 1px solid #c6d9ca;
+  border-radius: 3px;
+  color: #315b3a;
+  background: #f4f8f5;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.7;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.entry-content .publication-links a.publication-access-button:hover {
+  border-color: #8faa96;
+  background: #e9f1eb;
+}
+.entry-content .publication-links a.publication-access-button:focus-visible {
+  outline: 2px solid #315b3a;
+  outline-offset: 2px;
+}

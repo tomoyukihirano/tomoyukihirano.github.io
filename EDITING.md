@@ -28,18 +28,41 @@
 `publications.md` の該当する見出し直下に，次のように1行追加します。
 
 ```markdown
-1. 著者名, 論文タイトル, ***Journal Name***, 巻, ページ, 年.
+1. <span class="publication-citation" id="pub-0079" data-publication-id="pub-0079">著者名, 論文タイトル, ***Journal Name***, 巻, ページ, 年.</span>{% include publication-links.html id="pub-0079" %}
 ```
 
 番号はすべて `1.` のままで構いません。公開時には逆順の番号付きリストとして表示されます。
 
 責任著者を示すアスタリスクはMarkdown記号と区別するため，`\*` と書いてください。
 
-リンクは次の書き方で追加できます。
+タイトルとDOI文字列はリンクにせず，アクセス先は共通デザインの英語ボタンで表示します。
+DOI・公開原稿へのリンクは `_data/publication_access.yml` に追加します。
+`pub-0079` は例です。`_data/publications/YYYY.yml` のレコードと同じ，重複しないIDを使ってください。
+書誌の原文・著者の強調・責任著者記号・年は citation の span 内に保ちます。
 
-```markdown
-[論文タイトル](https://doi.org/...)
+```yaml
+records:
+  pub-0079:
+    doi: 10.xxxx/example
+    hir_url: https://hiroshima.repo.nii.ac.jp/records/xxxxxxx
+    hir_status: open
+    hir_version: accepted_manuscript
 ```
+
+確認済みDOIから `Publisher` ボタンを生成します。個別論文のOA許諾を確認した場合だけ
+`publisher_oa: true` と `publisher_license` を登録すると `Publisher (OA)` と表示します。
+HiRはPDF直リンクではなく登録ページを `hir_url` に指定し，本文公開を確認して `open` にします。
+公開待ちは `hir_status: embargoed` と `hir_release_date: 'YYYY-MM-DD'` を元データで管理します。
+公開予定日はページに表示しません。本文公開を確認して状態を更新してください。HiRのボタンは `Repository` です。
+ChemRxivは `chemrxiv_url` と `chemrxiv_doi` を登録すると `Preprint` ボタンを生成します。
+独立したPreprints節では `is_preprint: true` と `preprint_url` を使い，Publisherボタンは出しません。
+PDF本体はサイトに置きません。表示は `_includes/publication-links.html` が共通生成します。
+
+投稿日・採択日・オンライン公開日は従来どおり `_data/publications/YYYY.yml` と `_data/publication_date_reviews.yml` で管理します。
+現在の英語日付表記，N/A表示，CSS/JS/日付データの同一ビルド版指定を維持してください。
+絞り込みと日付照合は安定IDを使うため，既存IDを掲載順に合わせて変更しないでください。
+`first-author/index.html` と `first-corresponding/index.html` も同じIDと共通includeを使います。
+ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読付き論文の総数に含めません。
 
 ## Presentationsを追加する
 

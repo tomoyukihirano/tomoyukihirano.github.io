@@ -1,0 +1,21 @@
+{%- assign access = site.data.publication_access.records[include.id] -%}
+{%- if access.doi or access.hir_url or access.chemrxiv_url or access.preprint_url -%}
+<span class="publication-links" lang="en" aria-label="Article access">
+{%- if access.doi -%}
+<span class="publication-doi">DOI: {{ access.doi | escape }}</span>
+{%- endif -%}
+<span class="publication-access-actions">
+{%- if access.is_preprint -%}
+<a class="publication-access-button publication-link--preprint" href="{{ access.preprint_url | escape }}" target="_blank" rel="noopener">Preprint</a>
+{%- elsif access.doi -%}
+<a class="publication-access-button publication-link--publisher{% if access.publisher_oa %} publication-link--oa{% endif %}" href="https://doi.org/{{ access.doi | escape }}" target="_blank" rel="noopener"{% if access.publisher_oa %} title="{{ access.publisher_license | escape }}"{% endif %}>Publisher{% if access.publisher_oa %} (OA){% endif %}</a>
+{%- endif -%}
+{%- if access.hir_url -%}
+<a class="publication-access-button {% if access.hir_status == 'open' %}publication-link--hir{% else %}publication-link--hir-pending{% endif %}" href="{{ access.hir_url | escape }}" target="_blank" rel="noopener">Repository</a>
+{%- endif -%}
+{%- if access.chemrxiv_url -%}
+<a class="publication-access-button publication-link--preprint" href="{{ access.chemrxiv_url | escape }}" target="_blank" rel="noopener">Preprint</a>
+{%- endif -%}
+</span>
+</span>
+{%- endif -%}
