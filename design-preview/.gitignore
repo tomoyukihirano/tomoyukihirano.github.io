@@ -1,0 +1,4 @@
+dist/
+publications-data.json
+__pycache__/
+*.pyc
