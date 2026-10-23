@@ -1,6 +1,6 @@
 # Third-party references and notices
 
-This preview's HTML, data adapters, local page navigation and client-side filtering are an independent implementation for the existing public research database. The visual direction and selected style values (the magenta theme, font stack, compact bibliography rows, stacked publication squares, authorship colors and rounded publication links) were informed by the following public sources.
+This preview's HTML, data adapters, local page navigation and client-side filtering are an independent implementation for the existing public research database. The layout and style values (950px container, fixed header, system font stack, light headings, magenta filter cards, compact bibliography rows, stacked publication blocks, authorship colors and pill-shaped publication links) closely follow the following public sources. The published reference was visually reviewed on 23 October 2026; per-paper figures and their layout column are omitted.
 
 - Fukushima Lab: https://github.com/kenji-fukushima-lab/kenji-fukushima-lab.github.io
 - Base theme: https://github.com/george-gca/multi-language-al-folio

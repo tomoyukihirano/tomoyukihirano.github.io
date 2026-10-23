@@ -4,83 +4,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Tomoyuki Hirano, Hiroshima University. Personal website design preview with research, publications, presentations, grants and awards.">
+  <meta name="description" content="Tomoyuki Hirano, Hiroshima University. Personal website preview with research, publications, presentations, grants and awards.">
   <title>Publications · Tomoyuki Hirano</title>
   <style>__STYLES__</style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="preview-note"><span class="preview-dot" aria-hidden="true"></span>Design preview <span class="preview-note-detail">·</span> <span lang="ja">新しい個人HPの表示案</span><a href="https://tomoyukihirano.github.io/publications/" target="_blank" rel="noopener">Current website <span aria-hidden="true">↗</span></a></div>
   <header class="site-header">
     <div class="header-inner">
-      <a class="site-name" href="?page=home" data-site-page="home">Tomoyuki Hirano<span class="site-name-jp" lang="ja">平野 知之</span></a>
-      <nav aria-label="Main navigation">
-        <a href="?page=home" data-site-page="home">Home</a>
-        <a href="?page=about" data-site-page="about">About</a>
-        <a href="?page=research" data-site-page="research">Research</a>
-        <a href="?page=publications" data-site-page="publications" aria-current="page">Publications</a>
-        <a href="?page=presentations" data-site-page="presentations">Presentations</a>
-        <a href="?page=grants" data-site-page="grants">Grants</a>
-        <a href="?page=award" data-site-page="award">Award</a>
+      <a class="site-name" href="?page=home" data-site-page="home">Tomoyuki Hirano</a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="?page=home" data-site-page="home">home</a>
+        <a href="?page=about" data-site-page="about">about</a>
+        <a href="?page=research" data-site-page="research">research</a>
+        <a href="?page=publications" data-site-page="publications" aria-current="page">publications</a>
+        <a href="?page=presentations" data-site-page="presentations">presentations</a>
+        <a href="?page=grants" data-site-page="grants">grants</a>
+        <a href="?page=award" data-site-page="award">award</a>
       </nav>
     </div>
   </header>
-
   <main id="main" class="page">
     __STATIC_PAGES__
     <div id="view-publications" class="site-view" data-site-view="publications" aria-labelledby="page-title">
-    <section class="page-intro" aria-labelledby="page-title">
-      <div class="intro-copy">
-        <p class="eyebrow">Chemical engineering · Hiroshima University</p>
+      <header class="page-intro">
         <h1 id="page-title" tabindex="-1">Publications</h1>
-        <div class="publication-totals" aria-label="Publication totals">__TOTALS__</div>
-        <a class="scholar-link" href="https://scholar.google.co.jp/citations?user=7-vtStgAAAAJ&amp;hl=ja" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
-      </div>
-      <section class="annual-summary" aria-label="Publications by year">
-        <div class="chart-heading"><span>Number of publications</span><span class="chart-caption">Articles · Reviews · Preprints</span></div>
-        <div id="year-chart">__CHART__</div>
-      </section>
-    </section>
-
-    <section class="filter-section" aria-label="Filter publications">
-      <div class="search-row">
-        <label class="search-field"><span class="sr-only">Search publications</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.8 4.8"></path></svg><input id="search" type="search" placeholder="Search title, author, journal or DOI…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
-        <div class="select-field"><label for="year-filter">Year</label><select id="year-filter"><option value="all">All years</option>__YEAR_OPTIONS__</select></div>
-        <div class="select-field type-field"><label for="type-filter">Type</label><select id="type-filter"><option value="all">All publications</option><option value="journal_article">Journal articles</option><option value="review">Reviews</option><option value="preprint">Preprints</option></select></div>
-      </div>
-      <div class="role-row">
-        <div class="role-control" role="group" aria-label="Tomoyuki Hirano's authorship">
-          <button class="role-button active" type="button" data-role="all" aria-pressed="true">All authorships</button>
-          <button class="role-button" type="button" data-role="first" aria-pressed="false">First author</button>
-          <button class="role-button" type="button" data-role="first-corresponding" aria-pressed="false">First or corresponding</button>
+        <div class="publication-description"><span class="publication-totals" aria-label="Publication totals">__TOTALS__</span><span class="description-separator" aria-hidden="true"> · </span><a class="scholar-link" href="https://scholar.google.co.jp/citations?user=7-vtStgAAAAJ&amp;hl=ja" target="_blank" rel="noopener">Google Scholar</a></div>
+      </header>
+      <section class="filter-section" aria-label="Filter publications">
+        <div class="search-row">
+          <label class="search-field"><span class="sr-only">Search publications</span><input id="search" type="search" placeholder="Search publications" autocomplete="off"></label>
+          <select id="sort-filter" class="sort-filter" aria-label="Sort publications"><option value="newest">Newest year</option><option value="oldest">Oldest year</option></select>
+          <button id="reset" class="reset-button" type="button">Reset filters</button>
         </div>
-        <button id="reset" class="text-button" type="button" disabled>Reset filters <span aria-hidden="true">↺</span></button>
+        <div class="facets-row">
+          <label class="select-field" for="year-filter"><span>Year</span><select id="year-filter"><option value="all">All</option>__YEAR_OPTIONS__</select></label>
+          <label class="select-field" for="type-filter"><span>Article Type</span><select id="type-filter"><option value="all">All</option><option value="journal_article">Journal articles</option><option value="review">Reviews</option><option value="preprint">Preprints</option></select></label>
+          <label class="select-field" for="role-filter"><span>Authorship</span><select id="role-filter"><option value="all">All authorships</option><option value="first">First author</option><option value="first-corresponding">First or corresponding</option></select></label>
+        </div>
+        <div class="results-heading">
+          <p id="result-count" role="status" aria-live="polite">__RESULT_COUNT__</p>
+          <details class="reading-guide"><summary>About the labels</summary><div><p><strong>Author role</strong> refers to Tomoyuki Hirano. The original author order, emphasis and corresponding-author symbols are retained.</p><p><strong>IF / JCR quartile:</strong> __METRICS_GUIDE__</p><p><strong>Top 10%:</strong> the existing article citation-ranking classification, not a journal ranking. A qualifying category is sufficient.</p><p><strong>Dates:</strong> values from the existing records. Missing or conflicting dates appear as N/A.</p><p><strong>Year:</strong> the year printed in the public citation. Papers listed as in press remain in a separate group.</p></div></details>
+        </div>
+      </section>
+      <section class="annual-summary" aria-label="Publications by year"><div id="year-chart">__CHART__</div></section>
+      <div class="publications-layout">
+        <aside class="year-sidebar" aria-label="Jump to publication year" hidden><nav id="year-nav">__YEAR_NAV__</nav></aside>
+        <div class="publication-list" id="publication-list">__INITIAL_LIST__</div>
       </div>
-    </section>
-
-    <div class="results-heading">
-      <p id="result-count" role="status" aria-live="polite">__RESULT_COUNT__</p>
-      <details class="reading-guide"><summary>About the labels</summary><div><p><strong>Author role</strong> refers to Tomoyuki Hirano. The original author order, emphasis and corresponding-author symbols are retained.</p><p><strong>IF / JCR quartile:</strong> __METRICS_GUIDE__</p><p><strong>Top 10%:</strong> the existing article citation-ranking classification, not a journal ranking. A qualifying category is sufficient.</p><p><strong>Dates:</strong> values from the existing records. Missing or conflicting dates appear as N/A.</p><p><strong>Year:</strong> the year printed in the public citation. Papers listed as in press remain in a separate group.</p></div></details>
-    </div>
-    <div class="publications-layout">
-      <aside class="year-sidebar" aria-label="Jump to publication year"><span class="sidebar-label">YEAR</span><nav id="year-nav">__YEAR_NAV__</nav></aside>
-      <div class="publication-list" id="publication-list">__INITIAL_LIST__</div>
-    </div>
-    <div id="empty-state" class="empty-state" hidden><span class="empty-icon" aria-hidden="true">⌕</span><h2>No matching publications</h2><p>Try a different keyword or clear the filters.</p><button id="empty-reset" type="button" class="outline-button">Clear filters</button></div>
-
-    <section id="additional-works" class="additional-works" aria-labelledby="additional-title">
-      <div class="additional-heading"><h2 id="additional-title">Books &amp; other contributions</h2><p>Additional entries from the current website.</p></div>
-      <div id="legacy-sections">__LEGACY_SECTIONS__</div>
-    </section>
-    <noscript><p class="noscript-note">The complete bibliography is shown above. Enable JavaScript to use search and filters.</p></noscript>
+      <div id="empty-state" class="empty-state" hidden><h2>No matching publications</h2><p>Try a different keyword or clear the filters.</p><button id="empty-reset" type="button" class="outline-button">Clear filters</button></div>
+      <section id="additional-works" class="additional-works" aria-labelledby="additional-title"><h2 id="additional-title">Books &amp; other contributions</h2><div id="legacy-sections">__LEGACY_SECTIONS__</div></section>
+      <noscript><p class="noscript-note">The complete bibliography is shown above. Enable JavaScript to use search and filters.</p></noscript>
     </div>
     <div id="view-presentations" class="site-view" data-site-view="presentations" hidden>__PRESENTATIONS_PAGE__</div>
   </main>
-
-  <footer class="site-footer"><div><span><span class="footer-name">Tomoyuki Hirano</span><br>Chemical Engineering, Hiroshima University</span><a href="https://tomoyukihirano.github.io/" target="_blank" rel="noopener">Current personal website ↗</a></div><p>Design preview · __BUILD_DATE__</p></footer>
-  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
+  <footer class="site-footer"><div><span>Tomoyuki Hirano · Hiroshima University</span><span>Design preview · __BUILD_DATE__ · <a href="https://tomoyukihirano.github.io/" target="_blank" rel="noopener">Current website</a></span></div></footer>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>⌃</button>
   <script id="publication-data" type="application/json">__DATA__</script>
-  <noscript><style>.site-view[hidden]{display:block!important}.site-view{margin-bottom:72px}</style></noscript>
+  <noscript><style>.site-view[hidden]{display:block!important}.site-view{margin-bottom:72px}.header-inner nav{display:flex!important}.nav-toggle{display:none!important}</style></noscript>
   <script>__SCRIPT__</script>
 </body>
 </html>

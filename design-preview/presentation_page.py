@@ -241,7 +241,6 @@ def render_presentations(data: dict[str, Any]) -> str:
         )
     return f'''<section class="pr-page" id="presentations-page" aria-labelledby="pr-page-title" data-pr-total="{counts['all']}">
   <header class="pr-intro">
-    <p class="eyebrow">Academic record</p>
     <h1 id="pr-page-title">Presentations</h1>
     <div class="pr-totals" aria-label="Presentation totals">
       <span><strong>{counts['all']}</strong> presentations</span>
@@ -255,6 +254,13 @@ def render_presentations(data: dict[str, Any]) -> str:
         <span class="sr-only">Search presentations</span>
         <input id="pr-search" type="search" placeholder="Search title, author, conference…" autocomplete="off" aria-controls="pr-results">
       </label>
+      <button type="button" class="pr-reset" disabled>Reset filters <span aria-hidden="true">↺</span></button>
+    </div>
+    <div class="pr-filter-row">
+      <div class="pr-select-field">
+        <label for="pr-scope-filter">Conference scope</label>
+        <select id="pr-scope-filter" aria-controls="pr-results"><option value="all">All presentations</option><option value="domestic">Domestic</option><option value="international">International</option></select>
+      </div>
       <div class="pr-select-field">
         <label for="pr-year-filter">Year</label>
         <select id="pr-year-filter" aria-controls="pr-results"><option value="all">All years</option>{year_options}</select>
@@ -263,14 +269,6 @@ def render_presentations(data: dict[str, Any]) -> str:
         <label for="pr-invited-filter">Invitation</label>
         <select id="pr-invited-filter" aria-controls="pr-results"><option value="all">All presentations</option><option value="invited">Invited talks</option></select>
       </div>
-    </div>
-    <div class="pr-filter-row">
-      <div class="pr-scope-control" role="group" aria-label="Conference scope">
-        <button type="button" data-pr-scope="all" aria-controls="pr-results" aria-pressed="true">All presentations</button>
-        <button type="button" data-pr-scope="domestic" aria-controls="pr-results" aria-pressed="false">Domestic</button>
-        <button type="button" data-pr-scope="international" aria-controls="pr-results" aria-pressed="false">International</button>
-      </div>
-      <button type="button" class="pr-reset" disabled>Reset filters <span aria-hidden="true">↺</span></button>
     </div>
   </div>
   <div class="pr-results-heading">

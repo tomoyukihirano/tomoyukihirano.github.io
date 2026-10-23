@@ -12,7 +12,7 @@
     const search = page.querySelector('#pr-search');
     const year = page.querySelector('#pr-year-filter');
     const invitation = page.querySelector('#pr-invited-filter');
-    const buttons = [...page.querySelectorAll('[data-pr-scope]')];
+    const scope = page.querySelector('#pr-scope-filter');
     const reset = page.querySelector('.pr-reset');
     const status = page.querySelector('.pr-status');
     const empty = page.querySelector('.pr-empty');
@@ -26,7 +26,6 @@
       invited: element.dataset.invited === 'true',
       search: normalize(element.dataset.search || element.textContent),
     }));
-    let scope = 'all';
 
     function applyFilters() {
       const tokens = normalize(search.value).trim().split(/\s+/).filter(Boolean);
@@ -34,7 +33,7 @@
       let visible = 0;
       for (const record of records) {
         const match = (year.value === 'all' || year.value === record.year)
-          && (scope === 'all' || scope === record.scope)
+          && (scope.value === 'all' || scope.value === record.scope)
           && (invitation.value === 'all' || record.invited)
           && tokens.every(token => record.search.includes(token));
         record.element.hidden = !match;
@@ -51,11 +50,8 @@
       for (const link of yearLinks) {
         link.hidden = !visibleYears.has(link.dataset.prYearLink);
       }
-      for (const button of buttons) {
-        button.setAttribute('aria-pressed', String(button.dataset.prScope === scope));
-      }
       const active = search.value.length > 0 || year.value !== 'all'
-        || invitation.value !== 'all' || scope !== 'all';
+        || invitation.value !== 'all' || scope.value !== 'all';
       reset.disabled = !active;
       empty.hidden = visible > 0;
       sidebar.hidden = visible === 0;
@@ -69,19 +65,14 @@
       search.value = '';
       year.value = 'all';
       invitation.value = 'all';
-      scope = 'all';
+      scope.value = 'all';
       applyFilters();
     }
 
     search.addEventListener('input', applyFilters);
     year.addEventListener('change', applyFilters);
     invitation.addEventListener('change', applyFilters);
-    for (const button of buttons) {
-      button.addEventListener('click', () => {
-        scope = button.dataset.prScope;
-        applyFilters();
-      });
-    }
+    scope.addEventListener('change', applyFilters);
     reset.addEventListener('click', resetFilters);
     page.querySelector('.pr-empty-reset').addEventListener('click', () => {
       resetFilters();

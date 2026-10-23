@@ -85,15 +85,16 @@ def apply_presentation(payload, source, path):
 def render_record(record):
     role = "First & corresponding" if record["first_author"] and record["corresponding"] else "First author" if record["first_author"] else "Corresponding author" if record["corresponding"] else ""
     presentation = record.get("presentation", {})
+    type_badge = f'<span class="type-badge type-{e(record["type"])}">{e(KINDS[record["type"]])}</span>'
     if record["display_fallback"]:
-        body = f'<h3 class="sr-only">{e(compact_id(record))}</h3><p class="fallback-citation">{record["citation_html"]}</p>'
+        body = f'<h3 class="sr-only">{e(compact_id(record))}</h3><p class="fallback-citation">{type_badge}{record["citation_html"]}</p>'
     else:
-        body = f'<h3>{record["title_html"] or e(record["title"])}</h3><p class="authors">{record["authors_html"] or ""}</p><p class="bibliography">{record["bibliography_html"] or ""}</p>'
+        body = f'<h3 class="publication-title">{type_badge}{record["title_html"] or e(record["title"])}</h3><p class="authors">{record["authors_html"] or ""}</p><p class="bibliography">{record["bibliography_html"] or ""}</p>'
     links = []
     for link in record["links"]:
         cls = " preprint" if link["kind"] == "preprint" else " oa" if link["kind"] == "publisher" and link.get("status") == "open" else ""
         title = f' title="{e(link["license"])}"' if link.get("license") else ""
-        links.append(f'<a class="paper-link{cls}" href="{e(link["url"])}" target="_blank" rel="noopener"{title}>{e(link["label"])} <span aria-hidden="true">↗</span></a>')
+        links.append(f'<a class="paper-link{cls}" href="{e(link["url"])}" target="_blank" rel="noopener"{title}>{e(link["label"])}</a>')
     metric = record["metrics"]
     badges = []
     if metric.get("impact_factor") is not None:
@@ -111,15 +112,15 @@ def render_record(record):
             note = '<span class="date-note">Under review</span>' if date["status"] == "conflict" else ""
             parts.append(f'<div><dt>{label}</dt><dd>{e(date["display"])}{note}</dd></div>')
         dates = '<dl class="date-grid">' + ''.join(parts) + '</dl>'
-    role_html = f'<span class="role-dot" aria-hidden="true">·</span><span class="author-role">{e(role)}</span>' if role else ""
+    role_html = f'<span class="author-role">{e(role)}</span>' if role else ""
     summary = f'<p class="paper-summary">{e(presentation["summary"])}</p>' if presentation.get("summary") else ""
     topics = '<div class="topics">' + ''.join(f'<span class="topic">{e(topic)}</span>' for topic in presentation["topics"]) + '</div>' if presentation.get("topics") else ""
     doi = f'<p class="doi-line">DOI: {e(record["doi"])}</p>' if record.get("doi") else ""
     return (f'<article class="publication" id="{e(record["id"])}" data-publication-id="{e(record["id"])}">'
             '<div class="publication-body">'
-            f'<div class="paper-topline"><span class="type-badge type-{e(record["type"])}">{e(KINDS[record["type"]])}</span>{role_html}<a class="paper-id" href="#{e(record["id"])}" title="Permanent publication identifier">{e(compact_id(record))}</a></div>'
-            f'{body}{summary}{topics}<div class="paper-actions">{"".join(links)}{metrics}</div>'
-            f'<details class="publication-details"><summary>{"Dates & citation" if dates else "Full citation"}</summary><div class="detail-panel">{dates}<h4>Original citation</h4><p class="citation">{record["citation_html"]}</p>{doi}</div></details>'
+            f'{body}{summary}{topics}<div class="paper-actions">{"".join(links)}{metrics}'
+            f'<details class="publication-details"><summary>{"Dates & citation" if dates else "Full citation"}</summary><div class="detail-panel">{dates}<h4>Original citation</h4><p class="citation">{record["citation_html"]}</p>{doi}<p class="record-meta"><a class="paper-id" href="#{e(record["id"])}" title="Permanent publication identifier">{e(compact_id(record))}</a>{role_html}</p></div></details>'
+            '</div>'
             '</div></article>')
 
 
@@ -149,13 +150,8 @@ def build(source, output, commit):
     static_views = []
     for key, page in pages.items():
         title = "Tomoyuki Hirano" if key == "home" else page["title"]
-        eyebrow = "Chemical engineering · Hiroshima University" if key in {"home", "about", "research"} else "Academic record"
-        shortcuts = ('<nav class="home-shortcuts" aria-label="Explore this website">'
-                     '<a href="?page=research" data-site-page="research">Research <span aria-hidden="true">→</span></a>'
-                     '<a href="?page=publications" data-site-page="publications">Publications <span aria-hidden="true">→</span></a>'
-                     '<a href="?page=about" data-site-page="about">About <span aria-hidden="true">→</span></a></nav>') if key == "home" else ""
         static_views.append(f'<section id="view-{key}" class="site-view static-view" data-site-view="{key}" aria-labelledby="title-{key}" hidden>'
-                            f'<header class="static-intro"><p class="eyebrow">{e(eyebrow)}</p><h1 id="title-{key}" tabindex="-1">{e(title)}</h1>{shortcuts}</header>'
+                            f'<header class="static-intro"><h1 id="title-{key}" tabindex="-1">{e(title)}</h1></header>'
                             f'<div lang="ja">{page["html"]}</div></section>')
     records = payload["records"]
     keys = sorted({year_key(record) for record in records}, key=lambda key: (0, 0) if key == "in-press" else (2, 0) if key == "undated" else (1, -int(key)))
@@ -180,7 +176,7 @@ def build(source, output, commit):
         "__PRESENTATIONS_PAGE__": render_presentations(presentations),
         "__YEAR_OPTIONS__": ''.join(f'<option value="{e(key)}">{e(year_label(key))}</option>' for key in keys),
         "__YEAR_NAV__": ''.join(f'<a href="#year-{e(key)}">{e(year_label(key))}</a>' for key in keys),
-        "__RESULT_COUNT__": f'<strong>{totals["total"]}</strong> of {totals["total"]} publications',
+        "__RESULT_COUNT__": f'Showing: {totals["total"]} / {totals["total"]}',
         "__INITIAL_LIST__": initial_list,
         "__LEGACY_SECTIONS__": legacy,
         "__BUILD_DATE__": date.today().strftime("%d %B %Y"),

@@ -3,6 +3,22 @@
   const views = new Map([...document.querySelectorAll('[data-site-view]')].map(view => [view.dataset.siteView, view]));
   const labels = {home:'Home',about:'About',research:'Research',publications:'Publications',presentations:'Presentations',grants:'Grants',award:'Award'};
   let current = 'publications';
+  const navToggle = document.getElementById('nav-toggle');
+  const siteNav = document.getElementById('site-nav');
+  function closeNavigation() {
+    siteNav.classList.remove('is-open');
+    navToggle.setAttribute('aria-expanded','false');
+  }
+  navToggle.addEventListener('click',() => {
+    const open = navToggle.getAttribute('aria-expanded') !== 'true';
+    navToggle.setAttribute('aria-expanded',String(open));
+    siteNav.classList.toggle('is-open',open);
+  });
+  document.addEventListener('keydown',event => {
+    if (event.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+      closeNavigation();navToggle.focus();
+    }
+  });
 
   function anchorPage() {
     const id = location.hash.slice(1);
@@ -14,6 +30,7 @@
   function show(page, {push = false, focus = false, anchor = ''} = {}) {
     if (!views.has(page)) page = 'publications';
     current = page;
+    closeNavigation();
     views.forEach((view,key) => {view.hidden = key !== page;});
     document.querySelectorAll('.header-inner nav [data-site-page]').forEach(link => {
       if (link.dataset.sitePage === page) link.setAttribute('aria-current','page');
