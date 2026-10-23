@@ -1,7 +1,7 @@
-/* Enhance the existing journal list without duplicating its citations.
- * Roles come from the displayed author order and the documented * marker.
- * Keep the original links usable when JavaScript is unavailable or the
- * expected markup is missing. Reviews, books and other sections are unchanged.
+/* Filter the existing journal list by author role AND printed publication year.
+ * Do not duplicate or rewrite citations. In-press items with no publication year
+ * have their own option; never infer a publication year from an acceptance date.
+ * Original links remain usable without JavaScript. Other sections are unchanged.
  */
 (function () {
   "use strict";
@@ -13,7 +13,10 @@
     const heading = Array.from(content.querySelectorAll("h2")).find(function (element) {
       return /^Peer-reviewed Journal Articles\b/.test(element.textContent.trim());
     });
-    const list = heading && heading.nextElementSibling;
+    let list = heading && heading.nextElementSibling;
+    while (list && list.tagName !== "OL" && !/^H[1-6]$/.test(list.tagName)) {
+      list = list.nextElementSibling;
+    }
     if (!list || list.tagName !== "OL") return;
 
     const items = Array.from(list.children).filter(function (element) {
@@ -21,15 +24,27 @@
     });
     if (!items.length) return;
 
+    function publicationYear(item, text) {
+      // Allow explicit metadata, but otherwise use the year printed at the end
+      // of the citation, not a year embedded in a title, DOI, or article URL.
+      const explicit = item.getAttribute("data-publication-year");
+      if (explicit && /^(?:19|20)\d{2}$/.test(explicit)) return explicit;
+      const printed = text.match(/\b((?:19|20)\d{2})[.。]?(?:\s+(?:Invited|Review))?\s*$/i);
+      if (printed) return printed[1];
+      if (/\bin\s+press\b/i.test(text)) return "in-press";
+      return "unknown";
+    }
+
     const records = items.map(function (item) {
       const text = item.textContent.replace(/\s+/g, " ").trim();
       return {
         item: item,
         first: /^Tomoyuki\s+Hirano(?=[\s*,，])/.test(text),
-        corresponding: /\bTomoyuki\s+Hirano\s*\*/.test(text)
+        corresponding: /\bTomoyuki\s+Hirano\s*\*/.test(text),
+        year: publicationYear(item, text)
       };
     });
-    // Fail safely rather than presenting an empty or misleading filter.
+    // Leave the original navigation intact if author parsing cannot succeed.
     if (!records.some(function (record) { return record.first; })) return;
 
     const legacyLinks = Array.from(content.querySelectorAll("p")).find(function (paragraph) {
@@ -39,7 +54,6 @@
       return paths.some(function (path) { return path.endsWith("/first-author"); }) &&
         paths.some(function (path) { return path.endsWith("/first-corresponding"); });
     });
-
     const modes = [
       { value: "all", label: "全論文", matches: function () { return true; } },
       { value: "first", label: "筆頭著者", matches: function (record) { return record.first; } },
@@ -47,42 +61,62 @@
         return record.first || record.corresponding;
       } }
     ];
+    const years = Array.from(new Set(records.map(function (record) { return record.year; })))
+      .filter(function (year) { return /^(?:19|20)\d{2}$/.test(year); })
+      .sort(function (a, b) { return Number(b) - Number(a); });
+    const yearOptions = [{ value: "all", label: "すべての出版年" }].concat(
+      years.map(function (year) { return { value: year, label: year + "年" }; })
+    );
+    if (records.some(function (record) { return record.year === "in-press"; })) {
+      yearOptions.push({ value: "in-press", label: "In press（出版年未確定）" });
+    }
+    if (records.some(function (record) { return record.year === "unknown"; })) {
+      yearOptions.push({ value: "unknown", label: "出版年未記載" });
+    }
+
     list.id = list.id || "peer-reviewed-publication-list";
     list.classList.add("publication-filter-list");
-
-    // Keep the existing newest-first ordering and numbering direction.
-    // Each filter gets its own continuous sequence instead of original IDs.
     const reverseNumbering = list.reversed;
-
     const controls = document.createElement("div");
     controls.className = "publication-filters";
-    const buttons = document.createElement("div");
-    buttons.className = "publication-filters__buttons";
-    buttons.setAttribute("role", "group");
-    buttons.setAttribute("aria-label", "査読付き論文を平野知之の著者区分で絞り込む");
+    const fields = document.createElement("div");
+    fields.className = "publication-filters__fields";
+    fields.setAttribute("role", "group");
+    fields.setAttribute("aria-label", "査読付き論文の絞り込み");
+
+    function createSelect(id, labelText, options) {
+      const field = document.createElement("div");
+      field.className = "publication-filters__field";
+      const label = document.createElement("label");
+      label.className = "publication-filters__label";
+      label.htmlFor = id;
+      label.textContent = labelText;
+      const select = document.createElement("select");
+      select.id = id;
+      select.className = "publication-filters__select";
+      select.setAttribute("aria-controls", list.id);
+      options.forEach(function (entry) {
+        const option = document.createElement("option");
+        option.value = entry.value;
+        option.textContent = entry.label;
+        select.appendChild(option);
+      });
+      select.value = "all";
+      select.addEventListener("change", applyFilters);
+      field.append(label, select);
+      fields.appendChild(field);
+      return select;
+    }
+
+    const authorSelect = createSelect("publication-author-filter", "著者区分", modes);
+    const yearSelect = createSelect("publication-year-filter", "出版年", yearOptions);
     const status = document.createElement("p");
     status.className = "publication-filters__status";
     status.setAttribute("role", "status");
     status.setAttribute("aria-live", "polite");
     status.setAttribute("aria-atomic", "true");
+    controls.append(fields, status);
 
-    modes.forEach(function (mode) {
-      const count = records.filter(mode.matches).length;
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "publication-filters__button";
-      button.dataset.authorFilter = mode.value;
-      button.textContent = mode.label + "（" + count + "）";
-      button.setAttribute("aria-controls", list.id);
-      button.setAttribute("aria-pressed", "false");
-      button.addEventListener("click", function () { applyFilter(mode.value); });
-      buttons.appendChild(button);
-      mode.button = button;
-    });
-    controls.append(buttons, status);
-
-    // Place both the author-marker explanation and controls under this heading.
-    // Move the existing note rather than duplicating it or changing its text.
     const correspondingNote = Array.from(content.querySelectorAll("p")).find(function (paragraph) {
       return paragraph.textContent.replace(/\s+/g, "").trim() === "*は責任著者を表しています。";
     });
@@ -94,31 +128,38 @@
       heading.insertAdjacentElement("afterend", controls);
     }
 
-    function applyFilter(value) {
-      const active = modes.find(function (mode) { return mode.value === value; }) || modes[0];
-      const visible = records.filter(active.matches).length;
+    const empty = document.createElement("p");
+    empty.className = "publication-filters__empty";
+    empty.textContent = "選択した条件に該当する論文はありません。";
+    empty.hidden = true;
+    list.insertAdjacentElement("afterend", empty);
+
+    function applyFilters() {
+      const active = modes.find(function (mode) { return mode.value === authorSelect.value; }) || modes[0];
+      const activeYear = yearOptions.find(function (entry) { return entry.value === yearSelect.value; }) || yearOptions[0];
+      function matches(record) {
+        return active.matches(record) && (activeYear.value === "all" || record.year === activeYear.value);
+      }
+      const visible = records.filter(matches).length;
       list.start = reverseNumbering ? visible : 1;
       let number = list.start;
       records.forEach(function (record) {
-        const matches = active.matches(record);
-        record.item.hidden = !matches;
-        if (matches) {
+        const show = matches(record);
+        record.item.hidden = !show;
+        if (show) {
           record.item.value = number;
           number += reverseNumbering ? -1 : 1;
         } else {
           record.item.removeAttribute("value");
         }
       });
-      modes.forEach(function (mode) {
-        mode.button.setAttribute("aria-pressed", String(mode === active));
-      });
-      status.textContent = active.value === "all"
+      empty.hidden = visible !== 0;
+      status.textContent = active.value === "all" && activeYear.value === "all"
         ? "査読付き論文：全" + records.length + "件を表示しています。"
-        : "査読付き論文：" + active.label + "の" + visible + "件を表示しています（全" + records.length + "件）。";
-
+        : "査読付き論文：" + active.label + "・" + activeYear.label + "の" + visible + "件を表示しています（全" + records.length + "件）。";
     }
 
-    applyFilter("all");
+    applyFilters();
   }
 
   if (document.readyState === "loading") {

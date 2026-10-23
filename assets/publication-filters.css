@@ -1,44 +1,50 @@
-/* Scoped to the author filters; existing page typography is unchanged. */
+/* Scoped to publication filters; existing citation typography is unchanged. */
 .publication-filters {
   margin: 1.25em 0 1.75em;
 }
-.publication-filters__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6em;
-}
-.publication-filters .publication-filters__button {
-  appearance: none;
-  min-height: 44px;
+.publication-filters__fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 1rem;
+  width: 42rem;
   max-width: 100%;
-  margin: 0;
-  padding: 0.6em 1em;
-  border: 1px solid #999;
-  border-radius: 4px;
-  background: #fff;
+}
+.publication-filters__field {
+  min-width: 0;
+}
+.publication-filters .publication-filters__label {
+  display: block;
+  margin: 0 0 0.4rem;
   color: #333;
-  font-family: inherit;
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.5;
+}
+.publication-filters .publication-filters__select {
+  appearance: auto;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 46px;
+  margin: 0;
+  padding: 0.6em 0.75em;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
   letter-spacing: normal;
   text-transform: none;
-  text-align: center;
-  white-space: normal;
   cursor: pointer;
-  transition: none;
-  text-shadow: none;
 }
-.publication-filters .publication-filters__button:hover {
+.publication-filters .publication-filters__select:hover {
   border-color: #333;
-  background: #f2f2f2;
 }
-.publication-filters .publication-filters__button[aria-pressed="true"] {
-  border-color: #333;
-  background: #333;
-  color: #fff;
-}
-.publication-filters .publication-filters__button:focus-visible {
+.publication-filters .publication-filters__select:focus-visible {
   outline: 3px solid #2271b1;
   outline-offset: 3px;
 }
@@ -48,11 +54,23 @@
   font-size: 0.85rem;
   line-height: 1.6;
 }
-.publication-filter-list > li[hidden] {
+.publication-filters__empty {
+  padding: 0.8em 1em;
+  border-left: 3px solid #999;
+  background: #f5f5f5;
+}
+.publication-filter-list > li[hidden],
+.publication-filters__empty[hidden] {
   display: none !important;
 }
+@media (max-width: 600px) {
+  .publication-filters__fields {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+}
 @media print {
-  .publication-filters__buttons {
+  .publication-filters__fields {
     display: none;
   }
 }

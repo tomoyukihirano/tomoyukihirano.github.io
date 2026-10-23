@@ -23,7 +23,7 @@ core_supports: true
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-3">財団助成金</h3>
-- <strong>旭硝子財団 2026年度「研究奨励」</strong>（代表）<br>課題名：火炎法による大過冷却融液/ガラス状態を経由した準安定相の創製<br>採択年度：2026年度
+- <strong>旭硝子財団 2026年度「研究奨励」</strong>（代表）<br>課題名：火炎法による大過冷却融液/ガラス状態を経由した準安定相の創製<br>期間：2026/04–2028/03，金額：3,000,000円
 - <strong>ガラス産業連合会・ニューガラスフォーラム 2025年度ガラス基礎研究振興プログラム</strong><br>課題名：無容器法としての火炎プロセスで切り拓くニューガラスサイエンス<br>期間：2025/04–2028/03，金額：7,000,000円
 {: .wp-block-list }
 
@@ -50,10 +50,6 @@ core_supports: true
 - <strong>サタケ基金2020年度研究助成金</strong><br>課題名：噴霧火炎を用いた機能性ナノ構造化微粒子のワンステップ大量合成<br>期間：2020/04–2021/03，金額：180,000円
 - <strong>加藤科学振興財団令和2年度研究奨励金</strong><br>課題名：新規火炎法による燃料電池用触媒担体に向けた金属酸化物粒子のマクロポーラス化と凝集制御<br>期間：2020/04–2021/03，金額：300,000円
 - <strong>ホソカワ粉体工学振興財団研究者育成のための援助</strong><br>課題名：火炎法によるナノ構造体粒子積層膜の作製とセンサ特性<br>期間：2020/04–2021/03，金額：300,000円
-{: .wp-block-list }
-
-<h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-7">学内研究支援</h3>
-- <strong>広島大学大学院先進理工系科学研究科 新任教員スタートアップ経費</strong><br>支援年度：2022年度，金額：500,000円
 {: .wp-block-list }
 
 ## Supports
