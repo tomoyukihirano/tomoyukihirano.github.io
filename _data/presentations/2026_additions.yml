@@ -1,0 +1,59 @@
+schema_version: 2
+year: 2026
+source: Owner-approved additional presentation from the official program; review R01
+records:
+- id: pres-0109
+  type: presentation
+  public: true
+  year: 2026
+  source_order: 1
+  source_url: https://www.scej-dmi.org/News/fly2026.html
+  raw_citation_html: 平野 知之，火炎を用いた微粒子材料の高機能化，材料化学システム工学討論会2026，京都大学桂キャンパス，2026年9月24日－25日（依頼講演）
+  citation_text: 平野 知之，火炎を用いた微粒子材料の高機能化，材料化学システム工学討論会2026，京都大学桂キャンパス，2026年9月24日－25日（依頼講演）
+  authors_raw:
+  - 平野 知之
+  presenter_raw: 平野 知之
+  title_raw: 火炎を用いた微粒子材料の高機能化
+  classification:
+    conference_scope: domestic
+    event_type: symposium
+    invited: true
+    invitation_label_as_printed: 依頼講演
+    award: null
+  quality:
+    parsing_status: verified_against_official_program
+    presenter_status: verified_against_official_program
+    invitation_status: verified_against_official_program
+    source_checked_on: '2026-10-23'
+  display_order: -17
+  display:
+    authors:
+    - name: 平野 知之
+      person_id: tomoyuki-hirano
+      highlight: true
+    presenter_position: 1
+    presenter_evidence: named_speaker_in_program
+    title_html: 火炎を用いた微粒子材料の高機能化
+    conference: 材料化学システム工学討論会2026
+    location: 京都（京都大学桂キャンパス）
+    dates:
+      text: 2026年9月24日－25日
+      start: '2026-09-24'
+      end: '2026-09-25'
+      kind: range
+      source_text: 2026年9月24日－25日
+      precision: conference_period_verified
+    annotations:
+    - 招待講演
+  participation:
+    presentation_date: '2026-09-24'
+    start_time: '13:10'
+    end_time: '14:40'
+    timezone: Asia/Tokyo
+  verification:
+    review_id: R01
+    status: verified_against_official_program
+    checked_on: '2026-10-23'
+    source_url: https://www.scej-dmi.org/News/fly2026.html
+    venue: 京都大学桂キャンパス A2棟308号室
+    note: 公式プログラムに依頼講演と明記。会期を表示し，個別登壇日と時刻を別途保存。

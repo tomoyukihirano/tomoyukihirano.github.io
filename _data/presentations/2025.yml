@@ -523,7 +523,7 @@ records:
       highlight: false
     presenter_position: 1
     presenter_evidence: owner_confirmed_first_author
-    title_html: 微粒子のマクロポーラス構造を用いた燃料電池用 Pt/Nb-SnO2触媒層の空隙設計
+    title_html: 機械的耐久性を有するマクロポーラス粒子を用いた燃料電池用Pt/Nb-SnO<sub>2</sub>触媒層の空隙設計
     conference: 化学工学会第56回秋季大会
     location: 東京
     dates:
@@ -534,6 +534,23 @@ records:
       source_text: 2025/9/16-18
       precision: conference_dates_as_recorded
     annotations: []
+  participation:
+    presentation_date: '2025-09-16'
+    start_time: '15:00'
+    end_time: '15:20'
+    timezone: Asia/Tokyo
+    presentation_number: CH119
+  verification:
+    review_id: R05
+    status: verified_against_official_program
+    checked_on: '2026-10-23'
+    source_url: https://www4.scej.org/meeting/56f/prog/session_SY-54.html
+    verified_title: 機械的耐久性を有するマクロポーラス粒子を用いた燃料電池用Pt/Nb-SnO2触媒層の空隙設計
+    authors_as_printed:
+    - 平野 知之
+    - Ho Thi Thang Nguyen
+    - 荻 崇
+    note: 公式プログラムCH119の題目と3名の著者列を優先。氏名の表示には本人確認済みの統一表記を維持し，要旨にのみ記載された著者は追加しない。
 - id: pres-0080
   type: presentation
   year: 2025
@@ -571,8 +588,8 @@ records:
     - name: 平野 知之
       highlight: true
     - name: Delyana Ratnasari
-      person_id: delyana-ratnasari
       highlight: false
+      person_id: delyana-ratnasari
     - name: 林 徹太郎
       highlight: false
       person_id: tetsutaro-hayashi
@@ -692,3 +709,58 @@ records:
       source_text: 2025/5/21-22
       precision: conference_dates_as_recorded
     annotations: []
+- id: pres-0110
+  type: presentation
+  public: true
+  year: 2025
+  source_order: 14
+  source_document: 251024_第51回例会_プログラムv4.pdf
+  source_page: 1
+  raw_citation_html: 平野 知之，火炎法を用いた微粒子材料の高機能化，ナノインク懇話会 第51回例会，戸田工業株式会社 大竹事業所，2025年10月24日
+  citation_text: 平野 知之，火炎法を用いた微粒子材料の高機能化，ナノインク懇話会 第51回例会，戸田工業株式会社 大竹事業所，2025年10月24日
+  authors_raw:
+  - 平野 知之
+  presenter_raw: 平野 知之
+  title_raw: 火炎法を用いた微粒子材料の高機能化
+  classification:
+    conference_scope: other
+    event_type: seminar
+    invited: null
+    award: null
+  quality:
+    parsing_status: verified_against_owner_supplied_program
+    presenter_status: verified_against_official_program
+    invitation_status: not_stated_in_program
+    source_checked_on: '2026-10-23'
+  display_order: 4.5
+  display:
+    authors:
+    - name: 平野 知之
+      person_id: tomoyuki-hirano
+      highlight: true
+    presenter_position: 1
+    presenter_evidence: named_speaker_in_program
+    title_html: 火炎法を用いた微粒子材料の高機能化
+    conference: ナノインク懇話会 第51回例会
+    location: 大竹（戸田工業株式会社 大竹事業所）
+    dates:
+      text: 2025年10月24日
+      start: '2025-10-24'
+      end: '2025-10-24'
+      kind: single
+      source_text: 2025年10月24日
+      precision: conference_period_verified
+    annotations: []
+  participation:
+    presentation_date: '2025-10-24'
+    start_time: '13:35'
+    end_time: '14:35'
+    timezone: Asia/Tokyo
+  verification:
+    review_id: R02
+    status: verified_against_owner_supplied_program
+    checked_on: '2026-10-23'
+    source_document: 251024_第51回例会_プログラムv4.pdf
+    source_page: 1
+    venue: 戸田工業株式会社 大竹事業所 創造センター 多目的ルーム
+    note: 本人の掲載指示と提供プログラムにより行事名・日付・会場・題目を確認。招待区分は明記されていないため未確定。個人連絡先と原本PDFは公開しない。

@@ -30,13 +30,23 @@ records:
     conference: 国際粉体工業展POWTEX2024
     location: 東京
     dates:
-      text: 2024年11月26日
-      start: '2024-11-26'
-      end: '2024-11-26'
-      kind: single
+      text: 2024年11月27日－29日
+      start: '2024-11-27'
+      end: '2024-11-29'
+      kind: range
       source_text: 2024/11/26
-      precision: conference_dates_as_recorded
+      precision: conference_period_verified
     annotations: []
+  participation:
+    presentation_date: null
+    presentation_date_status: not_verified_against_official_program
+  verification:
+    review_id: R06
+    status: conference_period_verified_against_organizer_record
+    checked_on: '2026-10-23'
+    source_url: https://www.powtex.com/tokyo/report/
+    previous_display_date: '2024-11-26'
+    note: 主催者の公式開催記録に基づき会期を確定。個別登壇日は未確定とし，資料名の11月28日を公式確認済みの日付として扱わない。
 - id: pres-0076
   type: presentation
   year: 2024
@@ -468,7 +478,7 @@ records:
       highlight: true
     presenter_position: 1
     presenter_evidence: owner_confirmed_first_author
-    title_html: Particle Nanostructuring in Flames for Environmental and Energy Applications
+    title_html: Particle Design in Flames for Environmental and Energy Applications
     conference: Seminar at Karolinska Institutet
     location: Karolinska Institutet，Sweden
     dates:
@@ -480,6 +490,15 @@ records:
       precision: conference_dates_as_recorded
     annotations:
     - 招待講演
+  verification:
+    review_id: R07
+    status: confirmed_by_owner_using_slide_title
+    checked_on: '2026-10-23'
+    source_document: 240411_Hirano.pptx
+    source_slide: 1
+    previous_display_title: Particle Nanostructuring in Flames for Environmental and Energy Applications
+    verified_title: Particle Design in Flames for Environmental and Energy Applications
+    note: 本人の指定により発表スライド表紙を優先。元の引用情報と登録IDは保持。
 - id: pres-0068
   type: presentation
   year: 2024
