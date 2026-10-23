@@ -71,7 +71,8 @@
     </div>
   </div>
   <p class="publication-chart__note">1 block = 1 publication</p>
-  <table class="publication-chart__data screen-reader-text">
+  <div class="publication-chart__data screen-reader-text">
+  <table>
     <caption>Annual publication counts by author role</caption>
     <thead><tr><th scope="col">Year</th><th scope="col">First or corresponding</th><th scope="col">Coauthor</th><th scope="col">Total</th></tr></thead>
     <tbody>
@@ -89,4 +90,5 @@
     </tbody>
     <tfoot><tr><th scope="row">Total</th><td>{{ chart_lead_total }}</td><td>{{ chart_coauthor_total }}</td><td>{{ chart_total }}</td></tr></tfoot>
   </table>
+  </div>
 </figure>

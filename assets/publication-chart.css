@@ -1,5 +1,6 @@
 /* One block per paper. The source bibliography supplies the counts at build time. */
 .entry-content .publication-chart {
+  position: relative;
   box-sizing: border-box;
   width: 100%;
   margin: 1.15rem 0 1.65rem;
