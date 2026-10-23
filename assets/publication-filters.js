@@ -168,6 +168,9 @@
       });
       if (!script || typeof window.fetch !== "function") return;
       const source = new URL("publication-dates.json", script.src);
+      // Keep metadata and display assets on the same deployed build.
+      const assetVersion = new URL(script.src).searchParams.get("v");
+      if (assetVersion) source.searchParams.set("v", assetVersion);
       function normalized(text) {
         return String(text || "").normalize("NFKC").toLowerCase()
           .replace(/[\u2010-\u2015\u2212]/g, "-").replace(/\s+/g, " ").trim();
@@ -271,11 +274,6 @@
             });
             record.item.appendChild(line);
           });
-          const note = document.createElement("p");
-          note.className = "publication-filters__date-note";
-          note.lang = "en";
-          note.textContent = "Dates are based on recorded information. N/A = not available or awaiting verification.";
-          controls.appendChild(note);
           list.dataset.datesLoaded = "true";
           list.dataset.dateMatchedCount = String(used.size);
         })
