@@ -23,8 +23,8 @@ core_supports: true
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-3">財団助成金</h3>
+- <strong>旭硝子財団 2026年度「研究奨励」</strong>（代表）<br>課題名：火炎法による大過冷却融液/ガラス状態を経由した準安定相の創製<br>採択年度：2026年度
 - <strong>ガラス産業連合会・ニューガラスフォーラム 2025年度ガラス基礎研究振興プログラム</strong><br>課題名：無容器法としての火炎プロセスで切り拓くニューガラスサイエンス<br>期間：2025/04–2028/03，金額：7,000,000円
-- <strong>粉体工学情報センター 2025年度（第21回）粉体工学情報センター研究助成</strong><br>課題名：燃焼反応器を用いた新規粉体球状化プロセスに関する基礎研究<br>期間：2025/04–2026/03，金額：1,000,000円
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-4">産学連携</h3>
@@ -35,11 +35,12 @@ core_supports: true
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-5">日本学術振興会（JSPS）</h3>
 - <strong>科研費 若手研究</strong>（代表）[<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K13590/" target="_blank" rel="noreferrer noopener">LINK</a>]<br>課題名：微粒子ナノ構造化技術による燃料電池触媒層の細孔ネットワークエンジニアリング<br>期間：2023/04–2025/03，金額：4,680,000円
-- <strong>科研費 研究活動スタート支援</strong>（代表）[<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-22K20482/" target="_blank" rel="noreferrer noopener">LINK</a>]<br>課題名：規則性マクロポーラス酸化物担体を用いた固体高分子形燃料電池の高耐久・高性能化<br>期間：2023/04–2025/03，金額：2,860,000円
+- <strong>科研費 研究活動スタート支援</strong>（代表）[<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-22K20482/" target="_blank" rel="noreferrer noopener">LINK</a>]<br>課題名：規則性マクロポーラス酸化物担体を用いた固体高分子形燃料電池の高耐久・高性能化<br>期間：2022年度–2023年度，金額：2,860,000円
 - <strong>科研費 特別研究員奨励費</strong>（代表）[<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20J20823/" target="_blank" rel="noreferrer noopener">LINK</a>]<br>課題名：新規火炎法を利用したエアロゾルデポジションによる微粒子積層プロセスの開発<br>期間：2020/04–2023/03，金額：3,400,000円
 {: .wp-block-list }
 
 <h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-6">財団助成金</h3>
+- <strong>粉体工学情報センター 2025年度（第21回）粉体工学情報センター研究助成</strong><br>課題名：燃焼反応器を用いた新規粉体球状化プロセスに関する基礎研究<br>期間：2025/04–2026/03，金額：1,000,000円
 - <strong>岩谷直治記念財団 第50回（2023年度）岩谷科学技術研究助成</strong><br>課題名：固体高分子形燃料電池の高耐久・高性能化に向けた3次元鎖状構造を有するマクロポーラス酸化物触媒担体の開発<br>期間：2024/04–2025/03，金額：2,000,000円
 - <strong>スズキ財団 2023年度科学技術研究助成</strong><br>課題名：気相燃焼反応を用いた酸化スズ系熱線遮へい材料の開発<br>期間：2024/04–2025/03，金額：1,000,000円
 - <strong>谷川熱技術振興基金令和5年度研究助成</strong><br>課題名：気相燃焼法による機能性微粒子の球状化<br>期間：2023/10–2024/09，金額：1,000,000円
@@ -49,6 +50,10 @@ core_supports: true
 - <strong>サタケ基金2020年度研究助成金</strong><br>課題名：噴霧火炎を用いた機能性ナノ構造化微粒子のワンステップ大量合成<br>期間：2020/04–2021/03，金額：180,000円
 - <strong>加藤科学振興財団令和2年度研究奨励金</strong><br>課題名：新規火炎法による燃料電池用触媒担体に向けた金属酸化物粒子のマクロポーラス化と凝集制御<br>期間：2020/04–2021/03，金額：300,000円
 - <strong>ホソカワ粉体工学振興財団研究者育成のための援助</strong><br>課題名：火炎法によるナノ構造体粒子積層膜の作製とセンサ特性<br>期間：2020/04–2021/03，金額：300,000円
+{: .wp-block-list }
+
+<h3 class="wp-block-heading has-vivid-cyan-blue-color has-text-color has-link-color wp-elements-7">学内研究支援</h3>
+- <strong>広島大学大学院先進理工系科学研究科 新任教員スタートアップ経費</strong><br>支援年度：2022年度，金額：500,000円
 {: .wp-block-list }
 
 ## Supports
