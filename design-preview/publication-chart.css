@@ -2,11 +2,11 @@
  * Unit height follows the integer count scale; bar width follows each year slot.
  */
 .publication-square-chart {
-  --publication-lead-color: #b509ac;
-  --publication-other-color: #6b6b6b;
-  --publication-grid-color: rgba(0, 0, 0, .1);
+  --publication-lead-color: var(--chart-lead, #b7a0b5);
+  --publication-other-color: var(--chart-other, #81929b);
+  --publication-grid-color: var(--line, #d9e3e8);
   --publication-plot-height: 76px;
-  color: #000;
+  color: var(--ink, #183d58);
   font: 400 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   min-width: 0;
@@ -18,7 +18,7 @@
   top: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   width: max-content;
-  color: #000;
+  color: var(--ink, #183d58);
   white-space: nowrap;
   font-size: 12px;
   line-height: 14px;
@@ -31,10 +31,10 @@
   gap: 5px 10px;
   min-height: 22px;
   margin: 0 0 6px;
-  color: #000;
+  color: var(--ink, #183d58);
   font-size: 12px;
 }
-.publication-square-key { display: inline-flex; align-items: center; gap: 6px; color: #000; }
+.publication-square-key { display: inline-flex; align-items: center; gap: 6px; color: var(--ink, #183d58); }
 .publication-square-swatch {
   display: inline-block;
   flex: 0 0 auto;
@@ -49,7 +49,7 @@
   overflow-x: auto;
   padding: 5px 1px 1px;
   scrollbar-width: thin;
-  scrollbar-color: #d9c8d8 transparent;
+  scrollbar-color: var(--line, #d9e3e8) transparent;
 }
 .publication-square-axis-panel {
   display: grid;
@@ -63,7 +63,7 @@
   right: 0;
   bottom: calc(var(--publication-tick) * 100% / var(--publication-scale));
   transform: translateY(50%);
-  color: #000;
+  color: var(--ink, #183d58);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
@@ -93,7 +93,7 @@
   padding: 0;
   margin: 0;
   min-width: 0;
-  color: #000;
+  color: var(--ink, #183d58);
   font: inherit;
   cursor: pointer;
   border-radius: 0;
@@ -130,22 +130,22 @@
 .publication-square-year {
   display: block;
   padding: 5px 0 3px;
-  color: #000;
+  color: var(--ink, #183d58);
   font-size: 12px;
   line-height: 14px;
   font-variant-numeric: tabular-nums;
 }
 .publication-square-column:hover .publication-square-plot,
-.publication-square-additional:hover { background: #b509ac08; }
-.publication-square-column.is-selected .publication-square-plot { background: #b509ac0c; }
+.publication-square-additional:hover { background: color-mix(in srgb, var(--accent, #356d7e) 5%, transparent); }
+.publication-square-column.is-selected .publication-square-plot { background: var(--accent-soft, #edf3f5); }
 .publication-square-column.is-selected .publication-square-year {
-  color: var(--publication-lead-color);
+  color: var(--accent-deep, #1e4b62);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 .publication-square-column:focus-visible,
 .publication-square-additional:focus-visible {
-  outline: 2px solid var(--publication-lead-color);
+  outline: 2px solid var(--accent, #356d7e);
   outline-offset: -1px;
 }
 .publication-square-footer {
@@ -157,14 +157,14 @@
   margin: 5px 1px 0 22px;
   min-height: 20px;
 }
-.publication-square-unit-note { color: #6b6b6b; font-size: 10px; }
+.publication-square-unit-note { color: var(--muted, #617884); font-size: 10px; }
 .publication-square-additional-groups { display: flex; flex-wrap: wrap; gap: 4px 12px; }
 .publication-square-additional {
   display: inline-flex;
   align-items: center;
   gap: 7px;
   background: transparent;
-  color: #6b6b6b;
+  color: var(--muted, #617884);
   font: inherit;
   font-size: 10px;
   border: 0;
@@ -173,11 +173,11 @@
   min-height: 20px;
   cursor: pointer;
 }
-.publication-square-additional.is-selected { text-decoration: underline; text-underline-offset: 3px; }
-.publication-square-additional-count { color: #000; margin-left: 3px; font-variant-numeric: tabular-nums; }
+.publication-square-additional.is-selected { color: var(--accent-deep, #1e4b62); text-decoration: underline; text-underline-offset: 3px; }
+.publication-square-additional-count { color: var(--ink, #183d58); margin-left: 3px; font-variant-numeric: tabular-nums; }
 .publication-square-additional-units { display: flex; align-items: center; flex-wrap: wrap; gap: 1px; max-width: 180px; }
 .publication-square-note,
-.publication-square-empty { margin: 5px 1px 0 22px; color: #6b6b6b; font-size: 10px; }
+.publication-square-empty { margin: 5px 1px 0 22px; color: var(--muted, #617884); font-size: 10px; }
 .publication-square-empty { min-height: 90px; display: grid; place-items: center; margin: 0; }
 @media (max-width: 420px) {
   .publication-square-legend { font-size: 11px; }
