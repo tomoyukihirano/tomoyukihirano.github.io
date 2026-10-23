@@ -1,6 +1,6 @@
 schema_version: 2
 year: 2026
-source: Owner-approved additional presentation from the official program; review R01
+source: Owner-approved additional presentations from official programs; reviews R01 and C01-C03
 records:
 - id: pres-0109
   type: presentation
@@ -57,3 +57,218 @@ records:
     source_url: https://www.scej-dmi.org/News/fly2026.html
     venue: 京都大学桂キャンパス A2棟308号室
     note: 公式プログラムに依頼講演と明記。会期を表示し，個別登壇日と時刻を別途保存。
+- id: pres-0111
+  type: presentation
+  public: true
+  year: 2026
+  source_order: 2
+  source_url: https://drive.google.com/file/d/1WKtDQTkd61y2pTKt2i28fejL-p9oV9xL/view
+  raw_citation_html: 小松 昇生，平野 知之，神尾 慎太郎，荻 崇，アモルファスAl₂O₃–SiO₂ナノ粒子の火炎合成と触媒性能評価，第43回エアロゾル科学・技術研究討論会，金沢，2026年8月26日－28日
+  citation_text: 小松 昇生，平野 知之，神尾 慎太郎，荻 崇，アモルファスAl₂O₃–SiO₂ナノ粒子の火炎合成と触媒性能評価，第43回エアロゾル科学・技術研究討論会，金沢，2026年8月26日－28日
+  authors_raw:
+  - 小松 昇生
+  - 平野 知之
+  - 神尾 慎太郎
+  - 荻 崇
+  presenter_raw: 小松 昇生
+  title_raw: アモルファスAl₂O₃–SiO₂ナノ粒子の火炎合成と触媒性能評価
+  classification:
+    conference_scope: domestic
+    event_type: conference
+    invited: false
+    presentation_type: oral
+    presentation_label_as_printed: 若手口頭発表
+    award: null
+  quality:
+    parsing_status: verified_against_official_program
+    presenter_status: verified_against_official_program
+    invitation_status: general_oral_session_in_official_program
+    source_checked_on: '2026-10-23'
+  display_order: -5.1
+  display:
+    authors:
+    - name: 小松 昇生
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: 神尾 慎太郎
+      highlight: false
+    - name: 荻 崇
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: presenter_marker_in_official_program
+    title_html: アモルファスAl<sub>2</sub>O<sub>3</sub>–SiO<sub>2</sub>ナノ粒子の火炎合成と触媒性能評価
+    conference: 第43回エアロゾル科学・技術研究討論会
+    location: 金沢
+    dates:
+      text: 2026年8月26日－28日
+      start: '2026-08-26'
+      end: '2026-08-28'
+      kind: range
+      source_text: 2026年8月26日－28日
+      precision: conference_period_verified
+    annotations: []
+  participation:
+    presentation_date: '2026-08-26'
+    presentation_number: YA105
+    presentation_type: oral
+    timezone: Asia/Tokyo
+    session_name: 生成と性状・エアロゾル動力学 1
+    session_time: 13:20–15:40
+    session_room: A会場（AV講義室）
+  verification:
+    review_id: C01
+    status: owner_approved_official_program_record
+    checked_on: '2026-10-23'
+    owner_approved_on: '2026-10-23'
+    conference_period_ended_before_publication: true
+    source_url: https://drive.google.com/file/d/1WKtDQTkd61y2pTKt2i28fejL-p9oV9xL/view
+    official_program_landing_url: https://jaast.jp/?p=1250
+    venue: 金沢大学角間キャンパス
+    note: 公式プログラムで題目・著者順・発表者・登壇日・講演番号を照合し，会期終了後の掲載を本人が承認。個別時刻は未確定のため推定しない。
+- id: pres-0112
+  type: presentation
+  public: true
+  year: 2026
+  source_order: 3
+  source_url: https://drive.google.com/file/d/1WKtDQTkd61y2pTKt2i28fejL-p9oV9xL/view
+  raw_citation_html: 山中 翔誠，平野 知之，蓮野 隆太，林 徹太郎，荻 崇，火炎噴霧熱分解法によるチタン酸リチウム系ナノ粒子の合成，第43回エアロゾル科学・技術研究討論会，金沢，2026年8月26日－28日
+  citation_text: 山中 翔誠，平野 知之，蓮野 隆太，林 徹太郎，荻 崇，火炎噴霧熱分解法によるチタン酸リチウム系ナノ粒子の合成，第43回エアロゾル科学・技術研究討論会，金沢，2026年8月26日－28日
+  authors_raw:
+  - 山中 翔誠
+  - 平野 知之
+  - 蓮野 隆太
+  - 林 徹太郎
+  - 荻 崇
+  presenter_raw: 山中 翔誠
+  title_raw: 火炎噴霧熱分解法によるチタン酸リチウム系ナノ粒子の合成
+  classification:
+    conference_scope: domestic
+    event_type: conference
+    invited: false
+    presentation_type: oral
+    presentation_label_as_printed: 若手口頭発表
+    award: null
+  quality:
+    parsing_status: verified_against_official_program
+    presenter_status: verified_against_official_program
+    invitation_status: general_oral_session_in_official_program
+    source_checked_on: '2026-10-23'
+  display_order: -5.2
+  display:
+    authors:
+    - name: 山中 翔誠
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: 蓮野 隆太
+      highlight: false
+      person_id: ryuta-hasuno
+    - name: 林 徹太郎
+      highlight: false
+      person_id: tetsutaro-hayashi
+    - name: 荻 崇
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: presenter_marker_in_official_program
+    title_html: 火炎噴霧熱分解法によるチタン酸リチウム系ナノ粒子の合成
+    conference: 第43回エアロゾル科学・技術研究討論会
+    location: 金沢
+    dates:
+      text: 2026年8月26日－28日
+      start: '2026-08-26'
+      end: '2026-08-28'
+      kind: range
+      source_text: 2026年8月26日－28日
+      precision: conference_period_verified
+    annotations: []
+  participation:
+    presentation_date: '2026-08-26'
+    presentation_number: YA106
+    presentation_type: oral
+    timezone: Asia/Tokyo
+    session_name: 生成と性状・エアロゾル動力学 1
+    session_time: 13:20–15:40
+    session_room: A会場（AV講義室）
+  verification:
+    review_id: C02
+    status: owner_approved_official_program_record
+    checked_on: '2026-10-23'
+    owner_approved_on: '2026-10-23'
+    conference_period_ended_before_publication: true
+    source_url: https://drive.google.com/file/d/1WKtDQTkd61y2pTKt2i28fejL-p9oV9xL/view
+    official_program_landing_url: https://jaast.jp/?p=1250
+    venue: 金沢大学角間キャンパス
+    note: 公式プログラムで題目・著者順・発表者・登壇日・講演番号を照合し，会期終了後の掲載を本人が承認。個別時刻は未確定のため推定しない。
+- id: pres-0113
+  type: presentation
+  public: true
+  year: 2026
+  source_order: 4
+  source_url: https://drive.google.com/file/d/1WKtDQTkd61y2pTKt2i28fejL-p9oV9xL/view
+  raw_citation_html: 片岡 百花，平野 知之，荻 崇，噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化，第43回エアロゾル科学・技術研究討論会，金沢，2026年8月26日－28日
+  citation_text: 片岡 百花，平野 知之，荻 崇，噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化，第43回エアロゾル科学・技術研究討論会，金沢，2026年8月26日－28日
+  authors_raw:
+  - 片岡 百花
+  - 平野 知之
+  - 荻 崇
+  presenter_raw: 片岡 百花
+  title_raw: 噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化
+  classification:
+    conference_scope: domestic
+    event_type: conference
+    invited: false
+    presentation_type: oral
+    presentation_label_as_printed: 一般口頭発表
+    award: null
+  quality:
+    parsing_status: verified_against_official_program
+    presenter_status: verified_against_official_program
+    invitation_status: general_oral_session_in_official_program
+    source_checked_on: '2026-10-23'
+  display_order: -5.3
+  display:
+    authors:
+    - name: 片岡 百花
+      highlight: false
+    - name: 平野 知之
+      highlight: true
+      person_id: tomoyuki-hirano
+    - name: 荻 崇
+      highlight: false
+      person_id: takashi-ogi
+    presenter_position: 1
+    presenter_evidence: presenter_marker_in_official_program
+    title_html: 噴霧乾燥法による三元触媒ナノ粒子のマルチポーラス構造化
+    conference: 第43回エアロゾル科学・技術研究討論会
+    location: 金沢
+    dates:
+      text: 2026年8月26日－28日
+      start: '2026-08-26'
+      end: '2026-08-28'
+      kind: range
+      source_text: 2026年8月26日－28日
+      precision: conference_period_verified
+    annotations: []
+  participation:
+    presentation_date: '2026-08-27'
+    presentation_number: C206
+    presentation_type: oral
+    timezone: Asia/Tokyo
+    session_name: 生成と性状・エアロゾル動力学 2
+    session_time: 11:10–12:30
+    session_room: C会場（大講義室A）
+  verification:
+    review_id: C03
+    status: owner_approved_official_program_record
+    checked_on: '2026-10-23'
+    owner_approved_on: '2026-10-23'
+    conference_period_ended_before_publication: true
+    source_url: https://drive.google.com/file/d/1WKtDQTkd61y2pTKt2i28fejL-p9oV9xL/view
+    official_program_landing_url: https://jaast.jp/?p=1250
+    venue: 金沢大学角間キャンパス
+    note: 公式プログラムで題目・著者順・発表者・登壇日・講演番号を照合し，会期終了後の掲載を本人が承認。個別時刻は未確定のため推定しない。

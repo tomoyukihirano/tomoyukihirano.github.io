@@ -83,6 +83,18 @@ ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読�
 `raw_citation_html` と `citation_text` は旧記載の保存用です。通常は変更しません。
 詳しくは `_data/README.md` の Presentation display format を参照してください。
 
+### 掲載時期と確認済み氏名（2026-10-23）
+
+掲載対象は，会期を終えた発表に限ります。個別登壇日が過ぎても会期中は掲載せず，
+会期終了後に本人の最終承認を得た項目だけを公開データへ追加します。
+開催前の候補は私用の確認待ち一覧で保持し，公開リポジトリには登録しません。
+`public: false` でもリポジトリ内の情報は公開されるため，予定情報の保管には使いません。
+会期は `display.dates`，個別登壇日は `participation.presentation_date` に分けます。
+
+片岡氏の表示名は「片岡 幹裕」，人物IDは `mikihiro-kataoka` に統一します。
+資料にある「片岡 幹弘」は本人承認済みの別表記として `people.yml` の `aliases` に記録します。
+取り込んだ原文は保持し，構造化された表示名と人物IDで正規化してください。
+
 ## Grantsを追加する
 
 `supports-grants.md` の該当する区分に次のように追記します。

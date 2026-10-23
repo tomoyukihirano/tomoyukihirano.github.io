@@ -57,7 +57,7 @@ records:
 - {id: masashi-kiyosawa, name: Masashi Kiyosawa, first_name: Masashi, last_name: Kiyosawa}
 - {id: masato-uchida, name: Masato Uchida, first_name: Masato, last_name: Uchida}
 - {"id": "miho-kishi", "name": "Miho Kishi", "first_name": "Miho", "last_name": "Kishi", "name_ja": "岸 美保", "name_ja_confirmed_on": "2026-10-22", "identity_confirmed_on": "2026-10-22", "aliases": ["岸 美保", "岸美保"]}
-- {"id": "mikihiro-kataoka", "name": "Mikihiro Kataoka", "first_name": "Mikihiro", "last_name": "Kataoka", "name_ja": "片岡 幹裕", "name_ja_confirmed_on": "2026-10-22", "identity_confirmed_on": "2026-10-22", "aliases": ["片岡 幹裕", "片岡幹裕"]}
+- {"id": "mikihiro-kataoka", "name": "Mikihiro Kataoka", "first_name": "Mikihiro", "last_name": "Kataoka", "name_ja": "片岡 幹裕", "name_ja_confirmed_on": "2026-10-23", "identity_confirmed_on": "2026-10-23", "aliases": ["片岡 幹裕", "片岡幹裕", "片岡 幹弘", "片岡幹弘"]}
 - {id: mila-tejamaya, name: Mila Tejamaya, first_name: Mila, last_name: Tejamaya}
 - {id: nao-tsunoji, name: Nao Tsunoji, first_name: Nao, last_name: Tsunoji}
 - {id: nhan-trung-nguyen, name: Nhan Trung Nguyen, first_name: Nhan Trung, last_name: Nguyen}

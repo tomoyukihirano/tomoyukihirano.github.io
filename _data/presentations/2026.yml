@@ -25,6 +25,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月15日
+        start: '2026-09-15'
+        end: '2026-09-15'
+        kind: single
+        source_text: 2026/09/15
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -16
   display:
     authors:
@@ -42,14 +54,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月15日"
-      start: "2026-09-15"
-      end: "2026-09-15"
-      kind: single
-      source_text: "2026/09/15"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/15
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-15'
 - id: pres-0106
   type: presentation
   year: 2026
@@ -74,6 +88,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月15日
+        start: '2026-09-15'
+        end: '2026-09-15'
+        kind: single
+        source_text: 2026/09/15
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -15
   display:
     authors:
@@ -93,14 +119,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月15日"
-      start: "2026-09-15"
-      end: "2026-09-15"
-      kind: single
-      source_text: "2026/09/15"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/15
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-15'
 - id: pres-0105
   type: presentation
   year: 2026
@@ -125,6 +153,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月15日
+        start: '2026-09-15'
+        end: '2026-09-15'
+        kind: single
+        source_text: 2026/09/15
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -14
   display:
     authors:
@@ -144,14 +184,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月15日"
-      start: "2026-09-15"
-      end: "2026-09-15"
-      kind: single
-      source_text: "2026/09/15"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/15
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-15'
 - id: pres-0104
   type: presentation
   year: 2026
@@ -176,6 +218,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月15日
+        start: '2026-09-15'
+        end: '2026-09-15'
+        kind: single
+        source_text: 2026/09/15
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -13
   display:
     authors:
@@ -197,14 +251,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月15日"
-      start: "2026-09-15"
-      end: "2026-09-15"
-      kind: single
-      source_text: "2026/09/15"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/15
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-15'
 - id: pres-0103
   type: presentation
   year: 2026
@@ -232,6 +288,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月14日
+        start: '2026-09-14'
+        end: '2026-09-14'
+        kind: single
+        source_text: 2026/09/14
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -12
   display:
     authors:
@@ -260,14 +328,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月14日"
-      start: "2026-09-14"
-      end: "2026-09-14"
-      kind: single
-      source_text: "2026/09/14"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/14
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-14'
 - id: pres-0102
   type: presentation
   year: 2026
@@ -290,6 +360,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月14日
+        start: '2026-09-14'
+        end: '2026-09-14'
+        kind: single
+        source_text: 2026/09/14
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -11
   display:
     authors:
@@ -305,14 +387,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月14日"
-      start: "2026-09-14"
-      end: "2026-09-14"
-      kind: single
-      source_text: "2026/09/14"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/14
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-14'
 - id: pres-0101
   type: presentation
   year: 2026
@@ -338,6 +422,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月14日
+        start: '2026-09-14'
+        end: '2026-09-14'
+        kind: single
+        source_text: 2026/09/14
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -10
   display:
     authors:
@@ -359,14 +455,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月14日"
-      start: "2026-09-14"
-      end: "2026-09-14"
-      kind: single
-      source_text: "2026/09/14"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/14
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-14'
 - id: pres-0100
   type: presentation
   year: 2026
@@ -391,6 +489,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年9月14日
+        start: '2026-09-14'
+        end: '2026-09-14'
+        kind: single
+        source_text: 2026/09/14
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/57f/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -9
   display:
     authors:
@@ -412,14 +522,16 @@ records:
     conference: "化学工学会 第57回秋季大会"
     location: "東広島"
     dates:
-      text: "2026年9月14日"
-      start: "2026-09-14"
-      end: "2026-09-14"
-      kind: single
-      source_text: "2026/09/14"
-      precision: conference_dates_as_recorded
+      text: 2026年9月14日－16日
+      start: '2026-09-14'
+      end: '2026-09-16'
+      kind: range
+      source_text: 2026/09/14
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-09-14'
 - id: pres-0099
   type: presentation
   year: 2026
@@ -666,6 +778,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年5月15日
+        start: '2026-05-15'
+        end: '2026-05-15'
+        kind: single
+        source_text: 2026/05/15
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://wcpt10.org/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -4
   display:
     authors:
@@ -687,14 +811,16 @@ records:
     conference: "The 10th World Congress on Particle Technology (WCPT10)"
     location: "Osaka"
     dates:
-      text: "2026年5月15日"
-      start: "2026-05-15"
-      end: "2026-05-15"
-      kind: single
-      source_text: "2026/05/15"
-      precision: conference_dates_as_recorded
+      text: 2026年5月11日－15日
+      start: '2026-05-11'
+      end: '2026-05-15'
+      kind: range
+      source_text: 2026/05/15
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-05-15'
 - id: pres-0094
   public: true
   publication_status: confirmed_by_owner
@@ -719,6 +845,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年5月13日
+        start: '2026-05-13'
+        end: '2026-05-13'
+        kind: single
+        source_text: 2026/05/13
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://wcpt10.org/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: -3
   display:
     authors:
@@ -734,12 +872,12 @@ records:
     conference: "The 10th World Congress on Particle Technology (WCPT10)"
     location: "Osaka"
     dates:
-      text: "2026年5月13日"
-      start: "2026-05-13"
-      end: "2026-05-13"
-      kind: single
-      source_text: "2026/05/13"
-      precision: conference_dates_as_recorded
+      text: 2026年5月11日－15日
+      start: '2026-05-11'
+      end: '2026-05-15'
+      kind: range
+      source_text: 2026/05/13
+      precision: conference_period_verified
     annotations:
     - 招待講演
   source_quality_note: "原典の表記は保持。公開題目は本人の確認に基づきAlN Fillersへ修正し，公開保留を解除。"
@@ -751,6 +889,8 @@ records:
     public: true
     official_program_url: "https://wcpt10.org/program/"
     note: "題目のAlN Fillers表記は2026年10月22日に本人が確認。"
+  participation:
+    presentation_date: '2026-05-13'
 - id: pres-0093
   type: presentation
   year: 2026
@@ -887,6 +1027,18 @@ records:
     presenter_status: inferred_from_first_author
     display_names_not_identity_verified: true
     source_checked_on: '2026-10-22'
+    date_correction:
+      previous_display_dates:
+        text: 2026年3月17日
+        start: '2026-03-17'
+        end: '2026-03-17'
+        kind: single
+        source_text: 2026/03/17
+        precision: conference_dates_as_recorded
+      confirmed_on: '2026-10-23'
+      basis: official_conference_period_and_owner_approval
+      source_url: https://www4.scej.org/meeting/91a/
+      note: 会期表示への変更を本人が承認。元の単日は個別登壇日として保持。
   display_order: 0
   display:
     authors:
@@ -899,11 +1051,13 @@ records:
     conference: "化学工学会第91年会"
     location: "京都"
     dates:
-      text: "2026年3月17日"
-      start: "2026-03-17"
-      end: "2026-03-17"
-      kind: single
-      source_text: "2026/03/17"
-      precision: conference_dates_as_recorded
+      text: 2026年3月17日－19日
+      start: '2026-03-17'
+      end: '2026-03-19'
+      kind: range
+      source_text: 2026/03/17
+      precision: conference_period_verified
     annotations:
       []
+  participation:
+    presentation_date: '2026-03-17'

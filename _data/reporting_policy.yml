@@ -13,6 +13,10 @@ presentation:
   - exhibition_lecture
   separate_event_types_filter: all_presentations_only
   website_date_basis: conference_period
+  website_publication_timing: after_conference_end_only
+  website_publication_requires_owner_approval: true
+  future_presentation_candidates: keep_out_of_public_repository
+  website_publication_policy_confirmed_on: '2026-10-23'
   individual_presentation_date_field: participation.presentation_date
   presenter_marker: false
   proceedings_only_reporting: include_as_presentation_without_special_label
