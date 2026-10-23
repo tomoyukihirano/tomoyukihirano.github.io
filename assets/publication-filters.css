@@ -74,3 +74,27 @@
     display: none;
   }
 }
+
+/* Supplementary article history: wrap whole fields without altering citations. */
+.publication-filter-list .publication-timeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1.1rem;
+  margin-top: 0.35rem;
+  color: #62676d;
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.publication-timeline__item {
+  white-space: nowrap;
+}
+.publication-timeline time {
+  font-variant-numeric: tabular-nums;
+}
+.publication-filters .publication-filters__date-note {
+  margin: 0.35rem 0 0;
+  color: #62676d;
+  font-size: 0.8em;
+  line-height: 1.6;
+}

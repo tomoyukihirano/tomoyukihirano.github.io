@@ -39,6 +39,7 @@
       const text = item.textContent.replace(/\s+/g, " ").trim();
       return {
         item: item,
+        citationText: text,
         first: /^Tomoyuki\s+Hirano(?=[\s*,，])/.test(text),
         corresponding: /\bTomoyuki\s+Hirano\s*\*/.test(text),
         year: publicationYear(item, text)
@@ -159,7 +160,119 @@
         : "査読付き論文：" + active.label + "・" + activeYear.label + "の" + visible + "件を表示しています（全" + records.length + "件）。";
     }
 
+    // Join by a unique article URL or title, never by the visible list number.
+    // Read citation text before adding dates so year/author filters stay intact.
+    function addPublicationDates() {
+      const script = Array.from(document.scripts).find(function (element) {
+        return /\/publication-filters\.js(?:[?#]|$)/.test(element.src);
+      });
+      if (!script || typeof window.fetch !== "function") return;
+      const source = new URL("publication-dates.json", script.src);
+      function normalized(text) {
+        return String(text || "").normalize("NFKC").toLowerCase()
+          .replace(/[\u2010-\u2015\u2212]/g, "-").replace(/\s+/g, " ").trim();
+      }
+      function urlKey(value) {
+        try {
+          const url = new URL(value, window.location.href);
+          if (!/^https?:$/.test(url.protocol)) return "";
+          return url.hostname.toLowerCase() + url.pathname.toLowerCase()
+            .replace(/\/doi\/(?:abs|full)\//, "/doi/")
+            .replace(/\/article\/(?:abs\/)?pii\//, "/article/pii/")
+            .replace(/\/article-abstract\//, "/article/")
+            .replace(/\/article(?:html|landing)\//, "/article/")
+            .replace(/\/$/, "");
+        } catch (_) { return ""; }
+      }
+      function validDate(value) {
+        if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+        const parsed = new Date(value + "T00:00:00Z");
+        return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === value;
+      }
+      fetch(source.href, { credentials: "same-origin" })
+        .then(function (response) {
+          if (!response.ok) throw new Error("Date metadata unavailable");
+          return response.json();
+        })
+        .then(function (data) {
+          if (data.schema_version !== 1 || !Array.isArray(data.records)) return;
+          const ids = data.records.map(function (paper) { return paper.id; });
+          if (ids.some(function (id) { return !id; }) || new Set(ids).size !== ids.length) return;
+          const used = new Set();
+          const fields = [
+            { key: "submitted", label: "投稿日" },
+            { key: "accepted", label: "採択日" },
+            { key: "published_online", label: "オンライン公開日" }
+          ];
+          records.forEach(function (record) {
+            if (record.item.querySelector(".publication-timeline")) return;
+            const urls = Array.from(record.item.querySelectorAll("a[href]"))
+              .map(function (link) { return urlKey(link.href); }).filter(Boolean);
+            let matches = data.records.filter(function (paper) {
+              return paper.article_url && urls.includes(urlKey(paper.article_url));
+            });
+            if (!matches.length) {
+              matches = data.records.filter(function (paper) {
+                const title = normalized(paper.title);
+                return title.length > 20 && normalized(record.citationText).includes(title);
+              });
+            }
+            const paper = matches.length === 1 && !used.has(matches[0].id) ? matches[0] : null;
+            if (paper) {
+              used.add(paper.id);
+              record.item.dataset.publicationId = paper.id;
+            }
+            const dates = paper && paper.dates || {};
+            const reviews = paper && paper.review && paper.review.fields || {};
+            const chronologyIssues = new Set();
+            [["submitted", "accepted"], ["accepted", "published_online"]].forEach(function (pair) {
+              if (validDate(dates[pair[0]]) && validDate(dates[pair[1]]) && dates[pair[0]] > dates[pair[1]]) {
+                chronologyIssues.add(pair[0]); chronologyIssues.add(pair[1]);
+              }
+            });
+            const line = document.createElement("span");
+            line.className = "publication-timeline";
+            line.setAttribute("aria-label", "投稿・採択・オンライン公開の日付");
+            fields.forEach(function (field) {
+              const value = dates[field.key];
+              const review = reviews[field.key] || {};
+              const checking = review.status === "conflict" || review.status === "pending" ||
+                chronologyIssues.has(field.key) || (value && !validDate(value)) ||
+                (review.status === "verified" && review.checked_value !== value);
+              const fieldItem = document.createElement("span");
+              fieldItem.className = "publication-timeline__item";
+              fieldItem.dataset.dateField = field.key;
+              fieldItem.appendChild(document.createTextNode(field.label + "："));
+              if (!checking && validDate(value)) {
+                const time = document.createElement("time");
+                time.dateTime = value;
+                time.textContent = value;
+                fieldItem.appendChild(time);
+                fieldItem.title = review.status === "verified"
+                  ? "出版社の記載と照合済み（" + paper.review.checked_on + "）"
+                  : "既存の論文管理資料に登録された日付";
+              } else {
+                fieldItem.appendChild(document.createTextNode(checking ? "確認中" : "未確認"));
+              }
+              line.appendChild(fieldItem);
+            });
+            record.item.appendChild(line);
+          });
+          const note = document.createElement("p");
+          note.className = "publication-filters__date-note";
+          note.textContent = "日付は登録済み情報に基づきます。未取得の項目は「未確認」，不一致のある項目は「確認中」と表示します。";
+          controls.appendChild(note);
+          list.dataset.datesLoaded = "true";
+          list.dataset.dateMatchedCount = String(used.size);
+        })
+        .catch(function () {
+          // A missing metadata file must not break the existing list or filters.
+          list.dataset.datesLoaded = "unavailable";
+        });
+    }
+
     applyFilters();
+    addPublicationDates();
   }
 
   if (document.readyState === "loading") {

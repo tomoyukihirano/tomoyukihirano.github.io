@@ -54,3 +54,32 @@ internal_report:
   private_relationship_data_required: true
   private_records_in_public_build: false
   note: 出力時に条件を選択します。この設定は自動出力プログラムの実装完了を意味しません。
+publication_metadata_maintenance:
+  confirmed_on: '2026-10-23'
+  metrics:
+    fields: [impact_factor, jcr_quartile, top10_percent]
+    refresh: only_when_requested_or_needed
+    scheduled_refresh: false
+    preserve_existing_values_until_reviewed: true
+  dates:
+    fields: [submitted, accepted, published_online]
+    acquisition: check_when_adding_or_updating_a_publication
+    scheduled_crawl: false
+    preferred_evidence: publisher_article_history_or_official_article_pdf
+    distinguish_first_online_from_issue_publication: true
+    record_source_url_and_checked_on: true
+    verification_records: publication_date_reviews.yml
+    existing_dates_basis: owner_supplied_bibliographic_records
+    missing_values: do_not_infer
+    conflicting_values: retain_original_and_hold_public_date
+    display: supplementary_line_below_each_journal_article
+    display_format: YYYY-MM-DD
+    missing_label: 未確認
+    conflict_label: 確認中
+  accepted_fiscal_year:
+    computation: derive_from_accepted_date_only_when_requested
+    method: Python
+    fiscal_year_start_month: 4
+    display_on_website: false
+    existing_stored_values: preserve_for_traceability_do_not_treat_as_authoritative
+  note: 更新時の確認方針です。定期収集の自動実行を設定したことや，全論文の日付を再検証済みであることを意味しません。

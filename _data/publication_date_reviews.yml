@@ -1,0 +1,37 @@
+schema_version: 1
+default_basis: existing_owner_supplied_bibliographic_records
+note: 既存の日付は論文マスターを参照します。本ファイルは再確認の出典と保留事項を管理し，全論文の再調査完了を意味しません。
+records:
+  pub-0043:
+    checked_on: '2026-10-23'
+    method: publisher_page_via_web_search
+    source_url: https://pubs.acs.org/nalefd/article/24/34/10426/149223/Macroporous-Structures-of-Nb-SnO2-Particles-as-a
+    fields:
+      submitted: {status: verified, checked_value: '2024-03-07'}
+      accepted: {status: verified, checked_value: '2024-08-07'}
+      published_online: {status: verified, checked_value: '2024-08-14'}
+    note: Published Onlineを使用し，Published in Issueの2024-08-28とは区別します。
+  pub-0009:
+    checked_on: '2026-10-23'
+    method: publisher_page_via_web_search
+    source_url: https://pubs.rsc.org/en/content/articlelanding/2021/ra/d1ra04800g
+    fields:
+      submitted: {status: verified, checked_value: '2021-06-21'}
+      accepted: {status: verified, checked_value: '2021-09-03'}
+      published_online: {status: verified, checked_value: '2021-09-10'}
+    note: Submitted，Accepted，First publishedを確認。題目や著者の変更は今回の対象外です。
+  pub-0005:
+    checked_on: '2026-10-23'
+    method: publisher_pages_via_web_search
+    source_url: https://pubs.acs.org/doi/10.1021/acs.iecr.9b05482
+    fields:
+      submitted: {status: verified, checked_value: '2019-10-04'}
+      accepted: {status: verified, checked_value: '2020-03-10'}
+      published_online:
+        status: conflict
+        candidates:
+          - value: '2020-03-19'
+            source_url: https://pubs.acs.org/doi/10.1021/acs.iecr.9b05482
+          - value: '2020-03-10'
+            source_url: https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b05482
+    note: 公式ページの取得結果間に不一致があるため，オンライン公開日は確認中と表示。元の登録値は上書きしません。

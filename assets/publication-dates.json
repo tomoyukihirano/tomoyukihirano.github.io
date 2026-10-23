@@ -1,0 +1,26 @@
+---
+layout: null
+---
+{%- assign papers = '' | split: '' -%}
+{%- for year_data in site.data.publications -%}
+  {%- assign papers = papers | concat: year_data[1].records -%}
+{%- endfor -%}
+{
+  "schema_version": 1,
+  "records": [
+  {%- for paper in papers -%}
+    {%- assign review = site.data.publication_date_reviews.records[paper.id] -%}
+    {
+      "id": {{ paper.id | jsonify }},
+      "title": {{ paper.title | jsonify }},
+      "article_url": {{ paper.article_url | jsonify }},
+      "dates": {
+        "submitted": {{ paper.dates.submitted | jsonify }},
+        "accepted": {{ paper.dates.accepted | jsonify }},
+        "published_online": {{ paper.dates.published_online | jsonify }}
+      },
+      "review": {{ review | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {%- endfor -%}
+  ]
+}
