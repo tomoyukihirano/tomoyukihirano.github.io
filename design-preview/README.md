@@ -1,19 +1,52 @@
 # 独立した個人HPデザインプレビュー
 
-Fukushima LabのPublicationsを主な視覚参考にした，個人用Publicationsの初期表示案です。
-現在のGitHub Pagesとは独立したプレビューブランチで作成しています。
-このフォルダーを追加するだけでは公開先や既存ページは切り替わりません。
+Fukushima LabのPublicationsを主な視覚参考にした，個人HPの独立したデザインプレビューです。
+Home / About / Research / Publications / Presentations / Grants / Awardの7画面を，
+1つのHTMLファイルにまとめています。現在のGitHub Pagesとは別に確認・調整するための版です。
+本番ページ，GitHub Pages設定，公開用ワークフローは変更していません。
 
-## 今回の範囲
+## ページと操作
 
-- 対象はPublicationsページです。他のナビゲーションは現在の公開HPへ移動します。
-- 既存の安定IDを保ち，論文・総説・プレプリントを年別に表示します。
-- キーワード，刊行年，種別，本人の筆頭／筆頭または責任著者で絞り込めます。
-- 著者表記，化学式，引用原文，DOI・Repository・Preprintのリンクを引き継ぎます。
+初期表示はPublicationsです。ヘッダーのメニューは同じプレビュー内の画面を切り替えます。
+画面は `?page=...` で指定でき，ブラウザの戻る・進むにも対応します。
+
+| ページ | パラメーター | 内容 |
+| --- | --- | --- |
+| Home | `?page=home` | 現在の紹介文，火炎写真，3種類の火炎プロセス |
+| About | `?page=about` | プロフィール，写真，連絡先，外部プロフィール，経歴表 |
+| Research | `?page=research` | 現在と以前の研究テーマ |
+| Publications | `?page=publications` | 論文・総説・プレプリント，書籍・その他の業績 |
+| Presentations | `?page=presentations` | 公開済み発表の年別一覧，検索・絞り込み |
+| Grants | `?page=grants` | 進行中・終了した研究費，共同研究，奨学金 |
+| Award | `?page=award` | 現在の受賞一覧と逆順の番号 |
+
+外部プロフィール，論文のアクセス先，フッターの現在のHPへのリンクは，元の外部URLを開きます。
+本文，経歴，研究課題名，期間，金額，受賞記載は現在の公開ソースから引き継ぎます。
+Homeの火炎写真とAboutのプロフィール写真も既存ファイルをHTMLへ埋め込みます。
+
+### Publications
+
+- 安定ID，著者順，化学式，引用原文，DOI・Repository・Preprintのリンクを引き継ぎます。
+- キーワード，刊行年，種別，筆頭著者／筆頭または責任著者で絞り込めます。
+- 論文ごとの図，サムネイル，誌名タイルは表示しません。
+- Number of publicationsは，**1レコードを1つの四角**として年ごとに積み上げます。
+- All authorshipsでは，本人が**筆頭著者または責任著者ならピンク**，それ以外の共著は**グレー**です。
+  両方の役割を持つ論文も1つの四角として数えます。
+- グラフは検索・絞り込みと連動します。年の列を選ぶとその年で絞り込めます。
+  In pressと刊行年未登録の項目は年の列と分けて表示します。
+- グラフの対象は論文・総説・プレプリントです。書籍・その他はページ下部に原文を表示します。
 - 日付の確認状態と，IF・JCR Quartile・Top10%の既存登録値を利用します。
-- スマートフォン幅とキーボード操作に対応します。
-- 書籍・その他の既存記載もページ下部で表示できます。
-- 現在の版には論文の図を追加していません。画像のない論文は誌名タイルを表示します。
+- ヘッダーのTomoyukiは通常の太さとし，Publications見出しの末尾にピリオドは付けません。
+
+### Presentations
+
+- `_data/presentations/*.yml` の公開済みレコードから，年別の発表一覧を生成します。
+- キーワード，年，招待講演，国内／国際学会で絞り込めます。
+- All presentationsには，セミナー・勉強会・展示会講演なども含めます。
+- 著者名と順序，題目，学会名，開催地，会期，注記は既存の `display` を使用します。
+  発表者，招待区分，日付，英語表記を表示側で推定しません。
+- 国内／国際の区分には既存の分類と `_data/presentation_scopes.yml` を使用します。
+  発表データは論文の追加表示設定 `presentation.yml` とは別です。
 
 ## 元データは共通のまま使う
 
@@ -25,14 +58,20 @@ Fukushima LabのPublicationsを主な視覚参考にした，個人用Publicatio
 | 日付の確認状態 | `_data/publication_date_reviews.yml` |
 | IF・JCR Quartileと調査年月 | `_data/journals.yml` |
 | 表記照合に利用する公開人物情報 | `_data/people.yml`，公開済み発表データ |
-| 新デザインだけの画像・説明・テーマ | このフォルダーの `presentation.yml` |
+| 発表ID，表示内容，分類，招待区分 | `_data/presentations/*.yml` |
+| 発表の国内／国際等の区分 | `_data/presentation_scopes.yml` |
+| 発表題目の化学式の表示規則 | `_includes/chemical-formula.html` |
+| Home / About / Researchの本文 | `index.md`，`about.md`，`information.md` |
+| 研究費・奨学金と受賞情報 | `supports-grants.md`，`award.md` |
+| Home / Aboutの写真 | 現在の `wp-content/uploads/` 内の該当画像 |
+| 論文の追加説明・テーマ・代表業績フラグ | このフォルダーの `presentation.yml` |
 
-`build_data.py` は公開データを読み取り専用で結合します。
+`build_data.py`，`presentation_page.py`，`site_pages.py` は公開ソースを読み取り専用で利用します。
 生成されたJSONやHTMLは表示用の成果物であり，編集用データベースにはしません。
 非公開の学生・指導関係データは読み込まず，出力にも含めません。
 
 論文の著者・題名・誌名を安全に分割できない場合は，現在の引用全文を表示します。
-初版の `pub-0060` と `pub-0009` はこの扱いです。元DBと原文を勝手に修正しません。
+元DBと原文は表示に合わせて書き換えません。
 Book Chaptersは原文に同一書籍の別章が含まれるため，画面では見出しの件数を省き，
 全項目を引き継ぎます。元の見出しも生成データに保存されます。
 
@@ -46,30 +85,30 @@ python3 -m pip install -r design-preview/requirements.txt
 python3 design-preview/build.py --source . --output design-preview/dist/index.html
 ```
 
-生成された `design-preview/dist/index.html` をブラウザで開くと検索・絞り込みを利用できます。
-CSS・JavaScript・表示データを内包しているので，Webサーバーは不要です。
-JavaScriptが無効でも業績一覧と外部リンクは表示されます。
+生成された `design-preview/dist/index.html` をブラウザで開くと，7画面の移動と検索・絞り込みを利用できます。
+CSS・JavaScript・表示データ・既存のHome/About画像を内包しているので，Webサーバーは不要です。
+JavaScriptが無効な場合は，全ページの本文と業績一覧を続けて表示します。
+スマートフォン幅とキーボード操作に対応しています。
 
 Git管理のない読み取り用スナップショットを使う場合は，取得元の正確なコミットを指定します。
 
 ```bash
-python3 design-preview/build.py --source /path/to/source-snapshot --output /path/to/preview.html --commit c58336e6c7962c8c8d6c455189ad4859fa63fed1
+python3 design-preview/build.py --source /path/to/source-snapshot --output /path/to/preview.html --commit a8bdb8f7f270e73704301171ddcd0eee596ae9e1
 ```
 
-上記SHAは初版で読み取った公開データの版です。新しいデータを使う場合は実際のSHAへ変更します。
-元データのハッシュは生成時に保存され，入力ファイルが変更されていないことも検証します。
+上記SHAは今回読み取った公開ソースの版です。新しいデータを使う場合は実際のSHAへ変更します。
+スナップショットには上記のMarkdown・YAML・化学式include・既存の2枚の写真を含めます。
+元データ，ページ本文，写真などのハッシュは生成時に保存し，ビルド中に入力ファイルが変更されていないことも検証します。
 
 ## 見た目だけの情報を追加する
 
 `presentation.yml` の `records` に，既存の安定IDをキーにして設定します。
-追加できるのは `thumbnail`，`thumbnail_alt`，`summary`，`topics`，`selected` のみです。
+追加できるのは `summary`，`topics`，`selected` のみです。
 タイトル・著者・日付・DOI・評価値はここで上書きできません。
 
-画像はリポジトリ内のPNG/JPEG/WebP/AVIF/GIFを指定し，内容を説明する代替テキストを付けます。
-ビルド時にHTMLへ埋め込まれるため，相対パスの異なるプレビュー先でも表示できます。
 `summary` と `topics` は論文行に表示され，テーマ語はキーワード検索にも含まれます。
-`selected` は今後の代表業績ページ用として保存する項目で，この初版では表示を切り替えません。
-テーマ別ボタン，日本語・英語の切替，Home等への展開は次のデザイン段階で実装できます。
+`selected` は今後の代表業績表示用として保存する項目で，現在は表示を切り替えません。
+既存IDに対する追加情報のみを設定し，確認済みの内容を記入します。
 
 ## 評価指標・日付の扱い
 
@@ -83,13 +122,11 @@ python3 design-preview/build.py --source /path/to/source-snapshot --output /path
 
 作業を続ける際は，最新の正本データを読み込んでプレビューを再生成します。
 このブランチの古い `_data` を本番の新しいデータに上書きしないでください。
-Home，About，Research，Presentations，Grants，Awardへ同じ表示設計を展開し，
-内容とレイアウトを確認してから本番の切替を判断します。
+7画面はプレビュー内で確認できます。内容とレイアウトを調整し，公開を明示的に指示された後に
+本番への切替方法を決めます。現在の版を生成しただけでは公開サイトは切り替わりません。
 
-GitHub Pagesには1リポジトリにつき1つの公開先という制約があります。
-別ブランチの作成だけでは別の公開URLはできません。
-独立したGitHub Pagesの公開URLが必要になった段階で，別リポジトリと明示的な公開設定を使います。
-この初版にはデプロイ用ワークフローやPages設定変更を含めていません。
+このフォルダーには自動公開用のワークフローを追加していません。
+本番の `main`，既存ページ，GitHub Pages設定，公開用ワークフローへの変更は今回の対象外です。
 
 ## 参照したデザイン
 
@@ -98,6 +135,7 @@ GitHub Pagesには1リポジトリにつき1つの公開先という制約があ
 - [Yuki M. Asano Publications](https://yukimasano.github.io/publications/)
 - [multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio)
 
-初版は既存データ形式へ合わせた独立した表示実装です。
+Fukushima Labとそのベースであるmulti-language-al-folioの見た目を参考にし，
+既存データ形式へ合わせて独立した表示実装を作成しています。
 Fukushima Labの個別研究内容・論文画像・メンバー管理・PDF申請・解析設定は取り込んでいません。
 参照元のライセンスと帰属情報は `THIRD_PARTY_NOTICES.md` に記録します。

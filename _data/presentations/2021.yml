@@ -33,9 +33,9 @@ records:
     presenter_evidence: owner_confirmed_first_author
     title_html: Tubular flame combustion for fine particle production
     conference: The 8th Asian Particle Technology Symposium
-    location: Osaka，Japan
+    location: "Osaka, Japan"
     dates:
-      text: 2021年10月11日－14日
+      text: "October 11–14, 2021"
       start: '2021-10-11'
       end: '2021-10-14'
       kind: range

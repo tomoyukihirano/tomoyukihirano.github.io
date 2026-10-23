@@ -91,9 +91,21 @@ ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読�
 `public: false` でもリポジトリ内の情報は公開されるため，予定情報の保管には使いません。
 会期は `display.dates`，個別登壇日は `participation.presentation_date` に分けます。
 
-片岡氏の表示名は「片岡 幹裕」，人物IDは `mikihiro-kataoka` に統一します。
+片岡氏の日本語表示名は「片岡 幹裕」，人物IDは `mikihiro-kataoka` に統一します。
 資料にある「片岡 幹弘」は本人承認済みの別表記として `people.yml` の `aliases` に記録します。
 取り込んだ原文は保持し，構造化された表示名と人物IDで正規化してください。
+
+### 国際学会の英語表記（2026-10-23）
+
+国際学会に分類された発表は，著者名・題目・学会名・開催地・日付・注記をすべて英語で表示します。
+著者名は `people.yml` または確認済みの原資料にある英名を使用し，著者順を保ちます。
+片岡氏の英語表示名は `Mikihiro Kataoka` です。
+日付は `September 9, 2026`，同月内の会期は `May 11–15, 2026` の形式にします。
+月をまたぐ場合は `August 30–September 2, 2026`，年をまたぐ場合は両端に年を記します。
+日付の言語変更では，確認済みの `dates.start`・`dates.end` と個別登壇日を変更しません。
+招待講演の英語注記は `Invited talk` とします。区切りのコンマと注記の括弧は
+`_includes/presentation-list.html` が学会区分に応じて切り替えます。
+取り込んだ原文・`dates.source_text`・日本語の人物名辞書は保持します。
 
 ## Grantsを追加する
 

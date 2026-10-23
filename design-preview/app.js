@@ -40,9 +40,6 @@
   function renderRecord(record) {
     const role = record.first_author && record.corresponding ? 'First & corresponding' : record.first_author ? 'First author' : record.corresponding ? 'Corresponding author' : '';
     const presentation = record.presentation || {};
-    const tile = presentation.thumbnail_data
-      ? `<img src="${escape(presentation.thumbnail_data)}" alt="${escape(presentation.thumbnail_alt || '')}" loading="lazy">`
-      : `<div class="paper-tile" aria-hidden="true"><span class="tile-id">${escape(compactId(record))}</span><span class="tile-journal">${escape(record.journal || kinds[record.type])}</span><span class="tile-kind">${escape(kinds[record.type])}</span></div>`;
     const body = record.display_fallback
       ? `<h3 class="sr-only">${escape(compactId(record))}</h3><p class="fallback-citation">${record.citation_html}</p>`
       : `<h3>${record.title_html || escape(record.title)}</h3><p class="authors">${record.authors_html || ''}</p><p class="bibliography">${record.bibliography_html || ''}</p>`;
@@ -52,7 +49,7 @@
     }).join('');
     const topics = presentation.topics?.length ? `<div class="topics">${presentation.topics.map(topic => `<span class="topic">${escape(topic)}</span>`).join('')}</div>` : '';
     return `<article class="publication" id="${escape(record.id)}" data-publication-id="${escape(record.id)}">
-      <div class="publication-art">${tile}</div><div class="publication-body">
+      <div class="publication-body">
       <div class="paper-topline"><span class="type-badge type-${escape(record.type)}">${escape(kinds[record.type])}</span>${role ? `<span class="role-dot" aria-hidden="true">·</span><span class="author-role">${escape(role)}</span>` : ''}<a class="paper-id" href="#${escape(record.id)}" title="Permanent publication identifier">${escape(compactId(record))}</a></div>
       ${body}${presentation.summary ? `<p class="paper-summary">${escape(presentation.summary)}</p>` : ''}${topics}
       <div class="paper-actions">${links}${metricMarkup(record)}</div>
@@ -68,12 +65,7 @@
     return words.every(word => normalizedText.get(record.id).includes(word));
   }
   function renderChart(filtered) {
-    const years = [...allYears].reverse();
-    const counts = years.map(year => filtered.filter(record => record.year === year).length);
-    const maximum = Math.max(...counts,1);
-    $('year-chart').innerHTML = years.map((year,index) => `<button type="button" class="chart-column${state.year === String(year) ? ' active' : ''}" data-year="${year}" aria-label="Filter to ${year}: ${counts[index]} publications" aria-pressed="${state.year === String(year)}"><span class="chart-count">${counts[index] || ''}</span><span class="chart-bar" style="height:${counts[index] ? Math.max(3,counts[index]/maximum*76) : 2}%"></span><span class="chart-year">${year}</span></button>`).join('');
-    const inPress = filtered.filter(record => yearKey(record) === 'in-press').length;
-    $('in-press-note').textContent = inPress ? `+ ${inPress} in press` : '';
+    $('year-chart').innerHTML = window.PublicationChart.render(filtered, {years: allYears, selectedYear: state.year});
   }
   function writeUrl() {
     try {
@@ -152,7 +144,7 @@
   $('reset').addEventListener('click',reset);
   $('empty-reset').addEventListener('click',() => {reset();$('search').focus();});
   document.addEventListener('keydown',event => {
-    if (event.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) && !document.activeElement.isContentEditable) {
+    if (event.key === '/' && !$('view-publications').hidden && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) && !document.activeElement.isContentEditable) {
       event.preventDefault();$('search').focus();
     }
   });
@@ -161,4 +153,5 @@
   window.addEventListener('scroll',() => {$('back-to-top').hidden = window.scrollY < 800;},{passive:true});
   $('back-to-top').addEventListener('click',() => window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'}));
   readUrl();syncInputs();render(false);revealAnchor();
+  window.revealPublicationAnchor = revealAnchor;
 })();

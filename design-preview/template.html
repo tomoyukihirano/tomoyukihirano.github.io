@@ -4,40 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Publications by Tomoyuki Hirano. An independent design preview based on the existing public research records.">
+  <meta name="description" content="Tomoyuki Hirano, Hiroshima University. Personal website design preview with research, publications, presentations, grants and awards.">
   <title>Publications · Tomoyuki Hirano</title>
   <style>__STYLES__</style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to publications</a>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="preview-note"><span class="preview-dot" aria-hidden="true"></span>Design preview <span class="preview-note-detail">·</span> <span lang="ja">新しい個人HPの表示案</span><a href="https://tomoyukihirano.github.io/publications/" target="_blank" rel="noopener">Current website <span aria-hidden="true">↗</span></a></div>
   <header class="site-header">
     <div class="header-inner">
-      <a class="site-name" href="https://tomoyukihirano.github.io/" target="_blank" rel="noopener"><strong>Tomoyuki</strong> Hirano<span class="site-name-jp" lang="ja">平野 知之</span></a>
+      <a class="site-name" href="?page=home" data-site-page="home">Tomoyuki Hirano<span class="site-name-jp" lang="ja">平野 知之</span></a>
       <nav aria-label="Main navigation">
-        <a href="https://tomoyukihirano.github.io/about/" target="_blank" rel="noopener">About</a>
-        <a href="https://tomoyukihirano.github.io/information/" target="_blank" rel="noopener">Research</a>
-        <a href="#main" aria-current="page">Publications</a>
-        <a href="https://tomoyukihirano.github.io/presentations/" target="_blank" rel="noopener">Presentations</a>
-        <a href="https://tomoyukihirano.github.io/supports-grants/" target="_blank" rel="noopener">Grants</a>
+        <a href="?page=home" data-site-page="home">Home</a>
+        <a href="?page=about" data-site-page="about">About</a>
+        <a href="?page=research" data-site-page="research">Research</a>
+        <a href="?page=publications" data-site-page="publications" aria-current="page">Publications</a>
+        <a href="?page=presentations" data-site-page="presentations">Presentations</a>
+        <a href="?page=grants" data-site-page="grants">Grants</a>
+        <a href="?page=award" data-site-page="award">Award</a>
       </nav>
     </div>
   </header>
 
   <main id="main" class="page">
+    __STATIC_PAGES__
+    <div id="view-publications" class="site-view" data-site-view="publications" aria-labelledby="page-title">
     <section class="page-intro" aria-labelledby="page-title">
       <div class="intro-copy">
         <p class="eyebrow">Chemical engineering · Hiroshima University</p>
-        <h1 id="page-title">Publications<span aria-hidden="true">.</span></h1>
-        <p class="intro-description">Particle synthesis, structure and function.</p>
-        <p class="intro-description-ja" lang="ja">微粒子の合成・構造制御・機能化に関する研究業績</p>
+        <h1 id="page-title" tabindex="-1">Publications</h1>
         <div class="publication-totals" aria-label="Publication totals">__TOTALS__</div>
         <a class="scholar-link" href="https://scholar.google.co.jp/citations?user=7-vtStgAAAAJ&amp;hl=ja" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
       <section class="annual-summary" aria-label="Publications by year">
-        <div class="chart-heading"><span>By publication year</span><span class="chart-caption">Articles · Reviews · Preprints</span></div>
-        <div id="year-chart" class="year-chart">__CHART__</div>
-        <div class="chart-foot"><span><i class="legend-dot" aria-hidden="true"></i>Current selection</span><span id="in-press-note">__IN_PRESS_NOTE__</span></div>
+        <div class="chart-heading"><span>Number of publications</span><span class="chart-caption">Articles · Reviews · Preprints</span></div>
+        <div id="year-chart">__CHART__</div>
       </section>
     </section>
 
@@ -72,11 +73,14 @@
       <div id="legacy-sections">__LEGACY_SECTIONS__</div>
     </section>
     <noscript><p class="noscript-note">The complete bibliography is shown above. Enable JavaScript to use search and filters.</p></noscript>
+    </div>
+    <div id="view-presentations" class="site-view" data-site-view="presentations" hidden>__PRESENTATIONS_PAGE__</div>
   </main>
 
-  <footer class="site-footer"><div><span><strong>Tomoyuki Hirano</strong><br>Chemical Engineering, Hiroshima University</span><a href="https://tomoyukihirano.github.io/" target="_blank" rel="noopener">Current personal website ↗</a></div><p>Independent design preview · Built: __BUILD_DATE__. Other navigation links open the current website.</p></footer>
+  <footer class="site-footer"><div><span><span class="footer-name">Tomoyuki Hirano</span><br>Chemical Engineering, Hiroshima University</span><a href="https://tomoyukihirano.github.io/" target="_blank" rel="noopener">Current personal website ↗</a></div><p>Design preview · __BUILD_DATE__</p></footer>
   <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
   <script id="publication-data" type="application/json">__DATA__</script>
+  <noscript><style>.site-view[hidden]{display:block!important}.site-view{margin-bottom:72px}</style></noscript>
   <script>__SCRIPT__</script>
 </body>
 </html>

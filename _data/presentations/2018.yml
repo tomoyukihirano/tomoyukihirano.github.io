@@ -81,9 +81,9 @@ records:
     title_html: Synthesis of CuO/WO<sub>3</sub> and Pt/WO<sub>3</sub> Nanocatalysts via Flame-assisted Spray Pyrolysis and
       Their Photocatalytic Activity
     conference: 10th International Aerosol Conference (IAC2018)
-    location: St. Louis，USA
+    location: "St. Louis, USA"
     dates:
-      text: 2018年9月2日－7日
+      text: "September 2–7, 2018"
       start: '2018-09-02'
       end: '2018-09-07'
       kind: range
@@ -128,9 +128,9 @@ records:
     title_html: Tailored Synthesis of Macroporous Pt/WO<sub>3</sub> Nanoaggregates via Flame Spray Pyrolysis and Their Photocatalytic
       Properties
     conference: 10th International Aerosol Conference (IAC2018)
-    location: St. Louis，USA
+    location: "St. Louis, USA"
     dates:
-      text: 2018年9月2日－7日
+      text: "September 2–7, 2018"
       start: '2018-09-02'
       end: '2018-09-07'
       kind: range
@@ -259,9 +259,9 @@ records:
     title_html: Synthesis of Cs<sub>0.32</sub>WO<sub>3</sub> nanoparticles via flame-assisted spray pyrolysis
     conference: The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials
       (ICCCI2018)
-    location: Kurashiki，Japan
+    location: "Kurashiki, Japan"
     dates:
-      text: 2018年7月9日－12日
+      text: "July 9–12, 2018"
       start: '2018-07-09'
       end: '2018-07-12'
       kind: range
@@ -310,9 +310,9 @@ records:
     title_html: Direct synthesis of single-phase hexagonal tungsten oxide nanorods by spray pyrolysis method
     conference: The 6th Int’l Conf. on the Characterization and Control of Interfaces for High Quality Advanced Materials
       (ICCCI2018)
-    location: Kurashiki，Japan
+    location: "Kurashiki, Japan"
     dates:
-      text: 2018年7月9日－12日
+      text: "July 9–12, 2018"
       start: '2018-07-09'
       end: '2018-07-12'
       kind: range

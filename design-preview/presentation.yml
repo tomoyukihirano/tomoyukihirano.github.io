@@ -1,14 +1,12 @@
 # Optional appearance metadata, keyed by the existing stable publication ID.
 # This file never replaces any source title, author, date, DOI or evaluation.
-# No images or research classifications have been inferred for this preview.
+# Per-publication figures and image placeholders are intentionally omitted.
 schema_version: 1
 records: {}
 
-# Example only; replace paths/text with approved material before adding it:
+# Example only; replace text with approved material before adding it:
 # records:
 #   pub-0078:
-#     thumbnail: assets/publication-thumbnails/pub-0078.jpg
-#     thumbnail_alt: A description of the actual figure
 #     summary: An approved short description of the research
 #     topics: [An approved research theme]
 #     selected: true

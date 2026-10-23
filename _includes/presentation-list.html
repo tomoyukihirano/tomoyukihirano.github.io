@@ -29,7 +29,17 @@
     {%- endif -%}
   {%- endunless -%}
   {%- assign is_invited = item.classification.invited -%}
-<li id="{{ item.id }}" data-conference-scope="{{ scope }}"{% if is_invited == true %} class="presentation-item--invited"{% endif %}>{%- if is_invited == true -%}<span class="presentation-invited-badge"><span aria-hidden="true">★ </span>招待講演</span> {% endif -%}{%- for author in d.authors -%}{%- unless forloop.first -%}，{%- endunless -%}{%- if author.highlight -%}<strong><u>{%- endif -%}{{ author.name | escape }}{%- if author.highlight -%}</u></strong>{%- endif -%}{%- endfor -%}，{% include chemical-formula.html text=d.title_html %}，{{ d.conference | escape }}{%- if d.location -%}，{{ d.location | escape }}{%- endif -%}，{{ d.dates.text | escape }}{%- for annotation in d.annotations -%}{%- unless annotation == '招待講演' and is_invited == true %} <strong>【{{ annotation | escape }}】</strong>{%- endunless -%}{%- endfor -%}</li>
+  {%- assign citation_separator = '，' -%}
+  {%- assign invited_label = '招待講演' -%}
+  {%- assign annotation_open = '【' -%}
+  {%- assign annotation_close = '】' -%}
+  {%- if scope == 'international' -%}
+    {%- assign citation_separator = ', ' -%}
+    {%- assign invited_label = 'Invited talk' -%}
+    {%- assign annotation_open = '[' -%}
+    {%- assign annotation_close = ']' -%}
+  {%- endif -%}
+<li id="{{ item.id }}" data-conference-scope="{{ scope }}"{% if scope == 'international' %} lang="en"{% endif %}{% if is_invited == true %} class="presentation-item--invited"{% endif %}>{%- if is_invited == true -%}<span class="presentation-invited-badge"><span aria-hidden="true">★ </span>{{ invited_label }}</span> {% endif -%}{%- for author in d.authors -%}{%- unless forloop.first -%}{{ citation_separator }}{%- endunless -%}{%- if author.highlight -%}<strong><u>{%- endif -%}{{ author.name | escape }}{%- if author.highlight -%}</u></strong>{%- endif -%}{%- endfor -%}{{ citation_separator }}{% include chemical-formula.html text=d.title_html %}{{ citation_separator }}{{ d.conference | escape }}{%- if d.location -%}{{ citation_separator }}{{ d.location | escape }}{%- endif -%}{{ citation_separator }}{{ d.dates.text | escape }}{%- for annotation in d.annotations -%}{%- assign duplicate_invited_annotation = false -%}{%- if is_invited == true -%}{%- if annotation == '招待講演' or annotation == 'Invited talk' -%}{%- assign duplicate_invited_annotation = true -%}{%- endif -%}{%- endif -%}{%- unless duplicate_invited_annotation %} <strong>{{ annotation_open }}{{ annotation | escape }}{{ annotation_close }}</strong>{%- endunless -%}{%- endfor -%}</li>
   {%- endunless -%}
 {%- endfor -%}
 </ol>

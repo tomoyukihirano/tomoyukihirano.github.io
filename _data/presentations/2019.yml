@@ -37,9 +37,9 @@ records:
     presenter_evidence: owner_confirmed_first_author
     title_html: A Newly Developed Nanoparticles Processing using Tubular Flame Reactor
     conference: National Central University – Hiroshima University Joint Symposium on Materials Chemistry and Physics
-    location: Taiwan，ROC
+    location: "Taiwan, ROC"
     dates:
-      text: 2019年11月1日
+      text: "November 1, 2019"
       start: '2019-11-01'
       end: '2019-11-01'
       kind: single
@@ -179,7 +179,7 @@ records:
     conference: Asian Aerosol Conference 2019
     location: Hong Kong
     dates:
-      text: 2019年5月27日－30日
+      text: "May 27–30, 2019"
       start: '2019-05-27'
       end: '2019-05-30'
       kind: range

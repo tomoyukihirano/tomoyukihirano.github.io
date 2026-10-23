@@ -1,0 +1,146 @@
+/* The two role colors retain the Fukushima Lab chart's visual convention. */
+.publication-square-chart {
+  --publication-lead-color: #b509ac;
+  --publication-other-color: #99999f;
+  --publication-square-size: 8px;
+  --publication-square-gap: 2px;
+  color: var(--muted, #6b6b6b);
+  font: 10px/1.45 var(--font, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+  width: 100%;
+  min-width: 0;
+}
+.publication-square-scroll {
+  overflow-x: auto;
+  padding: 3px 2px 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #d9c8d8 transparent;
+}
+.publication-square-columns {
+  display: grid;
+  grid-template-columns: repeat(var(--publication-year-count), minmax(28px, 1fr));
+  min-width: calc(var(--publication-year-count) * 28px);
+}
+.publication-square-column {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.publication-square-plot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: calc(var(--publication-stack-height) + 25px);
+  box-sizing: border-box;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--line, #dedede);
+}
+.publication-square-count {
+  color: #666;
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+  line-height: 14px;
+  margin-bottom: 4px;
+}
+.publication-square-stack {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: var(--publication-square-gap);
+}
+.publication-square-unit,
+.publication-square-swatch {
+  display: block;
+  flex: 0 0 auto;
+  width: var(--publication-square-size);
+  height: var(--publication-square-size);
+  border-radius: 0;
+  box-sizing: border-box;
+}
+.publication-square-lead { background: var(--publication-lead-color); }
+.publication-square-other { background: var(--publication-other-color); }
+.publication-square-year {
+  display: block;
+  padding: 7px 0 3px;
+  font-size: 9px;
+  line-height: 15px;
+  font-variant-numeric: tabular-nums;
+}
+.publication-square-column:hover,
+.publication-square-additional:hover { background: #b509ac08; }
+.publication-square-column.is-selected { background: #b509ac0c; }
+.publication-square-column.is-selected .publication-square-year {
+  color: var(--publication-lead-color);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.publication-square-column:focus-visible,
+.publication-square-additional:focus-visible {
+  outline: 2px solid var(--publication-lead-color);
+  outline-offset: 1px;
+}
+.publication-square-additional-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  margin: 5px 2px 0;
+}
+.publication-square-additional {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 9px;
+  border: 0;
+  border-radius: 3px;
+  padding: 3px 0;
+  min-height: 25px;
+  cursor: pointer;
+}
+.publication-square-additional.is-selected {
+  color: var(--publication-lead-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.publication-square-additional-count {
+  color: #454545;
+  margin-left: 3px;
+  font-variant-numeric: tabular-nums;
+}
+.publication-square-additional-units {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--publication-square-gap);
+  max-width: 180px;
+}
+.publication-square-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px 12px;
+  margin: 10px 2px 0;
+  font-size: 9px;
+}
+.publication-square-key { display: inline-flex; align-items: center; gap: 5px; }
+.publication-square-unit-note { flex-basis: 100%; color: #858585; font-size: 8px; }
+.publication-square-note,
+.publication-square-empty { margin: 8px 2px 0; color: #777; font-size: 9px; }
+@media (prefers-contrast: more) {
+  .publication-square-other { background: #777; }
+  .publication-square-unit-note { color: #555; }
+}
+@media (forced-colors: active) {
+  .publication-square-unit,
+  .publication-square-swatch { forced-color-adjust: none; }
+}

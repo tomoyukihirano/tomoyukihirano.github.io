@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a self-contained, read-only publications preview from the existing site.
+"""Build a self-contained, read-only personal website preview from existing data.
 
 Run from any directory:
   python3 design-preview/build.py --source . --output design-preview/dist/index.html
@@ -8,12 +8,11 @@ Only the output path is written. The source databases are never changed.
 from __future__ import annotations
 
 import argparse
-import base64
 from collections import Counter
 from datetime import date
+import hashlib
 from html import escape
 import json
-import mimetypes
 from pathlib import Path
 import re
 import subprocess
@@ -21,6 +20,10 @@ import sys
 import tempfile
 
 import yaml
+
+from publication_chart import render_publication_chart
+from presentation_page import build_presentations, render_presentations
+from site_pages import build_pages
 
 HERE = Path(__file__).resolve().parent
 KINDS = {"journal_article": "Journal article", "review": "Review", "preprint": "Preprint"}
@@ -70,31 +73,18 @@ def apply_presentation(payload, source, path):
         item = settings.get(record["id"]) or {}
         if not item:
             continue
-        forbidden = set(item) - {"thumbnail", "thumbnail_alt", "summary", "topics", "selected"}
+        forbidden = set(item) - {"summary", "topics", "selected"}
         if forbidden:
             raise ValueError(f"Only presentation fields are allowed in {record['id']}: {sorted(forbidden)}")
         display = {key: item[key] for key in ("summary", "topics", "selected") if key in item}
         if "topics" in display and (not isinstance(display["topics"], list) or not all(isinstance(x, str) for x in display["topics"])):
             raise ValueError("topics must be a list of strings")
-        if item.get("thumbnail"):
-            image = (source / item["thumbnail"]).resolve()
-            if not image.is_relative_to(source):
-                raise ValueError("Thumbnail must be inside the source checkout")
-            mime = mimetypes.guess_type(image.name)[0]
-            if mime not in {"image/png", "image/jpeg", "image/webp", "image/avif", "image/gif"}:
-                raise ValueError("Use PNG, JPEG, WebP, AVIF or GIF thumbnails")
-            if not item.get("thumbnail_alt"):
-                raise ValueError("A meaningful thumbnail_alt is required for every thumbnail")
-            display["thumbnail_data"] = "data:" + mime + ";base64," + base64.b64encode(image.read_bytes()).decode("ascii")
-            display["thumbnail_alt"] = str(item["thumbnail_alt"])
         record["presentation"] = display
 
 
 def render_record(record):
     role = "First & corresponding" if record["first_author"] and record["corresponding"] else "First author" if record["first_author"] else "Corresponding author" if record["corresponding"] else ""
     presentation = record.get("presentation", {})
-    tile = (f'<img src="{e(presentation["thumbnail_data"])}" alt="{e(presentation.get("thumbnail_alt"))}" loading="lazy">' if presentation.get("thumbnail_data") else
-            f'<div class="paper-tile" aria-hidden="true"><span class="tile-id">{e(compact_id(record))}</span><span class="tile-journal">{e(record["journal"] or KINDS[record["type"]])}</span><span class="tile-kind">{e(KINDS[record["type"]])}</span></div>')
     if record["display_fallback"]:
         body = f'<h3 class="sr-only">{e(compact_id(record))}</h3><p class="fallback-citation">{record["citation_html"]}</p>'
     else:
@@ -126,7 +116,7 @@ def render_record(record):
     topics = '<div class="topics">' + ''.join(f'<span class="topic">{e(topic)}</span>' for topic in presentation["topics"]) + '</div>' if presentation.get("topics") else ""
     doi = f'<p class="doi-line">DOI: {e(record["doi"])}</p>' if record.get("doi") else ""
     return (f'<article class="publication" id="{e(record["id"])}" data-publication-id="{e(record["id"])}">'
-            f'<div class="publication-art">{tile}</div><div class="publication-body">'
+            '<div class="publication-body">'
             f'<div class="paper-topline"><span class="type-badge type-{e(record["type"])}">{e(KINDS[record["type"]])}</span>{role_html}<a class="paper-id" href="#{e(record["id"])}" title="Permanent publication identifier">{e(compact_id(record))}</a></div>'
             f'{body}{summary}{topics}<div class="paper-actions">{"".join(links)}{metrics}</div>'
             f'<details class="publication-details"><summary>{"Dates & citation" if dates else "Full citation"}</summary><div class="detail-panel">{dates}<h4>Original citation</h4><p class="citation">{record["citation_html"]}</p>{doi}</div></details>'
@@ -143,18 +133,36 @@ def build(source, output, commit):
     protected = (source / "_data").resolve()
     if output.is_relative_to(protected) or output in {source / name for name in ("publications.md", "presentations.md", "index.md", "about.md", "information.md", "supports-grants.md", "award.md")}:
         raise ValueError("The output must not overwrite authoritative data or pages")
+    page_files = [source / name for name in ("index.md", "about.md", "information.md", "supports-grants.md", "award.md")]
+    page_files += sorted((source / "_data" / "presentations").glob("*.yml"))
+    page_files += [source / "_data/presentation_scopes.yml", source / "_includes/chemical-formula.html"]
+    page_files += [source / "wp-content/uploads/2024/03/240329_Hirano_2.jpg", source / "wp-content/uploads/2025/03/アセット-1@600x-8-1024x629.png"]
+    page_hashes = {path.relative_to(source).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest() for path in page_files}
     with tempfile.TemporaryDirectory(prefix="publication-preview-") as temp:
         json_path = Path(temp) / "publications.json"
         subprocess.run([sys.executable, str(HERE / "build_data.py"), "--source", str(source), "--output", str(json_path), "--commit", commit], check=True)
         payload = json.loads(json_path.read_text(encoding="utf-8"))
     apply_presentation(payload, source, HERE / "presentation.yml")
+    pages = build_pages(source)
+    presentations = build_presentations(source)
+    payload["source"]["files_sha256"].update(page_hashes)
+    static_views = []
+    for key, page in pages.items():
+        title = "Tomoyuki Hirano" if key == "home" else page["title"]
+        eyebrow = "Chemical engineering · Hiroshima University" if key in {"home", "about", "research"} else "Academic record"
+        shortcuts = ('<nav class="home-shortcuts" aria-label="Explore this website">'
+                     '<a href="?page=research" data-site-page="research">Research <span aria-hidden="true">→</span></a>'
+                     '<a href="?page=publications" data-site-page="publications">Publications <span aria-hidden="true">→</span></a>'
+                     '<a href="?page=about" data-site-page="about">About <span aria-hidden="true">→</span></a></nav>') if key == "home" else ""
+        static_views.append(f'<section id="view-{key}" class="site-view static-view" data-site-view="{key}" aria-labelledby="title-{key}" hidden>'
+                            f'<header class="static-intro"><p class="eyebrow">{e(eyebrow)}</p><h1 id="title-{key}" tabindex="-1">{e(title)}</h1>{shortcuts}</header>'
+                            f'<div lang="ja">{page["html"]}</div></section>')
     records = payload["records"]
     keys = sorted({year_key(record) for record in records}, key=lambda key: (0, 0) if key == "in-press" else (2, 0) if key == "undated" else (1, -int(key)))
     counts = Counter(year_key(record) for record in records)
     initial_list = ''.join(f'<section class="year-group" id="year-{e(key)}" aria-labelledby="heading-{e(key)}"><h2 id="heading-{e(key)}">{e(year_label(key))}<span>{counts[key]}</span></h2>' + ''.join(render_record(record) for record in records if year_key(record) == key) + '</section>' for key in keys)
     years = sorted(int(key) for key in keys if key not in {"in-press", "undated"})
-    maximum = max((counts[str(year)] for year in years), default=1)
-    chart = ''.join(f'<button type="button" class="chart-column" data-year="{year}" aria-label="Filter to {year}: {counts[str(year)]} publications" aria-pressed="false"><span class="chart-count">{counts[str(year)]}</span><span class="chart-bar" style="height:{counts[str(year)]/maximum*76:.2f}%"></span><span class="chart-year">{year}</span></button>' for year in years)
+    chart = render_publication_chart(records, years=years)
     legacy = ''.join(f'<details class="legacy-section" id="{e("book-chapters-3-in-total" if section["title"].startswith("Book Chapters") else "others")}"><summary>{e("Book Chapters" if section["title"].startswith("Book Chapters") else section["title"])}</summary><div class="legacy-content">{section["html"]}</div></details>' for section in payload["legacy_sections"])
     checked_months = sorted({record["metrics"].get("checked_month") for record in records if record["metrics"].get("checked_month")})
     metrics_guide = "Existing registered values. "
@@ -163,12 +171,13 @@ def build(source, output, commit):
     metrics_guide += "See each label for the recorded metric year and JCR edition."
     totals = payload["counts"]
     replacements = {
-        "__STYLES__": (HERE / "styles.css").read_text(encoding="utf-8"),
-        "__SCRIPT__": (HERE / "app.js").read_text(encoding="utf-8"),
+        "__STYLES__": "\n".join((HERE / filename).read_text(encoding="utf-8") for filename in ("styles.css", "publication-chart.css", "site-pages.css", "presentations-preview.css")),
+        "__SCRIPT__": "\n".join((HERE / filename).read_text(encoding="utf-8") for filename in ("publication-chart.js", "app.js", "presentations-preview.js", "site-navigation.js")),
         "__DATA__": json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026"),
         "__TOTALS__": ''.join(f'<span><strong>{totals[key]}</strong> {label}</span>' for key, label in (("journal_articles", "journal articles"), ("reviews", "reviews"), ("preprints", "preprint"))),
         "__CHART__": chart,
-        "__IN_PRESS_NOTE__": f'+ {counts["in-press"]} in press' if counts["in-press"] else "",
+        "__STATIC_PAGES__": "\n".join(static_views),
+        "__PRESENTATIONS_PAGE__": render_presentations(presentations),
         "__YEAR_OPTIONS__": ''.join(f'<option value="{e(key)}">{e(year_label(key))}</option>' for key in keys),
         "__YEAR_NAV__": ''.join(f'<a href="#year-{e(key)}">{e(year_label(key))}</a>' for key in keys),
         "__RESULT_COUNT__": f'<strong>{totals["total"]}</strong> of {totals["total"]} publications',
@@ -184,9 +193,14 @@ def build(source, output, commit):
         raise ValueError("Unresolved template markers")
     if "Scheduled: January 27, 2027" in html:
         raise ValueError("Unexpected repository scheduled date")
+    if any(value in html for value in ("Particle synthesis, structure and function.", "微粒子の合成・構造制御・機能化に関する研究業績", 'class="publication-art"', 'class="paper-tile"')):
+        raise ValueError("Removed publication presentation content reappeared")
+    for path, digest in page_hashes.items():
+        if hashlib.sha256((source / path).read_bytes()).hexdigest() != digest:
+            raise ValueError(f"Source changed while building: {path}")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(html, encoding="utf-8")
-    print(json.dumps({"output": str(output), "bytes": output.stat().st_size, "counts": totals, "year_counts": dict(counts), "first_author": sum(record["first_author"] is True for record in records), "first_or_corresponding": sum(record["first_author"] is True or record["corresponding"] is True for record in records)}, ensure_ascii=False))
+    print(json.dumps({"output": str(output), "bytes": output.stat().st_size, "counts": totals, "presentations": presentations["counts"], "pages": [*pages, "publications", "presentations"], "year_counts": dict(counts), "first_author": sum(record["first_author"] is True for record in records), "first_or_corresponding": sum(record["first_author"] is True or record["corresponding"] is True for record in records)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
