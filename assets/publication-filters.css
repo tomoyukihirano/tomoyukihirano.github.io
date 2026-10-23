@@ -87,10 +87,12 @@
   line-height: 1.7;
 }
 .publication-timeline__item {
-  white-space: nowrap;
+  max-width: 100%;
+  white-space: normal;
 }
 .publication-timeline time {
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 .publication-filters .publication-filters__date-note {
   margin: 0.35rem 0 0;

@@ -189,6 +189,13 @@
         const parsed = new Date(value + "T00:00:00Z");
         return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === value;
       }
+      function formatDate(value) {
+        // Render date-only metadata without locale or time-zone conversion.
+        const months = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"];
+        const parts = value.split("-");
+        return months[Number(parts[1]) - 1] + " " + parts[2] + ", " + parts[0];
+      }
       fetch(source.href, { credentials: "same-origin" })
         .then(function (response) {
           if (!response.ok) throw new Error("Date metadata unavailable");
@@ -200,9 +207,9 @@
           if (ids.some(function (id) { return !id; }) || new Set(ids).size !== ids.length) return;
           const used = new Set();
           const fields = [
-            { key: "submitted", label: "投稿日" },
-            { key: "accepted", label: "採択日" },
-            { key: "published_online", label: "オンライン公開日" }
+            { key: "submitted", label: "Submitted" },
+            { key: "accepted", label: "Accepted" },
+            { key: "published_online", label: "Published Online" }
           ];
           records.forEach(function (record) {
             if (record.item.querySelector(".publication-timeline")) return;
@@ -232,7 +239,8 @@
             });
             const line = document.createElement("span");
             line.className = "publication-timeline";
-            line.setAttribute("aria-label", "投稿・採択・オンライン公開の日付");
+            line.lang = "en";
+            line.setAttribute("aria-label", "Submission, acceptance, and online publication dates");
             fields.forEach(function (field) {
               const value = dates[field.key];
               const review = reviews[field.key] || {};
@@ -242,17 +250,22 @@
               const fieldItem = document.createElement("span");
               fieldItem.className = "publication-timeline__item";
               fieldItem.dataset.dateField = field.key;
-              fieldItem.appendChild(document.createTextNode(field.label + "："));
+              fieldItem.appendChild(document.createTextNode(field.label + ": "));
               if (!checking && validDate(value)) {
                 const time = document.createElement("time");
                 time.dateTime = value;
-                time.textContent = value;
+                time.textContent = formatDate(value);
                 fieldItem.appendChild(time);
                 fieldItem.title = review.status === "verified"
-                  ? "出版社の記載と照合済み（" + paper.review.checked_on + "）"
-                  : "既存の論文管理資料に登録された日付";
+                  ? "Verified against publisher information" +
+                    (validDate(paper.review.checked_on) ? " (" + formatDate(paper.review.checked_on) + ")" : "")
+                  : "Date recorded in the existing publication records";
               } else {
-                fieldItem.appendChild(document.createTextNode(checking ? "確認中" : "未確認"));
+                fieldItem.appendChild(document.createTextNode("N/A"));
+                fieldItem.title = checking
+                  ? "Not available: verification pending"
+                  : "Not available: date not yet confirmed";
+                fieldItem.setAttribute("aria-label", field.label + ": " + fieldItem.title);
               }
               line.appendChild(fieldItem);
             });
@@ -260,7 +273,8 @@
           });
           const note = document.createElement("p");
           note.className = "publication-filters__date-note";
-          note.textContent = "日付は登録済み情報に基づきます。未取得の項目は「未確認」，不一致のある項目は「確認中」と表示します。";
+          note.lang = "en";
+          note.textContent = "Dates are based on recorded information. N/A = not available or awaiting verification.";
           controls.appendChild(note);
           list.dataset.datesLoaded = "true";
           list.dataset.dateMatchedCount = String(used.size);

@@ -73,9 +73,14 @@ publication_metadata_maintenance:
     missing_values: do_not_infer
     conflicting_values: retain_original_and_hold_public_date
     display: supplementary_line_below_each_journal_article
-    display_format: YYYY-MM-DD
-    missing_label: 未確認
-    conflict_label: 確認中
+    display_language: en
+    display_labels: {submitted: Submitted, accepted: Accepted, published_online: Published Online}
+    display_format: 'MMMM DD, YYYY'
+    storage_format: YYYY-MM-DD
+    missing_label: N/A
+    conflict_label: N/A
+    unavailable_label_meaning: not_available_or_awaiting_verification
+    preserve_internal_verification_status: true
   accepted_fiscal_year:
     computation: derive_from_accepted_date_only_when_requested
     method: Python
