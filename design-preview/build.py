@@ -82,14 +82,15 @@ def apply_presentation(payload, source, path):
         record["presentation"] = display
 
 
-def render_record(record):
+def render_record(record, number):
     role = "First & corresponding" if record["first_author"] and record["corresponding"] else "First author" if record["first_author"] else "Corresponding author" if record["corresponding"] else ""
     presentation = record.get("presentation", {})
     type_badge = f'<span class="type-badge type-{e(record["type"])}">{e(KINDS[record["type"]])}</span>'
+    number_link = f'<a class="publication-record-link" href="#{e(record["id"])}" aria-label="Link to publication {number}">{number}</a>'
     if record["display_fallback"]:
-        body = f'<h3 class="sr-only">{e(compact_id(record))}</h3><p class="fallback-citation">{type_badge}{record["citation_html"]}</p>'
+        body = f'<h3 class="sr-only">{e(compact_id(record))}</h3><div class="publication-heading"><p class="fallback-citation">{type_badge}{record["citation_html"]}</p>{number_link}</div>'
     else:
-        body = f'<h3 class="publication-title">{type_badge}{record["title_html"] or e(record["title"])}</h3><p class="authors">{record["authors_html"] or ""}</p><p class="bibliography">{record["bibliography_html"] or ""}</p>'
+        body = f'<div class="publication-heading"><h3 class="publication-title">{type_badge}{record["title_html"] or e(record["title"])}</h3>{number_link}</div><p class="authors">{record["authors_html"] or ""}</p><p class="bibliography">{record["bibliography_html"] or ""}</p>'
     links = []
     for link in record["links"]:
         cls = " preprint" if link["kind"] == "preprint" else " oa" if link["kind"] == "publisher" and link.get("status") == "open" else ""
@@ -156,7 +157,9 @@ def build(source, output, commit):
     records = payload["records"]
     keys = sorted({year_key(record) for record in records}, key=lambda key: (0, 0) if key == "in-press" else (2, 0) if key == "undated" else (1, -int(key)))
     counts = Counter(year_key(record) for record in records)
-    initial_list = ''.join(f'<section class="year-group" id="year-{e(key)}" aria-labelledby="heading-{e(key)}"><h2 id="heading-{e(key)}">{e(year_label(key))}<span>{counts[key]}</span></h2>' + ''.join(render_record(record) for record in records if year_key(record) == key) + '</section>' for key in keys)
+    ordered_records = [record for key in keys for record in records if year_key(record) == key]
+    record_numbers = {record["id"]: len(records) - index for index, record in enumerate(ordered_records)}
+    initial_list = ''.join(f'<section class="year-group" id="year-{e(key)}" aria-labelledby="heading-{e(key)}"><h2 id="heading-{e(key)}">{e(year_label(key))}<span>{counts[key]}</span></h2>' + ''.join(render_record(record, record_numbers[record["id"]]) for record in records if year_key(record) == key) + '</section>' for key in keys)
     years = sorted(int(key) for key in keys if key not in {"in-press", "undated"})
     chart = render_publication_chart(records, years=years)
     legacy = ''.join(f'<details class="legacy-section" id="{e("book-chapters-3-in-total" if section["title"].startswith("Book Chapters") else "others")}"><summary>{e("Book Chapters" if section["title"].startswith("Book Chapters") else section["title"])}</summary><div class="legacy-content">{section["html"]}</div></details>' for section in payload["legacy_sections"])

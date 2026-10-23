@@ -13,6 +13,10 @@
 
   function yearKey(record) { return record.year === null ? (record.year_label === 'In press' ? 'in-press' : 'undated') : String(record.year); }
   function yearLabel(key) { return key === 'in-press' ? 'In press' : key === 'undated' ? 'Year not specified' : key; }
+  function compareYears(a, b, sort = 'newest') {
+    if (a === b) return 0;
+    return a === 'in-press' ? -1 : b === 'in-press' ? 1 : a === 'undated' ? 1 : b === 'undated' ? -1 : sort === 'oldest' ? Number(a) - Number(b) : Number(b) - Number(a);
+  }
   function compactId(record) { return record.paper_id || (record.type === 'review' ? 'R' + record.id.split('-').pop().slice(-3) : 'Preprint'); }
   function metricNote(metric, kind) {
     const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -37,13 +41,14 @@
       return `<div><dt>${label}</dt><dd>${escape(date.display)}${date.status === 'conflict' ? '<span class="date-note">Under review</span>' : ''}</dd></div>`;
     }).join('')}</dl>`;
   }
-  function renderRecord(record) {
+  function renderRecord(record, number) {
     const role = record.first_author && record.corresponding ? 'First & corresponding' : record.first_author ? 'First author' : record.corresponding ? 'Corresponding author' : '';
     const presentation = record.presentation || {};
     const typeBadge = `<span class="type-badge type-${escape(record.type)}">${escape(kinds[record.type])}</span>`;
+    const numberLink = `<a class="publication-record-link" href="#${escape(record.id)}" aria-label="Link to publication ${number}">${number}</a>`;
     const body = record.display_fallback
-      ? `<h3 class="sr-only">${escape(compactId(record))}</h3><p class="fallback-citation">${typeBadge}${record.citation_html}</p>`
-      : `<h3 class="publication-title">${typeBadge}${record.title_html || escape(record.title)}</h3><p class="authors">${record.authors_html || ''}</p><p class="bibliography">${record.bibliography_html || ''}</p>`;
+      ? `<h3 class="sr-only">${escape(compactId(record))}</h3><div class="publication-heading"><p class="fallback-citation">${typeBadge}${record.citation_html}</p>${numberLink}</div>`
+      : `<div class="publication-heading"><h3 class="publication-title">${typeBadge}${record.title_html || escape(record.title)}</h3>${numberLink}</div><p class="authors">${record.authors_html || ''}</p><p class="bibliography">${record.bibliography_html || ''}</p>`;
     const links = (record.links || []).map(link => {
       const cls = link.kind === 'preprint' ? ' preprint' : link.kind === 'publisher' && link.status === 'open' ? ' oa' : '';
       return `<a class="paper-link${cls}" href="${escape(link.url)}" target="_blank" rel="noopener"${link.license ? ` title="${escape(link.license)}"` : ''}>${escape(link.label)}</a>`;
@@ -78,10 +83,11 @@
   }
   function render(updateUrl = true) {
     const filtered = records.filter(record => matches(record));
-    const groupKeys = [...new Set(filtered.map(yearKey))].sort((a,b) => a === 'in-press' ? -1 : b === 'in-press' ? 1 : a === 'undated' ? 1 : b === 'undated' ? -1 : state.sort === 'oldest' ? Number(a)-Number(b) : Number(b)-Number(a));
+    const groupKeys = [...new Set(filtered.map(yearKey))].sort((a,b) => compareYears(a,b,state.sort));
+    let number = filtered.length;
     $('publication-list').innerHTML = groupKeys.map(key => {
       const group = filtered.filter(record => yearKey(record) === key);
-      return `<section class="year-group" id="year-${escape(key)}" aria-labelledby="heading-${escape(key)}"><h2 id="heading-${escape(key)}">${escape(yearLabel(key))}<span>${group.length}</span></h2>${group.map(renderRecord).join('')}</section>`;
+      return `<section class="year-group" id="year-${escape(key)}" aria-labelledby="heading-${escape(key)}"><h2 id="heading-${escape(key)}">${escape(yearLabel(key))}<span>${group.length}</span></h2>${group.map(record => renderRecord(record, number--)).join('')}</section>`;
     }).join('');
     $('year-nav').innerHTML = groupKeys.map(key => `<a href="#year-${escape(key)}">${escape(yearLabel(key))}</a>`).join('');
     $('result-count').textContent = `Showing: ${filtered.length} / ${records.length}`;
