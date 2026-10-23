@@ -1,0 +1,24 @@
+/* Grants-only colors; existing content, spacing, and heading sizes are retained. */
+body.page-id-84 .entry-content h2.wp-block-heading {
+  color: var(--academic-ink, #183d58);
+  background-color: var(--academic-lavender, #cec0d2);
+}
+
+body.page-id-84 .entry-content h3.wp-block-heading {
+  color: var(--academic-teal, #356d7e);
+}
+
+body.page-id-84 .entry-content a,
+body.page-id-84 .entry-content a:visited {
+  color: var(--academic-teal, #356d7e);
+}
+
+body.page-id-84 .entry-content a:hover,
+body.page-id-84 .entry-content a:focus {
+  color: var(--academic-deep, #1e4b62);
+}
+
+body.page-id-84 .entry-content a:focus-visible {
+  outline: 2px solid var(--academic-ink, #183d58);
+  outline-offset: 3px;
+}

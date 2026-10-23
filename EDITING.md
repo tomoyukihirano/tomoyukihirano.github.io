@@ -64,6 +64,14 @@ PDF本体はサイトに置きません。表示は `_includes/publication-links
 `first-author/index.html` と `first-corresponding/index.html` も同じIDと共通includeを使います。
 ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読付き論文の総数に含めません。
 
+論文一覧の見出し直下にある年度別グラフは `_includes/publication-chart.html` が
+`_data/publications/YYYY.yml` の査読付き論文から公開時に生成します。1区画が1論文です。
+年は `year`，著者区分は `classification.hirano_first_author` または
+`classification.hirano_corresponding` に従い，両方に該当しても1件として数えます。
+ReviewsとPreprintsは含めず，一覧の絞り込みとは独立した全件の集計です。
+論文を追加する際は，本文と元データの両方に同じIDのレコードを登録してください。
+グラフとGrantsの共通配色は `assets/academic-palette.css` で管理します。
+
 ## Presentationsを追加する
 
 発表一覧は `_data/presentations/YYYY.yml` のデータから自動生成されます。

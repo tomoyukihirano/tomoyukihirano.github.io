@@ -1,0 +1,167 @@
+/* One block per paper. The source bibliography supplies the counts at build time. */
+.entry-content .publication-chart {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 1.15rem 0 1.65rem;
+  padding: 1.15rem 1.15rem 0.85rem;
+  border: 1px solid var(--academic-border);
+  border-radius: 14px;
+  background: var(--academic-surface);
+  color: var(--academic-ink);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.publication-chart__legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.publication-chart__legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.publication-chart__swatch {
+  display: inline-block;
+  width: 2.2rem;
+  height: 0.8rem;
+  border-radius: 1px;
+}
+.publication-chart__swatch--lead,
+.publication-chart__block--lead {
+  background: var(--academic-deep);
+}
+.publication-chart__swatch--coauthor,
+.publication-chart__block--coauthor {
+  background: var(--academic-slate);
+}
+.publication-chart__plot {
+  display: grid;
+  grid-template-columns: 18px 25px minmax(0, 1fr);
+  grid-template-rows: 160px 29px;
+  column-gap: 7px;
+}
+.publication-chart__axis-title {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  font-size: 12px;
+}
+.publication-chart__ticks {
+  grid-column: 2;
+  grid-row: 1;
+  position: relative;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.publication-chart__ticks > span {
+  position: absolute;
+  right: 0;
+  transform: translateY(50%);
+}
+.publication-chart__grid,
+.publication-chart__columns {
+  grid-column: 3;
+  grid-row: 1;
+  position: relative;
+  min-width: 0;
+}
+.publication-chart__grid > span {
+  position: absolute;
+  inset-inline: 0;
+  border-top: 1px solid var(--academic-border);
+}
+.publication-chart__columns,
+.publication-chart__years {
+  display: grid;
+  grid-template-columns: repeat(var(--chart-year-count), minmax(0, 1fr));
+}
+.publication-chart__column {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  min-width: 0;
+  height: 100%;
+}
+.publication-chart__block {
+  box-sizing: border-box;
+  flex: 0 0 calc(100% / var(--chart-limit));
+  width: 72%;
+  max-width: 54px;
+  border-top: 1px solid var(--academic-surface);
+}
+.publication-chart__years {
+  grid-column: 3;
+  grid-row: 2;
+  align-items: end;
+  min-width: 0;
+  text-align: center;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.publication-chart__years > span {
+  white-space: nowrap;
+}
+.entry-content .publication-chart__note {
+  margin: 0.75rem 0 0 2px;
+  color: var(--academic-teal);
+  font-size: 12px;
+}
+@media (max-width: 600px) {
+  .entry-content .publication-chart {
+    padding: 1rem 0.7rem 0.7rem;
+    font-size: 12px;
+  }
+  .publication-chart__legend {
+    gap: 0.4rem 1rem;
+    margin-bottom: 1.1rem;
+  }
+  .publication-chart__legend > span {
+    gap: 0.35rem;
+  }
+  .publication-chart__swatch {
+    width: 1.3rem;
+    height: 0.7rem;
+  }
+  .publication-chart__plot {
+    grid-template-columns: 14px 18px minmax(0, 1fr);
+    grid-template-rows: 160px 25px;
+    column-gap: 4px;
+  }
+  .publication-chart__axis-title,
+  .publication-chart__ticks {
+    font-size: 11px;
+  }
+  .publication-chart__years {
+    font-size: 10px;
+  }
+  .publication-chart__block {
+    width: 74%;
+  }
+}
+@media (max-width: 360px) {
+  .publication-chart__plot {
+    grid-template-rows: 160px 40px;
+  }
+  .publication-chart__years {
+    align-items: center;
+  }
+  .publication-chart__years > span {
+    transform: rotate(-45deg);
+  }
+}
+@media print {
+  .publication-chart {
+    break-inside: avoid;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

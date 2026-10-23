@@ -1,0 +1,10 @@
+/* Shared palette sampled from the supplied navy, lavender, and teal reference. */
+:root {
+  --academic-ink: #183d58;
+  --academic-lavender: #cec0d2;
+  --academic-slate: #688c9a;
+  --academic-teal: #356d7e;
+  --academic-deep: #1e4b62;
+  --academic-surface: #f5f2f6;
+  --academic-border: #d2dce1;
+}

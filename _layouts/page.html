@@ -46,6 +46,16 @@ gtag("config", "G-95VKJGQGDT");
 <link rel="stylesheet" href="{{ '/assets/css/exported/wp-custom-css-31214e4a9659.css' | relative_url }}" id="wp-custom-css">
 {% if page.core_supports %}<link rel="stylesheet" href="{{ '/assets/css/exported/core-block-supports-inline-css-df911208e1ed.css' | relative_url }}" id="core-block-supports-inline-css">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+{% if page.academic_palette %}
+{% assign academic_asset_version = site.time | date: '%s' %}
+<link rel="stylesheet" href="{{ '/assets/academic-palette.css' | relative_url }}?v={{ academic_asset_version }}">
+{% endif %}
+{% if page.publication_chart %}
+<link rel="stylesheet" href="{{ '/assets/publication-chart.css' | relative_url }}?v={{ academic_asset_version }}">
+{% endif %}
+{% if page.grants_palette %}
+<link rel="stylesheet" href="{{ '/assets/grants-palette.css' | relative_url }}?v={{ academic_asset_version }}">
+{% endif %}
 {% if page.url == '/publications/' %}
 {% assign publication_asset_version = site.time | date: '%s' %}
 <link rel="stylesheet" href="{{ '/assets/publication-filters.css' | relative_url }}?v={{ publication_asset_version }}">

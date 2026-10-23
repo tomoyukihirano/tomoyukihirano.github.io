@@ -1,0 +1,92 @@
+{%- capture chart_year_keys -%}
+  {%- for year_entry in site.data.publications -%}
+    {{- year_entry[0] -}}{%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign chart_years = chart_year_keys | split: ',' | sort -%}
+{%- assign chart_maximum = 0 -%}
+{%- assign chart_total = 0 -%}
+{%- assign chart_lead_total = 0 -%}
+{%- for chart_year in chart_years -%}
+  {%- assign annual_total = 0 -%}
+  {%- for paper in site.data.publications[chart_year].records -%}
+    {%- if paper.type == 'journal_article' and paper.peer_reviewed == true -%}
+      {%- assign annual_total = annual_total | plus: 1 -%}
+      {%- assign chart_total = chart_total | plus: 1 -%}
+      {%- if paper.classification.hirano_first_author or paper.classification.hirano_corresponding -%}
+        {%- assign chart_lead_total = chart_lead_total | plus: 1 -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if annual_total > chart_maximum -%}{%- assign chart_maximum = annual_total -%}{%- endif -%}
+{%- endfor -%}
+{%- assign chart_limit = chart_maximum | divided_by: 5.0 | ceil | times: 5 -%}
+{%- if chart_limit < 5 -%}{%- assign chart_limit = 5 -%}{%- endif -%}
+{%- assign chart_tick_count = chart_limit | divided_by: 5 -%}
+{%- assign chart_coauthor_total = chart_total | minus: chart_lead_total -%}
+<figure class="publication-chart" lang="en" aria-labelledby="publication-chart-caption" data-publication-count="{{ chart_total }}" style="--chart-limit: {{ chart_limit }}; --chart-year-count: {{ chart_years.size }};">
+  <figcaption id="publication-chart-caption" class="screen-reader-text">Peer-reviewed publications by year: {{ chart_total }} total, {{ chart_lead_total }} as first or corresponding author and {{ chart_coauthor_total }} as coauthor.</figcaption>
+  <div class="publication-chart__legend" aria-hidden="true">
+    <span><i class="publication-chart__swatch publication-chart__swatch--lead"></i>First or corresponding</span>
+    <span><i class="publication-chart__swatch publication-chart__swatch--coauthor"></i>Coauthor</span>
+  </div>
+  <div class="publication-chart__plot" aria-hidden="true">
+    <span class="publication-chart__axis-title">Number of publications</span>
+    <div class="publication-chart__ticks">
+      {%- for index in (0..chart_tick_count) -%}
+        {%- assign tick = index | times: 5 -%}
+        {%- assign position = tick | times: 100.0 | divided_by: chart_limit -%}
+        <span style="bottom: {{ position }}%;">{{ tick }}</span>
+      {%- endfor -%}
+    </div>
+    <div class="publication-chart__grid">
+      {%- for index in (0..chart_tick_count) -%}
+        {%- assign tick = index | times: 5 -%}
+        {%- assign position = tick | times: 100.0 | divided_by: chart_limit -%}
+        <span style="bottom: {{ position }}%;"></span>
+      {%- endfor -%}
+    </div>
+    <div class="publication-chart__columns">
+      {%- for chart_year in chart_years -%}
+        <div class="publication-chart__column" data-year="{{ chart_year }}">
+          {%- for paper in site.data.publications[chart_year].records -%}
+            {%- if paper.type == 'journal_article' and paper.peer_reviewed == true -%}
+              {%- if paper.classification.hirano_first_author or paper.classification.hirano_corresponding -%}
+                <span class="publication-chart__block publication-chart__block--lead" data-paper-id="{{ paper.id }}" title="{{ chart_year }} · First or corresponding · {{ paper.title | escape }}"></span>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- for paper in site.data.publications[chart_year].records -%}
+            {%- if paper.type == 'journal_article' and paper.peer_reviewed == true -%}
+              {%- unless paper.classification.hirano_first_author or paper.classification.hirano_corresponding -%}
+                <span class="publication-chart__block publication-chart__block--coauthor" data-paper-id="{{ paper.id }}" title="{{ chart_year }} · Coauthor · {{ paper.title | escape }}"></span>
+              {%- endunless -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    </div>
+    <div class="publication-chart__years">
+      {%- for chart_year in chart_years -%}<span>{{ chart_year }}</span>{%- endfor -%}
+    </div>
+  </div>
+  <p class="publication-chart__note">1 block = 1 publication</p>
+  <table class="publication-chart__data screen-reader-text">
+    <caption>Annual publication counts by author role</caption>
+    <thead><tr><th scope="col">Year</th><th scope="col">First or corresponding</th><th scope="col">Coauthor</th><th scope="col">Total</th></tr></thead>
+    <tbody>
+      {%- for chart_year in chart_years -%}
+        {%- assign annual_total = 0 -%}
+        {%- assign annual_lead = 0 -%}
+        {%- for paper in site.data.publications[chart_year].records -%}
+          {%- if paper.type == 'journal_article' and paper.peer_reviewed == true -%}
+            {%- assign annual_total = annual_total | plus: 1 -%}
+            {%- if paper.classification.hirano_first_author or paper.classification.hirano_corresponding -%}{%- assign annual_lead = annual_lead | plus: 1 -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        <tr><th scope="row">{{ chart_year }}</th><td>{{ annual_lead }}</td><td>{{ annual_total | minus: annual_lead }}</td><td>{{ annual_total }}</td></tr>
+      {%- endfor -%}
+    </tbody>
+    <tfoot><tr><th scope="row">Total</th><td>{{ chart_lead_total }}</td><td>{{ chart_coauthor_total }}</td><td>{{ chart_total }}</td></tr></tfoot>
+  </table>
+</figure>

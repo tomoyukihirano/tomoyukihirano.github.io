@@ -5,6 +5,8 @@ heading: "Publications"
 permalink: /publications/
 nav: publications
 page_id: 35
+academic_palette: true
+publication_chart: true
 ---
 
 \*は責任著者を表しています。
@@ -14,6 +16,9 @@ page_id: 35
 
 ## Peer-reviewed Journal Articles (79 in total)
 {: .wp-block-heading }
+
+{% include publication-chart.html %}
+
 1. <span class="publication-citation" id="pub-0079" data-publication-id="pub-0079">Lailatul Qomariyah\*, Nabiela Salwa Zanjabiela, Dhanny Yulian Saputra, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, Nurul Faizah, Eva Oktavia Ningrum, and Rashid Shamsuddin, Synergistic UV shielding and acid durability of ultrasonically engineered SiO<sub>2</sub>/TiO<sub>2</sub> core–shell nanoparticles for cosmetic protective applications, <strong><em>Journal of Materials Science</em></strong>, 61(38), 28732–28746, 2026.</span>{% include publication-links.html id="pub-0079" %}
 1. <span class="publication-citation" id="pub-0078" data-publication-id="pub-0078"><strong><span style="text-decoration: underline;">Tomoyuki Hirano\*</span></strong>, Kodai Fusatani, Eishi Tanabe, Kazuto Harada, Eka Lutfi Septiani, Kiet Le Anh Cao, and Takashi Ogi, Flame Processing of AlN Fillers into Spherical Particles for Thermally Conductive Composites, <strong><em>Chemical Engineering Journal</em></strong>, 549, 183099, 2026.</span>{% include publication-links.html id="pub-0078" %}
 1. <span class="publication-citation" id="pub-0077" data-publication-id="pub-0077">Kosuke Kondo, <strong><span style="text-decoration: underline;">Tomoyuki Hirano</span></strong>, and Takashi Ogi\*, Effect of Binders on the Spray Drying Granulation of Catalyst Nanoparticles, <strong><em>Journal of the Society of Powder Technology, Japan</em></strong>, 63(10), 456–462, 2026.</span>{% include publication-links.html id="pub-0077" %}
