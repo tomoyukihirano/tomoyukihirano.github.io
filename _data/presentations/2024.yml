@@ -87,9 +87,9 @@ records:
     title_html: Macroporous Structures of Flame-made Nb–SnO2 Particle as a Catalyst Support Induce High Porosity and Performance
       in Fuel Cell Catalyst Layers
     conference: Expert Workshop on Nanoparticles Synthesis
-    location: Bremen，Germany
+    location: "Bremen, Germany"
     dates:
-      text: 2024年11月13日－15日
+      text: "November 13–15, 2024"
       start: '2024-11-13'
       end: '2024-11-15'
       kind: range
@@ -539,16 +539,16 @@ records:
     title_html: Multicore/shell Structures of ZnO/TiO<sub>2</sub> Particle for Enhancing Acid Resistance as UV-Protective
       Material
     conference: Spray Drying Symposium 2024 in Fraunhofer ISC
-    location: Würzburg，Germany
+    location: "Würzburg, Germany"
     dates:
-      text: 2024年4月8日
+      text: "April 8, 2024"
       start: '2024-04-08'
       end: '2024-04-08'
       kind: single
       source_text: 2024/4/8
       precision: conference_dates_as_recorded
     annotations:
-    - 招待講演
+    - "Invited talk"
 - id: pres-0067
   type: presentation
   year: 2024
@@ -661,25 +661,25 @@ records:
       highlight: false
     - name: Tue Tri Nguyen
       highlight: false
-    - name: 平野 知之
+    - name: "Tomoyuki Hirano"
       highlight: true
-    - name: 松本 恒平
+    - name: "Kohei Matsumoto"
       highlight: false
       person_id: kohei-matsumoto
-    - name: 渡邊 真衣
+    - name: "Mai Watanabe"
       highlight: false
-    - name: 森田 祐子
+    - name: "Yuko Morita"
       highlight: false
       person_id: yuko-morita
-    - name: 荻 崇
+    - name: "Takashi Ogi"
       highlight: false
     presenter_position: 1
     presenter_evidence: owner_confirmed_first_author
     title_html: Controlling the magnetical responsiveness of cellulose nanofiber particles embedded with iron oxide nanoparticles
     conference: International chemical Engineering Symposium (IChES) 2024
-    location: 大阪
+    location: "Osaka"
     dates:
-      text: 2024年3月18日－20日
+      text: "March 18–20, 2024"
       start: '2024-03-18'
       end: '2024-03-20'
       kind: range
@@ -721,23 +721,23 @@ records:
     - name: Eka Lutfi Septiani
       highlight: false
       person_id: eka-lutfi-septiani
-    - name: 平野 知之
+    - name: "Tomoyuki Hirano"
       highlight: true
-    - name: 奥田 修弘
+    - name: "Nobuhiro Okuda"
       highlight: false
       person_id: nobuhiro-okuda
-    - name: 松元 裕之
+    - name: "Hiroyuki Matsumoto"
       highlight: false
       person_id: hiroyuki-matsumoto
-    - name: 荻 崇
+    - name: "Takashi Ogi"
       highlight: false
     presenter_position: 1
     presenter_evidence: owner_confirmed_first_author
     title_html: Production of silica-coated FeNi particles via aerosol process assisted by a swirling flow
     conference: International chemical Engineering Symposium (IChES) 2024
-    location: 大阪
+    location: "Osaka"
     dates:
-      text: 2024年3月18日－20日
+      text: "March 18–20, 2024"
       start: '2024-03-18'
       end: '2024-03-20'
       kind: range

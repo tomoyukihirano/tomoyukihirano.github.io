@@ -581,7 +581,7 @@ records:
     conference: "The 11th International Congress on Ceramics (ICC’11)"
     location: "Sapporo"
     dates:
-      text: "2026年9月9日"
+      text: "September 9, 2026"
       start: "2026-09-09"
       end: "2026-09-09"
       kind: single
@@ -632,7 +632,7 @@ records:
     conference: "The 11th International Congress on Ceramics (ICC’11)"
     location: "Sapporo"
     dates:
-      text: "2026年9月9日"
+      text: "September 9, 2026"
       start: "2026-09-09"
       end: "2026-09-09"
       kind: single
@@ -811,7 +811,7 @@ records:
     conference: "The 10th World Congress on Particle Technology (WCPT10)"
     location: "Osaka"
     dates:
-      text: 2026年5月11日－15日
+      text: "May 11–15, 2026"
       start: '2026-05-11'
       end: '2026-05-15'
       kind: range
@@ -872,14 +872,14 @@ records:
     conference: "The 10th World Congress on Particle Technology (WCPT10)"
     location: "Osaka"
     dates:
-      text: 2026年5月11日－15日
+      text: "May 11–15, 2026"
       start: '2026-05-11'
       end: '2026-05-15'
       kind: range
       source_text: 2026/05/13
       precision: conference_period_verified
     annotations:
-    - 招待講演
+    - "Invited talk"
   source_quality_note: "原典の表記は保持。公開題目は本人の確認に基づきAlN Fillersへ修正し，公開保留を解除。"
   verification:
     status: confirmed_by_owner
@@ -940,7 +940,7 @@ records:
     conference: "IChES 2026"
     location: "Kyoto"
     dates:
-      text: "2026年3月19日"
+      text: "March 19, 2026"
       start: "2026-03-19"
       end: "2026-03-19"
       kind: single
@@ -997,7 +997,7 @@ records:
     conference: "IChES 2026"
     location: "Kyoto"
     dates:
-      text: "2026年3月19日"
+      text: "March 19, 2026"
       start: "2026-03-19"
       end: "2026-03-19"
       kind: single

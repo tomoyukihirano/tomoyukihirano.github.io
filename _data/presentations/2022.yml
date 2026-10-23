@@ -219,9 +219,9 @@ records:
     presenter_evidence: owner_confirmed_first_author
     title_html: Protection of ZnO nanoparticles against acid corrosion by TiO<sub>2</sub> coatings
     conference: 9th World Congress on Particle Technology
-    location: Madrid，Spain
+    location: "Madrid, Spain"
     dates:
-      text: 2022年9月18日－22日
+      text: "September 18–22, 2022"
       start: '2022-09-18'
       end: '2022-09-22'
       kind: range
@@ -476,9 +476,9 @@ records:
     presenter_evidence: owner_confirmed_first_author
     title_html: Investigation of densified spherical and submicron-sized FeNi particles on their magnetic characteristic
     conference: 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022
-    location: Kuala Lumpur，Malaysia
+    location: "Kuala Lumpur, Malaysia"
     dates:
-      text: 2022年8月9日－12日
+      text: "August 9–12, 2022"
       start: '2022-08-09'
       end: '2022-08-12'
       kind: range
@@ -528,9 +528,9 @@ records:
     title_html: Preparation of Macroporous Pectin Particles with High Specific Surface Area and Interconnected Pore Networks
       for Enhancement of protein Adsorption Capacity
     conference: 19th Asian pacific Confederation of Chemical Engineering (APCChE) 2022
-    location: Kuala Lumpur，Malaysia
+    location: "Kuala Lumpur, Malaysia"
     dates:
-      text: 2022年8月9日－12日
+      text: "August 9–12, 2022"
       start: '2022-08-09'
       end: '2022-08-12'
       kind: range
@@ -863,9 +863,9 @@ records:
     title_html: Spherical and submicron-sized FeNi particles with controllable density for performance enhancement of the
       powder core inductor
     conference: International Chemical Engineering Symposia 2022 (IChES 2022)
-    location: Kobe，Japan
+    location: "Kobe, Japan"
     dates:
-      text: 2022年3月16日－18日
+      text: "March 16–18, 2022"
       start: '2022-03-16'
       end: '2022-03-18'
       kind: range

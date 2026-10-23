@@ -13,6 +13,10 @@ presentation:
   - exhibition_lecture
   separate_event_types_filter: all_presentations_only
   website_date_basis: conference_period
+  website_international_language: en
+  website_international_date_format: english_month_name_day_year
+  website_international_punctuation: english
+  website_international_language_confirmed_on: '2026-10-23'
   website_publication_timing: after_conference_end_only
   website_publication_requires_owner_approval: true
   future_presentation_candidates: keep_out_of_public_repository

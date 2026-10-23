@@ -64,9 +64,16 @@ Unconfirmed spelling variants must not be merged automatically.
 The presentation page is generated from `_data/presentations/YYYY.yml` through
 `_includes/presentation-list.html`. Do not maintain a second citation list in `presentations.md`.
 
-The display order is authors, title, conference, location, date, separated by `，`.
-Dates use `YYYY年M月D日－D日` (or both months when needed). English titles and author
-names are not translated. Chemical subscripts/superscripts from source HTML are preserved.
+The display order is authors, title, conference, location, date.
+International conference entries use English for every visible citation field, with `, `
+as the separator and `Invited talk` as the invitation label (owner-confirmed 2026-10-23).
+Dates use `September 9, 2026` or `May 11–15, 2026`; repeat the month when a range
+crosses months and both years when it crosses years. Use verified English author names
+from `people.yml` or the original source, retaining author order. Existing English
+titles and conference names are preserved. Other entries retain `，` and Japanese
+date labels such as `YYYY年M月D日－D日`. A language-only correction does not alter
+ISO dates, individual talk dates, original citations or `dates.source_text`.
+Chemical subscripts/superscripts from source HTML are preserved.
 Tomoyuki Hirano's name is bold and underlined. No presenter symbol is displayed.
 The owner confirmed on 2026-10-22 that all 91 existing presentations were given by
 the first author. Their `display.presenter_position` is 1 and `presenter_evidence`
