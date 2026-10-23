@@ -22,7 +22,7 @@ records:
   hp_no: 60
   type: journal_article
   peer_reviewed: true
-  title: Bioconjugation and Magnetic Separation Performance of Cellulose Nanofiber/Fe3O4 Composites with Tunable Fe3O4 Sizes for Biomedical Applications
+  title: Bioconjugation and Magnetic Separation Performance of Cellulose Nanofiber/Fe3O4 Nanoparticle Composites with Tunable Fe3O4 Sizes for Biomedical Applications
   journal: ACS Applied Nano Materials
   year: 2025
   volume: '8'
@@ -76,6 +76,7 @@ records:
   journal: Nanoscale
   year: 2025
   volume: '17'
+  issue: '21'
   pages_or_article_number: 13366-13377
   status: published
   article_url: https://pubs.rsc.org/en/content/articlelanding/2025/nr/d4nr05289g
@@ -122,12 +123,12 @@ records:
   hp_no: 54
   type: journal_article
   peer_reviewed: true
-  title: Ultrasonication process-induced highly dispersed SiO2 on ZnO nanoparticles for improving catalyst dispersibilityand photocatalyst performances
+  title: Ultrasonication process-induced highly dispersed SiO2 on ZnO nanoparticles for improving catalyst dispersibility and photocatalyst performances
   journal: The Canadian Journal of Chemical Engineering
   year: 2025
   volume: '103'
   issue: '11'
-  pages_or_article_number: 5436-5447
+  pages_or_article_number: 5435–5447
   status: published
   article_url: https://onlinelibrary.wiley.com/doi/full/10.1002/cjce.25718
   authors: [lailatul-qomariyah, tomoyuki-hirano, nicky-rahmana-putra, abdul-kadir, hendrix-abdul-ajiz]
@@ -177,7 +178,8 @@ records:
   journal: RSC Applied Interfaces
   year: 2025
   volume: '2'
-  pages_or_article_number: '795'
+  issue: '3'
+  pages_or_article_number: 795–807
   status: published
   article_url: https://pubs.rsc.org/lf/article/2/3/795/853543/Conductive-RuO2-binders-enhance-mechanical
   authors: [thi-thanh-nguyen-ho, tomoyuki-hirano, aoi-takano, syu-miyasaka, eishi-tanabe, makoto-maeda, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
@@ -223,7 +225,7 @@ records:
   hp_no: 48
   type: journal_article
   peer_reviewed: true
-  title: Synergistic Photocatalytic and Adsorption Capabilities of ZnO/Chitosan/CMC for Organic Dye Degradation
+  title: Synergistic photocatalytic and adsorption capabilities of ZnO/chitosan/CMC for organic dye degradation under sunlight irradiation
   journal: International Journal of Biological Macromolecules
   year: 2025
   volume: '305'
@@ -259,6 +261,7 @@ records:
   journal: Nanoscale
   year: 2025
   volume: '17'
+  issue: '5'
   pages_or_article_number: 2841-2851
   status: published
   article_url: https://doi.org/10.1039/d4nr03770g

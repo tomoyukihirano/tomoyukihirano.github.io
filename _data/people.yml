@@ -13,13 +13,14 @@ records:
 - {id: daiki-tomonaga, name: Daiki Tomonaga, first_name: Daiki, last_name: Tomonaga}
 - {"id": "daisuke-shimokuri", "name": "Daisuke Shimokuri", "first_name": "Daisuke", "last_name": "Shimokuri", "name_ja": "下栗 大右", "name_ja_confirmed_on": "2026-10-22", "identity_confirmed_on": "2026-10-22", "aliases": ["下栗 大右", "下栗大右"]}
 - {"id": "delyana-ratnasari", "name": "Delyana Ratnasari", "first_name": "Delyana", "last_name": "Ratnasari", "aliases": ["Ratnasari Delyana"], "identity_confirmed_on": "2026-10-22"}
+- {id: dhanny-yulian-saputra, name: Dhanny Yulian Saputra, first_name: Dhanny Yulian, last_name: Saputra}
 - {id: diva-addini-maghribi-muyassiroh, name: Diva Addini Maghribi Muyassiroh, first_name: Diva Addini Maghribi, last_name: Muyassiroh}
 - {id: duhaul-biqal-kautsar, name: Duhaul Biqal Kautsar, first_name: Duhaul Biqal, last_name: Kautsar}
 - {id: ea-cahya-septia-mahen, name: Ea Cahya Septia Mahen, first_name: Ea Cahya Septia, last_name: Mahen}
 - {"id": "eishi-tanabe", "name": "Eishi Tanabe", "first_name": "Eishi", "last_name": "Tanabe", "name_ja": "田辺 栄司", "name_ja_confirmed_on": "2026-10-22", "aliases": ["田辺 栄司", "田辺栄司"], "identity_confirmed_on": "2026-10-22"}
 - {"id": "eka-lutfi-septiani", "name": "Eka Lutfi Septiani", "first_name": "Eka Lutfi", "last_name": "Septiani", "aliases": ["Septiani Eka Lutfi"], "identity_confirmed_on": "2026-10-22"}
 - {id: eli-hendrik-sanjaya, name: Eli Hendrik Sanjaya, first_name: Eli Hendrik, last_name: Sanjaya}
-- {id: eva, name: Eva, first_name: Eva}
+- {id: eva-oktavia-ningrum, name: Eva Oktavia Ningrum, first_name: Eva Oktavia, last_name: Ningrum, legacy_ids: [eva, oktavia-ningrum], identity_confirmed_on: '2026-10-23'}
 - {"id": "febrigia-ghana-rinaldi", "name": "Febrigia Ghana Rinaldi", "first_name": "Febrigia Ghana", "last_name": "Rinaldi", "aliases": ["Rinaldi Febrigia Ghana"], "identity_confirmed_on": "2026-10-22"}
 - {"id": "ferry-iskandar", "name": "Ferry Iskandar", "first_name": "Ferry", "last_name": "Iskandar", "aliases": ["Ferry Inskandar"], "legacy_ids": ["ferry-inskandar"], "identity_confirmed_on": "2026-10-22"}
 - {id: fitri-aulia-permatasari, name: Fitri Aulia Permatasari, first_name: Fitri Aulia, last_name: Permatasari}
@@ -59,6 +60,7 @@ records:
 - {"id": "miho-kishi", "name": "Miho Kishi", "first_name": "Miho", "last_name": "Kishi", "name_ja": "岸 美保", "name_ja_confirmed_on": "2026-10-22", "identity_confirmed_on": "2026-10-22", "aliases": ["岸 美保", "岸美保"]}
 - {"id": "mikihiro-kataoka", "name": "Mikihiro Kataoka", "first_name": "Mikihiro", "last_name": "Kataoka", "name_ja": "片岡 幹裕", "name_ja_confirmed_on": "2026-10-23", "identity_confirmed_on": "2026-10-23", "aliases": ["片岡 幹裕", "片岡幹裕", "片岡 幹弘", "片岡幹弘"]}
 - {id: mila-tejamaya, name: Mila Tejamaya, first_name: Mila, last_name: Tejamaya}
+- {id: nabiela-salwa-zanjabiela, name: Nabiela Salwa Zanjabiela, first_name: Nabiela Salwa, last_name: Zanjabiela}
 - {id: nao-tsunoji, name: Nao Tsunoji, first_name: Nao, last_name: Tsunoji}
 - {id: nhan-trung-nguyen, name: Nhan Trung Nguyen, first_name: Nhan Trung, last_name: Nguyen}
 - {id: nicky-rahmana-putra, name: Nicky Rahmana Putra, first_name: Nicky Rahmana, last_name: Putra}
@@ -66,7 +68,7 @@ records:
 - {"id": "norito-kadowaki", "name": "Norito Kadowaki", "first_name": "Norito", "last_name": "Kadowaki", "name_ja": "門脇 範人", "name_ja_confirmed_on": "2026-10-22", "identity_confirmed_on": "2026-10-22", "aliases": ["門脇 範人", "門脇範人"]}
 - {id: nur-syakirah-nabilah-saipul-bahri, name: Nur Syakirah Nabilah Saipul Bahri, first_name: Nur Syakirah Nabilah Saipul, last_name: Bahri}
 - {id: nurdiana-ratna-puri, name: Nurdiana Ratna Puri, first_name: Nurdiana Ratna, last_name: Puri}
-- {id: oktavia-ningrum, name: Oktavia Ningrum, first_name: Oktavia, last_name: Ningrum}
+- {id: nurul-faizah, name: Nurul Faizah, first_name: Nurul, last_name: Faizah}
 - {id: oktaviardi-bityasmawan-abdillah, name: Oktaviardi Bityasmawan Abdillah, first_name: Oktaviardi Bityasmawan, last_name: Abdillah}
 - {id: osi-arutanti, name: Osi Arutanti, first_name: Osi, last_name: Arutanti}
 - {"id": "phong-hoai-le", "name": "Phong Hoai Le", "first_name": "Phong Hoai", "last_name": "Le", "aliases": ["Le Hoai Phong"], "legacy_ids": ["le-hoai-phong"], "identity_confirmed_on": "2026-10-22"}
@@ -118,6 +120,8 @@ records:
 - {"id": "yusaku-hattori", "name": "Yusaku Hattori", "first_name": "Yusaku", "last_name": "Hattori", "name_ja": "服部 勇作", "name_ja_confirmed_on": "2026-10-22", "identity_confirmed_on": "2026-10-22", "aliases": ["服部 勇作", "服部勇作"]}
 
 id_redirects:
+  eva: eva-oktavia-ningrum
+  oktavia-ningrum: eva-oktavia-ningrum
   yusuke-kito: yusuke-kitou
   kouhei-matsumoto: kohei-matsumoto
   thi-tanh-nguyen-ho: thi-thanh-nguyen-ho

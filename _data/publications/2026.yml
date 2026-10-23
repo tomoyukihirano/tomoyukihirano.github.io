@@ -1,6 +1,23 @@
 schema_version: 2
 year: 2026
 records:
+- id: pub-0079
+  paper_id: P079
+  hp_no: 79
+  type: journal_article
+  peer_reviewed: true
+  title: Synergistic UV shielding and acid durability of ultrasonically engineered SiO2/TiO2 core–shell nanoparticles for cosmetic protective applications
+  journal: Journal of Materials Science
+  year: 2026
+  volume: '61'
+  issue: '38'
+  pages_or_article_number: 28732–28746
+  status: published
+  article_url: https://link.springer.com/article/10.1007/s10853-026-13516-y
+  authors: [lailatul-qomariyah, nabiela-salwa-zanjabiela, dhanny-yulian-saputra, tomoyuki-hirano, nurul-faizah, eva-oktavia-ningrum, rashid-shamsuddin]
+  corresponding_authors: [lailatul-qomariyah]
+  dates: {submitted: '2026-02-24', accepted: '2026-07-30', published_online: '2026-08-11', version_of_record: '2026-08-11', accepted_fiscal_year: 2026, issue_published_month: '2026-10'}
+  classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: null, hirano_corresponding: false, hirano_first_author: false}
 - id: pub-0078
   paper_id: P078
   hp_no: 78
@@ -9,9 +26,13 @@ records:
   title: Flame Processing of AlN Fillers into Spherical Particles for Thermally Conductive Composites
   journal: Chemical Engineering Journal
   year: 2026
-  status: in_press
+  volume: '549'
+  pages_or_article_number: '183099'
+  status: published
+  article_url: https://www.sciencedirect.com/science/article/pii/S1385894726105622
   authors: [tomoyuki-hirano, kodai-fusatani, eishi-tanabe, kazuto-harada, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano]
+  dates: {accepted: '2026-10-13', accepted_fiscal_year: 2026, issue_published_month: '2026-12'}
   classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: true}
 - id: pub-0077
   paper_id: P077
@@ -21,9 +42,14 @@ records:
   title: Effect of Binders on the Spray Drying Granulation of Catalyst Nanoparticles
   journal: Journal of the Society of Powder Technology, Japan
   year: 2026
-  status: in_press
+  volume: '63'
+  issue: '10'
+  pages_or_article_number: 456–462
+  status: published
+  article_url: https://doi.org/10.4164/sptj.63.456
   authors: [kosuke-kondo, tomoyuki-hirano, takashi-ogi]
   corresponding_authors: [takashi-ogi]
+  dates: {submitted: '2026-07-03', accepted: '2026-07-30', accepted_fiscal_year: 2026, issue_published_month: '2026-10'}
   classification: {hiroshima_academic_year: 2026, domestic_society_journal: true, english_journal: false, sci_or_equivalent: false, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [F]}
 - id: pub-0076
   paper_id: P076
@@ -80,7 +106,7 @@ records:
   hp_no: 73
   type: journal_article
   peer_reviewed: true
-  title: Nanostructured Porous Three-Way Catalyst Particles via Two-Fluid Nozzle Spray Drying with Binder-Controlled Structure for Exhaust Gas Purification System
+  title: Nanostructured Porous Three-Way Catalyst Particles via Two-Fluid Nozzle Spray Drying with a Binder-Controlled Structure for an Exhaust Gas Purification System
   journal: ACS Applied Nano Materials
   year: 2026
   volume: '9'
@@ -153,10 +179,12 @@ records:
   journal: Nanotechnology for Environmental Engineering
   year: 2026
   volume: '11'
+  issue: '2'
   pages_or_article_number: '38'
   status: published
   article_url: https://link.springer.com/article/10.1007/s41204-026-00527-y
-  authors: [arika-nur-indrayani, lailatul-qomariyah, tomoyuki-hirano, saidah-altway, eva, oktavia-ningrum, nicky-rahmana-putra, hendrix-abdul-ajiz, rizka-ayu-yuniar]
+  authors: [arika-nur-indrayani, lailatul-qomariyah, tomoyuki-hirano, saidah-altway, eva-oktavia-ningrum, nicky-rahmana-putra, hendrix-abdul-ajiz, rizka-ayu-yuniar]
+  author_names_as_imported: [Arika Nur Indrayani, Lailatul Qomariyah, Tomoyuki Hirano, Saidah Altway, Eva, Oktavia Ningrum, Nicky Rahmana Putra, Hendrix Abdul Ajiz, Rizka Ayu Yuniar]
   corresponding_authors: [lailatul-qomariyah]
   dates: {submitted: '2025-12-15', accepted: '2026-02-23', published_online: '2026-03-17', accepted_fiscal_year: 2025}
   classification: {hiroshima_academic_year: 2025, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: false, hirano_first_author: false, legacy_list_codes: [J], top10_percent: true}
@@ -186,6 +214,7 @@ records:
   journal: Journal of Nanoparticle Research
   year: 2026
   volume: '28'
+  issue: '3'
   pages_or_article_number: '70'
   status: published
   article_url: https://link.springer.com/article/10.1007/s11051-026-06588-z
@@ -270,6 +299,7 @@ records:
   journal: Journal of Materials Chemistry A
   year: 2026
   volume: '14'
+  issue: '2'
   pages_or_article_number: 1110-1122
   status: published
   article_url: https://pubs.rsc.org/en/content/articlelanding/2025/ta/d5ta04974a

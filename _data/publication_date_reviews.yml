@@ -2,6 +2,32 @@ schema_version: 1
 default_basis: existing_owner_supplied_bibliographic_records
 note: 既存の日付は論文マスターを参照します。本ファイルは再確認の出典と保留事項を管理し，全論文の再調査完了を意味しません。
 records:
+  pub-0079:
+    checked_on: '2026-10-23'
+    method: publisher_page_and_crossref
+    source_url: https://link.springer.com/article/10.1007/s10853-026-13516-y
+    fields:
+      submitted: {status: verified, checked_value: '2026-02-24'}
+      accepted: {status: verified, checked_value: '2026-07-30'}
+      published_online: {status: verified, checked_value: '2026-08-11'}
+    note: PublishedとVersion of recordはいずれも2026-08-11。Issue dateの2026-10とは区別します。
+  pub-0078:
+    checked_on: '2026-10-23'
+    method: publisher_notification_and_public_bibliography
+    source_url: https://www.sciencedirect.com/science/article/pii/S1385894726105622
+    fields:
+      accepted: {status: verified, checked_value: '2026-10-13'}
+      published_online: {status: pending}
+    note: 正式出版の巻・論文番号は確定。初回オンライン公開日は未確認のため，通知日，DOI登録日，ライセンス開始日，号年月2026-12から推定しません。
+  pub-0077:
+    checked_on: '2026-10-23'
+    method: official_journal_pdf
+    source_url: https://www.sptj.jp/assets/doc/publication/kaishi/2026/63-10/63-10_ronbun_kondo-kosuke.pdf
+    fields:
+      submitted: {status: verified, checked_value: '2026-07-03'}
+      accepted: {status: verified, checked_value: '2026-07-30'}
+      published_online: {status: pending}
+    note: 正式誌面のReceivedとAcceptedを使用。初回オンライン公開日は未確認で，号年月2026-10とは区別します。
   pub-0043:
     checked_on: '2026-10-23'
     method: publisher_page_via_web_search
