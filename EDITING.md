@@ -64,13 +64,7 @@ PDF本体はサイトに置きません。表示は `_includes/publication-links
 `first-author/index.html` と `first-corresponding/index.html` も同じIDと共通includeを使います。
 ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読付き論文の総数に含めません。
 
-論文一覧の見出し直下にある年度別グラフは `_includes/publication-chart.html` が
-`_data/publications/YYYY.yml` の査読付き論文から公開時に生成します。1区画が1論文です。
-年は `year`，著者区分は `classification.hirano_first_author` または
-`classification.hirano_corresponding` に従い，両方に該当しても1件として数えます。
-ReviewsとPreprintsは含めず，一覧の絞り込みとは独立した全件の集計です。
 論文を追加する際は，本文と元データの両方に同じIDのレコードを登録してください。
-グラフとGrantsの共通配色は `assets/academic-palette.css` で管理します。
 
 ## Presentationsを追加する
 
@@ -86,6 +80,7 @@ ReviewsとPreprintsは含めず，一覧の絞り込みとは独立した全件�
 `display.title_html` は題目，`conference` は学会名，`location` は開催地，
 `dates.text` は表示日付です。日付変更時は `dates.start` と `dates.end` も揃えます。
 `annotations` は元データで確認できた招待・受賞の注記です。
+招待講演は一覧末尾の注記で示し，先頭のバッジや背景色で強調しません。
 
 新規項目は重複しない `id` を付け，`display_order` で掲載順を指定します。
 `raw_citation_html` と `citation_text` は旧記載の保存用です。通常は変更しません。
@@ -126,6 +121,8 @@ ReviewsとPreprintsは含めず，一覧の絞り込みとは独立した全件�
 ```
 
 現在の表示との完全な互換性のため，既存項目の一部では `<br>` などの短いHTML表記を残しています。
+大見出しと助成機関などの小見出しは背景色なしの黒太字とし，配色はリンクに使用します。
+見出しとリンクの表示は `assets/grants-palette.css`，リンクの色は `assets/academic-palette.css` で管理します。
 
 ## Awardを追加する
 

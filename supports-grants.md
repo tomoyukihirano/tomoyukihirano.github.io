@@ -12,7 +12,7 @@ grants_palette: true
 研究課題名，経費等の詳細は<a rel="noreferrer noopener" href="https://researchmap.jp/tomoyuki-hirano/research_projects" target="_blank">Researchmap</a>をご覧下さい。
 {: .wp-block-paragraph }
 
-<h2 class="wp-block-heading has-background">研究費・助成金（進行中）</h2>
+<h2 class="wp-block-heading">研究費・助成金（進行中）</h2>
 
 <h3 class="wp-block-heading">日本学術振興会（JSPS）</h3>
 - <strong>科研費 若手研究</strong>（代表）［<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25K17873/" target="_blank" rel="noreferrer noopener">LINK</a>］<br>課題名：燃焼技術を駆使したマルチスケール細孔設計による燃料電池触媒層内の物質輸送制御<br>期間：2025/04–2027/03，金額：4,810,000円
@@ -32,7 +32,7 @@ grants_palette: true
 - <strong>民間企業との共同研究</strong>（代表）：4件
 {: .wp-block-list }
 
-<h2 class="wp-block-heading has-background">研究費・助成金（終了）</h2>
+<h2 class="wp-block-heading">研究費・助成金（終了）</h2>
 
 <h3 class="wp-block-heading">日本学術振興会（JSPS）</h3>
 - <strong>科研費 若手研究</strong>（代表）[<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K13590/" target="_blank" rel="noreferrer noopener">LINK</a>]<br>課題名：微粒子ナノ構造化技術による燃料電池触媒層の細孔ネットワークエンジニアリング<br>期間：2023/04–2025/03，金額：4,680,000円
@@ -54,7 +54,7 @@ grants_palette: true
 {: .wp-block-list }
 
 ## Supports
-{: .wp-block-heading .has-background }
+{: .wp-block-heading }
 学生時代にいただいた奨学金関係の情報です。
 {: .wp-block-paragraph }
 1. JASSO奨学金 特に優れた業績による返還免除（全額）

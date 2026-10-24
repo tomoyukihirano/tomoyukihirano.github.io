@@ -1,11 +1,9 @@
-/* Grants-only colors; existing content, spacing, and heading sizes are retained. */
-body.page-id-84 .entry-content h2.wp-block-heading {
-  color: var(--academic-ink, #183d58);
-  background-color: var(--academic-lavender, #cec0d2);
-}
-
+/* Plain black headings with the existing palette reserved for links. */
+body.page-id-84 .entry-content h2.wp-block-heading,
 body.page-id-84 .entry-content h3.wp-block-heading {
-  color: var(--academic-teal, #356d7e);
+  color: #000;
+  background: none;
+  font-weight: 700;
 }
 
 body.page-id-84 .entry-content a,

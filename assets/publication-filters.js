@@ -127,14 +127,11 @@
       return paragraph.textContent.replace(/\s+/g, "").trim() === "*は責任著者を表しています。";
     });
     if (legacyLinks) legacyLinks.remove();
-    // Keep the annual chart directly below the journal-article heading.
-    const chart = heading.nextElementSibling;
-    const summaryEnd = chart && chart.classList.contains("publication-chart") ? chart : heading;
     if (correspondingNote) {
-      summaryEnd.insertAdjacentElement("afterend", correspondingNote);
+      heading.insertAdjacentElement("afterend", correspondingNote);
       correspondingNote.insertAdjacentElement("afterend", controls);
     } else {
-      summaryEnd.insertAdjacentElement("afterend", controls);
+      heading.insertAdjacentElement("afterend", controls);
     }
 
     const empty = document.createElement("p");

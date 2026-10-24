@@ -50,9 +50,6 @@ gtag("config", "G-95VKJGQGDT");
 {% assign academic_asset_version = site.time | date: '%s' %}
 <link rel="stylesheet" href="{{ '/assets/academic-palette.css' | relative_url }}?v={{ academic_asset_version }}">
 {% endif %}
-{% if page.publication_chart %}
-<link rel="stylesheet" href="{{ '/assets/publication-chart.css' | relative_url }}?v={{ academic_asset_version }}">
-{% endif %}
 {% if page.grants_palette %}
 <link rel="stylesheet" href="{{ '/assets/grants-palette.css' | relative_url }}?v={{ academic_asset_version }}">
 {% endif %}

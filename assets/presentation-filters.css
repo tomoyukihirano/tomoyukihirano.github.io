@@ -14,10 +14,4 @@
 .presentation-controls .presentation-controls__button:focus-visible { outline: 3px solid #2271b1; outline-offset: 3px; }
 .presentation-controls .presentation-controls__status { margin: .7em 0 0; color: #555; font-size: .85rem; line-height: 1.6; }
 .presentation-controls .presentation-controls__note { margin: .25em 0 0; color: #666; font-size: .8rem; line-height: 1.6; }
-.presentation-list > li.presentation-item--invited { padding: .45em .7em; border-left: 3px solid #b48222; background: #fff9ed; }
-.presentation-invited-badge {
-  display: inline-block; margin: 0 .4em .15em 0; padding: .1em .55em;
-  border: 1px solid #c49436; border-radius: 4px; background: #fff0c9; color: #694600;
-  font-size: .8em; font-weight: 700; line-height: 1.7; white-space: nowrap; vertical-align: baseline;
-}
-@media print { .presentation-controls__buttons { display: none; } .presentation-invited-badge { border-color: #555; color: #222; background: transparent; } }
+@media print { .presentation-controls__buttons { display: none; } }
