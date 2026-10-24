@@ -354,7 +354,7 @@ records:
   details_raw: "化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
   classification:
     invited: false
-    award: false
+    award: true
   quality:
     parsing_status: source_transcribed
     presenter_status: inferred_from_first_author
@@ -394,7 +394,7 @@ records:
       source_text: 2026/09/14
       precision: conference_period_verified
     annotations:
-      []
+    - "シンポジウム賞・奨励賞受賞"
   participation:
     presentation_date: '2026-09-14'
 - id: pres-0101
@@ -483,7 +483,7 @@ records:
   details_raw: "化学工学会 第57回秋季大会 (2026/09/14, 東広島)"
   classification:
     invited: false
-    award: false
+    award: true
   quality:
     parsing_status: source_transcribed
     presenter_status: inferred_from_first_author
@@ -529,7 +529,7 @@ records:
       source_text: 2026/09/14
       precision: conference_period_verified
     annotations:
-      []
+    - "シンポジウム賞・プレゼンテーション賞受賞"
   participation:
     presentation_date: '2026-09-14'
 - id: pres-0099
