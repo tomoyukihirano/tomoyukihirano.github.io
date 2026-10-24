@@ -272,7 +272,7 @@
                 time.textContent = formatDate(value);
                 fieldItem.appendChild(time);
                 fieldItem.title = review.status === "verified"
-                  ? "Verified against publisher information" +
+                  ? "Confirmed date" +
                     (validDate(paper.review.checked_on) ? " (" + formatDate(paper.review.checked_on) + ")" : "")
                   : "Date recorded in the existing publication records";
               } else {

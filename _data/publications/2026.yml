@@ -32,7 +32,7 @@ records:
   article_url: https://www.sciencedirect.com/science/article/pii/S1385894726105622
   authors: [tomoyuki-hirano, kodai-fusatani, eishi-tanabe, kazuto-harada, eka-lutfi-septiani, kiet-le-anh-cao, takashi-ogi]
   corresponding_authors: [tomoyuki-hirano]
-  dates: {accepted: '2026-10-13', accepted_fiscal_year: 2026, issue_published_month: '2026-12'}
+  dates: {submitted: '2026-02-04', accepted: '2026-10-12', accepted_fiscal_year: 2026, issue_published_month: '2026-12'}
   classification: {hiroshima_academic_year: 2026, domestic_society_journal: false, english_journal: true, sci_or_equivalent: true, hirano_corresponding: true, hirano_first_author: true}
 - id: pub-0077
   paper_id: P077

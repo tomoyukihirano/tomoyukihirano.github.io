@@ -12,13 +12,14 @@ records:
       published_online: {status: verified, checked_value: '2026-08-11'}
     note: PublishedとVersion of recordはいずれも2026-08-11。Issue dateの2026-10とは区別します。
   pub-0078:
-    checked_on: '2026-10-23'
-    method: publisher_notification_and_public_bibliography
+    checked_on: '2026-10-24'
+    method: publisher_proof_and_owner_confirmation
     source_url: https://www.sciencedirect.com/science/article/pii/S1385894726105622
     fields:
-      accepted: {status: verified, checked_value: '2026-10-13'}
+      submitted: {status: verified, checked_value: '2026-02-04'}
+      accepted: {status: verified, checked_value: '2026-10-12'}
       published_online: {status: pending}
-    note: 正式出版の巻・論文番号は確定。初回オンライン公開日は未確認のため，通知日，DOI登録日，ライセンス開始日，号年月2026-12から推定しません。
+    note: 出版社校正刷りのReceived 4 February 2026・Accepted 12 October 2026と本人確認により，投稿日・採択日を確定。正式出版の巻・論文番号は確定。初回オンライン公開日は未確認のため，通知日，DOI登録日，ライセンス開始日，号年月2026-12から推定しません。
   pub-0077:
     checked_on: '2026-10-23'
     method: official_journal_pdf
@@ -28,6 +29,13 @@ records:
       accepted: {status: verified, checked_value: '2026-07-30'}
       published_online: {status: pending}
     note: 正式誌面のReceivedとAcceptedを使用。初回オンライン公開日は未確認で，号年月2026-10とは区別します。
+  pub-0045:
+    checked_on: '2026-10-24'
+    method: owner_confirmation
+    source_url: https://www.sciencedirect.com/science/article/pii/S1026918524000994
+    fields:
+      submitted: {status: verified, checked_value: '2024-05-02'}
+    note: Submittedは本人確認により2024-05-02で確定。
   pub-0043:
     checked_on: '2026-10-23'
     method: publisher_page_via_web_search
@@ -47,17 +55,11 @@ records:
       published_online: {status: verified, checked_value: '2021-09-10'}
     note: Submitted，Accepted，First publishedを確認。題目や著者の変更は今回の対象外です。
   pub-0005:
-    checked_on: '2026-10-23'
-    method: publisher_pages_via_web_search
+    checked_on: '2026-10-24'
+    method: publisher_history_and_owner_confirmation
     source_url: https://pubs.acs.org/doi/10.1021/acs.iecr.9b05482
     fields:
       submitted: {status: verified, checked_value: '2019-10-04'}
       accepted: {status: verified, checked_value: '2020-03-10'}
-      published_online:
-        status: conflict
-        candidates:
-          - value: '2020-03-19'
-            source_url: https://pubs.acs.org/doi/10.1021/acs.iecr.9b05482
-          - value: '2020-03-10'
-            source_url: https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b05482
-    note: 公式ページの取得結果間に不一致があるため，オンライン公開日は確認中と表示。元の登録値は上書きしません。
+      published_online: {status: verified, checked_value: '2020-03-19'}
+    note: 本人確認により，出版社の現行履歴に記載された2020-03-19をPublished Onlineの掲載値として確定。Just Accepted版のWeb公開日2020-03-10とは区別し，保留を解除。
