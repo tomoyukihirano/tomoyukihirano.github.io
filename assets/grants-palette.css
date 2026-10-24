@@ -1,9 +1,30 @@
-/* Plain black headings with the existing palette reserved for links. */
+/* Grants heading accents; existing typography and margins remain unchanged. */
 body.page-id-84 .entry-content h2.wp-block-heading,
 body.page-id-84 .entry-content h3.wp-block-heading {
-  color: #000;
+  color: var(--academic-ink, #183d58);
   background: none;
   font-weight: 700;
+}
+
+body.page-id-84 .entry-content h2.wp-block-heading {
+  position: relative;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--academic-border, #d2dce1);
+}
+
+body.page-id-84 .entry-content h2.wp-block-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 2.5rem;
+  height: 3px;
+  background-color: var(--academic-teal, #356d7e);
+}
+
+body.page-id-84 .entry-content h3.wp-block-heading {
+  border-left: 2px solid var(--academic-teal, #356d7e);
+  padding-left: 0.65em;
 }
 
 body.page-id-84 .entry-content a,

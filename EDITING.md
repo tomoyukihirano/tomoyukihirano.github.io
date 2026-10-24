@@ -31,7 +31,8 @@
 1. <span class="publication-citation" id="pub-0079" data-publication-id="pub-0079">著者名, 論文タイトル, ***Journal Name***, 巻, ページ, 年.</span>{% include publication-links.html id="pub-0079" %}
 ```
 
-番号はすべて `1.` のままで構いません。公開時には逆順の番号付きリストとして表示されます。
+番号はすべて `1.` のままで構いません。査読付き論文は採択日の新しい順に並べ，総件数から1へ降順に番号を付けます。
+絞り込み後も表示件数から1へ番号を振り直し，一番下が1番になるようにします。
 
 責任著者を示すアスタリスクはMarkdown記号と区別するため，`\*` と書いてください。
 
@@ -60,6 +61,8 @@ PDF本体はサイトに置きません。表示は `_includes/publication-links
 
 投稿日・採択日・オンライン公開日は従来どおり `_data/publications/YYYY.yml` と `_data/publication_date_reviews.yml` で管理します。
 現在の英語日付表記，N/A表示，CSS/JS/日付データの同一ビルド版指定を維持してください。
+並び順にはAccepted欄に実際に表示される日付を使います。N/Aは末尾，同日は元の相対順を保ちます。
+静的な本文も同じ採択日順にし，日付データの更新時には表示処理が並び順を再調整します。
 絞り込みと日付照合は安定IDを使うため，既存IDを掲載順に合わせて変更しないでください。
 `first-author/index.html` と `first-corresponding/index.html` も同じIDと共通includeを使います。
 ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読付き論文の総数に含めません。
@@ -121,7 +124,8 @@ ReviewsのIDは `review-0001` 形式です。独立したPreprints節は査読�
 ```
 
 現在の表示との完全な互換性のため，既存項目の一部では `<br>` などの短いHTML表記を残しています。
-大見出しと助成機関などの小見出しは背景色なしの黒太字とし，配色はリンクに使用します。
+見出しは背景色なしの濃紺とし，大見出しの下線と助成機関などの小見出しの左線に青緑を使います。
+フォント・文字サイズ・太さ・行間などの基本スタイルは維持します。
 見出しとリンクの表示は `assets/grants-palette.css`，リンクの色は `assets/academic-palette.css` で管理します。
 
 ## Awardを追加する

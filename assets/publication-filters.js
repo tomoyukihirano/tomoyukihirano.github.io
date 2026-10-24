@@ -3,6 +3,7 @@
  * have their own option; never infer a publication year from an acceptance date.
  * Access buttons remain usable without JavaScript. Other sections are unchanged.
  * Parse citation text only, excluding access labels, DOI strings, and dates.
+ * Order by the displayed Accepted date, newest first; unavailable dates come last.
  */
 (function () {
   "use strict";
@@ -36,7 +37,7 @@
       return "unknown";
     }
 
-    const records = items.map(function (item) {
+    const records = items.map(function (item, originalOrder) {
       const citation = item.querySelector(".publication-citation") || item;
       const text = citation.textContent.replace(/\s+/g, " ").trim();
       const id = item.dataset.publicationId || citation.dataset.publicationId || "";
@@ -44,6 +45,7 @@
       return {
         item: item,
         id: id,
+        originalOrder: originalOrder,
         citationText: text,
         first: /^Tomoyuki\s+Hirano(?=[\s*,，])/.test(text),
         corresponding: /\bTomoyuki\s+Hirano\s*\*/.test(text),
@@ -82,7 +84,7 @@
 
     list.id = list.id || "peer-reviewed-publication-list";
     list.classList.add("publication-filter-list");
-    const reverseNumbering = list.reversed;
+    list.reversed = true;
     const controls = document.createElement("div");
     controls.className = "publication-filters";
     const fields = document.createElement("div");
@@ -147,14 +149,14 @@
         return active.matches(record) && (activeYear.value === "all" || record.year === activeYear.value);
       }
       const visible = records.filter(matches).length;
-      list.start = reverseNumbering ? visible : 1;
-      let number = list.start;
+      list.start = visible;
+      let number = visible;
       records.forEach(function (record) {
         const show = matches(record);
         record.item.hidden = !show;
         if (show) {
           record.item.value = number;
-          number += reverseNumbering ? -1 : 1;
+          number -= 1;
         } else {
           record.item.removeAttribute("value");
         }
@@ -284,6 +286,30 @@
             });
             record.item.appendChild(line);
           });
+          // Reuse the rendered date after all review and chronology checks.
+          // N/A has no time element; equal dates retain their original order.
+          records.forEach(function (record) {
+            const accepted = record.item.querySelector(
+              '.publication-timeline__item[data-date-field="accepted"] time'
+            );
+            record.acceptedDate = accepted && validDate(accepted.dateTime) ? accepted.dateTime : null;
+          });
+          records.sort(function (left, right) {
+            if (left.acceptedDate && right.acceptedDate) {
+              if (left.acceptedDate < right.acceptedDate) return 1;
+              if (left.acceptedDate > right.acceptedDate) return -1;
+            } else if (left.acceptedDate) {
+              return -1;
+            } else if (right.acceptedDate) {
+              return 1;
+            }
+            return left.originalOrder - right.originalOrder;
+          });
+          const sortedItems = document.createDocumentFragment();
+          records.forEach(function (record) { sortedItems.appendChild(record.item); });
+          list.appendChild(sortedItems);
+          applyFilters();
+          list.dataset.acceptedOrder = "descending";
           list.dataset.datesLoaded = "true";
           list.dataset.dateMatchedCount = String(used.size);
         })
