@@ -1,0 +1,90 @@
+{
+  "source_url": "https://github.com/google/fonts/blob/main/ofl/roboto/Roboto%5Bwdth,wght%5D.ttf",
+  "source_git_blob_sha1": "5522a368d9072fd88c299916e61fcff369949061",
+  "source_sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+  "fonttools_version": "4.61.1",
+  "font_style": "normal",
+  "css_weight_range": [
+    300,
+    700
+  ],
+  "pinned_axes": {
+    "wdth": 100
+  },
+  "outputs": [
+    {
+      "file": "roboto-latin-variable.woff2",
+      "bytes": 53596,
+      "sha256": "91aecb7059abe9df178cdbc4240429675b349098cd02abdabf370fb5dc5fdc3e",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 900.0
+        }
+      ],
+      "unicode_range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-209F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "unicode_count": 272,
+      "glyph_count": 420
+    },
+    {
+      "file": "roboto-latin-ext-variable.woff2",
+      "bytes": 39928,
+      "sha256": "07da7f399fef050af44d6f9f0d48ee97d5f75053a8e079fa900910c62995b7ae",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 900.0
+        }
+      ],
+      "unicode_range": "U+0100-0130,U+0132-0151,U+0154-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-0303,U+0305-0307,U+0309-0328,U+032A-036F,U+1D00-1DBF,U+1E00-1EFF,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF,U+AB30-AB6F",
+      "unicode_count": 272,
+      "glyph_count": 446
+    }
+  ],
+  "validation": [
+    {
+      "file": "roboto-latin-variable.woff2",
+      "weight": 300,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-ext-variable.woff2",
+      "weight": 300,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-variable.woff2",
+      "weight": 400,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-ext-variable.woff2",
+      "weight": 400,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-variable.woff2",
+      "weight": 500,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-ext-variable.woff2",
+      "weight": 500,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-variable.woff2",
+      "weight": 700,
+      "verified_unicode_glyphs": 272
+    },
+    {
+      "file": "roboto-latin-ext-variable.woff2",
+      "weight": 700,
+      "verified_unicode_glyphs": 272
+    }
+  ]
+}

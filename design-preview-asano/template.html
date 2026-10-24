@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Tomoyuki Hirano — research, publications and academic activities. Unpublished design preview.">
+  <title>Tomoyuki Hirano</title>
+  <style>__STYLES__</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="?page=home" data-site-page="home">Tomoyuki Hirano</a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="?page=home" data-site-page="home">home</a>
+        <a href="?page=about" data-site-page="about">about</a>
+        <a href="?page=research" data-site-page="research">research</a>
+        <a href="?page=publications" data-site-page="publications">publications</a>
+        <a href="?page=presentations" data-site-page="presentations">presentations</a>
+        <a href="?page=grants" data-site-page="grants">grants</a>
+        <a href="?page=award" data-site-page="award">award</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="page">
+    __STATIC_PAGES__
+    <div id="view-publications" class="site-view" data-site-view="publications" aria-labelledby="page-title" hidden>
+      <header class="page-intro">
+        <h1 id="page-title" tabindex="-1">publications</h1>
+        <p class="post-description">Papers.</p>
+      </header>
+      <p class="publication-overview"><a class="scholar-link" href="https://scholar.google.co.jp/citations?user=7-vtStgAAAAJ&amp;hl=ja" target="_blank" rel="noopener">Google Scholar</a><br><span class="publication-totals" aria-label="Publication totals">__TOTALS__</span></p>
+      <section class="filter-section" aria-label="Filter publications">
+        <p class="filter-intro">Explore publications by article type and authorship.</p>
+        <div id="collection-filters" class="collection-filters" role="group" aria-label="Publication collections">__COLLECTION_FILTERS__</div>
+        <details id="advanced-filters" class="extra-filters">
+          <summary>Search &amp; filters</summary>
+          <div class="filter-options">
+            <div class="search-row">
+              <label class="search-field"><span class="sr-only">Search publications</span><input id="search" type="search" placeholder="Title, author, journal or DOI" autocomplete="off"></label>
+              <select id="sort-filter" class="sort-filter" aria-label="Sort publications"><option value="newest">Newest year</option><option value="oldest">Oldest year</option></select>
+              <button id="reset" class="reset-button" type="button">Reset</button>
+            </div>
+            <div class="facets-row">
+              <label class="select-field" for="year-filter"><span>Year</span><select id="year-filter"><option value="all">All</option>__YEAR_OPTIONS__</select></label>
+              <label class="select-field" for="type-filter"><span>Article type</span><select id="type-filter"><option value="all">All</option><option value="journal_article">Journal articles</option><option value="review">Reviews</option><option value="preprint">Preprints</option></select></label>
+              <label class="select-field" for="role-filter"><span>Authorship</span><select id="role-filter"><option value="all">All authorships</option><option value="first">First author</option><option value="first-corresponding">First or corresponding</option></select></label>
+            </div>
+            <div class="filter-help"><details class="reading-guide"><summary>About the labels</summary><div><p><strong>Author role</strong> refers to Tomoyuki Hirano. The original author order, emphasis and corresponding-author symbols are retained.</p><p><strong>IF / JCR quartile:</strong> __METRICS_GUIDE__</p><p><strong>Top 10%:</strong> the existing article citation-ranking classification, not a journal ranking. A qualifying category is sufficient.</p><p><strong>Dates:</strong> values from the existing records. Missing or conflicting dates appear as N/A.</p><p><strong>Year:</strong> the year printed in the public citation. Papers listed as in press remain in a separate group.</p></div></details></div>
+          </div>
+        </details>
+      </section>
+      <details class="statistics-panel"><summary>Publication statistics</summary><section class="annual-summary" aria-label="Publications by year"><div id="year-chart">__CHART__</div></section></details>
+      <div class="publication-results-header"><h2 id="results-title">All Publications</h2><p id="result-count" role="status" aria-live="polite">__RESULT_COUNT__</p></div>
+      <div class="publications-layout">
+        <aside class="year-sidebar" aria-label="Jump to publication year" hidden><nav id="year-nav">__YEAR_NAV__</nav></aside>
+        <div class="publication-list" id="publication-list">__INITIAL_LIST__</div>
+      </div>
+      <div id="empty-state" class="empty-state" hidden><h2>No matching publications</h2><p>Try a different keyword or clear the filters.</p><button id="empty-reset" type="button" class="outline-button">Clear filters</button></div>
+      <section id="additional-works" class="additional-works" aria-labelledby="additional-title"><h2 id="additional-title">Books &amp; other contributions</h2><div id="legacy-sections">__LEGACY_SECTIONS__</div></section>
+      <noscript><p class="noscript-note">The complete bibliography is shown above. Enable JavaScript to use search and filters.</p></noscript>
+    </div>
+    <div id="view-presentations" class="site-view" data-site-view="presentations" hidden>__PRESENTATIONS_PAGE__</div>
+  </main>
+  <footer class="site-footer"><div><span>© __BUILD_YEAR__ Tomoyuki Hirano.</span><span>Design preview · <a href="https://tomoyukihirano.github.io/" target="_blank" rel="noopener">Current website</a></span></div></footer>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>⌃</button>
+  <script id="publication-data" type="application/json">__DATA__</script>
+  <script id="third-party-notices" type="text/plain">__THIRD_PARTY_NOTICES__</script>
+  <noscript><style>body{padding-top:0}.site-header{position:static}.site-view[hidden]{display:block!important}.site-view{margin-bottom:72px}.header-inner nav{display:flex!important}.nav-toggle{display:none!important}</style></noscript>
+  <script>__SCRIPT__</script>
+</body>
+</html>

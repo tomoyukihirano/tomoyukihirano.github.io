@@ -1,0 +1,190 @@
+/* Fukushima Lab's unit-stacked chart, rendered without a charting dependency.
+ * Unit height follows the integer count scale; bar width follows each year slot.
+ */
+.publication-square-chart {
+  --publication-lead-color: var(--chart-lead, #b7a0b5);
+  --publication-other-color: var(--chart-other, #81929b);
+  --publication-grid-color: var(--line, #d9e3e8);
+  --publication-plot-height: 76px;
+  color: var(--ink, #183d58);
+  font: 400 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  min-width: 0;
+}
+.publication-square-main { position: relative; padding-left: 22px; }
+.publication-square-axis-title {
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: max-content;
+  color: var(--ink, #183d58);
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 14px;
+}
+.publication-square-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px 10px;
+  min-height: 22px;
+  margin: 0 0 6px;
+  color: var(--ink, #183d58);
+  font-size: 12px;
+}
+.publication-square-key { display: inline-flex; align-items: center; gap: 6px; color: var(--ink, #183d58); }
+.publication-square-swatch {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 40px;
+  height: 12px;
+  border: 1px solid var(--publication-grid-color);
+  box-sizing: border-box;
+}
+.publication-square-lead { background: var(--publication-lead-color); }
+.publication-square-other { background: var(--publication-other-color); }
+.publication-square-scroll {
+  overflow-x: auto;
+  padding: 5px 1px 1px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line, #d9e3e8) transparent;
+}
+.publication-square-axis-panel {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 8px;
+  min-width: calc(var(--publication-year-count) * 28px + 32px);
+}
+.publication-square-y-axis { position: relative; height: var(--publication-plot-height); }
+.publication-square-y-tick {
+  position: absolute;
+  right: 0;
+  bottom: calc(var(--publication-tick) * 100% / var(--publication-scale));
+  transform: translateY(50%);
+  color: var(--ink, #183d58);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.publication-square-graph { position: relative; min-width: 0; }
+.publication-square-grid {
+  position: absolute;
+  inset: 0 0 auto;
+  height: var(--publication-plot-height);
+  pointer-events: none;
+}
+.publication-square-grid-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--publication-tick) * 100% / var(--publication-scale));
+  border-top: 1px solid var(--publication-grid-color);
+}
+.publication-square-columns {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--publication-year-count), minmax(28px, 1fr));
+}
+.publication-square-column {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  color: var(--ink, #183d58);
+  font: inherit;
+  cursor: pointer;
+  border-radius: 0;
+}
+.publication-square-plot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: var(--publication-plot-height);
+  box-sizing: border-box;
+  border-left: 1px solid var(--publication-grid-color);
+}
+.publication-square-column:last-child .publication-square-plot { border-right: 1px solid var(--publication-grid-color); }
+.publication-square-stack {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+  width: 72%;
+}
+.publication-square-unit {
+  display: block;
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .72);
+}
+.publication-square-stack .publication-square-unit {
+  width: 100%;
+  height: calc(var(--publication-plot-height) / var(--publication-scale));
+}
+.publication-square-year {
+  display: block;
+  padding: 5px 0 3px;
+  color: var(--ink, #183d58);
+  font-size: 12px;
+  line-height: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.publication-square-column:hover .publication-square-plot,
+.publication-square-additional:hover { background: color-mix(in srgb, var(--accent, #356d7e) 5%, transparent); }
+.publication-square-column.is-selected .publication-square-plot { background: var(--accent-soft, #edf3f5); }
+.publication-square-column.is-selected .publication-square-year {
+  color: var(--accent-deep, #1e4b62);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.publication-square-column:focus-visible,
+.publication-square-additional:focus-visible {
+  outline: 2px solid var(--accent, #356d7e);
+  outline-offset: -1px;
+}
+.publication-square-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 12px;
+  margin: 5px 1px 0 22px;
+  min-height: 20px;
+}
+.publication-square-unit-note { color: var(--muted, #617884); font-size: 10px; }
+.publication-square-additional-groups { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.publication-square-additional {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  color: var(--muted, #617884);
+  font: inherit;
+  font-size: 10px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  min-height: 20px;
+  cursor: pointer;
+}
+.publication-square-additional.is-selected { color: var(--accent-deep, #1e4b62); text-decoration: underline; text-underline-offset: 3px; }
+.publication-square-additional-count { color: var(--ink, #183d58); margin-left: 3px; font-variant-numeric: tabular-nums; }
+.publication-square-additional-units { display: flex; align-items: center; flex-wrap: wrap; gap: 1px; max-width: 180px; }
+.publication-square-note,
+.publication-square-empty { margin: 5px 1px 0 22px; color: var(--muted, #617884); font-size: 10px; }
+.publication-square-empty { min-height: 90px; display: grid; place-items: center; margin: 0; }
+@media (max-width: 420px) {
+  .publication-square-legend { font-size: 11px; }
+  .publication-square-swatch { width: 24px; }
+  .publication-square-year { font-size: 10px; }
+}
+@media (forced-colors: active) {
+  .publication-square-unit,
+  .publication-square-swatch { forced-color-adjust: none; }
+}

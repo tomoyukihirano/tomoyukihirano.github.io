@@ -1,0 +1,12 @@
+# Optional appearance metadata, keyed by the existing stable publication ID.
+# This file never replaces any source title, author, date, DOI or evaluation.
+# Per-publication figures and image placeholders are intentionally omitted.
+schema_version: 1
+records: {}
+
+# Example only; replace text with approved material before adding it:
+# records:
+#   pub-0078:
+#     summary: An approved short description of the research
+#     topics: [An approved research theme]
+#     selected: true

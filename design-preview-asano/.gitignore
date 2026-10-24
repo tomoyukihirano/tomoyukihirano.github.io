@@ -1,0 +1,6 @@
+dist/
+publications-data.json
+__pycache__/
+*.pyc
+assets/fonts/*.woff2
+assets/fonts/*.ttf
