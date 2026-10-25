@@ -7,5 +7,4 @@ permalink: pretty
 exclude:
   - README.md
   - EDITING.md
-  - SHA256SUMS.txt
   - .github
