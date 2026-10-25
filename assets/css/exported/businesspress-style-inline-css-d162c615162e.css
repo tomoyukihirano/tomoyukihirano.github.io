@@ -1,9 +1,0 @@
-a, .subheader { color: #4693f5; }
-	a:hover { color: #639af6; }
-	code, kbd, tt, var, th, pre, .top-bar, .author-profile, .pagination .current, .page-links .page-numbers, .tagcloud a, .widget_calendar tbody td a, .container-wrapper, .site-bottom {
-		background-color: #f4f5f6;
-	}
-	.jumbotron {
-		background-image: url("../../../wp-content/uploads/2022/01/cropped-title-scaled-1-1280x540.jpg");
-	}
-	.home-header-content { text-align: left; }

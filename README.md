@@ -1,59 +1,46 @@
-# 平野 知之 / Tomoyuki Hirano
+# 個人ホームページ（GitHub Pages / Jekyll）
 
-個人ホームページの静的HTML一式です。
+公開URL：https://tomoyukihirano.github.io/
 
-## 公開設定
+研究者個人ホームページのソースコードです。GitHub Pages が `main` ブランチの内容を Jekyll でビルドして公開します。旧WordPressの運用環境は不要です。
 
-GitHub Pagesの個人サイトとして，実際のGitHubユーザー名に対応する
-`<username>.github.io` リポジトリへこの一式を配置します。
-公開元は `main` ブランチの `/(root)` を使用します。
-`index.html` と空の `.nojekyll` はリポジトリ直下に置きます。
-HTMLの生成や更新のためにWordPress本体を実行する必要はありません。
+## 編集するファイル
 
-## 編集
+| 内容 | 主なファイル |
+| --- | --- |
+| トップ | `index.md` |
+| 経歴 | `about.md` |
+| 論文一覧 | `publications.md` と `_data/publications/`，`_data/publication_access.yml` |
+| 学会発表 | `_data/presentations/`（表示テンプレート：`_includes/presentation-list.html`） |
+| 研究費 | `supports-grants.md` |
+| 受賞 | `award.md` |
+| 研究 | `information.md` |
+| 共通メニュー | `_includes/navigation.html` |
 
-- 文章は各ページの `index.html` を編集します。
-- 共通の表示調整は `assets/site.css` にあります。
-- 共通メニューの動作は `assets/site.js` にあります。
-- `assets/css/exported/` は元のページから抽出したスタイルです。
-- 画像の既存パスを保持しています。
+編集方法・運用ルールは **[EDITING.md](EDITING.md)** を参照してください。研究業績のデータ構造は **[_data/README.md](_data/README.md)** に説明があります。
 
-ローカルで確認する場合は，このディレクトリーで次を実行します。
+## 構成
 
-```sh
-python3 -m http.server 8000
-```
+- `_layouts/`：共通ページ構造
+- `_includes/`：共通表示部品
+- `_data/`：業績などの管理データ
+- `assets/`：ページ固有のCSS・JavaScript，WordPressから移行したスタイル
+- `wp-content/`：現在も使用する画像・テーマCSS・フォント
+- `schedule-hirano/`，`schedule-lab/`：独立したカレンダーページ
+- `author/`，`category/`：過去のURLとの互換性を保つために残しているページ
 
-ブラウザーで `http://localhost:8000/` を開きます。
+生成済みサイト（`_site/`）や個人環境の一時ファイルはリポジトリへコミットしません。
 
-## 検索エンジン向け設定
+## 更新と公開の確認
 
-主な公開先は https://tomoyukihirano.github.io/ です。
-各HTMLのcanonicalは，この公開先にある対応ページの絶対URLを指定しています。
-公開先を変更するときはcanonicalとサイトマップのURLも更新してください。
+`main` へのコミット後，GitHub Pages がサイトを生成します。GitHub Actions の `Validate achievement data` と `pages build and deployment` が成功したことを確認してください。公開ページのレイアウト，リンク，絞り込み動作も確認します。
 
-- sitemap.xml は内容ページとブログ一覧を掲載します。著者別・カテゴリー別の一覧は省いていますが，クロールを禁止しているわけではありません。
-- ページを追加・移動・削除したときはsitemap.xmlも更新してください。
-- robots.txt はクロールを許可し，サイトマップの場所を案内します。
-- トップとAboutのdescriptionには，既存本文の紹介文をそのまま使用しています。
-- Search Consoleへ登録するプロパティは https://tomoyukihirano.github.io/ （URLプレフィックス）です。所有権確認用のタグやファイルを追加した場合は，確認後も保持してください。
+ローカルで Jekyll を使用する場合は別途 Jekyll 環境が必要です。単に `python -m http.server` でソースファイルを配信しても，LiquidテンプレートやMarkdownはビルドされません。
 
-## 保存について
+## 公開上の注意
 
-この一式には公開ページの表示に必要なローカルファイルを含めています。
-HTMLをそのまま配信できる別のWebサーバーへも移せるように，相対パスを使用しています。
-数式記事のMathJax，アクセス解析，外部サイトへのリンクは元の設定を保持しています。
+このリポジトリは公開されています。未公開の業績，学内専用情報，認証情報を置かないでください。カレンダー情報の公開範囲は，Google Calendar側の共有設定で管理してください。
 
-`SHA256SUMS.txt` は2026年10月21日時点の公開用スナップショットの照合用です。
-ファイルを編集した後は必要に応じて照合値を更新してください。
+旧サイト由来のCSS・画像・フォントは，表示互換性を維持するためのものです。未参照に見えても，古い個別ページや外部リンクから使われる場合があるため，削除前に参照先を確認します。公開ページに直接関係しない過去の作業履歴はGitのコミット履歴に残ります。
 
-## 著作権・第三者コンポーネント
-
-本文・写真・資料の著作権を放棄したり，新しい利用許諾を付与したりするものではありません。
-BusinessPress，Font Awesome，normalize.cssの既存の著作権・ライセンス表記は，
-対応するCSSファイルの中に保持しています。
-
-## GitHub公式資料
-
-- [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-- [Configuring a publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+BusinessPressやFont Awesomeなどの第三者コンポーネントは，それぞれのライセンス・権利表示に従います。

@@ -1,0 +1,22 @@
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+
+# Local development artifacts and credentials
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
