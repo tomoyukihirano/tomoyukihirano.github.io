@@ -5,6 +5,8 @@ _site/
 .sass-cache/
 .bundle/
 vendor/
+_site-preview/
+.tools/
 
 # Local editor and operating-system files
 .DS_Store

@@ -17,7 +17,7 @@
 | 研究 | `information.md` |
 | 共通メニュー | `_includes/navigation.html` |
 
-編集方法・運用ルールは **[EDITING.md](EDITING.md)** を参照してください。研究業績のデータ構造は **[_data/README.md](_data/README.md)** に説明があります。
+編集方法・運用ルールは **[EDITING.md](EDITING.md)** を参照してください。Codexは最初に **[AGENTS.md](AGENTS.md)** を読みます。研究業績のデータ構造は **[_data/README.md](_data/README.md)** に説明があります。
 
 ## 構成
 
@@ -31,11 +31,25 @@
 
 生成済みサイト（`_site/`）や個人環境の一時ファイルはリポジトリへコミットしません。
 
-## 更新と公開の確認
+## Windowsでの編集・検証・プレビュー
 
-`main` へのコミット後，GitHub Pages がサイトを生成します。GitHub Actions の `Validate achievement data` と `pages build and deployment` が成功したことを確認してください。公開ページのレイアウト，リンク，絞り込み動作も確認します。
+WindowsのCodexでローカルブランチを使って編集します。PowerShell 7（`pwsh`）でリポジトリのルートへ移動し，実行してください。
 
-ローカルで Jekyll を使用する場合は別途 Jekyll 環境が必要です。単に `python -m http.server` でソースファイルを配信しても，LiquidテンプレートやMarkdownはビルドされません。
+```powershell
+.\scripts\site.ps1 Setup     # 初回・依存関係変更後
+.\scripts\site.ps1 Validate  # GitHub Pages互換のビルド
+.\scripts\site.ps1 Preview   # http://127.0.0.1:4000/
+```
+
+プレビューは `Ctrl+C` で停止します。Ruby 3.3.13 / Bundler 2.5.22 / github-pages 232 / Jekyll 3.10.0を使います。
+Setupは公式Ruby+Devkitと依存gemをプロジェクト内へ導入します。詳しくは [編集ガイド](EDITING.md#windowsでのローカル運用) を参照してください。
+単に `python -m http.server` でソースを配信しても，LiquidやMarkdownはビルドされません。
+
+## 公開の確認
+
+push・`main` への統合・公開設定変更は本人の確認後に行います。承認後にリモートの `main` へ反映すると，GitHub Pagesがサイトを生成・公開します。
+`Validate achievement data` は追加のビルド検証であり，`pages build and deployment` が公開処理です。
+ローカル運用へ移行してもPages側の公開処理は必要です。公開時には対象のActionsの成功と，公開ページのレイアウト・リンク・絞り込み動作を確認してください。
 
 ## 公開上の注意
 

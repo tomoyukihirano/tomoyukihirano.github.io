@@ -16,12 +16,124 @@
 
 ## 基本的な更新方法
 
-1. GitHubで編集したい `.md` ファイルを開く
-2. 鉛筆アイコン（Edit this file）を押す
-3. 先頭の `---` で囲まれた設定部分は通常変更しない
-4. その下の本文だけを編集する
-5. Commit changes を押す
-6. `main` ブランチへの反映後，GitHub PagesがJekyllでHTMLを自動生成して公開する
+1. WindowsのCodexでこの作業フォルダを開き，`AGENTS.md` と本ガイドを読む
+2. `git status --short --branch` で変更を確認し，`git switch -c codex/<作業名>` でローカル作業ブランチを作る
+3. 対象のMarkdownやデータを編集する。先頭の `---` で囲まれた設定部分は通常変更しない
+4. `.\scripts\site.ps1 Validate` でビルドし，`.\scripts\site.ps1 Preview` で表示・リンク・絞り込みを確認する
+5. 差分と検証結果を確認する。コミットメッセージには人物名を含めない
+6. push・`main` への統合・公開は本人の確認後に実施する。リモートの `main` への反映後，GitHub PagesがHTMLを生成・公開する
+
+## Windowsでのローカル運用
+
+作業フォルダ：`C:\Users\hirano\Documents\GitHub\tomoyukihirano.github.io`
+
+PowerShell 7（`pwsh`）を使います（動作確認：Windows / PowerShell 7.6.5）。
+Windows標準のWindows PowerShell 5.1ではなく，CodexのPowerShell 7ターミナルで実行してください。
+初回はインターネット接続が必要です。
+
+```powershell
+Set-Location 'C:\Users\hirano\Documents\GitHub\tomoyukihirano.github.io'
+.\scripts\site.ps1 Setup
+.\scripts\site.ps1 Validate
+.\scripts\site.ps1 Preview
+```
+
+| コマンド | 処理 |
+| --- | --- |
+| `Setup` | 公式Ruby+Devkitの取得・SHA256照合・ユーザー用導入と，lockfileに従うgemのインストール |
+| `Validate` | `JEKYLL_ENV=production` で `bundle exec github-pages build` を実行。出力先 `_site/` |
+| `Build` | `Validate` と同じビルド（別の追加検査はない） |
+| `Preview` | `bundle exec jekyll serve` で監視・配信。出力先 `_site-preview/` |
+
+通常の編集では `Validate` → `Preview` で確認します。プレビュー中の本文変更は自動ビルドされるため，ブラウザーを再読み込みします。
+`_config.yml` やGemfileの変更後はサーバーを再起動してください。依存関係を取得し直すときは `Setup` を実行します。
+
+プレビューは **http://127.0.0.1:4000/** です。ループバックにだけバインドし，外部へ公開しません。
+停止は起動したターミナルの `Ctrl+C`。ポートが使用中なら次のように変更します。
+
+```powershell
+.\scripts\site.ps1 Preview -Port 4001
+```
+
+表示確認先：`/`，`/about/`，`/publications/`，`/presentations/`，`/supports-grants/`，`/award/`，`/information/`。
+Publications / Presentationsの絞り込みとリセット，論文日付・内部リンクも確認します。
+カレンダー等の外部サービスは別途ネット接続が必要です。既存ページの外部リンクやAnalyticsもそのままなので，ローカル表示でも外部への通信が発生する場合があります。
+
+### バージョンと保存場所
+
+- Ruby **3.3.13**（RubyInstaller+Devkit 3.3.13-1 x64）：`.ruby-version` とスクリプトで固定。
+  GemfileはPagesコンテナのパッチ差を許容するためRuby 3.3系を指定。
+- Bundler **2.5.22**：スクリプトと `Gemfile.lock` で固定。
+- github-pages **232** / Jekyll **3.10.0**：既存の `actions/jekyll-build-pages@v1` に合わせる。
+  Actionが追加する `jekyll-include-cache` と `jekyll-octicons` も含める。
+- 推移的な依存関係は `Gemfile.lock` を保存し，通常のSetupでも変更しない。
+  Actionの可変タグが将来更新された場合は差異を確認してから更新する。
+- RubyとDevkitは `.tools/ruby33/`，gemは `vendor/bundle/`，Bundler設定・キャッシュは `.bundle/`。
+  ダウンロードしたインストーラーは `.tools/downloads/`。いずれもGit管理対象外。
+- Setupはユーザー用インストールとしてWindowsに登録されるが，PATHと `.rb` の関連付けは変更しない。
+  初回に同梱MSYS2の鍵を初期化する。RubyInstaller自身もRubyGemsの設定ファイルを作成する。
+- スクリプトは自分のプロセス内でUTF-8と実行環境を設定し，終了時に元へ戻す。
+  `_config.yml` の公開URL・baseurlはローカル用に書き換えない。
+- Windowsの監視は `--force_polling` を使い，追加の `wdm` は不要。
+  `_site/` も除外し，別ターミナルでValidateした際にプレビューの再生成が連続しないようにする。
+
+バージョンの根拠：
+[GitHub Pages依存関係](https://pages.github.com/versions/)，
+[ActionのGemfile](https://github.com/actions/jekyll-build-pages/blob/v1/Gemfile)，
+[Actionの実行処理](https://github.com/actions/jekyll-build-pages/blob/v1/entrypoint.sh)，
+[RubyInstallerの導入オプション](https://github.com/oneclick/rubyinstaller2/wiki/FAQ#q-how-do-i-perform-a-silentunattended-install-with-the-rubyinstaller)。
+
+### 困ったとき
+
+- Ruby / gemがない，依存関係不足：まず `Setup` を実行する。
+- lockfile不整合：`Gemfile` と `Gemfile.lock` の差分を確認する。検証を通すためだけに `bundle update` や凍結解除をしない。
+- SHA256不一致：該当の `.tools/downloads/` 内のインストーラーだけを削除して再取得する。
+  ハッシュ検証やTLS検証を無効にしない。
+- 日本語の文字化け：ファイルはUTF-8（BOMなし）で保存する。スクリプトがRubyのUTF-8設定を適用する。
+- 実行ポリシーで `.ps1` が拒否された場合：組織のルールを確認し，マシン全体のポリシーを変更しない。
+  ダウンロード扱いのファイルは内容確認後に必要なファイルだけ `Unblock-File` で解除する。
+- Codexの制限で `.git` の書き込みや外部ダウンロードが拒否された場合は，必要な操作だけ権限を要求する。
+  プレビューのログが起動成功でもブラウザー接続がタイムアウトする場合は，サーバーを停止し，
+  ネットワーク制限外で同じPreviewコマンドを起動する（待受先は `127.0.0.1` を維持）。
+  通常のビルド・プレビューにGitHubへの書き込み権限やトークンは不要。
+- `bigdecimal` のRuby 3.4以降に関する警告と，Faradayの任意の再試行gemの案内は現在の依存関係で表示される。
+  固定したRuby 3.3.13ではビルド・プレビュー成功を確認済み。警告を消すためだけに依存関係を更新しない。
+
+### GitHub Pagesと独自検証Actionsの違い
+
+`.github/workflows/validate-achievement-data.yml` は，checkout → `actions/configure-pages@v5` →
+`actions/jekyll-build-pages@v1` で `_site/` を生成する **追加のビルド検証** です。
+名前にdataを含みますが，独立した業績データのスキーマ検証・ID照合は実装されていません。
+ローカルの `Validate` は同じgithub-pagesのビルド入口を使ってYAML・Liquid・Markdownの処理を確認します。
+GitHub上の設定・権限を読む `configure-pages`，Linuxコンテナ，公開処理そのものは再現しません。
+
+この検証Actionは `main` と `data/**` へのpushのうち，`_data/**`・`_layouts/**`・`_includes/**`・`*.md` が対象です。
+`codex/**`・PR・手動実行は現在のトリガーに含まれません。Actionsを実行するためのpushは行いません。
+
+`pages build and deployment` は **GitHub Pages固有のビルド・公開** です。
+ブランチ公開でもGitHub側ではActionsの公開処理が走ります。
+ローカルで検証できても，現在の公開方式を続けるためにこの処理は必要です。
+独自検証Actionは公開自体には必須ではありませんが，サーバー側の追加確認として今回は維持します。
+どちらも削除・無効化・新規作成・手動実行せず，公開設定も変更しません。
+今後，公開承認後の反映時に成功と公開ページを確認します。
+仕様の根拠：[GitHub Pagesの公開元](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+
+### 導入時の確認結果（2026-10-29）
+
+- 開始時：`main` / `84e2adf`，未コミット変更なし。ローカルブランチ `codex/windows-local-jekyll` を作成。
+- Ruby 3.3.13 / Bundler 2.5.22 / github-pages 232 / Jekyll 3.10.0，100 gemsの導入に成功。
+  Windows用のlockにLinux用の解決情報も記録（Linux上での実行は未実施）。
+- PowerShell 7.6.5でSetupの再実行，Validateのproductionビルド，Previewの起動に成功。
+  lockfile不変，実行後の環境変数・作業フォルダ復元，PowerShell構文検査，`git diff --check` を確認。
+- **http://127.0.0.1:4000/** で主要7ページをブラウザー表示確認。
+  筆頭著者一覧・筆頭/責任著者一覧・予定2ページもHTTP 200。
+- 主要ページのCSS・JS・画像・フォント・日付JSONを含む49個のローカルリソースがHTTP 200。
+- Publications：全79件 → 筆頭著者12件 → 2026年の筆頭著者1件 → 全79件に復帰。
+  英語日付・N/A表示も確認。Presentations：全112件 / 国内86件 / 国際21件の切替と復帰を確認。
+- ローカルツール・ガイド・gem・プレビュー出力がproductionの `_site/` に混入しないことを確認。
+- ページ本文・業績データ・レイアウト・CSS・画像・既存workflowは変更していない。
+  push，main統合，リモート公開設定変更，Actionsの作成・削除・無効化・手動実行は未実施。
+- GitHub側の公開・公開後の表示確認，カレンダー内の外部データの内容確認はこの作業の対象外。
 
 ## Publicationsを追加する
 

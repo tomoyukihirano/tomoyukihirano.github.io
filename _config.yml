@@ -8,3 +8,11 @@ exclude:
   - README.md
   - EDITING.md
   - .github
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - .tools
+  - _site
+  - _site-preview
